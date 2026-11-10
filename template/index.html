@@ -309,6 +309,14 @@ function isAvoidRegion(region){
   const n = normalize(region);
   return AVOID_REGIONS.some(r => n.includes(r));
 }
+// La advertencia «Evitar» aplica solo a licitaciones de la Dirección de Obras Hidráulicas (DOH)
+// en las regiones fuera de foco; las de otros mandantes en esas regiones se muestran normal.
+function esDOH(entidad){
+  return /\bdoh\b|obras hidraulicas/.test(normalize(entidad));
+}
+function isAvoid(t){
+  return isAvoidRegion(t.region) && esDOH(t.entidad);
+}
 
 function fmtCLP(n){
   if(n === null || n === undefined) return "—";
@@ -451,7 +459,7 @@ const COLUMNS = [
     key: "region", label: "Región / Comuna", sortable: true, filterable: true,
     sortVal: t => (t.region || "").toLowerCase(),
     filterVal: t => `${t.region} ${t.comuna}`.toLowerCase(),
-    render: t => `${t.region}<br><span class="tender-meta">${t.comuna}</span>` + (isAvoidRegion(t.region) ? `<br><span class="badge badge-avoid" title="Región fuera de foco prioritario de Hidrogestión">⚠ Evitar</span>` : "")
+    render: t => `${t.region}<br><span class="tender-meta">${t.comuna}</span>` + (isAvoid(t) ? `<br><span class="badge badge-avoid" title="Licitación DOH en región fuera de foco prioritario de Hidrogestión">⚠ Evitar</span>` : "")
   },
   {
     key: "fpub", label: "Publicación", sortable: true, filterable: true,
@@ -680,7 +688,7 @@ function renderPostulacionesTbody(){
       const dis = guardando.has(t.id) ? " disabled" : "";
       const opciones = RESULTADOS_HDG.map(r => `<option${r === (t.resultado_hdg || "Pendiente") ? " selected" : ""}>${r}</option>`).join("");
       const meta = t.post_actualizado ? `<div class="post-meta">Actualizado ${esc(t.post_actualizado)}${t.post_por ? " · " + esc(t.post_por) : ""}</div>` : "";
-      const main = `<tr class="${isAvoidRegion(t.region) ? "tr-avoid" : ""}">
+      const main = `<tr class="${isAvoid(t) ? "tr-avoid" : ""}">
         <td><div class="tender-name">${t.nombre}</div><div class="tender-meta">${t.entidad} · ${t.region}</div><div class="tender-id">${t.id}</div><a class="mp-link" href="${t.link}" target="_blank" rel="noopener">Ver ficha →</a></td>
         <td>${t.fcierre_raw || "—"}</td>
         <td>${fmtHitoCell(t.fapertura_tecnica_raw, t.fapertura_tecnica_iso)}</td>
@@ -722,7 +730,7 @@ function renderSeguimientoTbody(key){
   const items = seguimientoItems(key);
   tb.innerHTML = !items.length
     ? `<tr class="empty-row"><td colspan="7">Sin licitaciones para esta vista.</td></tr>`
-    : items.map(t => `<tr class="${isAvoidRegion(t.region) ? "tr-avoid" : ""}">
+    : items.map(t => `<tr class="${isAvoid(t) ? "tr-avoid" : ""}">
         <td><div class="tender-name">${t.nombre}</div><div class="tender-meta">${t.entidad} · ${t.region}</div><div class="tender-id">${t.id} · ${esc(t.categoria || "")}</div><a class="mp-link" href="${t.link}" target="_blank" rel="noopener">Ver ficha →</a><br>${postBtnHtml(t)}</td>
         <td>${t.fcierre_raw || "—"}</td>
         <td>${fmtHitoCell(t.fapertura_tecnica_raw, t.fapertura_tecnica_iso)}</td>
@@ -772,7 +780,7 @@ function renderUrgentes(){
       <div class="urgent-ms"><span class="badge ${badgeCls}">${fmtDiasHoras(ms)}</span></div>
       <div class="urgent-body">
         <a href="${t.link}" target="_blank" rel="noopener">${t.nombre}</a>
-        <div class="tender-meta">${t.entidad} · ${t.region}${isAvoidRegion(t.region) ? " ⚠" : ""} · Cierre: ${t.fcierre_raw} · ${t.monto_num ? fmtCLP(t.monto_num) : "monto no informado"}</div>
+        <div class="tender-meta">${t.entidad} · ${t.region}${isAvoid(t) ? " ⚠" : ""} · Cierre: ${t.fcierre_raw} · ${t.monto_num ? fmtCLP(t.monto_num) : "monto no informado"}</div>
       </div>
     </div>`;
   }).join("");
@@ -864,7 +872,7 @@ function getFilteredSorted(cat){
 }
 
 function rowsHtml(items){
-  return items.map((t, i) => `<tr class="${isAvoidRegion(t.region) ? "tr-avoid" : ""}">${COLUMNS.map(col => `<td>${col.render(t, i)}</td>`).join("")}</tr>`).join("");
+  return items.map((t, i) => `<tr class="${isAvoid(t) ? "tr-avoid" : ""}">${COLUMNS.map(col => `<td>${col.render(t, i)}</td>`).join("")}</tr>`).join("");
 }
 
 function renderTbody(cat){
@@ -1024,7 +1032,7 @@ function renderMeta(){
   document.getElementById("footer").innerHTML = `
     <p>Generado automáticamente por el monitoreo diario de licitaciones de ingeniería SSR/APR y de gestión hídrica en Mercado Público. No incluye licitaciones de construcción de obra ni de Asesoría a la Inspección Fiscal (AIF).</p>
     <p>Una vez vencida la "Fecha de cierre" (plazo límite para presentar la oferta, columna que no se modifica en etapas posteriores), la licitación avanza por los estados "Apertura Oferta Técnica", "Apertura Oferta Económica" y "Resultados" conforme se registran los hitos de la ficha en Mercado Público. Mientras tanto se muestra en «En evaluación». Transcurridos 5 días corridos desde la fecha de adjudicación, la licitación se traslada de forma definitiva a «Pasadas», donde permanece visible de manera indefinida para trazabilidad (no se retira nunca de este dashboard ni del registro en GitHub).</p>
-    <p>Las filas resaltadas en rojo corresponden a licitaciones en regiones fuera del foco prioritario de Hidrogestión (Biobío, Coquimbo) — se mantienen en el listado por trazabilidad, no se excluyen automáticamente.</p>
+    <p>Las filas resaltadas en rojo corresponden a licitaciones de la Dirección de Obras Hidráulicas (DOH) en regiones fuera del foco prioritario de Hidrogestión (Biobío, Coquimbo) — se mantienen en el listado por trazabilidad, no se excluyen automáticamente. Las de otros mandantes en esas regiones se muestran sin advertencia.</p>
     <p>El nivel de interés/prioridad de cada licitación es un criterio del equipo y no se incluye en este dashboard.</p>
   `;
 }
