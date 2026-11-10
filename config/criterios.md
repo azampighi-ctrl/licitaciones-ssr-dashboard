@@ -18,10 +18,15 @@ asigna según el objeto principal de la licitación:
 
 ## Palabras clave de búsqueda
 
-Se busca cada una en el buscador público de Mercado Público, con publicación de los últimos
-3 días (7 días si el barrido anterior falló o es lunes).
+El barrido diario por API revisa el nombre de todas las licitaciones publicadas en Mercado
+Público y propone como candidatas las que contienen alguna de estas palabras (sin importar
+mayúsculas, tildes, plurales ni siglas con puntos). La tarea de Claude decide luego cuáles
+incluir según los criterios de este archivo; las descartadas no se vuelven a proponer.
 
+- agua potable
 - agua potable rural
+- alcantarillado
+- saneamiento sanitario
 - APR
 - SSR
 - servicio sanitario rural
@@ -43,6 +48,10 @@ Se busca cada una en el buscador público de Mercado Público, con publicación 
 - balance hídrico
 - modelación hidrológica
 - modelación hidráulica
+- estudio hidrológico
+- estudio hidráulico
+- humedal
+- derechos de agua
 
 ## Qué se descarta
 

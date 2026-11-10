@@ -83,6 +83,15 @@ function main() {
   for (const t of datos) t.categoria_display = etapa(t, ahora);
 
   fs.writeFileSync(ARCH, JSON.stringify(datos, null, 1) + "\n");
+
+  // Las descartadas quedan registradas para que el barrido por API no las vuelva a proponer.
+  const ARCH_DESC = path.join(raiz, "data", "descartadas.json");
+  const desc = fs.existsSync(ARCH_DESC) ? JSON.parse(fs.readFileSync(ARCH_DESC, "utf8")) : {};
+  for (const d of b.descartadas || []) {
+    if (d && d.id && !porId.has(d.id)) desc[d.id] = { nombre: d.nombre || "", motivo: d.motivo || "", fecha: hoy };
+  }
+  fs.writeFileSync(ARCH_DESC, JSON.stringify(desc, null, 1) + "\n");
+
   if (b.fecha_barrido) {
     const meta = JSON.parse(fs.readFileSync(META, "utf8"));
     meta.fecha_barrido = b.fecha_barrido;
