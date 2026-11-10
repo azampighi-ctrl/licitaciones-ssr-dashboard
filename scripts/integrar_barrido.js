@@ -55,6 +55,14 @@ function main() {
   const archivo = process.argv[2];
   if (!archivo) throw new Error("Indica el archivo del barrido: node scripts/integrar_barrido.js data/barridos/AAAA-MM-DD.json");
   const b = JSON.parse(fs.readFileSync(archivo, "utf8"));
+  // La hora del barrido es la de la Action (archivo de candidatas del mismo día), ya en hora de Chile.
+  const dia = (path.basename(archivo).match(/^(\d{4}-\d{2}-\d{2})/) || [])[1];
+  const cand = dia && path.join(raiz, "data", "candidatas", `${dia}.json`);
+  if (cand && fs.existsSync(cand)) {
+    const c = JSON.parse(fs.readFileSync(cand, "utf8"));
+    const g = c.fecha_barrido || String(c.generado || "").replace(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}).*$/, "$3-$2-$1 $4:$5");
+    if (/^\d{2}-\d{2}-\d{4} \d{2}:\d{2}$/.test(g)) b.fecha_barrido = g;
+  }
   const datos = JSON.parse(fs.readFileSync(ARCH, "utf8"));
   const porId = new Map(datos.map((t) => [t.id, t]));
   const hoy = (b.fecha_barrido || "").slice(0, 10);

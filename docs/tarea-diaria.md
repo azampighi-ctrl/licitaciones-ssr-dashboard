@@ -55,7 +55,8 @@ GitHub → Actions → «Barrido Mercado Público» → Run workflow.
      "descartadas": [ { "id": "...", "nombre": "...", "motivo": "..." } ]
    }
    ```
-   `fecha_barrido` es la hora en que la Action generó las candidatas (campo `generado`).
+   `fecha_barrido` se copia tal cual del archivo de candidatas (ya está en hora de Chile; no
+   convertir). `integrar_barrido.js` la toma de ahí de todos modos.
    Toda candidata debe quedar en `nuevas` o en `descartadas`.
 5. **Integrar y verificar.**
    `node scripts/integrar_barrido.js data/barridos/AAAA-MM-DD.json && node scripts/build.js`.

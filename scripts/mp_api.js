@@ -229,7 +229,11 @@ async function main() {
     } catch (e) { informe.errores.push(`${id}: ${e.message}`); }
   }
   informe.candidatas = candidatas.length;
-  escribir(`data/candidatas/${hoy}.json`, { generado: informe.fecha, candidatas });
+  // fecha_barrido ya en el formato del dashboard (DD-MM-AAAA HH:MM, hora de Chile): la tarea
+  // de Claude la copia tal cual en el archivo del barrido.
+  const fb = informe.fecha.match(/(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+  const fecha_barrido = `${fb[3]}-${fb[2]}-${fb[1]} ${fb[4]}:${fb[5]}`;
+  escribir(`data/candidatas/${hoy}.json`, { generado: informe.fecha, fecha_barrido, candidatas });
 
   // 2-3. Seguimiento de registradas
   if (!ARGS.has("--sin-seguimiento")) {
