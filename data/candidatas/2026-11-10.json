@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T11:30:51",
+ "generado": "2026-11-10T11:37:32",
  "candidatas": [
   {
    "palabras": [
@@ -2747,6 +2747,47 @@
      "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
     ],
     "fuente_financiamiento": "Sectorial MOP"
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "5661-60-O126",
+    "nombre": "AIF CONSTRUCCIÓN SERVICIO SANITARIO RURAL DE HUEIMEN ORIENTE, LAGO RANCO",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "10-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-60-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "10-12-2026 11:00",
+    "fcierre_iso": "2026-12-10T11:00:00",
+    "finicio_preguntas_raw": "10-11-2026 12:01",
+    "finicio_preguntas_iso": "2026-11-10T12:01:00",
+    "ffinal_preguntas_raw": "20-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-20T12:00:00",
+    "frespuestas_raw": "30-11-2026 16:00",
+    "frespuestas_iso": "2026-11-30T16:00:00",
+    "fapertura_tecnica_raw": "10-12-2026 11:01",
+    "fapertura_tecnica_iso": "2026-12-10T11:01:00",
+    "fapertura_economica_raw": "17-12-2026 11:00",
+    "fapertura_economica_iso": "2026-12-17T11:00:00",
+    "fadjudicacion_raw": "29-12-2026 12:00",
+    "fadjudicacion_iso": "2026-12-29T12:00:00"
+   },
+   "contexto": {
+    "descripcion": "AIF CONSTRUCCIÓN SERVICIO SANITARIO RURAL DE HUEIMEN ORIENTE, LAGO RANCO",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIALES"
    }
   },
   {
