@@ -358,5 +358,15 @@
   "nombre": "MEJORAMIENTO SISTEMA DE ALCANTARILLADO Y AGUAS SUPERFICIALES PESCADERÍA FERIA YUMBEL",
   "motivo": "Construcción o ejecución de obra.",
   "fecha": "10-11-2026"
+ },
+ "1430525-6-LP26": {
+  "nombre": "HABILITACION SISTEMA IMPULSION AGUA SAMORE",
+  "motivo": "Habilitación de sistema de impulsión en complejo fronterizo: obra/servicio de habilitación, no estudio ni diseño.",
+  "fecha": "10-11-2026"
+ },
+ "1460570-2-LS26": {
+  "nombre": "Estudio de prefactibilidad técnica",
+  "motivo": "Prefactibilidad de establecimiento penitenciario (arquitectura); no corresponde a agua ni saneamiento.",
+  "fecha": "10-11-2026"
  }
 }
