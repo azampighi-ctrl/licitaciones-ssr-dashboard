@@ -1,7 +1,7 @@
 {
- "fecha": "2026-11-10T11:37:32",
- "activas": 4933,
- "candidatas": 79,
+ "fecha": "2026-11-10T11:42:04",
+ "activas": 4937,
+ "candidatas": 0,
  "actualizadas": 0,
  "actas": 0,
  "errores": [],
@@ -106,5 +106,5 @@
    ]
   }
  },
- "peticiones": 43
+ "peticiones": 46
 }
