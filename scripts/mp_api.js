@@ -176,17 +176,22 @@ function palabrasClave() {
   const sec = md.split(/^## /m).find((s) => /^palabras clave/i.test(s)) || "";
   return sec.split("\n").map((l) => l.match(/^\s*-\s+(.+?)\s*$/)).filter(Boolean).map((m) => m[1]);
 }
-// Coincidencia por raíz: "piezómetro" encuentra "piezómetros", "hidrogeológico" encuentra
-// "hidrogeológica". Las siglas (≤4 letras: APR, SSR) deben coincidir exactas, y se aceptan
-// escritas con puntos (S.S.R.).
+// Coincidencia por palabra completa, aceptando plural y cambio de género: "piezómetro" encuentra
+// "piezómetros", "hidrogeológico" encuentra "hidrogeológica", "humedal" encuentra "humedales",
+// pero "cuenca" no encuentra "cuentas" ni "humedal" encuentra "humedad". Las siglas se aceptan
+// escritas con puntos (S.S.R., A.P.R.) y sin mayúsculas ni tildes.
 const tokens = (s) => norm(s).replace(/\b([a-z])\.(?=[a-z]\.?)/g, "$1").replace(/\./g, "").split(/[^a-z0-9ñ]+/).filter(Boolean);
-const raizPalabra = (w) => (w.length <= 4 ? w : w.slice(0, Math.max(4, w.length - 2)));
+function variantes(w) {
+  const v = new Set([w, w + "s", w + "es"]);
+  if (/[oa]$/.test(w)) { const g = w.slice(0, -1) + (w.endsWith("o") ? "a" : "o"); v.add(g); v.add(g + "s"); }
+  return v;
+}
 function coincide(nombre, claves) {
   const t = tokens(nombre);
   return claves.filter((k) => {
-    const kt = tokens(k);
+    const kt = tokens(k).map(variantes);
     for (let i = 0; i + kt.length <= t.length; i++) {
-      if (kt.every((w, j) => (w.length <= 4 ? t[i + j] === w : t[i + j].startsWith(raizPalabra(w))))) return true;
+      if (kt.every((v, j) => v.has(t[i + j]))) return true;
     }
     return false;
   });

@@ -1,74 +1,85 @@
-# Tarea diaria de barrido
+# Barrido diario
 
-La tarea programada de Claude corre de lunes a domingo a las 09:13 (hora de Chile). Lee
-Mercado Público con un navegador real (Claude in Chrome en el computador designado), registra
-las licitaciones nuevas, actualiza los hitos de las que están en seguimiento y publica el
-resultado con un commit a este repo. Vercel redespliega el dashboard en cada push.
+El barrido corre completo en la nube, en dos partes:
 
-No usa ticket ni API de Mercado Público: solo las páginas públicas.
+| Hora (Chile) | Quién | Qué hace |
+|---|---|---|
+| ≈07:47 | GitHub Action «Barrido Mercado Público» | Consulta la API oficial con el secreto `MP_TICKET`. Propone candidatas nuevas, actualiza estado, hitos y oferentes de las licitaciones en seguimiento y recalcula etapas. |
+| 09:13 | Tarea programada de Claude | Clasifica las candidatas del día (incluir o descartar), completa los datos que requieren criterio, integra y publica. |
 
-## Requisitos
+Ninguna de las dos necesita un computador encendido. GitHub puede retrasar la Action entre
+15 y 60 minutos en horas de alta demanda; la tarea de Claude lo tolera (ver paso 2).
 
-- El computador designado encendido, con Chrome abierto y la extensión Claude in Chrome conectada.
-- Permiso de la extensión para `www.mercadopublico.cl`.
-- Este repo agregado a la sesión con permiso de escritura (push).
+## Parte 1 — GitHub Action (automática)
 
-## Pasos
+`scripts/mp_api.js` hace, en este orden:
 
-1. **Preparar.** Clonar el repo, leer `config/criterios.md` y `data/licitaciones.json`.
-   Anotar la fecha y hora del barrido (DD-MM-AAAA HH:MM, hora de Chile).
-2. **Abrir Mercado Público** en una pestaña nueva:
-   `https://www.mercadopublico.cl/Home/BusquedaLicitacion`. Pegar el contenido completo de
-   `scripts/mp_navegador.js` con la herramienta de JavaScript; debe responder `MP listo`.
-   Hay que volver a pegarlo después de cada navegación.
-3. **Buscar.** Para cada palabra clave de `config/criterios.md`:
-   `await MP.buscar("<palabra>", {dias: 3})` (7 días los lunes o si el último barrido tiene
-   más de 2 días). Juntar los IDs que no estén en `data/licitaciones.json`.
-4. **Clasificar candidatas.** Con nombre, descripción y organismo decidir según los criterios:
-   incluir (con categoría) o descartar (con motivo). En caso de duda, abrir la ficha.
-5. **Leer fichas nuevas.** Para cada incluida, abrir
-   `https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=<ID>`,
-   pegar el extractor y ejecutar `MP.ficha()`. Armar el registro con los campos de
-   `data/licitaciones.json` (fechas `_raw` en DD-MM-AAAA HH:MM y `_iso` en AAAA-MM-DDTHH:MM:SS).
-   Si el monto o el plazo no aparecen en la ficha, escribir «No informado en ficha pública» o
-   «No especificado en ficha». Proponer `interes` y una línea de `observaciones`.
-6. **Actualizar las registradas.** Para cada licitación cuya etapa no sea «Pasadas»:
-   abrir su ficha, ejecutar `MP.ficha()` y anotar solo los campos que cambiaron (estado_mp,
-   fechas de hitos, etc.).
-   - Si ya pasó la apertura y hay cuadro de ofertas (`MP.ofertas().disponible`), abrir la URL
-     que entrega, ir a «Resumen de Ofertas» y leer oferentes y montos con
-     `MP.oferentesEnPagina()` (o con el texto de la página si la tabla no se reconoce).
-   - Si quedó adjudicada, `await MP.acta()` entrega oferentes, montos y quién ganó.
-   - Hidrogestión SpA aparece como «Hidrogestión» en los oferentes: el dashboard la resalta.
-7. **Escribir el barrido** en `data/barridos/AAAA-MM-DD.json`:
+1. Trae todas las licitaciones publicadas (`estado=activas`, ≈5.000) y filtra por las palabras
+   clave de `config/criterios.md`, contra el nombre de la licitación.
+2. Para cada coincidencia que no está en `data/licitaciones.json` ni en `data/descartadas.json`,
+   consulta el detalle y la guarda en `data/candidatas/AAAA-MM-DD.json` con:
+   - `registro`: campos ya en el formato del dashboard (fechas, organismo, región, monto, plazo…).
+   - `contexto`: descripción, tipo de licitación e ítems, para clasificar.
+   - `palabras`: qué palabras clave coincidieron.
+3. Para cada licitación registrada que no está en «Pasadas», consulta el detalle y actualiza
+   `estado_mp` y las fechas de hitos. Si la licitación tiene acta de adjudicación y aún no
+   registra adjudicado, lee la página pública del acta y guarda los oferentes con sus montos.
+4. Recalcula `categoria_display` y anota el resumen en `data/meta.json` (`api`).
+
+Usa ≈150 consultas por día; el límite del ticket es 10.000. Se puede lanzar a mano desde
+GitHub → Actions → «Barrido Mercado Público» → Run workflow.
+
+## Parte 2 — Tarea de Claude
+
+1. **Preparar.** Clonar el repo y leer `config/criterios.md`.
+2. **Esperar la Action si hace falta.** El archivo del día es `data/candidatas/AAAA-MM-DD.json`
+   (fecha de Chile). Si no existe, esperar y hacer `git pull` cada 10 minutos, hasta 60 minutos.
+   Si no aparece, revisar `data/meta.json` → `api` y avisar en el resumen; terminar sin commit.
+3. **Clasificar cada candidata** según `config/criterios.md`, usando nombre, organismo y
+   `contexto` (descripción, tipo, ítems):
+   - **Incluir** si es ingeniería o estudio de alguna categoría. Tomar `registro` y agregar
+     `categoria`, `interes`, `estado` («Revisar», o «Revisar - relevante» / «Revisar - ALTA
+     RELEVANCIA» si calza muy bien) y una línea de `observaciones` con el alcance.
+     Mejorar `entidad` si viene poco legible, sin inventar datos.
+   - **Descartar** construcción de obra, AIF, suministro, operación, mantención, servicios
+     bancarios o lo que no corresponda, con un `motivo` breve.
+   - En caso de duda razonable, incluir con `estado` «Revisar - Verificar Alcance».
+4. **Escribir el barrido** en `data/barridos/AAAA-MM-DD.json`:
    ```json
    {
-     "fecha_barrido": "10-11-2026 09:20",
-     "nuevas": [ { "id": "...", "nombre": "...", "...": "..." } ],
-     "actualizaciones": [ { "id": "...", "estado_mp": "Cerrada" } ],
+     "fecha_barrido": "DD-MM-AAAA HH:MM",
+     "nuevas": [ { "...registro con categoria, interes, estado y observaciones..." } ],
+     "actualizaciones": [],
      "descartadas": [ { "id": "...", "nombre": "...", "motivo": "..." } ]
    }
    ```
-8. **Integrar y verificar.**
+   `fecha_barrido` es la hora en que la Action generó las candidatas (campo `generado`).
+   Toda candidata debe quedar en `nuevas` o en `descartadas`.
+5. **Integrar y verificar.**
    `node scripts/integrar_barrido.js data/barridos/AAAA-MM-DD.json && node scripts/build.js`.
-   Si falla la validación, corregir el archivo del barrido y repetir.
-9. **Publicar.** Commit con el mensaje
+   Si falla la validación, corregir el archivo y repetir.
+6. **Publicar.** `git pull --rebase origin main`, commit
    `Barrido DD-MM-AAAA: N nuevas, M actualizadas, K descartadas` y push a `main`.
-10. **Avisar.** Resumen corto: nuevas (con nombre, organismo y cierre), cambios relevantes
-    (adjudicaciones, en especial si participa Hidrogestión) y cualquier problema.
-
-## Si algo falla
-
-- **Chrome no responde o la extensión no está conectada:** no inventar datos. Registrar el
-  fallo en el resumen y terminar sin commit. El barrido siguiente buscará 7 días hacia atrás.
-- **Mercado Público caído o con cambios de diseño:** si `MP.buscar` no devuelve resultados para
-  ninguna palabra, leer el texto de la página de búsqueda manualmente; si tampoco funciona,
-  avisar y terminar.
-- **Captcha o bloqueo:** no intentar resolverlo. Avisar y terminar.
+   «M actualizadas» es `data/meta.json` → `api.actualizadas`.
+7. **Resumen** para el equipo: nuevas incluidas (nombre, organismo, región, cierre), cambios
+   relevantes del día en el seguimiento (adjudicaciones, en especial si participa Hidrogestión),
+   cuántas se descartaron y cualquier problema.
 
 ## Qué no hace la tarea
 
 - No modifica `data/postulaciones.json` (lo edita el equipo desde el dashboard).
 - No borra licitaciones: las antiguas pasan a «Pasadas» y se conservan.
-- La etapa (`categoria_display`) la calcula `scripts/actualizar_etapas.js`, también a diario
-  mediante la GitHub Action «Actualizar etapas».
+- No consulta Mercado Público directamente: todo dato viene de la Action.
+
+## Respaldo manual con navegador
+
+Si la API deja de funcionar, `scripts/mp_navegador.js` permite leer las páginas públicas de
+Mercado Público desde Chrome con Claude in Chrome (búsqueda, ficha y acta). Se pega en la
+página con la herramienta de JavaScript y se usa `window.MP`.
+
+## Si algo falla
+
+- **La Action falla con «Ticket rechazado»:** el ticket venció o fue bloqueado. Quien lo pidió
+  debe revisarlo en chilecompra.cl/api y actualizar el secreto `MP_TICKET`.
+- **Cero activas:** la API está caída o cambió. Revisar el registro de la Action y lanzarla
+  con «diagnostico» activado para ver la estructura de la respuesta en `data/diagnostico/`.
