@@ -4,11 +4,13 @@ El barrido corre completo en la nube, en dos partes:
 
 | Hora (Chile) | Quién | Qué hace |
 |---|---|---|
-| ≈07:47 | GitHub Action «Barrido Mercado Público» | Consulta la API oficial con el secreto `MP_TICKET`. Propone candidatas nuevas, actualiza estado, hitos y oferentes de las licitaciones en seguimiento y recalcula etapas. |
-| 09:13 | Tarea programada de Claude | Clasifica las candidatas del día (incluir o descartar), completa los datos que requieren criterio, integra y publica. |
+| 07:00 | GitHub Action «Barrido Mercado Público» | Consulta la API oficial con el secreto `MP_TICKET`. Propone candidatas nuevas, actualiza estado, hitos y oferentes de las licitaciones en seguimiento y recalcula etapas. |
+| 07:30 | Tarea programada de Claude | Clasifica las candidatas del día (incluir o descartar), completa los datos que requieren criterio, integra y publica. |
 
-Ninguna de las dos necesita un computador encendido. GitHub puede retrasar la Action entre
-15 y 60 minutos en horas de alta demanda; la tarea de Claude lo tolera (ver paso 2).
+Ninguna de las dos necesita un computador encendido. GitHub programa en hora UTC, por lo que
+la Action tiene dos disparos (10:00 y 11:00 UTC) y corre solo en el que cae a las 07:00 de
+Chile, en horario de verano y de invierno. GitHub puede retrasar la Action entre 15 y 60
+minutos en horas de alta demanda; la tarea de Claude lo tolera (ver paso 2).
 
 ## Parte 1 — GitHub Action (automática)
 

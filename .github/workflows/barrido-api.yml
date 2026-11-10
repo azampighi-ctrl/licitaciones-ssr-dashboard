@@ -2,13 +2,17 @@ name: Barrido Mercado Público
 
 # Consulta la API oficial de Mercado Público (secreto MP_TICKET):
 #  - propone candidatas nuevas (data/candidatas/AAAA-MM-DD.json) para que la tarea de Claude
-#    las clasifique a las 09:13,
+#    las clasifique a las 07:30,
 #  - actualiza estado, hitos y oferentes (acta) de las licitaciones en seguimiento,
 #  - recalcula las etapas.
 # Si hay cambios hace commit y Vercel redespliega el dashboard.
 on:
+  # GitHub programa en UTC y Chile cambia de huso en el año: se dispara a las 10:00 y 11:00 UTC
+  # y el paso «Decidir» deja correr solo la primera que cae a las 07:00 o después, hora de Chile
+  # (10:00 UTC en verano, UTC-3; 11:00 UTC en invierno, UTC-4).
   schedule:
-    - cron: "47 10 * * *"   # 07:47 Chile en horario de verano (UTC-3), 06:47 en invierno
+    - cron: "0 10 * * *"
+    - cron: "0 11 * * *"
   workflow_dispatch:
     inputs:
       diagnostico:
@@ -37,7 +41,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Decidir si corresponde correr
+        id: decidir
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "correr=si" >> "$GITHUB_OUTPUT"; exit 0; fi
+          HORA=$(TZ=America/Santiago date +%H); HOY=$(TZ=America/Santiago date +%Y-%m-%d)
+          ULTIMA=$(node -e 'try{const m=require("./data/meta.json");console.log(((m.api||{}).fecha||"").slice(0,10))}catch(e){console.log("")}')
+          if [ "$HORA" -lt 7 ]; then echo "Son las $HORA en Chile: espera el disparo de las 07:00"; echo "correr=no" >> "$GITHUB_OUTPUT"
+          elif [ "$ULTIMA" = "$HOY" ] && [ "$HORA" -ge 8 ]; then echo "Ya corrió hoy ($ULTIMA)"; echo "correr=no" >> "$GITHUB_OUTPUT"
+          else echo "correr=si" >> "$GITHUB_OUTPUT"; fi
       - name: Consultar la API
+        if: steps.decidir.outputs.correr == 'si'
         env:
           MP_TICKET: ${{ secrets.MP_TICKET }}
         run: |
@@ -45,8 +59,10 @@ jobs:
           if [ "${{ github.event_name }}" = "push" ] || [ "${{ inputs.diagnostico }}" = "true" ]; then OPC="--diagnostico"; fi
           node scripts/mp_api.js $OPC
       - name: Verificar que el sitio se genera
+        if: steps.decidir.outputs.correr == 'si'
         run: node scripts/build.js
       - name: Guardar cambios
+        if: steps.decidir.outputs.correr == 'si'
         run: |
           if [ -z "$(git status --porcelain -- data/)" ]; then echo "Sin cambios"; exit 0; fi
           git config user.name "github-actions[bot]"

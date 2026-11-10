@@ -13,7 +13,7 @@ registradas hasta el barrido del 05-11-2026.
 Todo corre en la nube; no se necesita un computador encendido.
 
 ```
-GitHub Action (≈07:47)                     Tarea de Claude (09:13)
+GitHub Action (07:00)                      Tarea de Claude (07:30)
 API oficial de Mercado Público  ──►  data/candidatas/  ──►  clasifica: incluir / descartar
 actualiza hitos, estado y actas            │                integra y publica el barrido
         │                                  ▼                         │

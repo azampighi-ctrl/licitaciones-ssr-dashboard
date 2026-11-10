@@ -100,6 +100,7 @@ function registro(d) {
   const visible = String(campo(d, "VisibilidadMonto") ?? "1") !== "0";
   const tdur = campo(d, "TiempoDuracionContrato"), udur = UNIDAD_TIEMPO[campo(d, "UnidadTiempoDuracionContrato")];
   const visita = fecha(campo(F, "FechaVisitaTerreno"));
+  const dirVisita = String(campo(d, "DireccionVisita") || "").trim();
   const r = {
     id: campo(d, "CodigoExterno"),
     nombre: String(campo(d, "Nombre") || "").trim(),
@@ -109,9 +110,10 @@ function registro(d) {
     fpub: fecha(campo(F, "FechaPublicacion", "FechaCreacion")).raw.slice(0, 10),
     monto_raw: monto && visible ? clp(monto) : "No informado en ficha pública",
     monto_num: monto && visible ? monto : null,
-    plazo: tdur && udur ? `${tdur} ${udur}` : "No especificado en ficha",
+    plazo: Number(tdur) > 0 && udur ? `${tdur} ${udur}` : "No especificado en ficha",
     link: LINK(campo(d, "CodigoExterno")),
-    visita_terreno: visita.raw ? "Exige" : "No exige",
+    // La API casi nunca trae la fecha de visita; si informa dirección de visita, la hay.
+    visita_terreno: visita.raw || dirVisita.length > 3 ? "Exige" : "No exige",
     ...(visita.raw ? { visita_terreno_fecha: visita.raw } : {}),
     ...hitos(d),
   };
