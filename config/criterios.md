@@ -54,11 +54,55 @@ incluir según los criterios de este archivo; las descartadas no se vuelven a pr
 - derechos de agua
 - impulsión
 - bombeo
+- acuífero
+- recarga artificial
+- infiltración
+- sondaje
+- hidrología
+- escasez hídrica
+- seguridad hídrica
+- factibilidad
+- prefactibilidad
+- fuente de agua
+
+## Exclusión automática: construcción, mantención e inspección de obras
+
+Antes de proponer candidatas, el barrido por API deja fuera las licitaciones cuyo **nombre**
+contiene alguna de estas palabras. No llegan a Claude ni al dashboard.
+
+- construcción
+- constr
+- mantención
+- mantenimiento
+- conservación
+- reparación
+- ejecución de obras
+- obras civiles
+- AIF
+- asesoría a la inspección fiscal
+- inspección fiscal
+
+**Excepciones.** Si el nombre contiene además alguna de las siguientes palabras, la licitación
+no se excluye y Claude la revisa (por ejemplo «Construcción de piezómetros y estudio geofísico»
+o «Diseño construcción servicio APR»):
+
+- diseño
+- estudio
+- diagnóstico
+- consultoría
+- ingeniería
+- piezómetro
+- sondaje
+- catastro
+- factibilidad
+- prefactibilidad
 
 ## Qué se descarta
 
 - Construcción o ejecución de obras, aunque mencionen SSR/APR (excepto pozos o piezómetros
-  que formen parte de un estudio hidrogeológico).
+  que formen parte de un estudio hidrogeológico). La mayoría ya se excluye automáticamente por
+  nombre (sección anterior); Claude descarta las que el nombre no delata, como «Mejoramiento
+  sistema APR…» cuando la descripción muestra que es obra.
 - Asesoría a la Inspección Fiscal (AIF) de obras.
 - Suministro, operación o mantención: entrega de agua en camión aljibe, compra de insumos,
   análisis de laboratorio rutinarios, operación de plantas.

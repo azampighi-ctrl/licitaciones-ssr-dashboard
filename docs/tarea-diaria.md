@@ -17,7 +17,9 @@ minutos en horas de alta demanda; la tarea de Claude lo tolera (ver paso 2).
 `scripts/mp_api.js` hace, en este orden:
 
 1. Trae todas las licitaciones publicadas (`estado=activas`, ≈5.000) y filtra por las palabras
-   clave de `config/criterios.md`, contra el nombre de la licitación.
+   clave de `config/criterios.md`, contra el nombre de la licitación. Deja fuera las que el
+   nombre identifica como construcción, mantención o inspección de obras (sección «Exclusión
+   automática» del mismo archivo), salvo las excepciones allí indicadas.
 2. Para cada coincidencia que no está en `data/licitaciones.json` ni en `data/descartadas.json`,
    consulta el detalle y la guarda en `data/candidatas/AAAA-MM-DD.json` con:
    - `registro`: campos ya en el formato del dashboard (fechas, organismo, región, monto, plazo…).

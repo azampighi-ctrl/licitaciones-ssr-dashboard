@@ -173,11 +173,18 @@ function leerActa(html) {
 }
 
 // ── Palabras clave desde config/criterios.md ───────────────────────────────
-function palabrasClave() {
+const items = (txt) => txt.split("\n").map((l) => l.match(/^\s*-\s+(.+?)\s*$/)).filter(Boolean).map((m) => m[1]);
+function seccion(re) {
   const md = fs.readFileSync(P("config/criterios.md"), "utf8");
-  const sec = md.split(/^## /m).find((s) => /^palabras clave/i.test(s)) || "";
-  return sec.split("\n").map((l) => l.match(/^\s*-\s+(.+?)\s*$/)).filter(Boolean).map((m) => m[1]);
+  return md.split(/^## /m).find((s) => re.test(s)) || "";
 }
+function palabrasClave() { return items(seccion(/^palabras clave/i)); }
+// Exclusión automática (construcción y mantención): {excluir: [...], salvo: [...]}
+function exclusiones() {
+  const [excluir, salvo = ""] = seccion(/^exclusi[oó]n autom/i).split(/\*\*Excepciones/i);
+  return { excluir: items(excluir), salvo: items(salvo) };
+}
+const excluida = (nombre, ex) => coincide(nombre, ex.excluir).length > 0 && coincide(nombre, ex.salvo).length === 0;
 // Coincidencia por palabra completa, aceptando plural y cambio de género: "piezómetro" encuentra
 // "piezómetros", "hidrogeológico" encuentra "hidrogeológica", "humedal" encuentra "humedales",
 // pero "cuenca" no encuentra "cuentas" ni "humedal" encuentra "humedad". Las siglas se aceptan
@@ -206,7 +213,8 @@ async function main() {
   const descartadas = leer("data/descartadas.json", {});
   const porId = new Map(datos.map((t) => [t.id, t]));
   const claves = palabrasClave();
-  const informe = { fecha: ahoraChile(), activas: 0, candidatas: 0, actualizadas: 0, actas: 0, errores: [] };
+  const ex = exclusiones();
+  const informe = { fecha: ahoraChile(), activas: 0, candidatas: 0, excluidas: 0, actualizadas: 0, actas: 0, errores: [] };
 
   // 1. Candidatas nuevas
   const act = await api({ estado: "activas" });
@@ -219,6 +227,7 @@ async function main() {
     if (!id || porId.has(id) || descartadas[id]) continue;
     const hits = coincide(campo(l, "Nombre"), claves);
     if (!hits.length) continue;
+    if (excluida(campo(l, "Nombre"), ex)) { informe.excluidas++; continue; }
     const ya = previas.find((c) => c.registro.id === id);
     if (ya) { candidatas.push(ya); continue; }
     try {
@@ -266,6 +275,7 @@ async function main() {
 
   const meta = leer("data/meta.json", {});
   meta.api = { fecha: informe.fecha, peticiones, activas: informe.activas, candidatas: informe.candidatas,
+    excluidas_construccion_mantencion: informe.excluidas,
     actualizadas: informe.actualizadas, actas: informe.actas, errores: informe.errores.length };
   escribir("data/meta.json", meta);
   if (ARGS.has("--diagnostico")) escribir("data/diagnostico/api.json", { ...informe, peticiones });
@@ -284,4 +294,4 @@ function estructura(o, d = 0) {
 }
 
 if (require.main === module) main().catch((e) => { console.error("ERROR: " + e.message); process.exit(1); });
-module.exports = { registro, hitos, coincide, palabrasClave, region, fecha, leerActa };
+module.exports = { registro, hitos, coincide, palabrasClave, exclusiones, excluida, region, fecha, leerActa };
