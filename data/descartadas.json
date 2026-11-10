@@ -1,1 +1,362 @@
-{}
+{
+ "1043046-6-LE26": {
+  "nombre": "Servicio entrega de agua potable S.S.R. Rucapequen",
+  "motivo": "Suministro o distribución de agua potable.",
+  "fecha": "10-11-2026"
+ },
+ "1043046-7-LR26": {
+  "nombre": "Servicio de entrega de agua potable en aljibes",
+  "motivo": "Suministro o distribución de agua potable.",
+  "fecha": "10-11-2026"
+ },
+ "1057461-70-L126": {
+  "nombre": "Servicio de muestreo y Análisis Microbiológico y Fisico-Quimico de agua potable según NC409 para Hospital de Cauquenes",
+  "motivo": "Muestreo y análisis de laboratorio rutinarios de agua potable.",
+  "fecha": "10-11-2026"
+ },
+ "1057547-469-LE26": {
+  "nombre": "SERV. IMPLEMENTACION SISTEMA TELEMETRIA PARA POZO PROFUNDO",
+  "motivo": "Telemetría de pozo de hospital; servicio menor fuera de categorías.",
+  "fecha": "10-11-2026"
+ },
+ "1063487-49-O126": {
+  "nombre": "Asesoría a la inspección fiscal mejoramiento y ampliación SSR Llahuimavida",
+  "motivo": "Asesoría a la inspección fiscal (AIF) de obra.",
+  "fecha": "10-11-2026"
+ },
+ "1063487-50-O126": {
+  "nombre": "Construcción Servicio Sanitario Rural La Merced, Comuna de San Carlos",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "1080089-49-LE26": {
+  "nombre": "SISTEMA DE RESPALDO AGUA POTABLE JARDIN INFANTIL",
+  "motivo": "Sistema de respaldo de agua potable para jardín infantil (equipamiento/obra).",
+  "fecha": "10-11-2026"
+ },
+ "1272045-3-LR26": {
+  "nombre": "SERVICIO DE SUMINISTRO DE AGUA POTABLE PROVINCIAL",
+  "motivo": "Suministro o distribución de agua potable.",
+  "fecha": "10-11-2026"
+ },
+ "1335445-12-LE26": {
+  "nombre": "OBRAS DE CONSTRUCCION EJECUCION POZOS PROFUNDOS MU",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "1425521-5-LP26": {
+  "nombre": "ARRANQUES DE AGUA POTABLE Y ALCANTARILLADO",
+  "motivo": "Ejecución de arranques de agua potable y alcantarillado (obra).",
+  "fecha": "10-11-2026"
+ },
+ "1467-9-LR26": {
+  "nombre": "Provisión de Agua Potable Provincia de Curicó",
+  "motivo": "Suministro o distribución de agua potable.",
+  "fecha": "10-11-2026"
+ },
+ "1469-345-L126": {
+  "nombre": "Adquisición de placas de identificación de Puntos de Referencia (PR) para sistemas SSR de las regiones de Los Ríos y La Araucanía",
+  "motivo": "Suministro de placas de identificación; no es ingeniería ni estudio.",
+  "fecha": "10-11-2026"
+ },
+ "1490610-3-LE26": {
+  "nombre": "ADQUISICIÓN CONTRATACIÓN SERVICIO DE POZO PROFUNDO",
+  "motivo": "Servicio/adquisición de pozo profundo para recinto; construcción, no estudio.",
+  "fecha": "10-11-2026"
+ },
+ "1506-40-O126": {
+  "nombre": "AMPLACIÓN Y MEJORAMIENTO SISTEMA APR TRICAO HACIA LAS GARZAS, RAUCO",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "1506-46-O126": {
+  "nombre": "CONSERVACIÓN SSR SAN FRANCISCO LOS LARGOS, SAN CLEMENTE",
+  "motivo": "Mantención o conservación de obras/instalaciones.",
+  "fecha": "10-11-2026"
+ },
+ "1506-48-O126": {
+  "nombre": "Mejoramiento y Ampliación Sistema Agua Potable SSR Santa Inés,Retiro",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "1506-50-O126": {
+  "nombre": "CONSERVACIÓN PLANTA DE TRATAMIENTO DE AGUAS SERVIDAS SSR LOMA DE LAS TORTIL",
+  "motivo": "Mantención o conservación de obras/instalaciones.",
+  "fecha": "10-11-2026"
+ },
+ "1506-51-O126": {
+  "nombre": "Construcción Sistema Agua Potable SSR La Puntilla Oriente, Longaví",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "1507-32-O126": {
+  "nombre": "AIF CONTRATO CONSTRUCCION SSR PAILLAHUE, COMUNA DE HUALQUI, SEGUNDO LLAMADO",
+  "motivo": "Asesoría a la inspección fiscal (AIF) de obra.",
+  "fecha": "10-11-2026"
+ },
+ "1697-50-LE26": {
+  "nombre": "SERVICIO DE MANTENCIÓN CORRESPONDIENTE A SANITIZACIÓN Y LIMPIEZA DE ESTANQUES DE ALMACENAMIENTO AGUA POTABLE Y CÁMARAS DE ALCANTARILLADO PARA TRIBUNALES DE LA JURISDICCION DE ANTOFAGASTA",
+  "motivo": "Mantención o conservación de obras/instalaciones.",
+  "fecha": "10-11-2026"
+ },
+ "1725-241-LE26": {
+  "nombre": "MANTENCIÓN BIANUAL AGUAS POTABLES CECREA VALDIVIA.",
+  "motivo": "Mantención o conservación de obras/instalaciones.",
+  "fecha": "10-11-2026"
+ },
+ "1966-14-O126": {
+  "nombre": "Conservación de Obras Global Cuenca Río Camarones 2027, Región de Arica y P",
+  "motivo": "Mantención o conservación de obras/instalaciones.",
+  "fecha": "10-11-2026"
+ },
+ "1966-1-LS18": {
+  "nombre": "MEJORAMIENTO CAPTACION SISTEMA AGUA POTABLE RURAL",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "2047-8-LR26": {
+  "nombre": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE PROVINCIA DE LINARES",
+  "motivo": "Suministro o distribución de agua potable.",
+  "fecha": "10-11-2026"
+ },
+ "2081-3-LE26": {
+  "nombre": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE EN VEHÍCU",
+  "motivo": "Suministro o distribución de agua potable.",
+  "fecha": "10-11-2026"
+ },
+ "2393-28-L126": {
+  "nombre": "Mantención del Sistema de Agua Potable y Evaluación de Aguas Servidas, Edificio Consistorial por 3 meses, según lo señalado en las bases técnicas.",
+  "motivo": "Mantención o conservación de obras/instalaciones.",
+  "fecha": "10-11-2026"
+ },
+ "2661-46-LP26": {
+  "nombre": "CONSTRUCCIÓN OBRAS DE SANEAMIENTO SANITARIO SECTOR RUBÉN DARÍO ESTERO NATALES",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "2684-58-LR26": {
+  "nombre": "PP Nº59-2026 CONSTRUCCIÓN RED AGUA POTABLE Y ALCANTARILLADO POB. AGUIRRE CERDA VILLA ALEMANA",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "2709-94-LR26": {
+  "nombre": "PREVENCION APOYO EQUIPAMIENTOS SERVICIOS SANITARIOS RURALES 2026 COMUNA DE OVALLE",
+  "motivo": "Adquisición de equipamiento o insumos.",
+  "fecha": "10-11-2026"
+ },
+ "2997-67-LP26": {
+  "nombre": "Equipamiento Servicios Sanitarios Rurales 2026.",
+  "motivo": "Adquisición de equipamiento para servicios sanitarios rurales.",
+  "fecha": "10-11-2026"
+ },
+ "3274-14-L126": {
+  "nombre": "REPARACION Y MANTENCION CORRECTIVA BOMBAS RED AGUA POTABLE Y SUMERGIBES CUARTEL ANTOFAGASTA",
+  "motivo": "Mantención o conservación de obras/instalaciones.",
+  "fecha": "10-11-2026"
+ },
+ "3502-52-LP26": {
+  "nombre": "ABASTO AGUA POTABLE SECTOR PANTANO",
+  "motivo": "Suministro o distribución de agua potable.",
+  "fecha": "10-11-2026"
+ },
+ "3520-35-LP26": {
+  "nombre": "CONSTRUCCIÓN POZO PROFUNDO PUPETRA LONCOMILLA COMUNA DE DALCAHUE",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "3656-175-I226": {
+  "nombre": "CONSTRUCCION SANEAMIENTO SANITARIO SECTOR VILLA MARIA COMUNA DE REQUÍNOA",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "3686-33-LE26": {
+  "nombre": "DISEÑO Y CONST. SIST. AGUA POTABLE CEMENTERIO",
+  "motivo": "Diseño y construcción de sistema de agua potable de cementerio municipal; no es SSR/APR y incluye obra.",
+  "fecha": "10-11-2026"
+ },
+ "3689-17-LP26": {
+  "nombre": "Mejoramiento APR La Cebada Quilicura San José Tercer Llamado",
+  "motivo": "Mejoramiento APR con ítems de construcción de obras civiles; corresponde a obra.",
+  "fecha": "10-11-2026"
+ },
+ "3706-49-LP26": {
+  "nombre": "CONSTRUCCION POZO PROFUNDO SECTOR CALLE ALEGRE",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "3735-15-LE26": {
+  "nombre": "CONTRATACIÓN PROFESIONAL ELÉCTRICO PARA TRABAJAR EN EL DESARROLLO DE PROYECTO PMB DE “ASISTENCIA TÉCNICA PARA DISEÑOS DE SOLUCIONES DE AGUA POTABLE RURAL Y SANEAMIENTO LAJA”",
+  "motivo": "Contratación de profesional eléctrico individual (personal); no es consultoría de ingeniería ni estudio.",
+  "fecha": "10-11-2026"
+ },
+ "3738-25-LP26": {
+  "nombre": "AT CONSTRUCCION APR ABASTO DE AGUA POTABLE",
+  "motivo": "Construcción de APR (obra) en Canto del Agua, Huasco.",
+  "fecha": "10-11-2026"
+ },
+ "3748-24-LP26": {
+  "nombre": "EQUIPAMIENTO PARA SERVICIOS SANITARIOS RURALES",
+  "motivo": "Adquisición de equipamiento o insumos.",
+  "fecha": "10-11-2026"
+ },
+ "3842-39-LP26": {
+  "nombre": "Construcción Agua Potable Y Alcant. Uno Norte",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "3912-25-CO26": {
+  "nombre": "PREVENCION APOYO SERVICIOS SANITARIOS RURALES 2026",
+  "motivo": "Adquisición de equipamiento o insumos.",
+  "fecha": "10-11-2026"
+ },
+ "4037-74-L126": {
+  "nombre": "CONTRATACION SERVICIO PROFESIONALES PARA DISEÑO DE PROYECTO ELECTRICO Y TRAMITACION DE EMPALME POZO PROFUNDO SECTOR LAS CUYAS.",
+  "motivo": "Diseño eléctrico y empalme de un pozo por $700.000; fuera de categorías.",
+  "fecha": "10-11-2026"
+ },
+ "4118-6-LP26": {
+  "nombre": "PROYECTO SANEAMIENTO SANITARIO ESCUELAS RURALES",
+  "motivo": "Ejecución de obra de saneamiento sanitario en escuelas rurales.",
+  "fecha": "10-11-2026"
+ },
+ "4170-66-LE26": {
+  "nombre": "ARRIENDO DE CAMIONES ALJIBE PARA DISTRIBUCIÓN DE AGUA POTABLE",
+  "motivo": "Suministro o distribución de agua potable.",
+  "fecha": "10-11-2026"
+ },
+ "514862-148-E226": {
+  "nombre": "UNIÓN DOMICILIARIA ALCANTARILLADO COSAM 10032928",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-36-O126": {
+  "nombre": "CONSTRUCCION SERVICIO SANITARIO RURAL HUECHUL, COMUNA DE RIO BUENO",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-38-O126": {
+  "nombre": "CONSTRUCCION SSR SANTA ISABEL BOQUIAL Y LOS AZADORES,RÍO BUENO",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-40-O126": {
+  "nombre": "CONSTRUCCION SSR LAGO VERDE, COMUNA DE PAILLACO, REGIÓN DE LOS RÍOS",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-42-O126": {
+  "nombre": "CONSTRUCCIÓN SERVICIO SANITARIO RURAL ROPULLI PICHIQUEMA, PAILLACO",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-45-O126": {
+  "nombre": "CONSTRUCCIÓN SERVICIO SANITARIO RURAL DE LAS QUEMAS, COMUNA DE LANCO, REGIÓ",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-46-O126": {
+  "nombre": "CONSTRUCCIÓN SSR DE PINDACO COMUNA DE RÍO BUENO Y DE ALTOS DE SANTA ELVIRA",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-47-O126": {
+  "nombre": "Construcción Servicio Sanitario Rural de Llonquén y Tayos Bajos",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-48-O126": {
+  "nombre": "AIF CONSTRUCCION SERVICIO SANITARIO RURAL DE CUINCO, LA UNIÓN",
+  "motivo": "Asesoría a la inspección fiscal (AIF) de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-49-O126": {
+  "nombre": "AIF CONSTRUCCION SSR DE PURO CHILE-VICTORIA, COMUNA RÍO BUENO",
+  "motivo": "Asesoría a la inspección fiscal (AIF) de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-51-O126": {
+  "nombre": "CONSTRUCCION SERVICIO SANITARIO RURAL DE HUEIMEN ORIENTE, LAGO RANCO",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-52-O126": {
+  "nombre": "CONSERVACIÓN DE RIBERAS DE CAUCES NATURALES EN LA CUENCA DEL RÍO VALDIVIA C",
+  "motivo": "Mantención o conservación de obras/instalaciones.",
+  "fecha": "10-11-2026"
+ },
+ "5661-53-O126": {
+  "nombre": "ASESORÍA A LA INSPECCIÓN FISCAL AMPLIACION MEJORAMIENTO SSR MEHUIN BAJO, MA",
+  "motivo": "Asesoría a la inspección fiscal (AIF) de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-54-O126": {
+  "nombre": "CONSERVACIÓN DE RIBERAS DE CAUCES NATURALES EN LA CUENCA DEL RÍO VALDIVIA,",
+  "motivo": "Mantención o conservación de obras/instalaciones.",
+  "fecha": "10-11-2026"
+ },
+ "5661-55-O126": {
+  "nombre": "AIF CONSTRUCCION SSR SANTA ISABEL BOQUIAL Y LOS AZADORES COMUNA RÍO BUENO",
+  "motivo": "Asesoría a la inspección fiscal (AIF) de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-59-O126": {
+  "nombre": "AIF CONSTRUCCION SERVICIO SANITARIO RURAL ROPULLI - PICHIQUEMA, PAILLACO",
+  "motivo": "Asesoría a la inspección fiscal (AIF) de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5661-60-O126": {
+  "nombre": "AIF CONSTRUCCIÓN SERVICIO SANITARIO RURAL DE HUEIMEN ORIENTE, LAGO RANCO",
+  "motivo": "Asesoría a la inspección fiscal (AIF) de obra.",
+  "fecha": "10-11-2026"
+ },
+ "5908-36-LP26": {
+  "nombre": "CONSTRUCCIÓN DE CONEXIONES DOMICILIARIAS DE AGUA POTABLE Y ALCANTARILLADO LOCALIDAD DE HUARA",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "673663-34-LE26": {
+  "nombre": "CONSTRUCCIÓN SISTEMA AGUA POTABLE POR ACARREO LOC",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "691944-41-LE26": {
+  "nombre": "Adquisición hormigón G-25 proyectos linea cuenca del carbon",
+  "motivo": "Adquisición de equipamiento o insumos.",
+  "fecha": "10-11-2026"
+ },
+ "707419-54-L126": {
+  "nombre": "MANTENIMIENTO PREVENTIVO Y CORRECTIVO  PARA HIDROPACK Y EQUIPOS DE BOMBEO DE AGUA POTABLE Y LIMPIEZA DE ESTANQUE DE ACUMULACIÓN, UBICADOS EN JARDINES INFANTILES , SALAS CUNA DE FUNDACIÓN INTEGRA, REGIÓN DE VALPARAÍSO",
+  "motivo": "Mantención o conservación de obras/instalaciones.",
+  "fecha": "10-11-2026"
+ },
+ "816696-20-LP26": {
+  "nombre": "CONSTRUCCION POZO PROFUNDO MACROZONA PUQUELDON",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "817-46-O126": {
+  "nombre": "Construcción SSR Llanada Grande",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "817-56-O126": {
+  "nombre": "Conservación Servicio Sanitario Rural de Bahía Pargua, Calbuco",
+  "motivo": "Mantención o conservación de obras/instalaciones.",
+  "fecha": "10-11-2026"
+ },
+ "817-59-O126": {
+  "nombre": "Construcción SSR Canal Quihua 2 Río Yale",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ },
+ "882-3-LP26": {
+  "nombre": "SERVICIO DISTRIBUCION AGUA POTABLE - CAMION ALJIBE",
+  "motivo": "Suministro o distribución de agua potable.",
+  "fecha": "10-11-2026"
+ },
+ "966131-73-LP26": {
+  "nombre": "MEJORAMIENTO SISTEMA DE ALCANTARILLADO Y AGUAS SUPERFICIALES PESCADERÍA FERIA YUMBEL",
+  "motivo": "Construcción o ejecución de obra.",
+  "fecha": "10-11-2026"
+ }
+}
