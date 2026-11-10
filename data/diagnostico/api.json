@@ -1,8 +1,8 @@
 {
- "fecha": "2026-11-10T11:22:05",
- "activas": 4921,
- "candidatas": 85,
- "actualizadas": 5,
+ "fecha": "2026-11-10T11:30:51",
+ "activas": 4926,
+ "candidatas": 78,
+ "actualizadas": 0,
  "actas": 0,
  "errores": [],
  "muestra": {
@@ -54,7 +54,7 @@
    "FechaSoporteFisico": "null",
    "FechaTiempoEvaluacion": "null",
    "FechaEstimadaFirma": "null",
-   "FechasUsuario": "null",
+   "FechasUsuario": "string",
    "FechaVisitaTerreno": "null",
    "FechaEntregaAntecedentes": "null"
   },
@@ -106,5 +106,5 @@
    ]
   }
  },
- "peticiones": 146
+ "peticiones": 40
 }

@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T11:22:05",
+ "generado": "2026-11-10T11:30:51",
  "candidatas": [
   {
    "palabras": [
@@ -87,47 +87,6 @@
      "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Entrega de agua potable en aljibes en Provincia de Diguillin - Pemuco"
     ],
     "fuente_financiamiento": "Subsecretaria del Interior"
-   }
-  },
-  {
-   "palabras": [
-    "humedal"
-   ],
-   "registro": {
-    "id": "1057390-68-LE26",
-    "nombre": "SERVICIO DE ARRIENDO DE SENSORES DE MONITOREO TEMPERATURA Y HUMEDAD",
-    "entidad": "SERVICIO DE SALUD ARAUCANIA NORTE - Bienes y Servicios",
-    "region": "La Araucanía",
-    "comuna": "Angol",
-    "fpub": "09-11-2026",
-    "monto_raw": "$19.983.024",
-    "monto_num": 19983024,
-    "plazo": "24 meses",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057390-68-LE26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "19-11-2026 15:30",
-    "fcierre_iso": "2026-11-19T15:30:00",
-    "finicio_preguntas_raw": "09-11-2026 17:31",
-    "finicio_preguntas_iso": "2026-11-09T17:31:00",
-    "ffinal_preguntas_raw": "12-11-2026 12:00",
-    "ffinal_preguntas_iso": "2026-11-12T12:00:00",
-    "frespuestas_raw": "15-11-2026 18:00",
-    "frespuestas_iso": "2026-11-15T18:00:00",
-    "fapertura_tecnica_raw": "19-11-2026 15:31",
-    "fapertura_tecnica_iso": "2026-11-19T15:31:00",
-    "fapertura_economica_raw": "19-11-2026 15:31",
-    "fapertura_economica_iso": "2026-11-19T15:31:00",
-    "fadjudicacion_raw": "09-12-2026 18:00",
-    "fadjudicacion_iso": "2026-12-09T18:00:00"
-   },
-   "contexto": {
-    "descripcion": "La presente licitación tiene como objetivo contratar el servicio de arriendo de sensores de temperatura y humedad, destinados al monitoreo continuo en línea de las condiciones ambientales de las áreas de almacenamiento y equipos de refrigeración de la Droguería SSAN, todo según especificaciones técnicas (Anexo N° 4).",
-    "tipo": "LE",
-    "items": [
-     "Equipamiento para laboratorios / Instrumentos de medida y experimentación / Instrumentos meteorológicos · Aparatos de observación de superficie de temperatura o humedad · ARRIENDO DE SENSORES DE MONITOREO TEMPERATURA Y HUMEDAD DROGUERÍA"
-    ],
-    "fuente_financiamiento": "22.11.999"
    }
   },
   {
@@ -461,6 +420,47 @@
      "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · Suministro de agua potable para consumo humano DOMICILIARIO SECTOR LAS PALMAS COMUNA OLMUÉ"
     ],
     "fuente_financiamiento": "214.05.02.03"
+   }
+  },
+  {
+   "palabras": [
+    "pozo profundo"
+   ],
+   "registro": {
+    "id": "1335445-12-LE26",
+    "nombre": "OBRAS DE CONSTRUCCION EJECUCION POZOS PROFUNDOS MU",
+    "entidad": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL - DIRECCION REGIONAL DEL BIO-BIO",
+    "region": "Biobío",
+    "comuna": "Concepción",
+    "fpub": "09-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1335445-12-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "30-11-2026 15:00",
+    "fcierre_iso": "2026-11-30T15:00:00",
+    "finicio_preguntas_raw": "09-11-2026 18:00",
+    "finicio_preguntas_iso": "2026-11-09T18:00:00",
+    "ffinal_preguntas_raw": "19-11-2026 09:00",
+    "ffinal_preguntas_iso": "2026-11-19T09:00:00",
+    "frespuestas_raw": "20-11-2026 15:00",
+    "frespuestas_iso": "2026-11-20T15:00:00",
+    "fapertura_tecnica_raw": "01-12-2026 10:00",
+    "fapertura_tecnica_iso": "2026-12-01T10:00:00",
+    "fapertura_economica_raw": "01-12-2026 10:00",
+    "fapertura_economica_iso": "2026-12-01T10:00:00",
+    "fadjudicacion_raw": "04-12-2026 15:00",
+    "fadjudicacion_iso": "2026-12-04T15:00:00"
+   },
+   "contexto": {
+    "descripcion": "OBRAS DE CONSTRUCCION EJECUCION POZOS PROFUNDOS MUSEO MAPUCHE DE CAÑETE SERPAT BIOBIO",
+    "tipo": "LE",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · OBRAS DE CONSTRUCCION EJECUCION POZOS PROFUNDOS MUSEO MAPUCHE DE CAÑETE SERPAT BIOBIO"
+    ],
+    "fuente_financiamiento": "Servicio Nacional del Patrimonio Cultural"
    }
   },
   {
@@ -927,6 +927,47 @@
   },
   {
    "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1725-241-LE26",
+    "nombre": "MANTENCIÓN BIANUAL AGUAS POTABLES CECREA VALDIVIA.",
+    "entidad": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES - SUBSECRETARIA DE LAS CULTURAS Y LAS ARTES",
+    "region": "Valparaíso",
+    "comuna": "Valparaíso",
+    "fpub": "09-11-2026",
+    "monto_raw": "$28.000.000",
+    "monto_num": 28000000,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1725-241-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "23-11-2026 15:01",
+    "fcierre_iso": "2026-11-23T15:01:00",
+    "finicio_preguntas_raw": "09-11-2026 18:01",
+    "finicio_preguntas_iso": "2026-11-09T18:01:00",
+    "ffinal_preguntas_raw": "13-11-2026 18:00",
+    "ffinal_preguntas_iso": "2026-11-13T18:00:00",
+    "frespuestas_raw": "17-11-2026 21:00",
+    "frespuestas_iso": "2026-11-17T21:00:00",
+    "fapertura_tecnica_raw": "23-11-2026 15:02",
+    "fapertura_tecnica_iso": "2026-11-23T15:02:00",
+    "fapertura_economica_raw": "23-11-2026 15:02",
+    "fapertura_economica_iso": "2026-11-23T15:02:00",
+    "fadjudicacion_raw": "09-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-09T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "SERVICIO DE MANTENCIÓN BIANUAL SISTEMA DE EVACUACIÓN Y ELEVACIÓN DE AGUAS LLUVIAS, RED DE AGUA POTABLE, ESTANQUES DE ALMACENAMIENTO DE AGUA POTABLE, EQUIPOS DE PRESURIZACIÓN DE AGUA POTABLE, ALCANTARILLADO, E INSTALACIONES SANITARIAS DEL CENTRO DE CREACION VALDIVIA.",
+    "tipo": "LE",
+    "items": [
+     "Maquinarias, equipos y suministros para la industria de servicios / Equipos para servicios de alimentación institucional / Distribuidores automáticos de comida y bebida · Fuentes de agua potable · SERVICIO DE MANTENCIÓN BIANUAL SISTEMA DE EVACUACIÓN Y ELEVACIÓN DE AGUAS LLUVIAS, RED DE AGUA POTABLE, ESTANQUES DE ALMACENAMIENTO DE AGUA POTABLE, EQUIPOS DE PRESURIZACIÓN DE AGUA POTABLE, ALCANTARILLADO, E INSTALACIONES SANITARIAS DEL CENTRO DE CREACIO"
+    ],
+    "fuente_financiamiento": "Subsecretaría de las Culturas y las Artes"
+   }
+  },
+  {
+   "palabras": [
     "cuenca"
    ],
    "registro": {
@@ -1098,47 +1139,6 @@
   },
   {
    "palabras": [
-    "cuenca"
-   ],
-   "registro": {
-    "id": "2241-2-LP26",
-    "nombre": "Apertura y mantención de cuentas corrientes",
-    "entidad": "DIRECCION DE COMPRAS Y CONTRATACION PUBLICA - Departamento Administración y Finanzas",
-    "region": "Metropolitana",
-    "comuna": "Santiago Centro",
-    "fpub": "20-10-2026",
-    "monto_raw": "No informado en ficha pública",
-    "monto_num": null,
-    "plazo": "38 meses",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2241-2-LP26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "11-11-2026 16:00",
-    "fcierre_iso": "2026-11-11T16:00:00",
-    "finicio_preguntas_raw": "20-10-2026 09:35",
-    "finicio_preguntas_iso": "2026-10-20T09:35:00",
-    "ffinal_preguntas_raw": "27-10-2026 18:00",
-    "ffinal_preguntas_iso": "2026-10-27T18:00:00",
-    "frespuestas_raw": "03-11-2026 18:00",
-    "frespuestas_iso": "2026-11-03T18:00:00",
-    "fapertura_tecnica_raw": "11-11-2026 16:30",
-    "fapertura_tecnica_iso": "2026-11-11T16:30:00",
-    "fapertura_economica_raw": "11-11-2026 16:30",
-    "fapertura_economica_iso": "2026-11-11T16:30:00",
-    "fadjudicacion_raw": "25-11-2026 18:00",
-    "fadjudicacion_iso": "2026-11-25T18:00:00"
-   },
-   "contexto": {
-    "descripcion": "Contratación de servicios de apertura y mantención de cuentas corrientes bancarias para la Dirección de Compras y Contratación Pública",
-    "tipo": "LP",
-    "items": [
-     "Servicios financieros, pensiones y seguros / Banca e inversiones / Instituciones bancarias · Bancos privados · Apertura y mantención de cuentas corrientes y servicios financieros"
-    ],
-    "fuente_financiamiento": ""
-   }
-  },
-  {
-   "palabras": [
     "agua potable"
    ],
    "registro": {
@@ -1176,47 +1176,6 @@
      "Equipamiento y suministros médicos / Productos de resucitación, anestesia y respiratorios / Suministros de intubación · Bombas de succión · Mantención del Sistema de Agua Potable y Evaluación de Aguas\nServidas, Edificio Consistorial por 3 meses, según lo señalado en las\nbases técnicas."
     ],
     "fuente_financiamiento": ""
-   }
-  },
-  {
-   "palabras": [
-    "cuenca"
-   ],
-   "registro": {
-    "id": "2594-33-LE26",
-    "nombre": "APERTURA Y MANTENCION CUENTAS CORRIENTES",
-    "entidad": "I MUNICIPALIDAD DE CONCON - I.MUNICIPALIDAD DE CONCON",
-    "region": "Valparaíso",
-    "comuna": "Concón",
-    "fpub": "02-11-2026",
-    "monto_raw": "No informado en ficha pública",
-    "monto_num": null,
-    "plazo": "48 meses",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2594-33-LE26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "26-11-2026 19:57",
-    "fcierre_iso": "2026-11-26T19:57:00",
-    "finicio_preguntas_raw": "02-11-2026 16:00",
-    "finicio_preguntas_iso": "2026-11-02T16:00:00",
-    "ffinal_preguntas_raw": "05-11-2026 16:00",
-    "ffinal_preguntas_iso": "2026-11-05T16:00:00",
-    "frespuestas_raw": "12-11-2026 16:00",
-    "frespuestas_iso": "2026-11-12T16:00:00",
-    "fapertura_tecnica_raw": "26-11-2026 19:58",
-    "fapertura_tecnica_iso": "2026-11-26T19:58:00",
-    "fapertura_economica_raw": "26-11-2026 19:58",
-    "fapertura_economica_iso": "2026-11-26T19:58:00",
-    "fadjudicacion_raw": "03-12-2026 19:58",
-    "fadjudicacion_iso": "2026-12-03T19:58:00"
-   },
-   "contexto": {
-    "descripcion": "APERTURA Y MANTENCION DE CUENTAS CORRIENTES BANCARIAS EN MONEDA NACIONAL, SERVICIOS DE RECAUDACIÓN Y OTROS SERVICIOS BANCARIOS PARA LA MUNICIPALIDAD DE CONCÓN, INCLUIDO DEPARTAMENTO DE SALUD, EDUCACIÓN Y SERVICIO DE BIENESTAR MUNICIPAL",
-    "tipo": "LE",
-    "items": [
-     "Servicios financieros, pensiones y seguros / Banca e inversiones / Instituciones bancarias · Bancos privados · APERTURA  Y MANTENCION DE CUENTAS CORRIENTES  BANCARIAS EN MONEDA NACIONAL, SERVICIOS DE RECAUDACION Y OTROS"
-    ],
-    "fuente_financiamiento": "MUNICIPAL"
    }
   },
   {
@@ -1300,47 +1259,6 @@
      "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · Se requiere la construcción de red de agua potable y alcantarillado en Pob. Aguirre Cerda en la comuna de Villa Alemana."
     ],
     "fuente_financiamiento": "GOBIERNO REGIONAL DE VALPARAISO"
-   }
-  },
-  {
-   "palabras": [
-    "cuenca"
-   ],
-   "registro": {
-    "id": "2709-89-LR26",
-    "nombre": "SERVICIO DE APERTURA Y MANTENCIÓN DE CUENTAS CORRIENTES Y OTROS SERVICIOS - ILUSTRE MUNICIPALIDAD DE OVALLE",
-    "entidad": "MUNICIPALIDAD DE OVALLE - Municipalidad de Ovalle - Secplan",
-    "region": "Coquimbo",
-    "comuna": "",
-    "fpub": "04-11-2026",
-    "monto_raw": "No informado en ficha pública",
-    "monto_num": null,
-    "plazo": "48 meses",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2709-89-LR26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "04-12-2026 14:00",
-    "fcierre_iso": "2026-12-04T14:00:00",
-    "finicio_preguntas_raw": "05-11-2026 09:00",
-    "finicio_preguntas_iso": "2026-11-05T09:00:00",
-    "ffinal_preguntas_raw": "09-11-2026 17:00",
-    "ffinal_preguntas_iso": "2026-11-09T17:00:00",
-    "frespuestas_raw": "16-11-2026 17:00",
-    "frespuestas_iso": "2026-11-16T17:00:00",
-    "fapertura_tecnica_raw": "04-12-2026 15:30",
-    "fapertura_tecnica_iso": "2026-12-04T15:30:00",
-    "fapertura_economica_raw": "04-12-2026 15:30",
-    "fapertura_economica_iso": "2026-12-04T15:30:00",
-    "fadjudicacion_raw": "31-12-2026 17:00",
-    "fadjudicacion_iso": "2026-12-31T17:00:00"
-   },
-   "contexto": {
-    "descripcion": "SERVICIO DE APERTURA Y MANTENCIÓN DE CUENTAS CORRIENTES Y OTROS SERVICIOS - ILUSTRE MUNICIPALIDAD DE OVALLE",
-    "tipo": "LR",
-    "items": [
-     "Servicios financieros, pensiones y seguros / Banca e inversiones / Instituciones bancarias · Bancos privados · SERVICIO DE APERTURA Y MANTENCIÓN DE CUENTAS CORRIENTES Y OTROS SERVICIOS - ILUSTRE MUNICIPALIDAD DE OVALLE"
-    ],
-    "fuente_financiamiento": "municipal"
    }
   },
   {
@@ -2177,93 +2095,6 @@
   },
   {
    "palabras": [
-    "cuenca"
-   ],
-   "registro": {
-    "id": "4252-19-LP26",
-    "nombre": "MANTENCIÓN Y APERTURA DE CUENTAS CORRIENTES",
-    "entidad": "I MUNICIPALIDAD DE SAN FABIAN - DAF",
-    "region": "Ñuble",
-    "comuna": "San Fabián",
-    "fpub": "06-11-2026",
-    "monto_raw": "No informado en ficha pública",
-    "monto_num": null,
-    "plazo": "72 meses",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4252-19-LP26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "26-11-2026 15:32",
-    "fcierre_iso": "2026-11-26T15:32:00",
-    "finicio_preguntas_raw": "06-11-2026 14:18",
-    "finicio_preguntas_iso": "2026-11-06T14:18:00",
-    "ffinal_preguntas_raw": "09-11-2026 14:18",
-    "ffinal_preguntas_iso": "2026-11-09T14:18:00",
-    "frespuestas_raw": "10-11-2026 14:18",
-    "frespuestas_iso": "2026-11-10T14:18:00",
-    "fapertura_tecnica_raw": "26-11-2026 15:33",
-    "fapertura_tecnica_iso": "2026-11-26T15:33:00",
-    "fapertura_economica_raw": "26-11-2026 15:33",
-    "fapertura_economica_iso": "2026-11-26T15:33:00",
-    "fadjudicacion_raw": "10-12-2026 16:00",
-    "fadjudicacion_iso": "2026-12-10T16:00:00"
-   },
-   "contexto": {
-    "descripcion": "MANTENCIÓN Y APERTURA DE CUENTAS CORRIENTES",
-    "tipo": "LP",
-    "items": [
-     "Servicios financieros, pensiones y seguros / Contabilidad y auditorías / Servicios contables · Servicios de mantención de libros contables · MANTENCION Y APERTURA DE CUENTAS CORRIENTES"
-    ],
-    "fuente_financiamiento": ""
-   }
-  },
-  {
-   "palabras": [
-    "humedal"
-   ],
-   "registro": {
-    "id": "5052-38-LE26",
-    "nombre": "ADQUISICIÓN DE REPUESTO MOPA HÚMEDA REACTIVOS DE CLORO Y PRODUCTOS VARIOS PARA REHABILITACIÓN",
-    "entidad": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE TALCA - Generales",
-    "region": "Maule",
-    "comuna": "Talca",
-    "fpub": "09-11-2026",
-    "monto_raw": "No informado en ficha pública",
-    "monto_num": null,
-    "plazo": "12 meses",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5052-38-LE26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "19-11-2026 19:00",
-    "fcierre_iso": "2026-11-19T19:00:00",
-    "finicio_preguntas_raw": "09-11-2026 16:31",
-    "finicio_preguntas_iso": "2026-11-09T16:31:00",
-    "ffinal_preguntas_raw": "12-11-2026 16:31",
-    "ffinal_preguntas_iso": "2026-11-12T16:31:00",
-    "frespuestas_raw": "13-11-2026 16:31",
-    "frespuestas_iso": "2026-11-13T16:31:00",
-    "fapertura_tecnica_raw": "19-11-2026 19:01",
-    "fapertura_tecnica_iso": "2026-11-19T19:01:00",
-    "fapertura_economica_raw": "19-11-2026 19:01",
-    "fapertura_economica_iso": "2026-11-19T19:01:00",
-    "fadjudicacion_raw": "28-12-2026 19:53",
-    "fadjudicacion_iso": "2026-12-28T19:53:00"
-   },
-   "contexto": {
-    "descripcion": "El objetivo de la presente licitación, es invitar a través de www.mercadopublico.cl a todos los proveedores del rubro a participar de la ADQUISICIÓN\r\nDE REPUESTO MOPA HÚMEDA, REACTIVOS DE CLORO Y PRODUCTOS VARIOS PARA REHABILITACIÓN del Hospital Regional de Talca y bajo las especificaciones técnicas requeridas por la\r\nInstitución con el fin de seleccionar la oferta más conveniente de acuerdo a los criterios de evaluación, asegurando el abastecimiento en calidad y oportunidad, satisfaciendo así la demanda de los\r\nusuarios.",
-    "tipo": "LE",
-    "items": [
-     "Equipos y suministros de limpieza / Suministros de limpieza / Escobas, traperos, cepillos y accesorios · Mopas húmedas · REPUESTO DE MOPA HÚMEDA 24 OZ 100% ALGODÓN DE\r\nCOLOR BLANCO",
-     "Equipamiento para laboratorios / Instrumentos de medida y experimentación / Kits para ensayos manuales, controles de calidad, calibradores y normativas · Reactivos o soluciones químicos · Reactivo Cloro Libre polvo (100 tests) por caja.",
-     "Equipamiento y suministros médicos / Productos quirúrgicos / Dispositivos esqueléticos quirúrgicos de tracción y productos relacionados · Dispositivos de tracción del cráneo o productos relacionados · Craneómetro pediátrico",
-     "Equipamiento y suministros médicos / Suministros y productos clínicos / Corrección de la visión, gafas, anteojos y productos relacionados · Lentes de gafas · Pack 4 lentes de seguridad persona claro McCarthy equivalente de\r\ncalidad similar o superior",
-     "Equipos, suministros y accesorios deportivos y recreativos / Equipos para entrenamiento físico / Equipo de entrenamiento de pesas y resistencia · Bandas de resistencia · BANDAS ELÁSTICAS DE RESISTENCIA ( SEGÚN LO ESTABLECIDO EN ANEXO N°7) ",
-     "Equipos, suministros y accesorios deportivos y recreativos / Equipos para entrenamiento físico / Equipo de entrenamiento de pesas y resistencia · Pesas · TOBILLERAS ( SEGÚN LO ESTABLECIDO EN ANEXO N°7)"
-    ],
-    "fuente_financiamiento": "Hospital Regional de Talca"
-   }
-  },
-  {
-   "palabras": [
     "alcantarillado"
    ],
    "registro": {
@@ -2301,47 +2132,6 @@
      "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · EJECUCIÓN NUEVA UNIÓN DOMICILIARIA POR PASAJE 120 Y CI N°29 DE LA NUEVA RED DE ALCANTARILLADO – COSAM (10032928)"
     ],
     "fuente_financiamiento": "10032928"
-   }
-  },
-  {
-   "palabras": [
-    "cuenca"
-   ],
-   "registro": {
-    "id": "552578-58-LP26",
-    "nombre": "SERVICIO DE APERTURA MANTENCIÓN DE CUENTAS CORRIENTES Y SERVICIOS BANCARIOS PARA LA I. MUNICIPALIDAD DE SAN RAFAEL",
-    "entidad": "I MUNICIPALIDAD DE SAN RAFAEL - SECPLAN",
-    "region": "Maule",
-    "comuna": "San Rafael",
-    "fpub": "26-10-2026",
-    "monto_raw": "No informado en ficha pública",
-    "monto_num": null,
-    "plazo": "0 horas",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=552578-58-LP26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "18-11-2026 16:00",
-    "fcierre_iso": "2026-11-18T16:00:00",
-    "finicio_preguntas_raw": "26-10-2026 19:30",
-    "finicio_preguntas_iso": "2026-10-26T19:30:00",
-    "ffinal_preguntas_raw": "05-11-2026 17:00",
-    "ffinal_preguntas_iso": "2026-11-05T17:00:00",
-    "frespuestas_raw": "11-11-2026 18:00",
-    "frespuestas_iso": "2026-11-11T18:00:00",
-    "fapertura_tecnica_raw": "18-11-2026 16:00",
-    "fapertura_tecnica_iso": "2026-11-18T16:00:00",
-    "fapertura_economica_raw": "18-11-2026 16:00",
-    "fapertura_economica_iso": "2026-11-18T16:00:00",
-    "fadjudicacion_raw": "02-12-2026 18:00",
-    "fadjudicacion_iso": "2026-12-02T18:00:00"
-   },
-   "contexto": {
-    "descripcion": "SERVICIO DE APERTURA, MANTENCIÓN DE CUENTAS CORRIENTES Y SERVICIOS BANCARIOS PARA LA I. MUNICIPALIDAD DE SAN RAFAEL",
-    "tipo": "LP",
-    "items": [
-     "Servicios financieros, pensiones y seguros / Banca e inversiones / Servicios de mercados de valores · Servicios de custodia de valores · SERVICIO DE APERTURA, MANTENCIÓN DE CUENTAS CORRIENTES Y SERVICIOS BANCARIOS PARA LA I. MUNICIPALIDAD DE SAN RAFAEL"
-    ],
-    "fuente_financiamiento": ""
    }
   },
   {
@@ -3040,88 +2830,6 @@
      "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · CONSTRUCCIÓN SISTEMA AGUA POTABLE POR ACARREO, LOCALIDAD LA JARILLA, ANDACOLLO"
     ],
     "fuente_financiamiento": ""
-   }
-  },
-  {
-   "palabras": [
-    "cuenca"
-   ],
-   "registro": {
-    "id": "673663-47-LR26",
-    "nombre": "Servicios Bancarios Y Abonos De Intereses Por Saldos En Cuentas Corrientes De La Municipalidad De Andacollo",
-    "entidad": "I MUNICIPALIDAD DE ANDACOLLO - Secplan",
-    "region": "Coquimbo",
-    "comuna": "Andacollo",
-    "fpub": "27-10-2026",
-    "monto_raw": "No informado en ficha pública",
-    "monto_num": null,
-    "plazo": "0 horas",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=673663-47-LR26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "01-12-2026 12:00",
-    "fcierre_iso": "2026-12-01T12:00:00",
-    "finicio_preguntas_raw": "27-10-2026 20:35",
-    "finicio_preguntas_iso": "2026-10-27T20:35:00",
-    "ffinal_preguntas_raw": "01-11-2026 20:35",
-    "ffinal_preguntas_iso": "2026-11-01T20:35:00",
-    "frespuestas_raw": "11-11-2026 20:35",
-    "frespuestas_iso": "2026-11-11T20:35:00",
-    "fapertura_tecnica_raw": "01-12-2026 12:05",
-    "fapertura_tecnica_iso": "2026-12-01T12:05:00",
-    "fapertura_economica_raw": "01-12-2026 12:05",
-    "fapertura_economica_iso": "2026-12-01T12:05:00",
-    "fadjudicacion_raw": "31-12-2026 12:17",
-    "fadjudicacion_iso": "2026-12-31T12:17:00"
-   },
-   "contexto": {
-    "descripcion": "Servicios Bancarios Y Abonos De Intereses Por Saldos En Cuentas Corrientes De La Municipalidad De Andacollo",
-    "tipo": "LR",
-    "items": [
-     "Organizaciones y consultorías políticas, demográficas, económicas, sociales y de administración pública / Administración y finanzas públicas / Finanzas públicas · Servicios bancarios gubernamentales o centrales · Servicios Bancarios Y Abonos De Intereses Por Saldos En Cuentas Corrientes De La Municipalidad De Andacollo"
-    ],
-    "fuente_financiamiento": ""
-   }
-  },
-  {
-   "palabras": [
-    "cuenca"
-   ],
-   "registro": {
-    "id": "691232-8-LP26",
-    "nombre": "SERVICIO DE CUENTAS CORRIENTES BANCARIAS",
-    "entidad": "DIRECCION DE ABASTECIMIENTO DE LA ARMADA - ADM. FINANCIERO DEL SISTEMA DE SALUD DE LA ARMADA",
-    "region": "Valparaíso",
-    "comuna": "Viña del Mar",
-    "fpub": "22-10-2026",
-    "monto_raw": "No informado en ficha pública",
-    "monto_num": null,
-    "plazo": "60 meses",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=691232-8-LP26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "23-11-2026 15:01",
-    "fcierre_iso": "2026-11-23T15:01:00",
-    "finicio_preguntas_raw": "22-10-2026 18:30",
-    "finicio_preguntas_iso": "2026-10-22T18:30:00",
-    "ffinal_preguntas_raw": "06-11-2026 23:59",
-    "ffinal_preguntas_iso": "2026-11-06T23:59:00",
-    "frespuestas_raw": "13-11-2026 23:59",
-    "frespuestas_iso": "2026-11-13T23:59:00",
-    "fapertura_tecnica_raw": "23-11-2026 15:30",
-    "fapertura_tecnica_iso": "2026-11-23T15:30:00",
-    "fapertura_economica_raw": "23-11-2026 15:30",
-    "fapertura_economica_iso": "2026-11-23T15:30:00",
-    "fadjudicacion_raw": "14-12-2026 18:00",
-    "fadjudicacion_iso": "2026-12-14T18:00:00"
-   },
-   "contexto": {
-    "descripcion": "El Administrador Financiero del Sistema de Salud de la Armada, llama a presentar propuestas, para proveer el servicio de cuentas corrientes bancarias, para el manejo y administración de los recursos financieros a que se refieren los artículos 28°, 30° y 33° de la Ley N°19.465. Este servicio debe ser sin ningún tipo de costo, por mantención u operación y remunerar en base al Saldo Promedio Mensual Disponible (SPMD). La oferta de la entidad bancaria, debe considerar además la implementación, igualmente sin costo de un servicio de pago a proveedores y/o personas naturales y traspaso de recursos al extranjero. ",
-    "tipo": "LP",
-    "items": [
-     "Servicios financieros, pensiones y seguros / Banca e inversiones / Instituciones bancarias · Bancos privados · SERVICIO DE CUENTAS CORRIENTES BANCARIAS, PARA LOS FONDOS DE SALUD DE LA ARMADA."
-    ],
-    "fuente_financiamiento": "FONDOS DE SALUD"
    }
   },
   {
