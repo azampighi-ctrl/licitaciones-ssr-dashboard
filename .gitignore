@@ -1,0 +1,5 @@
+node_modules/
+public/index.html
+.vercel
+.env*
+.DS_Store

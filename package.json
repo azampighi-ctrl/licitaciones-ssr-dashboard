@@ -1,0 +1,13 @@
+{
+  "name": "licitaciones-ssr-dashboard",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Dashboard de licitaciones SSR/APR y Gestión Hídrica en Mercado Público — Hidrogestión SpA",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "etapas": "node scripts/actualizar_etapas.js",
+    "integrar": "node scripts/integrar_barrido.js",
+    "check": "node scripts/actualizar_etapas.js --check && node scripts/build.js"
+  },
+  "engines": { "node": ">=18" }
+}

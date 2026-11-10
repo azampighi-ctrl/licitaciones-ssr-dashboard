@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Licitaciones SSR/APR — Hidrogestión</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#00416B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Licitaciones HDG">
+<style>
+  :root{
+    /* Paleta corporativa Hidrogestión SpA */
+    --hdg-900:#00416B; --hdg-800:#004788; --hdg-700:#00609C; --hdg-green:#7EBC00; --hdg-green-2:#60A512;
+    --blue-900:#00416B; --blue-700:#00609C; --blue-100:#E1EEF6;
+    --gray-50:#F5F8FA; --gray-100:#EDF1F4; --gray-200:#DCE3E8; --gray-400:#7D8A96; --gray-700:#33414D;
+    --green:#3F7F00; --green-bg:#EEF7DE;
+    --orange:#B5650A; --orange-bg:#FCEEDD;
+    --red:#C0392B; --red-bg:#FBE7E5;
+    --white:#FFFFFF;
+    --sb-w:268px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; font-family:"Trebuchet MS", "Segoe UI", Arial, sans-serif; background:var(--gray-50); color:var(--gray-700);
+  }
+
+  /* ── Encabezado ─────────────────────────────────────────── */
+  header.app-header{
+    background:var(--white); border-bottom:3px solid var(--hdg-green);
+    padding:14px 24px; display:flex; align-items:center; gap:24px; flex-wrap:wrap;
+    position:relative; z-index:20;
+  }
+  .brand{ display:flex; align-items:center; gap:18px; min-width:0; }
+  .brand img{ height:44px; width:auto; display:block; }
+  .brand-text{ border-left:1px solid var(--gray-200); padding-left:18px; }
+  .brand-text h1{ margin:0; font-size:17px; color:var(--hdg-900); font-weight:bold; letter-spacing:.01em; }
+  .brand-text .subtitle{ font-size:12px; color:var(--gray-400); margin-top:2px; }
+  .head-stats{ display:flex; gap:10px; margin-left:auto; flex-wrap:wrap; }
+  .stat{ background:var(--gray-50); border:1px solid var(--gray-200); border-radius:8px; padding:6px 12px; min-width:92px; }
+  .stat-label{ font-size:10.5px; text-transform:uppercase; letter-spacing:.04em; color:var(--gray-400); }
+  .stat-value{ font-size:18px; font-weight:bold; color:var(--hdg-900); line-height:1.25; font-variant-numeric:tabular-nums; }
+  .stat-value.small{ font-size:13px; padding-top:3px; }
+  .stat.alert .stat-value{ color:var(--red); }
+
+  /* ── Estructura con barra lateral ───────────────────────── */
+  .app{ display:grid; grid-template-columns:var(--sb-w) minmax(0,1fr); min-height:calc(100vh - 75px); transition:grid-template-columns .2s ease; }
+  body.sb-min{ --sb-w:68px; }
+  aside.sidebar{
+    background:var(--hdg-900); color:var(--white); position:sticky; top:0; align-self:start;
+    height:100vh; overflow-y:auto; overflow-x:hidden; display:flex; flex-direction:column; padding:10px 0 14px;
+  }
+  .sb-toggle{
+    display:flex; align-items:center; gap:12px; margin:0 10px 8px; padding:9px 12px; border:none; border-radius:8px;
+    background:rgba(255,255,255,.08); color:#CFE0EC; cursor:pointer; font:inherit; font-size:12px; text-align:left;
+  }
+  .sb-toggle:hover{ background:rgba(255,255,255,.16); color:var(--white); }
+  .sb-toggle svg{ flex-shrink:0; transition:transform .2s ease; }
+  body.sb-min .sb-toggle svg{ transform:rotate(180deg); }
+  .sb-group{ font-size:10.5px; text-transform:uppercase; letter-spacing:.08em; color:#8FB3CC; padding:14px 22px 6px; white-space:nowrap; }
+  .nav-item{
+    position:relative; display:flex; align-items:center; gap:12px; width:calc(100% - 20px); margin:2px 10px; padding:10px 12px;
+    border:none; border-radius:8px; background:transparent; color:#DCEAF3; cursor:pointer; font:inherit; font-size:13.5px; text-align:left;
+  }
+  .nav-item:hover{ background:rgba(255,255,255,.09); color:var(--white); }
+  .nav-item.active{ background:rgba(255,255,255,.14); color:var(--white); font-weight:bold; }
+  .nav-item.active::before{ content:""; position:absolute; left:-10px; top:8px; bottom:8px; width:4px; border-radius:0 3px 3px 0; background:var(--hdg-green); }
+  .nav-item:focus-visible, .sb-toggle:focus-visible{ outline:2px solid var(--hdg-green); outline-offset:1px; }
+  .nav-ico{ width:22px; height:22px; flex-shrink:0; display:grid; place-items:center; }
+  .nav-label{ flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .nav-count{ font-size:11px; font-weight:bold; background:rgba(255,255,255,.14); color:var(--white); border-radius:10px; padding:1px 8px; font-variant-numeric:tabular-nums; }
+  .nav-item.active .nav-count{ background:var(--hdg-green); color:var(--hdg-900); }
+  .sb-foot{ margin-top:auto; padding:14px 22px 0; font-size:11px; color:#8FB3CC; line-height:1.45; }
+  body.sb-min .nav-label, body.sb-min .sb-group, body.sb-min .sb-foot, body.sb-min .sb-toggle span{ display:none; }
+  body.sb-min .sb-toggle{ justify-content:center; padding:9px 0; }
+  body.sb-min .nav-item{ justify-content:center; padding:11px 0; }
+  body.sb-min .nav-count{ position:absolute; top:3px; right:5px; font-size:9.5px; padding:0 5px; line-height:15px; }
+  body.sb-min .sb-sep{ height:1px; background:rgba(255,255,255,.14); margin:10px 16px; }
+  .sb-sep{ display:none; }
+  body.sb-min .sb-sep{ display:block; }
+  .sb-backdrop{ display:none; }
+
+  main{ padding:22px 28px 60px; min-width:0; max-width:1400px; width:100%; }
+
+  .urgent-card{
+    background:var(--white); border:1px solid var(--gray-200); border-left:4px solid var(--red);
+    border-radius:8px; padding:14px 18px; margin-bottom:20px; display:none;
+  }
+  .urgent-card h2{ margin:0 0 8px; font-size:14px; color:var(--red); }
+  .urgent-row{ display:flex; gap:12px; align-items:flex-start; padding:8px 0; border-bottom:1px solid var(--gray-100); font-size:12.5px; }
+  .urgent-row:last-child{ border-bottom:none; }
+  .urgent-ms{ flex-shrink:0; min-width:86px; text-align:center; padding-top:1px; }
+  .urgent-body a{ color:var(--blue-900); font-weight:bold; text-decoration:none; }
+  .urgent-body a:hover{ text-decoration:underline; }
+
+  .search-bar{ margin-bottom:16px; }
+  #global-search{
+    width:100%; max-width:560px; padding:9px 12px; border:1px solid var(--gray-200); border-radius:8px;
+    font-size:13px; font-family:inherit; background:var(--white);
+  }
+  #global-search:focus{ outline:none; border-color:var(--blue-700); box-shadow:0 0 0 2px rgba(0,96,156,0.15); }
+
+  .hdg-badge{ display:inline-block; margin-left:6px; padding:1px 7px; border-radius:9px; font-size:10.5px; font-weight:bold; background:var(--green-bg); color:var(--green); white-space:nowrap; }
+  .ofer-row.es-hdg{ background:var(--green-bg); }
+
+  .category-block{ margin-bottom:28px; }
+  .category-block.hidden{ display:none; }
+  /* Pestaña Postulaciones HDG */
+  tr.post-detail{ display:none; }
+  tr.post-detail.open{ display:table-row; }
+  .oferentes-toggle{ background:var(--blue-700); color:#fff; border:none; padding:4px 9px; border-radius:5px; cursor:pointer; font-size:12px; white-space:nowrap; }
+  .oferentes-toggle.open{ background:var(--blue-900); }
+  .ofer-box{ padding:6px 4px; display:flex; flex-direction:column; gap:4px; }
+  .ofer-row{ display:flex; align-items:center; gap:10px; padding:5px 9px; background:var(--gray-50,#f6f8fc); border-radius:5px; }
+  .ofer-name{ flex:1; font-weight:600; }
+  .ofer-monto{ font-variant-numeric:tabular-nums; color:var(--blue-900,#1F3864); font-weight:600; }
+  .post-toolbar{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:10px; padding:10px 12px; background:var(--gray-50,#f6f8fc); border:1px solid var(--gray-200,#e2e8f0); border-radius:8px; }
+  .post-nota{ font-size:12px; color:#5f6b7a; flex:1; min-width:220px; }
+  /* Edición de postulaciones */
+  .post-btn{ display:inline-block; margin-top:8px; background:var(--white); color:var(--blue-700); border:1px solid var(--blue-700); border-radius:14px; padding:3px 10px; font-size:11.5px; cursor:pointer; white-space:nowrap; font-family:inherit; }
+  .post-btn:hover{ background:var(--blue-100); }
+  .post-btn.on{ background:var(--green-bg); color:var(--green); border-color:var(--green); }
+  .post-btn:disabled, .post-sel:disabled, .post-notas:disabled{ opacity:.55; cursor:wait; }
+  .post-sel{ border:1px solid var(--gray-200); border-radius:5px; padding:4px 6px; font-size:12px; font-family:inherit; background:var(--white); }
+  .post-notas{ width:100%; min-width:160px; min-height:34px; border:1px solid var(--gray-200); border-radius:5px; padding:5px 7px; font-size:12px; font-family:inherit; resize:vertical; }
+  .post-sel:focus, .post-notas:focus{ outline:none; border-color:var(--blue-700); box-shadow:0 0 0 2px rgba(0,96,156,0.15); }
+  .post-quitar{ background:none; border:none; color:var(--gray-400); font-size:11px; cursor:pointer; padding:4px 0 0; text-decoration:underline; font-family:inherit; }
+  .post-quitar:hover{ color:var(--red); }
+  .post-meta{ font-size:10.5px; color:var(--gray-400); margin-top:4px; }
+  .link-btn{ background:var(--white); border:1px solid var(--gray-200); border-radius:6px; padding:6px 12px; font-size:12px; cursor:pointer; color:var(--gray-700); font-family:inherit; }
+  .link-btn:hover{ border-color:var(--blue-700); color:var(--blue-700); }
+  .toast{ position:fixed; left:50%; bottom:22px; transform:translateX(-50%); background:var(--blue-900); color:#fff; padding:10px 16px; border-radius:8px; font-size:13px; box-shadow:0 4px 14px rgba(0,0,0,.18); z-index:50; max-width:calc(100% - 32px); opacity:0; transition:opacity .2s; pointer-events:none; }
+  .toast.show{ opacity:1; }
+  .toast.error{ background:var(--red); }
+  .todas-seccion{ margin-bottom:22px; }
+  .seccion-titulo{ font-size:14px; color:var(--blue-900); margin:0 0 8px; padding-bottom:4px; border-bottom:2px solid var(--hdg-green); display:flex; align-items:center; gap:8px; }
+  .seccion-titulo svg{ color:var(--blue-700); }
+  .category-header{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:10px; }
+  .category-header h3{ margin:0; font-size:18px; color:var(--blue-900); display:flex; align-items:center; gap:10px; }
+  .category-header h3 svg{ color:var(--blue-700); }
+  .category-desc{ font-size:12.5px; color:var(--gray-400); margin:-4px 0 12px; }
+  .category-count{ font-size:12px; color:var(--gray-400); }
+  .category-empty{ background:var(--white); border:1px dashed var(--gray-200); border-radius:8px; padding:18px; text-align:center; color:var(--gray-400); font-size:12.5px; font-style:italic; }
+
+  .table-wrap{ overflow-x:visible; }
+  table.tenders{ width:100%; border-collapse:collapse; background:var(--white); border:1px solid var(--gray-200); border-radius:8px; overflow:hidden; font-size:12.5px; }
+  table.tenders thead tr.header-row th{ background:var(--blue-900); color:var(--white); text-align:left; padding:9px 10px; font-weight:bold; white-space:nowrap; position:sticky; top:0; z-index:2; }
+  table.tenders thead tr.filter-row td{ background:var(--gray-50); padding:6px 8px; border-bottom:2px solid var(--blue-700); }
+  table.tenders td{ padding:9px 10px; border-bottom:1px solid var(--gray-100); vertical-align:top; }
+  table.tenders tbody tr:hover td{ background:var(--gray-50); }
+  table.tenders tbody tr:last-child td{ border-bottom:none; }
+
+  th.sortable-th{ cursor:pointer; user-select:none; }
+  th.sortable-th:hover{ background:var(--blue-700); }
+  .sort-arrow{ display:inline-block; width:10px; font-size:10px; }
+
+  .col-filter{
+    width:100%; box-sizing:border-box; border:1px solid var(--gray-200); border-radius:4px;
+    padding:4px 6px; font-size:11.5px; font-family:inherit;
+  }
+  .col-filter:focus{ outline:none; border-color:var(--blue-700); box-shadow:0 0 0 2px rgba(0,96,156,0.15); }
+
+  .tender-name{ font-weight:bold; color:var(--blue-900); margin-bottom:2px; }
+  .tender-meta{ color:var(--gray-400); font-size:11.5px; }
+  .tender-id{ color:var(--gray-400); font-size:11px; margin-top:2px; }
+
+  .badge{ display:inline-block; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:bold; }
+  .badge-red{ background:var(--red-bg); color:var(--red); }
+  .badge-orange{ background:var(--orange-bg); color:var(--orange); }
+  .badge-green{ background:var(--green-bg); color:var(--green); }
+  .badge-gray{ background:var(--gray-100); color:var(--gray-400); }
+  .badge-blue{ background:var(--blue-100); color:var(--blue-700); }
+  .badge-avoid{ background:var(--red-bg); color:var(--red); margin-top:3px; }
+
+  .closing-cell .badge{ display:block; margin-top:4px; width:fit-content; }
+  .hito-next{ font-size:11.5px; color:var(--gray-700); margin-top:5px; }
+  .hito-next .badge{ display:inline-block; margin-top:2px; }
+  .monto-na{ color:var(--gray-400); font-size:11px; font-style:italic; }
+
+  .preguntas-cell .preguntas-row{ font-size:11.5px; margin-bottom:2px; color:var(--gray-700); }
+  .preguntas-cell .badge{ display:block; margin-top:4px; width:fit-content; }
+  .preguntas-na{ color:var(--gray-400); font-size:11px; font-style:italic; }
+
+  tr.tr-avoid td{ background:#FCEEEC; }
+  tr.tr-avoid td:first-child{ border-left:4px solid var(--red); }
+  tr.tr-avoid:hover td{ background:#FAD9D5; }
+
+  .empty-row td{ text-align:center; color:var(--gray-400); padding:20px; font-style:italic; }
+
+  .mp-link{ color:var(--blue-700); font-weight:bold; text-decoration:none; font-size:11.5px; }
+  .mp-link:hover{ text-decoration:underline; }
+
+  footer.app-footer{ font-size:11px; color:var(--gray-400); padding:18px 28px; border-top:1px solid var(--gray-200); }
+  footer.app-footer p{ margin:3px 0; }
+
+  @media (max-width: 900px){
+    header.app-header{ padding:10px 14px; gap:12px; }
+    .brand img{ height:34px; }
+    .brand-text{ display:none; }
+    .head-stats{ margin-left:0; width:100%; gap:6px; }
+    .stat{ min-width:0; flex:1 1 30%; padding:5px 8px; }
+    .stat-value{ font-size:15px; }
+    main{ padding:16px 12px 40px; }
+    .table-wrap{ overflow-x:auto; -webkit-overflow-scrolling:touch; }
+    table.tenders{ min-width:920px; }
+    table.tenders thead tr.header-row th{ position:static; }
+    /* En pantallas angostas la barra parte plegada y al abrirse se superpone al contenido */
+    .app{ grid-template-columns:60px minmax(0,1fr); }
+    aside.sidebar{ width:60px; z-index:30; transition:width .2s ease; }
+    body:not(.sb-min) aside.sidebar{ width:268px; position:fixed; left:0; top:0; box-shadow:4px 0 18px rgba(0,0,0,.25); }
+    body:not(.sb-min) .sb-backdrop{ display:block; position:fixed; inset:0; background:rgba(0,30,50,.35); z-index:25; }
+  }
+</style>
+</head>
+<body>
+<header class="app-header">
+<div class="brand">
+<img alt="Hidrogestión — Soluciones que crean valor" height="129" src="/img/logo-hidrogestion.png" width="640"/>
+<div class="brand-text">
+<h1>Licitaciones SSR/APR y Gestión Hídrica</h1>
+<div class="subtitle" id="meta-line">Monitoreo diario de Mercado Público </div>
+</div>
+</div>
+<div class="head-stats" id="head-stats"></div>
+</header>
+<div class="app">
+<aside aria-label="Categorías" class="sidebar" id="sidebar">
+<button aria-controls="sidebar" aria-expanded="true" class="sb-toggle" id="sb-toggle" title="Plegar o desplegar la barra" type="button">
+<svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="18"><path d="M15 18l-6-6 6-6"></path><path d="M20 4v16"></path></svg>
+<span>Plegar menú</span>
+</button>
+<nav id="nav"></nav>
+<div class="sb-foot" id="sb-foot"></div>
+</aside>
+<div class="sb-backdrop" id="sb-backdrop"></div>
+<main>
+<div class="urgent-card" id="urgentes"></div>
+<div class="search-bar">
+<input id="global-search" placeholder="🔎 Buscar en todas las vistas: nombre, entidad, ID, región, comuna, estado…" type="search"/>
+</div>
+<div id="categories"></div>
+<footer class="app-footer" id="footer"></footer>
+</main>
+</div>
+
+<script>
+const TENDERS = /*__TENDERS__*/[];
+
+const ACTIVE_CATEGORIES = ["Diseños SSR/APR", "Estudios Hidrogeológicos", "Estudio Tarifario", "Diagnósticos Técnicos", "Gestión Hídrica"];
+const GESTION_HIDRICA = "Gestión Hídrica";
+const POST_CIERRE_CATEGORIES = ["Apertura Oferta Técnica", "Apertura Oferta Económica", "Resultados"];
+// Pestaña transversal: licitaciones a las que HDG postuló (flag `aplicamos`),
+// independiente de la etapa (categoria_display). Reemplaza en la barra a "Pasadas".
+const POSTULACIONES = "Postulaciones HDG";
+
+// ── Vistas de la barra lateral ─────────────────────────────────────────────
+// Vigentes: aún se puede ofertar (fecha de cierre futura). Seguimiento: post-cierre.
+const SSR_CATS = ["Diseños SSR/APR", "Diagnósticos Técnicos", "Estudio Tarifario"];
+const EVALUACION = "En evaluación";
+const PASADAS = "Pasadas";
+const ICONOS = {
+  "Todas": '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+  "SSR": '<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M12 11.5c-1.6 2-2.4 3.3-2.4 4.3a2.4 2.4 0 0 0 4.8 0c0-1-.8-2.3-2.4-4.3z"/>',
+  "Estudios Hidrogeológicos": '<path d="M3 7c2.5-1.5 4.5-1.5 7 0s4.5 1.5 7 0 3-1 4-1"/><path d="M3 12c2.5-1.5 4.5-1.5 7 0s4.5 1.5 7 0 3-1 4-1"/><path d="M3 17c2.5-1.5 4.5-1.5 7 0s4.5 1.5 7 0 3-1 4-1"/><path d="M12 3v18"/>',
+  "Gestión Hídrica": '<path d="M2 8c2 1.6 4 1.6 6 0s4-1.6 6 0 4 1.6 6 0"/><path d="M2 13c2 1.6 4 1.6 6 0s4-1.6 6 0 4 1.6 6 0"/><path d="M2 18c2 1.6 4 1.6 6 0s4-1.6 6 0 4 1.6 6 0"/>',
+  "En evaluación": '<path d="M6 3h12"/><path d="M6 21h12"/><path d="M7 3c0 5 5 6 5 9s-5 4-5 9"/><path d="M17 3c0 5-5 6-5 9s5 4 5 9"/>',
+  "Postulaciones HDG": '<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2.8h6V4"/><path d="M8.5 13l2.5 2.5 4.5-5"/>',
+  "Pasadas": '<rect x="3" y="4" width="18" height="4" rx="1"/><path d="M5 8v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8"/><path d="M10 12h4"/>',
+  "Diseños SSR/APR": '<path d="M3 21h18"/><path d="M5 21V8l7-4 7 4v13"/><path d="M9 21v-6h6v6"/>',
+  "Diagnósticos Técnicos": '<circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/>',
+  "Estudio Tarifario": '<path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/>',
+};
+function icono(clave, size){
+  const d = ICONOS[clave] || ICONOS["Todas"];
+  const n = size || 20;
+  return `<svg width="${n}" height="${n}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+}
+const VISTAS = [
+  { grupo: "Vigentes", clave: "Todas", etiqueta: "Todas las vigentes", desc: "Licitaciones a las que aún se puede ofertar, agrupadas por categoría." },
+  { grupo: "Vigentes", clave: "SSR", etiqueta: "SSR / APR", desc: "Diseños, diagnósticos técnicos y estudios tarifarios de servicios sanitarios rurales." },
+  { grupo: "Vigentes", clave: "Estudios Hidrogeológicos", etiqueta: "Estudios hidrogeológicos", desc: "Estudios hidrogeológicos y geofísicos, prospección de aguas subterráneas y redes de monitoreo." },
+  { grupo: "Vigentes", clave: GESTION_HIDRICA, etiqueta: "Gestión hídrica", desc: "Planes y estrategias de gestión hídrica, estudios de cuencas y modelación hidrológica e hidráulica." },
+  { grupo: "Seguimiento", clave: EVALUACION, etiqueta: "En evaluación", desc: "Licitaciones cerradas: aperturas, oferentes y adjudicación en curso." },
+  { grupo: "Seguimiento", clave: POSTULACIONES, etiqueta: "Postulaciones HDG", desc: "Licitaciones en las que Hidrogestión SpA presentó oferta." },
+  { grupo: "Seguimiento", clave: PASADAS, etiqueta: "Pasadas", desc: "Adjudicadas, desiertas o revocadas hace más de 5 días. Se conservan para trazabilidad." },
+];
+const TABS = VISTAS.map(v => v.clave);
+const VISTA = Object.fromEntries(VISTAS.map(v => [v.clave, v]));
+const TODAS_SECCIONES = ACTIVE_CATEGORIES; // secciones por categoría dentro de "Todas"
+function esVigente(t){ const d = daysRemaining(t.fcierre_iso); return d !== null && d >= 0; }
+function tabItems(tab){
+  if(tab === POSTULACIONES) return TENDERS.filter(t => t.aplicamos === true);
+  if(tab === "SSR") return TENDERS.filter(t => esVigente(t) && SSR_CATS.includes(t.categoria));
+  if(tab === GESTION_HIDRICA) return TENDERS.filter(t => esVigente(t) && t.categoria === GESTION_HIDRICA);
+  if(tab === "Estudios Hidrogeológicos") return TENDERS.filter(t => esVigente(t) && t.categoria === "Estudios Hidrogeológicos");
+  if(tab === EVALUACION) return TENDERS.filter(t => !esVigente(t) && t.categoria_display !== PASADAS);
+  if(tab === PASADAS) return TENDERS.filter(t => t.categoria_display === PASADAS);
+  if(tab.indexOf("Todas::") === 0){ const cat = tab.slice(7); return TENDERS.filter(t => esVigente(t) && t.categoria === cat); }
+  return TENDERS.filter(esVigente); // "Todas"
+}
+const esHdg = (nombre) => /hidrogesti/i.test(normalize(nombre || ""));
+
+const AVOID_REGIONS = ["biobio", "coquimbo"];
+
+function normalize(s){
+  return (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+}
+function isAvoidRegion(region){
+  const n = normalize(region);
+  return AVOID_REGIONS.some(r => n.includes(r));
+}
+
+function fmtCLP(n){
+  if(n === null || n === undefined) return "—";
+  return "$" + n.toLocaleString("es-CL");
+}
+
+function isoFromDMY(s){
+  const m = (s || "").match(/(\d{2})-(\d{2})-(\d{4})/);
+  return m ? `${m[3]}-${m[2]}-${m[1]}` : "";
+}
+
+function daysRemaining(iso){
+  if(!iso) return null;
+  const now = new Date();
+  const target = new Date(iso);
+  return (target - now) / (1000 * 60 * 60 * 24);
+}
+
+function fmtDiasHoras(ms){
+  const totalMin = Math.max(0, Math.floor(ms / 60000));
+  const d = Math.floor(totalMin / 1440);
+  const h = Math.floor((totalMin % 1440) / 60);
+  return `${d}d ${h}h`;
+}
+
+function closingBadge(t){
+  const d = daysRemaining(t.fcierre_iso);
+  if(d === null) return "";
+  if(d < 0) return `<span class="badge badge-gray">Cerrada</span>`;
+  const ms = new Date(t.fcierre_iso) - new Date();
+  if(d <= 2) return `<span class="badge badge-red">⏰ Cierra en ${fmtDiasHoras(ms)}</span>`;
+  if(d <= 7) return `<span class="badge badge-orange">Cierra en ${fmtDiasHoras(ms)}</span>`;
+  return `<span class="badge badge-green">Cierra en ${Math.ceil(d)} días</span>`;
+}
+
+// Próximo hito post-cierre según los datos de la ficha MP
+// (apertura técnica → apertura económica → adjudicación).
+function proximoHito(t){
+  const now = new Date();
+  const hitos = [
+    ["Apertura técnica", t.fapertura_tecnica_iso, t.fapertura_tecnica_raw],
+    ["Apertura económica", t.fapertura_economica_iso, t.fapertura_economica_raw],
+    ["Adjudicación", t.fadjudicacion_iso, t.fadjudicacion_raw]
+  ].filter(h => h[1]);
+  for(const [lbl, iso, raw] of hitos){
+    const d = new Date(iso);
+    if(d >= now) return { lbl, raw, ms: d - now };
+  }
+  return null;
+}
+
+function hitoHtml(t){
+  const h = proximoHito(t);
+  if(h) return `<div class="hito-next">➡ ${h.lbl}: ${h.raw} <span class="badge badge-blue">en ${fmtDiasHoras(h.ms)}</span></div>`;
+  if(t.fadjudicacion_raw) return `<div class="hito-next">🏁 Adjudicación: ${t.fadjudicacion_raw} (fecha cumplida)</div>`;
+  return "";
+}
+
+function preguntasBadge(t){
+  const now = new Date();
+  if(!t.finicio_preguntas_iso) return `<span class="preguntas-na">No informado</span>`;
+  const tIni = new Date(t.finicio_preguntas_iso);
+  const tFin = t.ffinal_preguntas_iso ? new Date(t.ffinal_preguntas_iso) : null;
+  const tResp = t.frespuestas_iso ? new Date(t.frespuestas_iso) : null;
+
+  if(tIni > now){
+    return `<span class="badge badge-gray">No iniciado (inicia en ${fmtDiasHoras(tIni - now)})</span>`;
+  }
+  if(tFin && tFin >= now){
+    return `<span class="badge badge-orange">Preguntas: quedan ${fmtDiasHoras(tFin - now)}</span>`;
+  }
+  if(tResp && tResp >= now){
+    return `<span class="badge badge-blue">Respuestas en ${Math.ceil(daysRemaining(t.frespuestas_iso))} día(s)</span>`;
+  }
+  if(tResp && tResp < now){
+    return `<span class="badge badge-green">Respuestas disponibles</span>`;
+  }
+  return `<span class="badge badge-gray">Esperando respuestas (sin fecha informada)</span>`;
+}
+
+// Determina si la licitación exige visita a terreno y de qué tipo.
+// Prioriza un campo estructurado `visita_terreno` (si el monitoreo lo entrega);
+// en su defecto, parsea el texto de `observaciones`.
+function visitaTerrenoInfo(t){
+  const tieneEstructurado = !!t.visita_terreno;
+  const fuente = normalize(t.visita_terreno || t.observaciones || "");
+  // Valores estructurados que significan "sin dato"
+  if(tieneEstructurado && /no informad|no aplica|no indica|sin informaci|s\/i|n\/a/.test(fuente)){
+    return { tipo: null, realizada: false };
+  }
+  if(!tieneEstructurado && !fuente.includes("visita a terreno") && !fuente.includes("visita terreno")){
+    return { tipo: null, realizada: false };
+  }
+  const realizada = /realiz/.test(fuente);
+  if(/no\s+(exige|requiere|contempla|hay)/.test(fuente) || /sin visita/.test(fuente)){
+    return { tipo: "No exige", realizada: false };
+  }
+  if(fuente.includes("oblig")) return { tipo: "Obligatoria", realizada };
+  if(fuente.includes("opcion") || fuente.includes("volunt")) return { tipo: "Opcional", realizada };
+  return { tipo: "Exige", realizada };
+}
+
+function visitaBadge(t){
+  const info = visitaTerrenoInfo(t);
+  if(!info.tipo) return `<span class="preguntas-na">No indica</span>`;
+  const clsMap = { "Obligatoria":"badge-red", "Opcional":"badge-blue", "Exige":"badge-orange", "No exige":"badge-gray" };
+  const cls = clsMap[info.tipo] || "badge-gray";
+  let html = `<span class="badge ${cls}">${info.tipo === "Exige" ? "Exige visita" : info.tipo}</span>`;
+  const fechaRaw = t.visita_terreno_fecha;
+  if(fechaRaw){
+    const iso = isoFromDMY(fechaRaw);
+    const pasada = iso && new Date(iso) < new Date(new Date().toDateString());
+    html += `<div class="tender-meta" style="margin-top:3px;">📍 ${fechaRaw}${pasada ? " · ya realizada" : ""}</div>`;
+  } else if(info.realizada){
+    html += `<div class="tender-meta" style="margin-top:3px;">ya realizada</div>`;
+  }
+  return html;
+}
+
+function estadoBadge(estado){
+  const e = estado || "";
+  if(/urgente/i.test(e)) return `<span class="badge badge-red">${e}</span>`;
+  if(/no participar|exclusi/i.test(e)) return `<span class="badge badge-gray">${e}</span>`;
+  if(/alta relevancia/i.test(e)) return `<span class="badge badge-blue">${e}</span>`;
+  return `<span class="badge badge-orange">${e}</span>`;
+}
+
+const COLUMNS = [
+  {
+    key: "ngrupo", label: "N°", sortable: false, filterable: false,
+    render: (t, i) => `<strong>${i + 1}</strong>`
+  },
+  {
+    key: "tender", label: "Licitación", sortable: true, filterable: true,
+    sortVal: t => (t.nombre || "").toLowerCase(),
+    filterVal: t => `${t.nombre} ${t.entidad} ${t.id}`.toLowerCase(),
+    render: t => `<div class="tender-name">${t.nombre}</div><div class="tender-meta">${t.entidad}</div><div class="tender-id">${t.id}${t.fdeteccion ? " · Detectada: " + t.fdeteccion : ""}</div>`
+  },
+  {
+    key: "region", label: "Región / Comuna", sortable: true, filterable: true,
+    sortVal: t => (t.region || "").toLowerCase(),
+    filterVal: t => `${t.region} ${t.comuna}`.toLowerCase(),
+    render: t => `${t.region}<br><span class="tender-meta">${t.comuna}</span>` + (isAvoidRegion(t.region) ? `<br><span class="badge badge-avoid" title="Región fuera de foco prioritario de Hidrogestión">⚠ Evitar</span>` : "")
+  },
+  {
+    key: "fpub", label: "Publicación", sortable: true, filterable: true,
+    sortVal: t => isoFromDMY(t.fpub),
+    filterVal: t => (t.fpub || "").toLowerCase(),
+    render: t => t.fpub
+  },
+  {
+    key: "fcierre", label: "Cierre / Próximo hito", sortable: true, filterable: true,
+    sortVal: t => t.fcierre_iso || "",
+    filterVal: t => (t.fcierre_raw || "").toLowerCase(),
+    render: t => {
+      const postCierre = POST_CIERRE_CATEGORIES.includes(t.categoria_display) || t.categoria_display === "Pasadas";
+      if(postCierre){
+        return `<div class="closing-cell">${t.fcierre_raw}<span class="badge badge-gray">Cerrada</span>${hitoHtml(t)}</div>`;
+      }
+      return `<div class="closing-cell">${t.fcierre_raw}${closingBadge(t)}</div>`;
+    }
+  },
+  {
+    key: "preguntas", label: "Preguntas / Resp.", sortable: true, filterable: false,
+    sortVal: t => t.ffinal_preguntas_iso || "",
+    render: t => {
+      if(!t.finicio_preguntas_raw) return `<span class="preguntas-na">No informado</span>`;
+      return `<div class="preguntas-cell">
+        <div class="preguntas-row">🗓 Ini: ${t.finicio_preguntas_raw}</div>
+        <div class="preguntas-row">⏱ Fin: ${t.ffinal_preguntas_raw}</div>
+        <div class="preguntas-row">📢 Resp: ${t.frespuestas_raw || "—"}</div>
+        ${preguntasBadge(t)}
+      </div>`;
+    }
+  },
+  {
+    key: "visita", label: "Visita a terreno", sortable: true, filterable: false,
+    sortVal: t => { const i = visitaTerrenoInfo(t); return i.tipo === "Obligatoria" ? "1" : (i.tipo ? "2" : "3"); },
+    render: t => visitaBadge(t)
+  },
+  {
+    key: "monto", label: "Monto estimado", sortable: true, filterable: true,
+    sortVal: t => (t.monto_num === null || t.monto_num === undefined) ? -1 : t.monto_num,
+    filterVal: t => (t.monto_num ? fmtCLP(t.monto_num) : (t.monto_raw || "")).toLowerCase(),
+    render: t => t.monto_num ? `<strong>${fmtCLP(t.monto_num)}</strong>` : `<span class="monto-na">${t.monto_raw}</span>`
+  },
+  {
+    key: "estado", label: "Estado", sortable: true, filterable: true,
+    sortVal: t => (t.estado || "").toLowerCase(),
+    filterVal: t => `${t.estado || ""} ${t.estado_mp || ""}`.toLowerCase(),
+    render: t => estadoBadge(t.estado) + (t.estado_mp ? `<div class="tender-meta" style="margin-top:3px;">MP: ${t.estado_mp}</div>` : "")
+  },
+  {
+    key: "link", label: "", sortable: false, filterable: false,
+    render: t => `<a class="mp-link" href="${t.link}" target="_blank" rel="noopener">Ver ficha →</a><br>${postBtnHtml(t)}`
+  }
+];
+
+// ── Pestaña "Postulaciones HDG" ────────────────────────────────────────────
+// Vista transversal de licitaciones con aplicamos===true. Columnas fijas:
+// apertura técnica/económica/adjudicación + resultado + oferentes (nombre y monto).
+function resultadoBadge(r){
+  const m = { "Adjudicada":"badge-green", "No adjudicada":"badge-gray", "Desierta":"badge-gray", "Pendiente":"badge-orange" };
+  return `<span class="badge ${m[r] || "badge-orange"}">${r || "Pendiente"}</span>`;
+}
+function fmtHitoCell(raw, iso){
+  if(!raw) return `<span class="preguntas-na">—</span>`;
+  const past = iso && new Date(iso) <= new Date();
+  return `${raw}${past ? ` <span class="badge badge-gray">✓</span>` : ""}`;
+}
+function oferentesResumen(t){
+  const of = Array.isArray(t.oferentes) ? t.oferentes : [];
+  const hdg = of.some(o => esHdg(o.nombre)) ? `<div style="margin-top:5px;"><span class="hdg-badge">Hidrogestión ofertó</span></div>` : "";
+  if(of.length) return `<button class="oferentes-toggle" data-id="${t.id}">▸ ${of.length} oferente${of.length > 1 ? "s" : ""}</button>${hdg}`;
+  const aperturaPasada = t.fapertura_tecnica_iso && new Date(t.fapertura_tecnica_iso) <= new Date();
+  return aperturaPasada
+    ? `<span class="badge badge-gray">Sin datos aún</span>`
+    : `<span class="preguntas-na">Pendiente apertura</span>`;
+}
+function oferentesDetalleHtml(t){
+  const of = Array.isArray(t.oferentes) ? t.oferentes : [];
+  if(!of.length) return "";
+  const rows = of.map(o => {
+    const rechazada = o.estado === "Rechazada";
+    const montoTxt = (o.monto === null || o.monto === undefined || o.monto === "") ? (rechazada ? "" : "—") : fmtCLP(o.monto);
+    const estBadge = rechazada ? ` <span class="badge badge-gray">Rechazada</span>` : "";
+    const adj = o.adjudicado ? ` <span class="badge badge-green">✔ Adjudicado</span>` : "";
+    return `<div class="ofer-row${esHdg(o.nombre) ? " es-hdg" : ""}"><span class="ofer-name">${o.nombre}</span><span class="ofer-monto">${montoTxt}</span>${estBadge}${adj}</div>`;
+  }).join("");
+  return `<div class="ofer-box">${rows}</div>`;
+}
+// ── Registro de postulaciones (guardado en GitHub vía /api/postulaciones) ───
+const RESULTADOS_HDG = ["Pendiente", "Adjudicada", "No adjudicada", "Desierta"];
+const API_POST = "/api/postulaciones";
+const guardando = new Set();
+
+function esc(s){
+  return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c]));
+}
+function postBtnHtml(t){
+  const dis = guardando.has(t.id) ? " disabled" : "";
+  return t.aplicamos
+    ? `<button class="post-btn on" data-post-toggle="${t.id}" title="Quitar de Postulaciones HDG"${dis}>✓ Postulada</button>`
+    : `<button class="post-btn" data-post-toggle="${t.id}" title="Marcar que Hidrogestión postuló"${dis}>＋ Postulamos</button>`;
+}
+function leerCredenciales(){
+  try{ return JSON.parse(localStorage.getItem("hdg_dash_editor")) || {}; }catch(e){ return {}; }
+}
+function guardarCredenciales(c){
+  try{ localStorage.setItem("hdg_dash_editor", JSON.stringify(c)); }catch(e){}
+}
+function pedirCredenciales(forzar){
+  const c = leerCredenciales();
+  if(c.clave && !forzar) return c;
+  const clave = prompt("Clave de edición del equipo (la entrega quien administra el dashboard):", forzar ? "" : (c.clave || ""));
+  if(!clave) return null;
+  const por = prompt("¿Tu nombre? (queda registrado junto al cambio)", c.por || "") || "";
+  const nueva = { clave: clave.trim(), por: por.trim() };
+  guardarCredenciales(nueva);
+  return nueva;
+}
+let toastTimer;
+function toast(msg, error){
+  let el = document.getElementById("toast");
+  if(!el){ el = document.createElement("div"); el.id = "toast"; el.className = "toast"; el.setAttribute("role", "status"); document.body.appendChild(el); }
+  el.textContent = msg;
+  el.classList.toggle("error", !!error);
+  el.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove("show"), error ? 6000 : 3000);
+}
+function aplicarRegistro(reg){
+  TENDERS.forEach(t => {
+    const p = reg[t.id] || {};
+    t.aplicamos = p.aplicamos === true;
+    t.resultado_hdg = p.resultado_hdg || "Pendiente";
+    t.notas_hdg = p.notas || "";
+    t.post_actualizado = p.actualizado || "";
+    t.post_por = p.actualizado_por || "";
+  });
+}
+function refrescarVistas(){
+  TABS.forEach(cat => renderTbody(cat));
+  actualizarContadores();
+}
+async function guardarPostulacion(t, cambios){
+  const cred = pedirCredenciales(false);
+  if(!cred) return;
+  const previo = { aplicamos: t.aplicamos, resultado_hdg: t.resultado_hdg, notas_hdg: t.notas_hdg };
+  Object.assign(t, cambios);                       // actualización optimista
+  guardando.add(t.id); refrescarVistas();
+  try{
+    const r = await fetch(API_POST, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Authorization": `Bearer ${cred.clave}` },
+      body: JSON.stringify({ id: t.id, nombre: t.nombre, aplicamos: t.aplicamos, resultado_hdg: t.resultado_hdg, notas: t.notas_hdg, por: cred.por })
+    });
+    const j = await r.json().catch(() => ({}));
+    if(r.status === 401){ guardarCredenciales({ por: cred.por }); throw new Error("Clave incorrecta. Vuelve a intentarlo para ingresarla de nuevo."); }
+    if(!r.ok) throw new Error(j.error || `Error ${r.status}`);
+    if(j.registro) aplicarRegistro(j.registro);
+    toast("Cambio guardado ✓");
+  }catch(e){
+    Object.assign(t, previo);
+    toast(`No se pudo guardar: ${e.message}`, true);
+  }finally{
+    guardando.delete(t.id); refrescarVistas();
+  }
+}
+async function cargarRegistro(){
+  // Los datos incrustados vienen del último deploy; esto trae cambios más recientes.
+  try{
+    const r = await fetch(API_POST, { cache: "no-store" });
+    if(!r.ok) return;
+    aplicarRegistro(await r.json());
+    refrescarVistas();
+  }catch(e){ /* sin conexión o vista local: se usan los datos incrustados */ }
+}
+document.addEventListener("click", e => {
+  const tog = e.target.closest("[data-post-toggle]");
+  if(tog){
+    const t = TENDERS.find(x => x.id === tog.dataset.postToggle);
+    if(t) guardarPostulacion(t, { aplicamos: !t.aplicamos });
+    return;
+  }
+  if(e.target.closest("#post-credenciales")){
+    if(pedirCredenciales(true)) toast("Clave actualizada");
+  }
+});
+document.addEventListener("change", e => {
+  const sel = e.target.closest(".post-sel");
+  if(sel){
+    const t = TENDERS.find(x => x.id === sel.dataset.id);
+    if(t && sel.value !== t.resultado_hdg) guardarPostulacion(t, { resultado_hdg: sel.value });
+    return;
+  }
+  const notas = e.target.closest(".post-notas");
+  if(notas){
+    const t = TENDERS.find(x => x.id === notas.dataset.id);
+    if(t && notas.value.trim() !== (t.notas_hdg || "")) guardarPostulacion(t, { notas_hdg: notas.value.trim() });
+  }
+});
+
+function postulacionesItems(){
+  return TENDERS.filter(t => t.aplicamos === true && matchesGlobal(t))
+                .slice().sort((a, b) => (a.fcierre_iso || "9999").localeCompare(b.fcierre_iso || "9999"));
+}
+function buildPostulacionesTable(){
+  const heads = ["Licitación", "Cierre", "Apertura técnica", "Apertura económica", "Adjudicación", "Resultado", "Notas", "Oferentes"];
+  const barra = `<div class="post-toolbar">
+    <span class="post-nota">Para agregar una licitación, usa el botón «＋ Postulamos» en cualquier pestaña. Aquí puedes cambiar el resultado y las notas; los cambios se guardan al instante y quedan registrados con tu nombre.</span>
+    <button class="link-btn" id="post-credenciales" type="button">🔑 Cambiar clave o nombre</button>
+  </div>`;
+  return barra + `<div class="table-wrap"><table class="tenders" data-cat="${POSTULACIONES}">
+    <thead><tr class="header-row">${heads.map(h => `<th>${h}</th>`).join("")}</tr></thead>
+    <tbody id="tbody-${catId(POSTULACIONES)}"></tbody>
+  </table></div>`;
+}
+function renderPostulacionesTbody(){
+  const tb = document.getElementById(`tbody-${catId(POSTULACIONES)}`);
+  if(!tb) return;
+  // No re-renderizar mientras alguien escribe una nota (el refresco cada 60 s la borraría).
+  if(document.activeElement && tb.contains(document.activeElement) && document.activeElement.classList.contains("post-notas")) return;
+  const items = postulacionesItems();
+  if(!items.length){
+    tb.innerHTML = `<tr class="empty-row"><td colspan="8">Aún no hay licitaciones marcadas como postuladas. Usa el botón «＋ Postulamos» en la pestaña «Todas».</td></tr>`;
+  } else {
+    tb.innerHTML = items.map(t => {
+      const dis = guardando.has(t.id) ? " disabled" : "";
+      const opciones = RESULTADOS_HDG.map(r => `<option${r === (t.resultado_hdg || "Pendiente") ? " selected" : ""}>${r}</option>`).join("");
+      const meta = t.post_actualizado ? `<div class="post-meta">Actualizado ${esc(t.post_actualizado)}${t.post_por ? " · " + esc(t.post_por) : ""}</div>` : "";
+      const main = `<tr class="${isAvoidRegion(t.region) ? "tr-avoid" : ""}">
+        <td><div class="tender-name">${t.nombre}</div><div class="tender-meta">${t.entidad} · ${t.region}</div><div class="tender-id">${t.id}</div><a class="mp-link" href="${t.link}" target="_blank" rel="noopener">Ver ficha →</a></td>
+        <td>${t.fcierre_raw || "—"}</td>
+        <td>${fmtHitoCell(t.fapertura_tecnica_raw, t.fapertura_tecnica_iso)}</td>
+        <td>${fmtHitoCell(t.fapertura_economica_raw, t.fapertura_economica_iso)}</td>
+        <td>${fmtHitoCell(t.fadjudicacion_raw, t.fadjudicacion_iso)}</td>
+        <td>${resultadoBadge(t.resultado_hdg)}<div style="margin-top:6px;"><select class="post-sel" data-id="${t.id}" aria-label="Resultado HDG"${dis}>${opciones}</select></div>
+            <button class="post-quitar" data-post-toggle="${t.id}"${dis}>Quitar de postulaciones</button>${meta}</td>
+        <td><textarea class="post-notas" data-id="${t.id}" maxlength="1000" placeholder="Agregar nota…" aria-label="Notas"${dis}>${esc(t.notas_hdg)}</textarea></td>
+        <td>${oferentesResumen(t)}</td></tr>`;
+      const det = `<tr class="post-detail" data-detail="${t.id}"><td colspan="8">${oferentesDetalleHtml(t)}</td></tr>`;
+      return main + det;
+    }).join("");
+  }
+  const countEl = document.getElementById(`count-${catId(POSTULACIONES)}`);
+  if(countEl) countEl.textContent = `${items.length} postulaci${items.length === 1 ? "ón" : "ones"}`;
+}
+
+// ── Vistas de seguimiento (En evaluación, Pasadas): hitos, estado y oferentes ──
+function estadoMpBadge(e){
+  const n = normalize(e);
+  const cls = n.startsWith("adjudicada") ? "badge-green" : (n.startsWith("desierta") || n.startsWith("revocada") || n.startsWith("suspendida")) ? "badge-gray" : n.startsWith("publicada") ? "badge-blue" : "badge-orange";
+  return `<span class="badge ${cls}">${esc(e || "—")}</span>`;
+}
+function seguimientoItems(key){
+  const items = tabItems(key).filter(matchesGlobal);
+  const f = t => t.fadjudicacion_iso || t.fcierre_iso || "";
+  return items.slice().sort((a, b) => key === PASADAS ? f(b).localeCompare(f(a)) : f(a).localeCompare(f(b)));
+}
+function buildSeguimientoTable(key){
+  const heads = ["Licitación", "Cierre", "Apertura técnica", "Apertura económica", "Adjudicación", "Estado en MP", "Oferentes"];
+  return `<div class="table-wrap"><table class="tenders" data-cat="${key}">
+    <thead><tr class="header-row">${heads.map(h => `<th>${h}</th>`).join("")}</tr></thead>
+    <tbody id="tbody-${catId(key)}"></tbody>
+  </table></div>`;
+}
+function renderSeguimientoTbody(key){
+  const tb = document.getElementById(`tbody-${catId(key)}`);
+  if(!tb) return;
+  const items = seguimientoItems(key);
+  tb.innerHTML = !items.length
+    ? `<tr class="empty-row"><td colspan="7">Sin licitaciones para esta vista.</td></tr>`
+    : items.map(t => `<tr class="${isAvoidRegion(t.region) ? "tr-avoid" : ""}">
+        <td><div class="tender-name">${t.nombre}</div><div class="tender-meta">${t.entidad} · ${t.region}</div><div class="tender-id">${t.id} · ${esc(t.categoria || "")}</div><a class="mp-link" href="${t.link}" target="_blank" rel="noopener">Ver ficha →</a><br>${postBtnHtml(t)}</td>
+        <td>${t.fcierre_raw || "—"}</td>
+        <td>${fmtHitoCell(t.fapertura_tecnica_raw, t.fapertura_tecnica_iso)}</td>
+        <td>${fmtHitoCell(t.fapertura_economica_raw, t.fapertura_economica_iso)}</td>
+        <td>${fmtHitoCell(t.fadjudicacion_raw, t.fadjudicacion_iso)}</td>
+        <td>${estadoMpBadge(t.estado_mp)}</td>
+        <td>${oferentesResumen(t)}</td></tr>
+        <tr class="post-detail" data-detail="${t.id}"><td colspan="7">${oferentesDetalleHtml(t)}</td></tr>`).join("");
+  const c = document.getElementById(`count-${catId(key)}`);
+  if(c) c.textContent = `${items.length} licitaci${items.length === 1 ? "ón" : "ones"}`;
+}
+
+const tableState = {};
+let globalSearch = "";
+let activeTab = "Todas";
+
+function catId(cat){ return cat.replace(/[^a-zA-Z0-9]/g, ""); }
+
+// ── Persistencia liviana de búsqueda y pestaña activa ──────────────────────
+function saveUiState(){
+  try{ localStorage.setItem("hdg_dash_ui", JSON.stringify({ q: globalSearch, tab: activeTab })); }catch(e){}
+}
+function loadUiState(){
+  try{ return JSON.parse(localStorage.getItem("hdg_dash_ui")) || {}; }catch(e){ return {}; }
+}
+
+function matchesGlobal(t){
+  if(!globalSearch) return true;
+  const hay = normalize(`${t.nombre} ${t.entidad} ${t.id} ${t.region} ${t.comuna} ${t.estado} ${t.estado_mp || ""}`);
+  return hay.includes(normalize(globalSearch));
+}
+
+// Panel de próximos cierres (≤7 días), transversal a las pestañas.
+function renderUrgentes(){
+  const el = document.getElementById("urgentes");
+  const urg = TENDERS
+    .filter(t => ACTIVE_CATEGORIES.includes(t.categoria_display))
+    .map(t => ({ t, d: daysRemaining(t.fcierre_iso) }))
+    .filter(x => x.d !== null && x.d >= 0 && x.d <= 7)
+    .sort((a, b) => a.d - b.d);
+  if(!urg.length){ el.style.display = "none"; el.innerHTML = ""; return; }
+  el.style.display = "block";
+  el.innerHTML = `<h2>⏰ Próximos cierres (≤ 7 días) — todas las categorías</h2>` + urg.map(({t, d}) => {
+    const ms = new Date(t.fcierre_iso) - new Date();
+    const badgeCls = d <= 2 ? "badge-red" : "badge-orange";
+    return `<div class="urgent-row">
+      <div class="urgent-ms"><span class="badge ${badgeCls}">${fmtDiasHoras(ms)}</span></div>
+      <div class="urgent-body">
+        <a href="${t.link}" target="_blank" rel="noopener">${t.nombre}</a>
+        <div class="tender-meta">${t.entidad} · ${t.region}${isAvoidRegion(t.region) ? " ⚠" : ""} · Cierre: ${t.fcierre_raw} · ${t.monto_num ? fmtCLP(t.monto_num) : "monto no informado"}</div>
+      </div>
+    </div>`;
+  }).join("");
+}
+
+function setActiveTab(tab){
+  activeTab = tab;
+  document.querySelectorAll(".nav-item").forEach(b => {
+    const on = b.dataset.tab === tab;
+    b.classList.toggle("active", on);
+    if(on) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
+  });
+  document.querySelectorAll(".category-block").forEach(block => {
+    block.classList.toggle("hidden", block.dataset.cat !== tab);
+  });
+  saveUiState();
+}
+
+function tabCount(t){ return tabItems(t).length; }
+function actualizarContadores(){
+  document.querySelectorAll(".nav-item").forEach(b => {
+    const c = b.querySelector(".nav-count");
+    if(c) c.textContent = tabCount(b.dataset.tab);
+  });
+  renderStats();
+}
+function renderNav(){
+  let grupo = "";
+  document.getElementById("nav").innerHTML = VISTAS.map((v, i) => {
+    let cab = "";
+    if(v.grupo !== grupo){
+      cab = (i ? `<div class="sb-sep"></div>` : "") + `<div class="sb-group">${v.grupo}</div>`;
+      grupo = v.grupo;
+    }
+    return cab + `<button class="nav-item" type="button" data-tab="${v.clave}" title="${v.etiqueta}">
+      <span class="nav-ico">${icono(v.clave)}</span><span class="nav-label">${v.etiqueta}</span><span class="nav-count">${tabCount(v.clave)}</span>
+    </button>`;
+  }).join("");
+  document.getElementById("nav").addEventListener("click", e => {
+    const btn = e.target.closest(".nav-item");
+    if(!btn) return;
+    setActiveTab(btn.dataset.tab);
+    if(window.matchMedia("(max-width: 900px)").matches) plegarBarra(true);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
+// ── Barra lateral plegable (se recuerda la preferencia de cada persona) ─────
+function plegarBarra(min, guardar){
+  document.body.classList.toggle("sb-min", min);
+  const b = document.getElementById("sb-toggle");
+  b.setAttribute("aria-expanded", String(!min));
+  b.querySelector("span").textContent = min ? "Desplegar menú" : "Plegar menú";
+  if(guardar){ try{ localStorage.setItem("hdg_dash_sb", min ? "min" : "max"); }catch(e){} }
+}
+function initBarra(){
+  let pref = null;
+  try{ pref = localStorage.getItem("hdg_dash_sb"); }catch(e){}
+  const angosta = window.matchMedia("(max-width: 900px)").matches;
+  plegarBarra(angosta ? true : pref === "min");
+  document.getElementById("sb-toggle").addEventListener("click", () => {
+    const min = !document.body.classList.contains("sb-min");
+    plegarBarra(min, !window.matchMedia("(max-width: 900px)").matches);
+  });
+  document.getElementById("sb-backdrop").addEventListener("click", () => plegarBarra(true));
+}
+
+function getFilteredSorted(cat){
+  const st = tableState[cat];
+  let items = tabItems(cat).filter(t => matchesGlobal(t));
+  COLUMNS.forEach(col => {
+    if(col.filterable && st.filters[col.key]){
+      const needle = st.filters[col.key].toLowerCase();
+      items = items.filter(t => col.filterVal(t).includes(needle));
+    }
+  });
+  if(st.sortKey){
+    const col = COLUMNS.find(c => c.key === st.sortKey);
+    items = items.slice().sort((a, b) => {
+      const av = col.sortVal(a), bv = col.sortVal(b);
+      if(av < bv) return -1 * st.sortDir;
+      if(av > bv) return 1 * st.sortDir;
+      return 0;
+    });
+  } else {
+    items = items.slice().sort((a, b) => (a.fcierre_iso || "9999").localeCompare(b.fcierre_iso || "9999"));
+  }
+  return items;
+}
+
+function rowsHtml(items){
+  return items.map((t, i) => `<tr class="${isAvoidRegion(t.region) ? "tr-avoid" : ""}">${COLUMNS.map(col => `<td>${col.render(t, i)}</td>`).join("")}</tr>`).join("");
+}
+
+function renderTbody(cat){
+  if(cat === POSTULACIONES){ renderPostulacionesTbody(); return; }
+  if(cat === EVALUACION || cat === PASADAS){ renderSeguimientoTbody(cat); return; }
+  if(cat === "Todas"){ TODAS_SECCIONES.forEach(scat => { const k = "Todas::" + scat; if(tableState[k]) renderTbodyTable(k); }); return; }
+  renderTbodyTable(cat);
+}
+function renderTbodyTable(cat){
+  const id = catId(cat);
+  const tbody = document.getElementById(`tbody-${id}`);
+  if(!tbody) return;
+  const items = getFilteredSorted(cat);
+  const totalForCat = tabItems(cat).length;
+  tbody.innerHTML = items.length ? rowsHtml(items) : `<tr class="empty-row"><td colspan="${COLUMNS.length}">Sin resultados para el filtro aplicado.</td></tr>`;
+  const countEl = document.getElementById(`count-${id}`);
+  if(countEl) countEl.textContent = `${items.length} de ${totalForCat}`;
+}
+
+function updateSortIndicators(cat){
+  const id = catId(cat);
+  const st = tableState[cat];
+  COLUMNS.forEach(col => {
+    if(!col.sortable) return;
+    const th = document.getElementById(`th-${id}-${col.key}`);
+    if(!th) return;
+    const arrow = th.querySelector(".sort-arrow");
+    if(!arrow) return;
+    arrow.textContent = st.sortKey === col.key ? (st.sortDir === 1 ? "▲" : "▼") : "";
+  });
+}
+
+function buildCategoryTable(cat){
+  const id = catId(cat);
+  const headCells = COLUMNS.map(col => {
+    if(!col.sortable) return `<th>${col.label}</th>`;
+    return `<th id="th-${id}-${col.key}" class="sortable-th" data-cat="${cat}" data-key="${col.key}">${col.label} <span class="sort-arrow"></span></th>`;
+  }).join("");
+  const filterCells = COLUMNS.map(col => {
+    if(!col.filterable) return `<td></td>`;
+    return `<td><input type="text" class="col-filter" data-cat="${cat}" data-key="${col.key}" placeholder="Filtrar..."></td>`;
+  }).join("");
+  return `<div class="table-wrap"><table class="tenders" data-cat="${cat}">
+    <thead>
+      <tr class="header-row">${headCells}</tr>
+      <tr class="filter-row">${filterCells}</tr>
+    </thead>
+    <tbody id="tbody-${id}"></tbody>
+  </table></div>`;
+}
+
+function renderCategories(){
+  // Se renderizan TODAS las etapas (incluso vacías) para que cada pestaña
+  // muestre siempre contenido coherente al seleccionarla.
+  const blocksHtml = TABS.map(cat => {
+    const isPost = cat === POSTULACIONES;
+    const id = catId(cat);
+    let inner, countTxt;
+    if(cat === EVALUACION || cat === PASADAS){
+      const n = tabItems(cat).length;
+      inner = buildSeguimientoTable(cat);
+      countTxt = `${n} licitaci${n === 1 ? "ón" : "ones"}`;
+    } else if(isPost){
+      const items = tabItems(cat);
+      inner = buildPostulacionesTable();
+      countTxt = `${items.length} postulaci${items.length === 1 ? "ón" : "ones"}`;
+    } else if(cat === "Todas"){
+      const secciones = TODAS_SECCIONES.map(scat => {
+        const k = "Todas::" + scat;
+        const n = tabItems(k).length;
+        if(!n) return "";
+        return `<div class="todas-seccion"><h4 class="seccion-titulo">${icono(scat, 18)} ${scat} <span class="tab-count">(${n})</span></h4>${buildCategoryTable(k)}</div>`;
+      }).filter(Boolean).join("");
+      const total = tabItems("Todas").length;
+      inner = secciones || `<div class="category-empty">Sin licitaciones vigentes.</div>`;
+      countTxt = `${total} vigente${total === 1 ? "" : "s"}`;
+    } else {
+      const items = tabItems(cat);
+      inner = items.length ? buildCategoryTable(cat) : `<div class="category-empty">Sin licitaciones para esta vista.</div>`;
+      countTxt = `${items.length} licitaci${items.length === 1 ? "ón" : "ones"}`;
+    }
+    return `<div class="category-block" data-cat="${cat}">
+      <div class="category-header">
+        <h3>${icono(cat, 22)} ${VISTA[cat].etiqueta}</h3>
+        <span class="category-count" id="count-${id}">${countTxt}</span>
+      </div>
+      <p class="category-desc">${VISTA[cat].desc}</p>
+      ${inner}
+    </div>`;
+  }).join("");
+  const container = document.getElementById("categories");
+  container.innerHTML = blocksHtml;
+
+  const allKeys = TABS.filter(c => ![POSTULACIONES, EVALUACION, PASADAS].includes(c))
+                     .flatMap(cat => cat === "Todas" ? TODAS_SECCIONES.map(s => "Todas::" + s) : [cat]);
+  allKeys.forEach(k => { tableState[k] = { sortKey: null, sortDir: 1, filters: {} }; });
+  TABS.forEach(cat => renderTbody(cat));
+
+  container.addEventListener("click", e => {
+    const tog = e.target.closest(".oferentes-toggle");
+    if(tog){
+      const det = tog.closest("tbody").querySelector(`tr.post-detail[data-detail="${tog.dataset.id}"]`);
+      if(det){
+        const open = det.classList.toggle("open");
+        tog.classList.toggle("open", open);
+        tog.textContent = (open ? "▾ " : "▸ ") + tog.textContent.replace(/^[▸▾]\s*/, "");
+      }
+      return;
+    }
+    const th = e.target.closest(".sortable-th");
+    if(!th) return;
+    const cat = th.dataset.cat, key = th.dataset.key;
+    const st = tableState[cat];
+    if(st.sortKey === key){ st.sortDir *= -1; } else { st.sortKey = key; st.sortDir = 1; }
+    renderTbody(cat);
+    updateSortIndicators(cat);
+  });
+
+  container.addEventListener("input", e => {
+    if(!e.target.classList.contains("col-filter")) return;
+    const cat = e.target.dataset.cat, key = e.target.dataset.key;
+    tableState[cat].filters[key] = e.target.value;
+    renderTbody(cat);
+  });
+}
+
+function initGlobalSearch(){
+  const input = document.getElementById("global-search");
+  input.addEventListener("input", () => {
+    globalSearch = input.value.trim();
+    TABS.forEach(cat => renderTbody(cat));
+    saveUiState();
+  });
+  return input;
+}
+
+const FECHA_BARRIDO = "__FECHA_BARRIDO__";
+
+const ULTIMO_BARRIDO = (FECHA_BARRIDO && FECHA_BARRIDO.indexOf("FECHA_BARRIDO") === -1) ? FECHA_BARRIDO : "—";
+function renderStats(){
+  const vig = tabItems("Todas");
+  const cierran = vig.filter(t => daysRemaining(t.fcierre_iso) <= 7).length;
+  const stats = [
+    { label: "Último barrido", value: ULTIMO_BARRIDO, small: true },
+    { label: "Vigentes", value: vig.length },
+    { label: "Cierran ≤ 7 días", value: cierran, alert: cierran > 0 },
+    { label: "En evaluación", value: tabItems(EVALUACION).length },
+    { label: "Postulaciones", value: tabItems(POSTULACIONES).length },
+  ];
+  document.getElementById("head-stats").innerHTML = stats.map(x =>
+    `<div class="stat${x.alert ? " alert" : ""}"><div class="stat-label">${x.label}</div><div class="stat-value${x.small ? " small" : ""}">${x.value}</div></div>`).join("");
+}
+function renderMeta(){
+  document.getElementById("meta-line").textContent = `Monitoreo diario de Mercado Público · ${TENDERS.length} licitaciones en seguimiento`;
+  document.getElementById("sb-foot").textContent = `Último barrido: ${ULTIMO_BARRIDO}`;
+  renderStats();
+  document.getElementById("footer").innerHTML = `
+    <p>Generado automáticamente por el monitoreo diario de licitaciones de ingeniería SSR/APR y de gestión hídrica en Mercado Público. No incluye licitaciones de construcción de obra ni de Asesoría a la Inspección Fiscal (AIF).</p>
+    <p>Una vez vencida la "Fecha de cierre" (plazo límite para presentar la oferta, columna que no se modifica en etapas posteriores), la licitación avanza por los estados "Apertura Oferta Técnica", "Apertura Oferta Económica" y "Resultados" conforme se registran los hitos de la ficha en Mercado Público. Mientras tanto se muestra en «En evaluación». Transcurridos 5 días corridos desde la fecha de adjudicación, la licitación se traslada de forma definitiva a «Pasadas», donde permanece visible de manera indefinida para trazabilidad (no se retira nunca de este dashboard ni del registro en GitHub).</p>
+    <p>Las filas resaltadas en rojo corresponden a licitaciones en regiones fuera del foco prioritario de Hidrogestión (Biobío, Coquimbo) — se mantienen en el listado por trazabilidad, no se excluyen automáticamente.</p>
+    <p>El nivel de interés/prioridad de cada licitación es un criterio del equipo y no se incluye en este dashboard.</p>
+  `;
+}
+
+initBarra();
+renderUrgentes();
+renderNav();
+renderCategories();
+renderMeta();
+
+// Restaurar estado de UI (búsqueda y pestaña) de la sesión anterior.
+(function restoreUi(){
+  const st = loadUiState();
+  const input = initGlobalSearch();
+  if(st.q){ input.value = st.q; globalSearch = st.q; TABS.forEach(cat => renderTbody(cat)); }
+  setActiveTab(st.tab && TABS.includes(st.tab) ? st.tab : "Todas");
+})();
+
+cargarRegistro();
+
+// Actualiza contadores de días/horas (cierre, preguntas, hitos) cada 60 s sin recargar
+// la página. Solo refresca KPIs, panel de urgentes y cuerpos de tabla (no cabeceras),
+// preservando orden/filtros aplicados y sin duplicar listeners.
+setInterval(() => {
+  renderUrgentes();
+  TABS.forEach(cat => renderTbody(cat));
+  actualizarContadores();
+}, 60000);
+</script>
+
+
+</body></html>
