@@ -52,6 +52,8 @@ incluir según los criterios de este archivo; las descartadas no se vuelven a pr
 - estudio hidráulico
 - humedal
 - derechos de agua
+- impulsión
+- bombeo
 
 ## Qué se descarta
 

@@ -23,6 +23,7 @@ on:
     branches: [main]
     paths:
       - scripts/mp_api.js
+      - config/criterios.md
       - .github/workflows/barrido-api.yml
 
 permissions:
