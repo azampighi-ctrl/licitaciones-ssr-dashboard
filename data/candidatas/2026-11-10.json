@@ -1,5 +1,47 @@
 {
- "generado": "2026-11-10T11:42:04",
- "fecha_barrido": "10-11-2026 11:42",
- "candidatas": []
+ "generado": "2026-11-10T11:49:54",
+ "fecha_barrido": "10-11-2026 11:49",
+ "candidatas": [
+  {
+   "palabras": [
+    "impulsión"
+   ],
+   "registro": {
+    "id": "1430525-6-LP26",
+    "nombre": "HABILITACION SISTEMA IMPULSION AGUA SAMORE",
+    "entidad": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE OSORNO - COMPLEJO FRONTERIZO CARDENAL SAMORÉ",
+    "region": "Los Lagos",
+    "comuna": "Osorno",
+    "fpub": "06-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1430525-6-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "26-11-2026 20:00",
+    "fcierre_iso": "2026-11-26T20:00:00",
+    "finicio_preguntas_raw": "06-11-2026 15:30",
+    "finicio_preguntas_iso": "2026-11-06T15:30:00",
+    "ffinal_preguntas_raw": "16-11-2026 20:00",
+    "ffinal_preguntas_iso": "2026-11-16T20:00:00",
+    "frespuestas_raw": "17-11-2026 22:00",
+    "frespuestas_iso": "2026-11-17T22:00:00",
+    "fapertura_tecnica_raw": "27-11-2026 09:00",
+    "fapertura_tecnica_iso": "2026-11-27T09:00:00",
+    "fapertura_economica_raw": "27-11-2026 09:00",
+    "fapertura_economica_iso": "2026-11-27T09:00:00",
+    "fadjudicacion_raw": "09-12-2026 16:00",
+    "fadjudicacion_iso": "2026-12-09T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "EL SERVICIO DE HABILITACIÓN DEL SISTEMA DE IMPULSIÓN DE AGUA EN EL COMPLEJO FRONTERIZO CARDENAL ANTONIO SAMORÉ, COMUNA DE PUYEHUE, PROVINCIA DE OSORNO.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de perforación de minería, petróleo y gas / Servicios de mantenimiento, construcción y perforación de pozos / Servicios de perforación del pozo petrolero · Servicios de entrada de agua de perforación de pozo · EL SERVICIO DE HABILITACIÓN DEL SISTEMA DE IMPULSIÓN DE AGUA EN EL COMPLEJO FRONTERIZO CARDENAL ANTONIO SAMORÉ, COMUNA DE PUYEHUE, PROVINCIA DE OSORNO."
+    ],
+    "fuente_financiamiento": "Delegación Presidencial Provincial de Osorno"
+   }
+  }
+ ]
 }
