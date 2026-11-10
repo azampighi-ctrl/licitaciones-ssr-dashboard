@@ -1,3 +1,12 @@
 {
- "fecha_barrido": "05-11-2026 09:20"
+ "fecha_barrido": "05-11-2026 09:20",
+ "api": {
+  "fecha": "2026-11-10T11:22:05",
+  "peticiones": 146,
+  "activas": 4921,
+  "candidatas": 85,
+  "actualizadas": 5,
+  "actas": 0,
+  "errores": 0
+ }
 }

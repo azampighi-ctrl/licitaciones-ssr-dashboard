@@ -1,0 +1,3539 @@
+{
+ "generado": "2026-11-10T11:22:05",
+ "candidatas": [
+  {
+   "palabras": [
+    "agua potable",
+    "SSR"
+   ],
+   "registro": {
+    "id": "1043046-6-LE26",
+    "nombre": "Servicio entrega de agua potable S.S.R. Rucapequen",
+    "entidad": "DELEGACIÓN PRESIDENCIAL REGIONAL DE ÑUBLE - DELEGACIÓN PRESIDENCIAL REGIONAL DE ÑUBLE",
+    "region": "Ñuble",
+    "comuna": "Chillán",
+    "fpub": "05-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1043046-6-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "10-11-2026 19:53",
+    "fcierre_iso": "2026-11-10T19:53:00",
+    "finicio_preguntas_raw": "05-11-2026 19:18",
+    "finicio_preguntas_iso": "2026-11-05T19:18:00",
+    "ffinal_preguntas_raw": "06-11-2026 19:20",
+    "ffinal_preguntas_iso": "2026-11-06T19:20:00",
+    "frespuestas_raw": "07-11-2026 10:00",
+    "frespuestas_iso": "2026-11-07T10:00:00",
+    "fapertura_tecnica_raw": "11-11-2026 10:00",
+    "fapertura_tecnica_iso": "2026-11-11T10:00:00",
+    "fapertura_economica_raw": "11-11-2026 10:00",
+    "fapertura_economica_iso": "2026-11-11T10:00:00",
+    "fadjudicacion_raw": "12-11-2026 16:00",
+    "fadjudicacion_iso": "2026-11-12T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "SERVICIO DE ENTREGA DE AGUA POTABLE EN ALJIBE AL S.S.R. COOPERATIVA DE AGUA POTABLE RURAL RUCAPEQUÉN, COMUNA DE CHILLÁN VIEJO, PERÍODO 17 DE NOVIEMBRE AL 31 DE DICIEMBRE DE 2026.",
+    "tipo": "LE",
+    "items": [
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · SERVICIO DE ENTREGA DE AGUA POTABLE EN ALJIBE AL S.S.R. COOPERATIVA DE AGUA POTABLE RURAL RUCAPEQUÉN, COMUNA DE CHILLÁN VIEJO, PERÍODO 17 DE NOVIEMBRE AL 31 DE DICIEMBRE DE 2026."
+    ],
+    "fuente_financiamiento": "Subsecretaria del Interior"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1043046-7-LR26",
+    "nombre": "Servicio de entrega de agua potable en aljibes",
+    "entidad": "DELEGACIÓN PRESIDENCIAL REGIONAL DE ÑUBLE - DELEGACIÓN PRESIDENCIAL REGIONAL DE ÑUBLE",
+    "region": "Ñuble",
+    "comuna": "Chillán",
+    "fpub": "10-11-2026",
+    "monto_raw": "$1.487.551.815",
+    "monto_num": 1487551815,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1043046-7-LR26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "11-12-2026 10:05",
+    "fcierre_iso": "2026-12-11T10:05:00",
+    "finicio_preguntas_raw": "10-11-2026 14:29",
+    "finicio_preguntas_iso": "2026-11-10T14:29:00",
+    "ffinal_preguntas_raw": "19-11-2026 14:29",
+    "ffinal_preguntas_iso": "2026-11-19T14:29:00",
+    "frespuestas_raw": "29-11-2026 14:29",
+    "frespuestas_iso": "2026-11-29T14:29:00",
+    "fapertura_tecnica_raw": "14-12-2026 10:06",
+    "fapertura_tecnica_iso": "2026-12-14T10:06:00",
+    "fapertura_economica_raw": "14-12-2026 10:06",
+    "fapertura_economica_iso": "2026-12-14T10:06:00",
+    "fadjudicacion_raw": "22-12-2026 10:06",
+    "fadjudicacion_iso": "2026-12-22T10:06:00"
+   },
+   "contexto": {
+    "descripcion": "Servicio de entrega de agua potable en aljibes en Provincia de Diguillin",
+    "tipo": "LR",
+    "items": [
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Entrega de agua potable en aljibes en Provincia de Diguillin - Chillán",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Entrega de agua potable en aljibes en Provincia de Diguillin - Chillán Viejo",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Entrega de agua potable en aljibes en Provincia de Diguillin - Quillón",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Entrega de agua potable en aljibes en Provincia de Diguillin - Quillón SSR",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Entrega de agua potable en aljibes en Provincia de Diguillin - San Ignacio",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Entrega de agua potable en aljibes en Provincia de Diguillin - Pemuco"
+    ],
+    "fuente_financiamiento": "Subsecretaria del Interior"
+   }
+  },
+  {
+   "palabras": [
+    "humedal"
+   ],
+   "registro": {
+    "id": "1057390-68-LE26",
+    "nombre": "SERVICIO DE ARRIENDO DE SENSORES DE MONITOREO TEMPERATURA Y HUMEDAD",
+    "entidad": "SERVICIO DE SALUD ARAUCANIA NORTE - Bienes y Servicios",
+    "region": "La Araucanía",
+    "comuna": "Angol",
+    "fpub": "09-11-2026",
+    "monto_raw": "$19.983.024",
+    "monto_num": 19983024,
+    "plazo": "24 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057390-68-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "19-11-2026 15:30",
+    "fcierre_iso": "2026-11-19T15:30:00",
+    "finicio_preguntas_raw": "09-11-2026 17:31",
+    "finicio_preguntas_iso": "2026-11-09T17:31:00",
+    "ffinal_preguntas_raw": "12-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-12T12:00:00",
+    "frespuestas_raw": "15-11-2026 18:00",
+    "frespuestas_iso": "2026-11-15T18:00:00",
+    "fapertura_tecnica_raw": "19-11-2026 15:31",
+    "fapertura_tecnica_iso": "2026-11-19T15:31:00",
+    "fapertura_economica_raw": "19-11-2026 15:31",
+    "fapertura_economica_iso": "2026-11-19T15:31:00",
+    "fadjudicacion_raw": "09-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-09T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "La presente licitación tiene como objetivo contratar el servicio de arriendo de sensores de temperatura y humedad, destinados al monitoreo continuo en línea de las condiciones ambientales de las áreas de almacenamiento y equipos de refrigeración de la Droguería SSAN, todo según especificaciones técnicas (Anexo N° 4).",
+    "tipo": "LE",
+    "items": [
+     "Equipamiento para laboratorios / Instrumentos de medida y experimentación / Instrumentos meteorológicos · Aparatos de observación de superficie de temperatura o humedad · ARRIENDO DE SENSORES DE MONITOREO TEMPERATURA Y HUMEDAD DROGUERÍA"
+    ],
+    "fuente_financiamiento": "22.11.999"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1057461-70-L126",
+    "nombre": "Servicio de muestreo y Análisis Microbiológico y Fisico-Quimico de agua potable según NC409 para Hospital de Cauquenes",
+    "entidad": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE CAUQUENES - Bienes y Servicios",
+    "region": "Metropolitana",
+    "comuna": "Santiago",
+    "fpub": "10-11-2026",
+    "monto_raw": "$2.000.000",
+    "monto_num": 2000000,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057461-70-L126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "23-11-2026 15:30",
+    "fcierre_iso": "2026-11-23T15:30:00",
+    "finicio_preguntas_raw": "10-11-2026 10:16",
+    "finicio_preguntas_iso": "2026-11-10T10:16:00",
+    "ffinal_preguntas_raw": "13-11-2026 11:00",
+    "ffinal_preguntas_iso": "2026-11-13T11:00:00",
+    "frespuestas_raw": "17-11-2026 18:00",
+    "frespuestas_iso": "2026-11-17T18:00:00",
+    "fapertura_tecnica_raw": "23-11-2026 15:31",
+    "fapertura_tecnica_iso": "2026-11-23T15:31:00",
+    "fapertura_economica_raw": "23-11-2026 15:31",
+    "fapertura_economica_iso": "2026-11-23T15:31:00",
+    "fadjudicacion_raw": "23-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-23T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "Contratación de laboratorio acreditado para la toma de muestras, transporte, análisis físico-químico y microbiológico de agua potable en los puntos críticos del establecimiento hospitalario, con emisión de informes técnicos conforme a la NCh409 y reglamentación sanitaria vigente.",
+    "tipo": "L1",
+    "items": [
+     "Equipamiento para laboratorios / Equipos e insumos para laboratorio / Equipo y suministros de purificación de agua para laboratorio · Sistemas de análisis de agua · Análisis Microbiológico y Fisico-Quimico de agua potable según NC409"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "pozo profundo"
+   ],
+   "registro": {
+    "id": "1057547-469-LE26",
+    "nombre": "SERV. IMPLEMENTACION SISTEMA TELEMETRIA PARA POZO PROFUNDO",
+    "entidad": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE - Bienes y Servicios",
+    "region": "Los Ríos",
+    "comuna": "Valdivia",
+    "fpub": "09-11-2026",
+    "monto_raw": "$10.000.000",
+    "monto_num": 10000000,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057547-469-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "23-11-2026 19:00",
+    "fcierre_iso": "2026-11-23T19:00:00",
+    "finicio_preguntas_raw": "09-11-2026 20:09",
+    "finicio_preguntas_iso": "2026-11-09T20:09:00",
+    "ffinal_preguntas_raw": "16-11-2026 09:00",
+    "ffinal_preguntas_iso": "2026-11-16T09:00:00",
+    "frespuestas_raw": "18-11-2026 19:00",
+    "frespuestas_iso": "2026-11-18T19:00:00",
+    "fapertura_tecnica_raw": "24-11-2026 10:30",
+    "fapertura_tecnica_iso": "2026-11-24T10:30:00",
+    "fapertura_economica_raw": "24-11-2026 10:30",
+    "fapertura_economica_iso": "2026-11-24T10:30:00",
+    "fadjudicacion_raw": "31-03-2027 19:00",
+    "fadjudicacion_iso": "2027-03-31T19:00:00"
+   },
+   "contexto": {
+    "descripcion": "COMPRA DE SERVICIO DE IMPLEMENTACION DE SISTEMA DE TELEMETRIA PARA POZO PROFUNDO DEL HOSPITAL BASE\r\nVALDIVIA",
+    "tipo": "LE",
+    "items": [
+     "Maquinaria para minería y perforación / Equipo para perforación y exploración para petróleo / Equipos de registro y medición de pozo · Sistemas de telemetría · SERVICIO DE IMPLEMENTACION DE SISTEMA DE TELEMETRIA PARA POZO PROFUNDO DEL HOSPITAL BASE VALDIVIA” (OFERTAR VALOR TOTAL ITEMIZADO)"
+    ],
+    "fuente_financiamiento": "RECURSOS PROPIOS"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "1063487-49-O126",
+    "nombre": "Asesoría a la inspección fiscal mejoramiento y ampliación SSR Llahuimavida",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas Región del Ñuble",
+    "region": "Ñuble",
+    "comuna": "Chillán",
+    "fpub": "13-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1063487-49-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "11-11-2026 09:00",
+    "fcierre_iso": "2026-11-11T09:00:00",
+    "finicio_preguntas_raw": "13-10-2026 20:13",
+    "finicio_preguntas_iso": "2026-10-13T20:13:00",
+    "ffinal_preguntas_raw": "16-10-2026 12:00",
+    "ffinal_preguntas_iso": "2026-10-16T12:00:00",
+    "frespuestas_raw": "21-10-2026 23:59",
+    "frespuestas_iso": "2026-10-21T23:59:00",
+    "fapertura_tecnica_raw": "11-11-2026 10:00",
+    "fapertura_tecnica_iso": "2026-11-11T10:00:00",
+    "fapertura_economica_raw": "18-11-2026 10:00",
+    "fapertura_economica_iso": "2026-11-18T10:00:00",
+    "fadjudicacion_raw": "30-11-2026 18:00",
+    "fadjudicacion_iso": "2026-11-30T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "Asesoría para la inspección fiscal para contrato de obra publica",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "Sectorial"
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "1063487-50-O126",
+    "nombre": "Construcción Servicio Sanitario Rural La Merced, Comuna de San Carlos",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas Región del Ñuble",
+    "region": "Ñuble",
+    "comuna": "Chillán",
+    "fpub": "03-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1063487-50-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "30-11-2026 15:31",
+    "fcierre_iso": "2026-11-30T15:31:00",
+    "finicio_preguntas_raw": "03-11-2026 17:01",
+    "finicio_preguntas_iso": "2026-11-03T17:01:00",
+    "ffinal_preguntas_raw": "12-11-2026 18:00",
+    "ffinal_preguntas_iso": "2026-11-12T18:00:00",
+    "frespuestas_raw": "18-11-2026 18:00",
+    "frespuestas_iso": "2026-11-18T18:00:00",
+    "fapertura_tecnica_raw": "30-11-2026 16:00",
+    "fapertura_tecnica_iso": "2026-11-30T16:00:00",
+    "fapertura_economica_raw": "30-11-2026 17:00",
+    "fapertura_economica_iso": "2026-11-30T17:00:00",
+    "fadjudicacion_raw": "15-12-2026 12:00",
+    "fadjudicacion_iso": "2026-12-15T12:00:00"
+   },
+   "contexto": {
+    "descripcion": "Construcción de Sistema Sanitario Rural nuevo, implementación completa del servicio para la comunidad",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "Sectorial"
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "1063487-55-O126",
+    "nombre": "Diseño Mejoramiento Impulsión Servicio Sanitario Rural Portezuleo",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas Región del Ñuble",
+    "region": "Ñuble",
+    "comuna": "Chillán",
+    "fpub": "04-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1063487-55-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "19-11-2026 08:00",
+    "fcierre_iso": "2026-11-19T08:00:00",
+    "finicio_preguntas_raw": "04-11-2026 20:00",
+    "finicio_preguntas_iso": "2026-11-04T20:00:00",
+    "ffinal_preguntas_raw": "09-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-09T12:00:00",
+    "frespuestas_raw": "12-11-2026 23:59",
+    "frespuestas_iso": "2026-11-12T23:59:00",
+    "fapertura_tecnica_raw": "19-11-2026 09:00",
+    "fapertura_tecnica_iso": "2026-11-19T09:00:00",
+    "fapertura_economica_raw": "27-11-2026 09:00",
+    "fapertura_economica_iso": "2026-11-27T09:00:00",
+    "fadjudicacion_raw": "30-12-2026 23:59",
+    "fadjudicacion_iso": "2026-12-30T23:59:00"
+   },
+   "contexto": {
+    "descripcion": "Elaboración de diseño de mejoramiento y ampliación para la impulsión del sistema sanitario de portezuelo.",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "Sectorial"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1080089-49-LE26",
+    "nombre": "SISTEMA DE RESPALDO AGUA POTABLE JARDIN INFANTIL",
+    "entidad": "SERVICIO DE SALUD MAGALLANES - Bienes y servicios - DSSM",
+    "region": "Magallanes",
+    "comuna": "Punta Arenas",
+    "fpub": "06-11-2026",
+    "monto_raw": "$20.027.914",
+    "monto_num": 20027914,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1080089-49-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-11-2026 20:00",
+    "fcierre_iso": "2026-11-16T20:00:00",
+    "finicio_preguntas_raw": "06-11-2026 14:00",
+    "finicio_preguntas_iso": "2026-11-06T14:00:00",
+    "ffinal_preguntas_raw": "11-11-2026 15:00",
+    "ffinal_preguntas_iso": "2026-11-11T15:00:00",
+    "frespuestas_raw": "13-11-2026 18:00",
+    "frespuestas_iso": "2026-11-13T18:00:00",
+    "fapertura_tecnica_raw": "17-11-2026 08:00",
+    "fapertura_tecnica_iso": "2026-11-17T08:00:00",
+    "fapertura_economica_raw": "17-11-2026 08:00",
+    "fapertura_economica_iso": "2026-11-17T08:00:00",
+    "fadjudicacion_raw": "09-12-2026 18:49",
+    "fadjudicacion_iso": "2026-12-09T18:49:00"
+   },
+   "contexto": {
+    "descripcion": "SISTEMA DE RESPALDO DE AGUA POTABLE  JARDIN INFANTIL GIRASOL, HOSPITAL CLINICO MAGALLANES",
+    "tipo": "LE",
+    "items": [
+     "Servicios agrícolas, pesqueros, forestales y relacionados con la fauna / Desarrollo y vigilancia de recursos hidráulicos / Riego · Servicios de mantenimiento o administración de estaciones de bombeo · SISTEMA DE RESPALDO DE AGUA POTABLE JARDIN INFANTIL GIRASOL, HOSPITAL CLINICO MAGALLANES"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "humedal"
+   ],
+   "registro": {
+    "id": "1261-37-LR26",
+    "nombre": "Estrategia Reconocimiento Humedales Comp2-3y5",
+    "entidad": "GOBIERNO REGIONAL REGION METROPOLITANA - PROGRAMAS REGIONALES - PROGRAMA 02",
+    "region": "Metropolitana",
+    "comuna": "Santiago Centro",
+    "fpub": "14-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "24 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1261-37-LR26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "23-11-2026 15:01",
+    "fcierre_iso": "2026-11-23T15:01:00",
+    "finicio_preguntas_raw": "15-10-2026 15:00",
+    "finicio_preguntas_iso": "2026-10-15T15:00:00",
+    "ffinal_preguntas_raw": "26-10-2026 15:00",
+    "ffinal_preguntas_iso": "2026-10-26T15:00:00",
+    "frespuestas_raw": "13-11-2026 15:00",
+    "frespuestas_iso": "2026-11-13T15:00:00",
+    "fapertura_tecnica_raw": "23-11-2026 15:05",
+    "fapertura_tecnica_iso": "2026-11-23T15:05:00",
+    "fapertura_economica_raw": "23-11-2026 15:05",
+    "fapertura_economica_iso": "2026-11-23T15:05:00",
+    "fadjudicacion_raw": "11-02-2027 15:05",
+    "fadjudicacion_iso": "2027-02-11T15:05:00"
+   },
+   "contexto": {
+    "descripcion": "El objeto de la contratación será disponer de los servicios de consultoría de los COMPONENTES 2, 3 y 5 denominados: \r\nComponente 2: Diagnóstico Regional  \r\nComponente 3: Gobernanza y Planificación \r\nComponente 5: Conciencia Pública\r\nEn el marco del programa: “ESTRATEGIA DE RECONOCIMIENTO DE HUMEDALES Y FORTALECIMIENTO DE LA GOBERNANZA REGIONAL PARA SU PROTECCIÓN”, CÓDIGO PR3101021318.",
+    "tipo": "LR",
+    "items": [
+     "Servicios medioambientales / Gestión medioambiental / Servicios de asesoría medioambiental · Servicios de asesoría de ciencias medioambientales · Consultoría COMPONENTES 2,3y5: \r\nC2: Diagnóstico Regional  \r\nC3: Gobernanza y Planificación \r\nC5: Conciencia Pública\r\nEn el marco del programa: “ESTRATEGIA DE RECONOCIMIENTO DE HUMEDALES ver archivo adjunto RES_EXENTA_N°1763(13-10-2026)_Aprueba Bases.pdf"
+    ],
+    "fuente_financiamiento": "CÓDIGO PR3101021318"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1272045-3-LR26",
+    "nombre": "SERVICIO DE SUMINISTRO DE AGUA POTABLE PROVINCIAL",
+    "entidad": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE MARGA MARGA - DPP MARGA MARGA EMERGENCIA HIDRICA",
+    "region": "Valparaíso",
+    "comuna": "Quilpué",
+    "fpub": "21-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "6 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1272045-3-LR26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "20-11-2026 13:00",
+    "fcierre_iso": "2026-11-20T13:00:00",
+    "finicio_preguntas_raw": "22-10-2026 13:00",
+    "finicio_preguntas_iso": "2026-10-22T13:00:00",
+    "ffinal_preguntas_raw": "24-10-2026 13:00",
+    "ffinal_preguntas_iso": "2026-10-24T13:00:00",
+    "frespuestas_raw": "25-10-2026 13:00",
+    "frespuestas_iso": "2026-10-25T13:00:00",
+    "fapertura_tecnica_raw": "21-11-2026 13:01",
+    "fapertura_tecnica_iso": "2026-11-21T13:01:00",
+    "fapertura_economica_raw": "21-11-2026 13:01",
+    "fapertura_economica_iso": "2026-11-21T13:01:00",
+    "fadjudicacion_raw": "23-11-2026 11:00",
+    "fadjudicacion_iso": "2026-11-23T11:00:00"
+   },
+   "contexto": {
+    "descripcion": "La Delegación Presidencial Provincial de Marga Marga– en adelante DPP MARGA MARGA o DPP requiere contratar empresas proveedoras para ejecutar el Servicio de Suministro de agua potable para consumo humano en vehículos aljibes para la provincia de Marga Marga de la región de Valparaíso, por seis 6 meses, durante periodo ENERO A JUNIO DEL AÑO 2027.-",
+    "tipo": "LR",
+    "items": [
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · Suministro de agua potable para consumo humano DOMICILIARIO comuna de VILLA ALEMANA",
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · Suministro de agua potable para consumo humano DOMICILIARIO comuna de LIMACHE",
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · Suministro de agua potable para consumo humano DOMICILIARIO SECTOR QUEBRADA ALVARADO COMUNA OLMUÉ",
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · Suministro de agua potable para consumo humano DOMICILIARIO SECTOR GRANIZO LO NARVAEZ COMUNA OLMUÉ",
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · Suministro de agua potable para consumo humano ESTANQUES COMUNITARIOS COMUNA OLMUÉ",
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · Suministro de agua potable para consumo humano DOMICILIARIO SECTOR LAS PALMAS COMUNA OLMUÉ"
+    ],
+    "fuente_financiamiento": "214.05.02.03"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "1425521-5-LP26",
+    "nombre": "ARRANQUES DE AGUA POTABLE Y ALCANTARILLADO",
+    "entidad": "CORPORACIÓN FONDO DE AGUA DE SANTIAGO  - FONDO DE AGUA DE SANTIAGO",
+    "region": "Metropolitana",
+    "comuna": "Santiago",
+    "fpub": "06-11-2026",
+    "monto_raw": "$205.000.000",
+    "monto_num": 205000000,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1425521-5-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "01-12-2026 15:30",
+    "fcierre_iso": "2026-12-01T15:30:00",
+    "finicio_preguntas_raw": "06-11-2026 17:31",
+    "finicio_preguntas_iso": "2026-11-06T17:31:00",
+    "ffinal_preguntas_raw": "13-11-2026 18:30",
+    "ffinal_preguntas_iso": "2026-11-13T18:30:00",
+    "frespuestas_raw": "20-11-2026 12:00",
+    "frespuestas_iso": "2026-11-20T12:00:00",
+    "fapertura_tecnica_raw": "02-12-2026 16:30",
+    "fapertura_tecnica_iso": "2026-12-02T16:30:00",
+    "fapertura_economica_raw": "02-12-2026 16:30",
+    "fapertura_economica_iso": "2026-12-02T16:30:00",
+    "fadjudicacion_raw": "17-12-2026 15:30",
+    "fadjudicacion_iso": "2026-12-17T15:30:00"
+   },
+   "contexto": {
+    "descripcion": "Se necesita el servicio de instalación de 13 arranques de agua potable y 19 uniones domiciliarias de alcantarillado para 20 viviendas ubicadas en diferentes comunas de la Región Metropolitana.",
+    "tipo": "LP",
+    "items": [
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Servicios de agua para la ciudad · Se necesita el servicio de instalación de 13 arranques de agua potable y 19 uniones domiciliarias de alcantarillado para 20 viviendas ubicadas en diferentes comunas de la Región Metropolitana."
+    ],
+    "fuente_financiamiento": "GORE RM y Aguas Andinas"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1467-9-LR26",
+    "nombre": "Provisión de Agua Potable Provincia de Curicó",
+    "entidad": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE CURICÓ - Gobernación Provincial de Curicó",
+    "region": "Maule",
+    "comuna": "Curicó",
+    "fpub": "14-10-2026",
+    "monto_raw": "$687.575.300",
+    "monto_num": 687575300,
+    "plazo": "6 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1467-9-LR26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-11-2026 17:30",
+    "fcierre_iso": "2026-11-16T17:30:00",
+    "finicio_preguntas_raw": "14-10-2026 20:00",
+    "finicio_preguntas_iso": "2026-10-14T20:00:00",
+    "ffinal_preguntas_raw": "26-10-2026 20:23",
+    "ffinal_preguntas_iso": "2026-10-26T20:23:00",
+    "frespuestas_raw": "28-10-2026 20:23",
+    "frespuestas_iso": "2026-10-28T20:23:00",
+    "fapertura_tecnica_raw": "16-11-2026 18:30",
+    "fapertura_tecnica_iso": "2026-11-16T18:30:00",
+    "fapertura_economica_raw": "16-11-2026 18:30",
+    "fapertura_economica_iso": "2026-11-16T18:30:00",
+    "fadjudicacion_raw": "26-11-2026 17:30",
+    "fadjudicacion_iso": "2026-11-26T17:30:00"
+   },
+   "contexto": {
+    "descripcion": "Se requiere contratar el servicio de compra, transporte y distribución de agua potable para consumo humano mediante camiones aljibe, destinado a personas afectadas por déficit hídrico yo inaccesibilidad al agua potable en las nueve comunas de la Provincia de Curicó.",
+    "tipo": "LR",
+    "items": [
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de provisión y distribución de agua potable para el primer semestre de 2027, comuna de Curicó",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de provisión y distribución de agua potable para el primer semestre de 2027, comuna de Romeral",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de provisión y distribución de agua potable para el primer semestre de 2027, comuna de Teno",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de provisión y distribución de agua potable para el primer semestre de 2027, comuna de Rauco",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de provisión y distribución de agua potable para el primer semestre de 2027, comuna de Molina",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de provisión y distribución de agua potable para el primer semestre de 2027, comuna de Sagrada Familia"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "1469-345-L126",
+    "nombre": "Adquisición de placas de identificación de Puntos de Referencia (PR) para sistemas SSR de las regiones de Los Ríos y La Araucanía",
+    "entidad": "UNIVERSIDAD DE TALCA - Universidad de Talca",
+    "region": "Maule",
+    "comuna": "Curicó",
+    "fpub": "06-11-2026",
+    "monto_raw": "$3.500.000",
+    "monto_num": 3500000,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-345-L126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-11-2026 15:00",
+    "fcierre_iso": "2026-11-16T15:00:00",
+    "finicio_preguntas_raw": "06-11-2026 15:26",
+    "finicio_preguntas_iso": "2026-11-06T15:26:00",
+    "ffinal_preguntas_raw": "10-11-2026 17:00",
+    "ffinal_preguntas_iso": "2026-11-10T17:00:00",
+    "frespuestas_raw": "13-11-2026 17:00",
+    "frespuestas_iso": "2026-11-13T17:00:00",
+    "fapertura_tecnica_raw": "16-11-2026 15:05",
+    "fapertura_tecnica_iso": "2026-11-16T15:05:00",
+    "fapertura_economica_raw": "16-11-2026 15:05",
+    "fapertura_economica_iso": "2026-11-16T15:05:00",
+    "fadjudicacion_raw": "23-11-2026 18:28",
+    "fadjudicacion_iso": "2026-11-23T18:28:00"
+   },
+   "contexto": {
+    "descripcion": "Fabricación y suministro de 850 placas circulares de acero inoxidable, de 8 cm de diámetro y 3 mm de espesor con perforación central de 1 cm de diámetro, para identificación permanente de PR topográficos, con corte láser, perforación central, grabado bajo relieve, pintura negra en caracteres, numeración individual por sistema y fecha DIC 2026.",
+    "tipo": "L1",
+    "items": [
+     "Servicios editoriales, de diseño, publicidad, gráficos y artistas / Servicios de impresión y reproducción / Impresión · Impresión digital · Fabricación y suministro de 850 placas circulares de acero inoxidable, de 8 cm de diámetro y 3 mm de espesor con perforación central de 1 cm de diámetro, para identificación permanente de PR topográficos, con corte láser, perforación central, grabado"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "pozo profundo"
+   ],
+   "registro": {
+    "id": "1490610-3-LE26",
+    "nombre": "ADQUISICIÓN CONTRATACIÓN SERVICIO DE POZO PROFUNDO",
+    "entidad": "SERVICIO DE BIODIVERSIDAD Y ÁREAS PROTEGIDAS - Dirección Regional de Magallanes SBAP",
+    "region": "Magallanes",
+    "comuna": "Punta Arenas",
+    "fpub": "04-11-2026",
+    "monto_raw": "$27.555.000",
+    "monto_num": 27555000,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1490610-3-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-11-2026 17:40",
+    "fcierre_iso": "2026-11-16T17:40:00",
+    "finicio_preguntas_raw": "04-11-2026 17:50",
+    "finicio_preguntas_iso": "2026-11-04T17:50:00",
+    "ffinal_preguntas_raw": "10-11-2026 23:59",
+    "ffinal_preguntas_iso": "2026-11-10T23:59:00",
+    "frespuestas_raw": "12-11-2026 23:59",
+    "frespuestas_iso": "2026-11-12T23:59:00",
+    "fapertura_tecnica_raw": "17-11-2026 17:00",
+    "fapertura_tecnica_iso": "2026-11-17T17:00:00",
+    "fapertura_economica_raw": "17-11-2026 17:00",
+    "fapertura_economica_iso": "2026-11-17T17:00:00",
+    "fadjudicacion_raw": "27-11-2026 17:42",
+    "fadjudicacion_iso": "2026-11-27T17:42:00"
+   },
+   "contexto": {
+    "descripcion": "En el contexto de la implementación del Servicio, el SBAP y la Corporación Nacional Forestal CONAF celebraron, con fecha 25 de septiembre de 2026, el Convenio de Colaboración para el “Mejoramiento de instalaciones e infraestructura existentes en las áreas protegidas”. Este instrumento tiene por objeto contribuir al mejoramiento de las instalaciones e infraestructura de las áreas protegidas terrestres de propiedad fiscal administradas por CONAF y facilitar los medios materiales necesarios para el ejercicio de las funciones de los trabajadores que sean traspasados al SBAP, favoreciendo la continuidad de la gestión de dichas áreas y preparando las condiciones materiales para su futura administración por el Servicio.",
+    "tipo": "LE",
+    "items": [
+     "Maquinaria para minería y perforación / Equipo de perforación y explotación de pozos / Equipo de prospección y perforación · Equipo de perforación de pozos de agua · “ADQUISICIÓN/CONTRATACIÓN SERVICIO DE PERFORACIÓN DE POZO PROFUNDO, PROSPECCIÓN DE NAPA Y PRUEBA DE BOMBEO PARA PORTERÍA SARMIENTO EN PARQUE NACIONAL TORRES DEL PAINE"
+    ],
+    "fuente_financiamiento": "CONVENIO SBAP CONAF"
+   }
+  },
+  {
+   "palabras": [
+    "APR"
+   ],
+   "registro": {
+    "id": "1506-40-O126",
+    "nombre": "AMPLACIÓN Y MEJORAMIENTO SISTEMA APR TRICAO HACIA LAS GARZAS, RAUCO",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - VII Región",
+    "region": "Maule",
+    "comuna": "Talca",
+    "fpub": "15-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1506-40-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "13-11-2026 11:00",
+    "fcierre_iso": "2026-11-13T11:00:00",
+    "finicio_preguntas_raw": "15-10-2026 16:23",
+    "finicio_preguntas_iso": "2026-10-15T16:23:00",
+    "ffinal_preguntas_raw": "23-10-2026 15:00",
+    "ffinal_preguntas_iso": "2026-10-23T15:00:00",
+    "frespuestas_raw": "30-10-2026 19:00",
+    "frespuestas_iso": "2026-10-30T19:00:00",
+    "fapertura_tecnica_raw": "13-11-2026 11:00",
+    "fapertura_tecnica_iso": "2026-11-13T11:00:00",
+    "fapertura_economica_raw": "26-11-2026 11:00",
+    "fapertura_economica_iso": "2026-11-26T11:00:00",
+    "fadjudicacion_raw": "30-12-2026 19:00",
+    "fadjudicacion_iso": "2026-12-30T19:00:00"
+   },
+   "contexto": {
+    "descripcion": "AMPLACIÓN Y MEJORAMIENTO SISTEMA APR TRICAO HACIA LAS GARZAS, RAUCO",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "31-02-004"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "1506-46-O126",
+    "nombre": "CONSERVACIÓN SSR SAN FRANCISCO LOS LARGOS, SAN CLEMENTE",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - VII Región",
+    "region": "Maule",
+    "comuna": "Talca",
+    "fpub": "22-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1506-46-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "23-11-2026 15:00",
+    "fcierre_iso": "2026-11-23T15:00:00",
+    "finicio_preguntas_raw": "22-10-2026 15:00",
+    "finicio_preguntas_iso": "2026-10-22T15:00:00",
+    "ffinal_preguntas_raw": "29-10-2026 17:00",
+    "ffinal_preguntas_iso": "2026-10-29T17:00:00",
+    "frespuestas_raw": "09-11-2026 17:00",
+    "frespuestas_iso": "2026-11-09T17:00:00",
+    "fapertura_tecnica_raw": "23-11-2026 15:01",
+    "fapertura_tecnica_iso": "2026-11-23T15:01:00",
+    "fapertura_economica_raw": "30-11-2026 15:00",
+    "fapertura_economica_iso": "2026-11-30T15:00:00",
+    "fadjudicacion_raw": "30-12-2026 12:00",
+    "fadjudicacion_iso": "2026-12-30T12:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONSERVACIÓN SSR SAN FRANCISCO LOS LARGOS, SAN CLEMENTE",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "Fondos Sectorial"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "SSR"
+   ],
+   "registro": {
+    "id": "1506-48-O126",
+    "nombre": "Mejoramiento y Ampliación Sistema Agua Potable SSR Santa Inés,Retiro",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - VII Región",
+    "region": "Maule",
+    "comuna": "Talca",
+    "fpub": "23-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1506-48-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "17-11-2026 10:00",
+    "fcierre_iso": "2026-11-17T10:00:00",
+    "finicio_preguntas_raw": "23-10-2026 15:00",
+    "finicio_preguntas_iso": "2026-10-23T15:00:00",
+    "ffinal_preguntas_raw": "09-11-2026 15:00",
+    "ffinal_preguntas_iso": "2026-11-09T15:00:00",
+    "frespuestas_raw": "11-11-2026 19:00",
+    "frespuestas_iso": "2026-11-11T19:00:00",
+    "fapertura_tecnica_raw": "17-11-2026 10:01",
+    "fapertura_tecnica_iso": "2026-11-17T10:01:00",
+    "fapertura_economica_raw": "27-11-2026 10:00",
+    "fapertura_economica_iso": "2026-11-27T10:00:00",
+    "fadjudicacion_raw": "31-12-2026 19:00",
+    "fadjudicacion_iso": "2026-12-31T19:00:00"
+   },
+   "contexto": {
+    "descripcion": "Mejoramiento y Ampliación Sistema Agua Potable SSR Santa Inés,Retiro\r\n",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "SECTORIAL"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "1506-50-O126",
+    "nombre": "CONSERVACIÓN PLANTA DE TRATAMIENTO DE AGUAS SERVIDAS SSR LOMA DE LAS TORTIL",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - VII Región",
+    "region": "Maule",
+    "comuna": "Talca",
+    "fpub": "02-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1506-50-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "24-11-2026 10:00",
+    "fcierre_iso": "2026-11-24T10:00:00",
+    "finicio_preguntas_raw": "02-11-2026 12:01",
+    "finicio_preguntas_iso": "2026-11-02T12:01:00",
+    "ffinal_preguntas_raw": "11-11-2026 09:00",
+    "ffinal_preguntas_iso": "2026-11-11T09:00:00",
+    "frespuestas_raw": "16-11-2026 17:00",
+    "frespuestas_iso": "2026-11-16T17:00:00",
+    "fapertura_tecnica_raw": "24-11-2026 10:01",
+    "fapertura_tecnica_iso": "2026-11-24T10:01:00",
+    "fapertura_economica_raw": "01-12-2026 12:00",
+    "fapertura_economica_iso": "2026-12-01T12:00:00",
+    "fadjudicacion_raw": "29-12-2026 17:00",
+    "fadjudicacion_iso": "2026-12-29T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONSERVACIÓN PLANTA DE TRATAMIENTO DE AGUAS SERVIDAS SSR LOMA DE LAS TORTILLAS, VILLA ALEGRE",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "Sectorial"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "SSR"
+   ],
+   "registro": {
+    "id": "1506-51-O126",
+    "nombre": "Construcción Sistema Agua Potable SSR La Puntilla Oriente, Longaví",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - VII Región",
+    "region": "Maule",
+    "comuna": "Talca",
+    "fpub": "30-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1506-51-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "30-11-2026 15:00",
+    "fcierre_iso": "2026-11-30T15:00:00",
+    "finicio_preguntas_raw": "30-10-2026 18:10",
+    "finicio_preguntas_iso": "2026-10-30T18:10:00",
+    "ffinal_preguntas_raw": "11-11-2026 18:00",
+    "ffinal_preguntas_iso": "2026-11-11T18:00:00",
+    "frespuestas_raw": "18-11-2026 19:00",
+    "frespuestas_iso": "2026-11-18T19:00:00",
+    "fapertura_tecnica_raw": "30-11-2026 15:01",
+    "fapertura_tecnica_iso": "2026-11-30T15:01:00",
+    "fapertura_economica_raw": "07-12-2026 15:01",
+    "fapertura_economica_iso": "2026-12-07T15:01:00",
+    "fadjudicacion_raw": "30-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-30T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "Construcción Sistema Agua Potable SSR",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "SECTORIAL"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "1507-32-O126",
+    "nombre": "AIF CONTRATO CONSTRUCCION SSR PAILLAHUE, COMUNA DE HUALQUI, SEGUNDO LLAMADO",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - VIII Región",
+    "region": "Biobío",
+    "comuna": "Concepción",
+    "fpub": "05-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1507-32-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "18-11-2026 15:00",
+    "fcierre_iso": "2026-11-18T15:00:00",
+    "finicio_preguntas_raw": "05-11-2026 11:00",
+    "finicio_preguntas_iso": "2026-11-05T11:00:00",
+    "ffinal_preguntas_raw": "10-11-2026 11:00",
+    "ffinal_preguntas_iso": "2026-11-10T11:00:00",
+    "frespuestas_raw": "13-11-2026 11:00",
+    "frespuestas_iso": "2026-11-13T11:00:00",
+    "fapertura_tecnica_raw": "18-11-2026 15:00",
+    "fapertura_tecnica_iso": "2026-11-18T15:00:00",
+    "fapertura_economica_raw": "27-11-2026 11:00",
+    "fapertura_economica_iso": "2026-11-27T11:00:00",
+    "fadjudicacion_raw": "30-12-2026 11:00",
+    "fadjudicacion_iso": "2026-12-30T11:00:00"
+   },
+   "contexto": {
+    "descripcion": " ASESORIA A LA INSPECCIÓN FISCAL CONTRATO CONSTRUCCION SERVICIO SANITARIO RURAL PAILLAHUE, COMUNA DE HUALQUI, SEGUNDO LLAMADO",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "SECTORIAL"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "1697-50-LE26",
+    "nombre": "SERVICIO DE MANTENCIÓN CORRESPONDIENTE A SANITIZACIÓN Y LIMPIEZA DE ESTANQUES DE ALMACENAMIENTO AGUA POTABLE Y CÁMARAS DE ALCANTARILLADO PARA TRIBUNALES DE LA JURISDICCION DE ANTOFAGASTA",
+    "entidad": "CORP ADMINISTRATIVA DEL PODER JUDICIAL - Corp. Adm. del Poder Judicial - Antofagasta",
+    "region": "Antofagasta",
+    "comuna": "Antofagasta",
+    "fpub": "06-11-2026",
+    "monto_raw": "$1.537",
+    "monto_num": 1537.2,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1697-50-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "23-11-2026 16:00",
+    "fcierre_iso": "2026-11-23T16:00:00",
+    "finicio_preguntas_raw": "06-11-2026 19:00",
+    "finicio_preguntas_iso": "2026-11-06T19:00:00",
+    "ffinal_preguntas_raw": "11-11-2026 15:00",
+    "ffinal_preguntas_iso": "2026-11-11T15:00:00",
+    "frespuestas_raw": "13-11-2026 17:00",
+    "frespuestas_iso": "2026-11-13T17:00:00",
+    "fapertura_tecnica_raw": "23-11-2026 16:30",
+    "fapertura_tecnica_iso": "2026-11-23T16:30:00",
+    "fapertura_economica_raw": "23-11-2026 16:30",
+    "fapertura_economica_iso": "2026-11-23T16:30:00",
+    "fadjudicacion_raw": "28-12-2026 19:00",
+    "fadjudicacion_iso": "2026-12-28T19:00:00"
+   },
+   "contexto": {
+    "descripcion": "ERVICIO DE MANTENCIÓN CORRESPONDIENTE A SANITIZACIÓN Y LIMPIEZA DE ESTANQUES DE ALMACENAMIENTO AGUA POTABLE Y CÁMARAS DE ALCANTARILLADO PARA TRIBUNALES DE LA JURISDICCION DE ANTOFAGASTA\r\nPAC 2693-2-PC26",
+    "tipo": "LE",
+    "items": [
+     "Servicios de construcción y mantenimiento / Servicios de atención, mantenimiento y reparaciones de edificios / Control de plagas · Servicios de exterminación o fumigación · SERVICIO DE MANTENCION CORRESPONDIENTE A SANITIZACIÓN Y LIMPIEZA DE ESTANQUES DE ALMACENAMIENTO AGUA POTABLE Y CAMARAS DE ALCANTARILLADO PARA TRIBUNALES DE LA JURISDICCION DE ANTOFAGASTA",
+     "Servicios de construcción y mantenimiento / Servicios de atención, mantenimiento y reparaciones de edificios / Control de plagas · Servicios de exterminación o fumigación · SERVICIO DE MANTENCION CORRESPONDIENTE A SANITIZACIÓN Y LIMPIEZA DE ESTANQUES DE ALMACENAMIENTO AGUA POTABLE Y CAMARAS DE ALCANTARILLADO PARA TRIBUNALES DE LA JURISDICCION DE CALAMA",
+     "Servicios de construcción y mantenimiento / Servicios de atención, mantenimiento y reparaciones de edificios / Control de plagas · Servicios de exterminación o fumigación · SERVICIO DE MANTENCION CORRESPONDIENTE A SANITIZACIÓN Y LIMPIEZA DE ESTANQUES DE ALMACENAMIENTO AGUA POTABLE Y CAMARAS DE ALCANTARILLADO PARA TRIBUNALES DE LA JURISDICCION DE TOCOPILLA"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "cuenca"
+   ],
+   "registro": {
+    "id": "1966-14-O126",
+    "nombre": "Conservación de Obras Global Cuenca Río Camarones 2027, Región de Arica y P",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas- XV Región Adquisiciones",
+    "region": "Arica y Parinacota",
+    "comuna": "Arica",
+    "fpub": "15-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1966-14-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "15-12-2026 11:00",
+    "fcierre_iso": "2026-12-15T11:00:00",
+    "finicio_preguntas_raw": "15-10-2026 18:01",
+    "finicio_preguntas_iso": "2026-10-15T18:01:00",
+    "ffinal_preguntas_raw": "01-12-2026 12:00",
+    "ffinal_preguntas_iso": "2026-12-01T12:00:00",
+    "frespuestas_raw": "03-12-2026 16:00",
+    "frespuestas_iso": "2026-12-03T16:00:00",
+    "fapertura_tecnica_raw": "15-12-2026 11:01",
+    "fapertura_tecnica_iso": "2026-12-15T11:01:00",
+    "fapertura_economica_raw": "15-12-2026 11:01",
+    "fapertura_economica_iso": "2026-12-15T11:01:00",
+    "fadjudicacion_raw": "31-12-2026 15:00",
+    "fadjudicacion_iso": "2026-12-31T15:00:00"
+   },
+   "contexto": {
+    "descripcion": "Conservación de Obras Global Cuenca Río Camarones 2027, Región de Arica y Parinacota",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "sectorial"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "agua potable rural"
+   ],
+   "registro": {
+    "id": "1966-1-LS18",
+    "nombre": "MEJORAMIENTO CAPTACION SISTEMA AGUA POTABLE RURAL",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas- XV Región Adquisiciones",
+    "region": "Arica y Parinacota",
+    "comuna": "Arica",
+    "fpub": "22-02-2018",
+    "monto_raw": "$1.794.426.027",
+    "monto_num": 1794426027,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1966-1-LS18",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "",
+    "fcierre_iso": "",
+    "finicio_preguntas_raw": "",
+    "finicio_preguntas_iso": "",
+    "ffinal_preguntas_raw": "",
+    "ffinal_preguntas_iso": "",
+    "frespuestas_raw": "",
+    "frespuestas_iso": "",
+    "fapertura_tecnica_raw": "",
+    "fapertura_tecnica_iso": "",
+    "fapertura_economica_raw": "",
+    "fapertura_economica_iso": "",
+    "fadjudicacion_raw": "",
+    "fadjudicacion_iso": ""
+   },
+   "contexto": {
+    "descripcion": "MEJORAMIENTO CAPTACION VILLA FRONTERA Y LA PONDEROSA, COMUNA DE ARICA",
+    "tipo": "LS",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles"
+    ],
+    "fuente_financiamiento": "Sectorial MOP-DOH"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "2047-8-LR26",
+    "nombre": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE PROVINCIA DE LINARES",
+    "entidad": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE LINARES - DELEGACIÓN PRESIDENCIAL PROVINCIAL DE LINARES",
+    "region": "Maule",
+    "comuna": "Linares",
+    "fpub": "28-10-2026",
+    "monto_raw": "$598.452.970",
+    "monto_num": 598452970,
+    "plazo": "6 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2047-8-LR26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "27-11-2026 16:00",
+    "fcierre_iso": "2026-11-27T16:00:00",
+    "finicio_preguntas_raw": "28-10-2026 16:10",
+    "finicio_preguntas_iso": "2026-10-28T16:10:00",
+    "ffinal_preguntas_raw": "02-11-2026 15:00",
+    "ffinal_preguntas_iso": "2026-11-02T15:00:00",
+    "frespuestas_raw": "06-11-2026 17:30",
+    "frespuestas_iso": "2026-11-06T17:30:00",
+    "fapertura_tecnica_raw": "27-11-2026 16:01",
+    "fapertura_tecnica_iso": "2026-11-27T16:01:00",
+    "fapertura_economica_raw": "27-11-2026 16:01",
+    "fapertura_economica_iso": "2026-11-27T16:01:00",
+    "fadjudicacion_raw": "09-12-2026 17:30",
+    "fadjudicacion_iso": "2026-12-09T17:30:00"
+   },
+   "contexto": {
+    "descripcion": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE PROVINCIA DE LINARES PERIODO 1 DE  ENERO 2027 AL 30 JUNIO 2027.",
+    "tipo": "LR",
+    "items": [
+     "Artículos para estructuras, obras y construcciones / Construcciones permanentes / Construcciones para servicios · Aljibes · Línea N°1:Servicio Distribución Agua Potable consumo humano Comuna de Linares, según bases técnicas punto N°2, requerimiento específico del servicio; según bases técnicas antecedentes generales punto N°1.1.",
+     "Artículos para estructuras, obras y construcciones / Construcciones permanentes / Construcciones para servicios · Aljibes · Línea N°2:Servicio Distribución Agua Potable consumo humano Comuna de Colbún, según bases técnicas punto N°2, requerimiento específico del servicio; según bases técnicas antecedentes generales punto N°1.1.",
+     "Artículos para estructuras, obras y construcciones / Construcciones permanentes / Construcciones para servicios · Aljibes · Línea N°3:Servicio Distribución Agua Potable consumo humano Comuna de Yerbas Buenas, según bases técnicas punto N°2, requerimiento específico del servicio; según bases técnicas antecedentes generales punto N°1.1.",
+     "Artículos para estructuras, obras y construcciones / Construcciones permanentes / Construcciones para servicios · Aljibes · Línea N°4:Servicio Distribución Agua Potable consumo humano Comuna de San Javier, según bases técnicas punto N°2, requerimiento específico del servicio; según bases técnicas antecedentes generales punto N°1.1.",
+     "Artículos para estructuras, obras y construcciones / Construcciones permanentes / Construcciones para servicios · Aljibes · Línea N°5:Servicio Distribución Agua Potable consumo humano Comuna de Retiro, según bases técnicas punto N°2, requerimiento específico del servicio; según bases técnicas antecedentes generales punto N°1.1.",
+     "Artículos para estructuras, obras y construcciones / Construcciones permanentes / Construcciones para servicios · Aljibes · Línea N°6:Servicio Distribución Agua Potable consumo humano Comuna de Parral, según bases técnicas punto N°2, requerimiento específico del servicio; según bases técnicas antecedentes generales punto N°1.1."
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "2081-3-LE26",
+    "nombre": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE EN VEHÍCU",
+    "entidad": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE COLCHAGUA - Delegación Presidencial Provincial de Colchagua",
+    "region": "O'Higgins",
+    "comuna": "San Fernando",
+    "fpub": "02-11-2026",
+    "monto_raw": "$65.000.000",
+    "monto_num": 65000000,
+    "plazo": "6 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2081-3-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "12-11-2026 16:00",
+    "fcierre_iso": "2026-11-12T16:00:00",
+    "finicio_preguntas_raw": "02-11-2026 16:01",
+    "finicio_preguntas_iso": "2026-11-02T16:01:00",
+    "ffinal_preguntas_raw": "04-11-2026 15:00",
+    "ffinal_preguntas_iso": "2026-11-04T15:00:00",
+    "frespuestas_raw": "06-11-2026 15:00",
+    "frespuestas_iso": "2026-11-06T15:00:00",
+    "fapertura_tecnica_raw": "12-11-2026 16:01",
+    "fapertura_tecnica_iso": "2026-11-12T16:01:00",
+    "fapertura_economica_raw": "12-11-2026 16:01",
+    "fapertura_economica_iso": "2026-11-12T16:01:00",
+    "fadjudicacion_raw": "26-11-2026 16:00",
+    "fadjudicacion_iso": "2026-11-26T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "Contratación del Servicio de distribución de agua potable para las comunas de Lolol Y Pumanque, periodo enero a junio 2027. Sujeto a Bases administrativas y técnicas adjuntas. ",
+    "tipo": "LE",
+    "items": [
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Transporte de carga por carretera · Servicios de transporte local en camión · Servicio distribución de agua potable para consumo Comuna de Pumanque",
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Transporte de carga por carretera · Servicios de transporte local en camión · Servicio distribución de agua potable para consumo Comuna de Lolol"
+    ],
+    "fuente_financiamiento": "Fondos de Emergencia de la Subsec. Interior"
+   }
+  },
+  {
+   "palabras": [
+    "cuenca"
+   ],
+   "registro": {
+    "id": "2241-2-LP26",
+    "nombre": "Apertura y mantención de cuentas corrientes",
+    "entidad": "DIRECCION DE COMPRAS Y CONTRATACION PUBLICA - Departamento Administración y Finanzas",
+    "region": "Metropolitana",
+    "comuna": "Santiago Centro",
+    "fpub": "20-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "38 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2241-2-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "11-11-2026 16:00",
+    "fcierre_iso": "2026-11-11T16:00:00",
+    "finicio_preguntas_raw": "20-10-2026 09:35",
+    "finicio_preguntas_iso": "2026-10-20T09:35:00",
+    "ffinal_preguntas_raw": "27-10-2026 18:00",
+    "ffinal_preguntas_iso": "2026-10-27T18:00:00",
+    "frespuestas_raw": "03-11-2026 18:00",
+    "frespuestas_iso": "2026-11-03T18:00:00",
+    "fapertura_tecnica_raw": "11-11-2026 16:30",
+    "fapertura_tecnica_iso": "2026-11-11T16:30:00",
+    "fapertura_economica_raw": "11-11-2026 16:30",
+    "fapertura_economica_iso": "2026-11-11T16:30:00",
+    "fadjudicacion_raw": "25-11-2026 18:00",
+    "fadjudicacion_iso": "2026-11-25T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "Contratación de servicios de apertura y mantención de cuentas corrientes bancarias para la Dirección de Compras y Contratación Pública",
+    "tipo": "LP",
+    "items": [
+     "Servicios financieros, pensiones y seguros / Banca e inversiones / Instituciones bancarias · Bancos privados · Apertura y mantención de cuentas corrientes y servicios financieros"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "2393-28-L126",
+    "nombre": "Mantención del Sistema de Agua Potable y Evaluación de Aguas Servidas, Edificio Consistorial por 3 meses, según lo señalado en las bases técnicas.",
+    "entidad": "I MUNICIPALIDAD PEDRO AGUIRRE CERDA - DEPARTAMENTO DE ADQUISICIONES",
+    "region": "Metropolitana",
+    "comuna": "Pedro Aguirre Cerda",
+    "fpub": "06-11-2026",
+    "monto_raw": "$4.000.000",
+    "monto_num": 4000000,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2393-28-L126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-11-2026 15:00",
+    "fcierre_iso": "2026-11-16T15:00:00",
+    "finicio_preguntas_raw": "06-11-2026 10:00",
+    "finicio_preguntas_iso": "2026-11-06T10:00:00",
+    "ffinal_preguntas_raw": "11-11-2026 09:00",
+    "ffinal_preguntas_iso": "2026-11-11T09:00:00",
+    "frespuestas_raw": "12-11-2026 12:00",
+    "frespuestas_iso": "2026-11-12T12:00:00",
+    "fapertura_tecnica_raw": "16-11-2026 15:01",
+    "fapertura_tecnica_iso": "2026-11-16T15:01:00",
+    "fapertura_economica_raw": "16-11-2026 15:01",
+    "fapertura_economica_iso": "2026-11-16T15:01:00",
+    "fadjudicacion_raw": "23-11-2026 12:01",
+    "fadjudicacion_iso": "2026-11-23T12:01:00"
+   },
+   "contexto": {
+    "descripcion": "Mantención del Sistema de Agua Potable y Evaluación de Aguas\nServidas, Edificio Consistorial por 3 meses, según lo señalado en las\nbases técnicas.",
+    "tipo": "L1",
+    "items": [
+     "Equipamiento y suministros médicos / Productos de resucitación, anestesia y respiratorios / Suministros de intubación · Bombas de succión · Mantención del Sistema de Agua Potable y Evaluación de Aguas\nServidas, Edificio Consistorial por 3 meses, según lo señalado en las\nbases técnicas."
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "cuenca"
+   ],
+   "registro": {
+    "id": "2594-33-LE26",
+    "nombre": "APERTURA Y MANTENCION CUENTAS CORRIENTES",
+    "entidad": "I MUNICIPALIDAD DE CONCON - I.MUNICIPALIDAD DE CONCON",
+    "region": "Valparaíso",
+    "comuna": "Concón",
+    "fpub": "02-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "48 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2594-33-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "26-11-2026 19:57",
+    "fcierre_iso": "2026-11-26T19:57:00",
+    "finicio_preguntas_raw": "02-11-2026 16:00",
+    "finicio_preguntas_iso": "2026-11-02T16:00:00",
+    "ffinal_preguntas_raw": "05-11-2026 16:00",
+    "ffinal_preguntas_iso": "2026-11-05T16:00:00",
+    "frespuestas_raw": "12-11-2026 16:00",
+    "frespuestas_iso": "2026-11-12T16:00:00",
+    "fapertura_tecnica_raw": "26-11-2026 19:58",
+    "fapertura_tecnica_iso": "2026-11-26T19:58:00",
+    "fapertura_economica_raw": "26-11-2026 19:58",
+    "fapertura_economica_iso": "2026-11-26T19:58:00",
+    "fadjudicacion_raw": "03-12-2026 19:58",
+    "fadjudicacion_iso": "2026-12-03T19:58:00"
+   },
+   "contexto": {
+    "descripcion": "APERTURA Y MANTENCION DE CUENTAS CORRIENTES BANCARIAS EN MONEDA NACIONAL, SERVICIOS DE RECAUDACIÓN Y OTROS SERVICIOS BANCARIOS PARA LA MUNICIPALIDAD DE CONCÓN, INCLUIDO DEPARTAMENTO DE SALUD, EDUCACIÓN Y SERVICIO DE BIENESTAR MUNICIPAL",
+    "tipo": "LE",
+    "items": [
+     "Servicios financieros, pensiones y seguros / Banca e inversiones / Instituciones bancarias · Bancos privados · APERTURA  Y MANTENCION DE CUENTAS CORRIENTES  BANCARIAS EN MONEDA NACIONAL, SERVICIOS DE RECAUDACION Y OTROS"
+    ],
+    "fuente_financiamiento": "MUNICIPAL"
+   }
+  },
+  {
+   "palabras": [
+    "saneamiento sanitario"
+   ],
+   "registro": {
+    "id": "2661-46-LP26",
+    "nombre": "CONSTRUCCIÓN OBRAS DE SANEAMIENTO SANITARIO SECTOR RUBÉN DARÍO ESTERO NATALES",
+    "entidad": "ILUSTRE MUNICIPALIDAD DE NATALES - SECRETARIA DE PLANIFICACION",
+    "region": "Magallanes",
+    "comuna": "Puerto Natales",
+    "fpub": "23-10-2026",
+    "monto_raw": "$313.546.090",
+    "monto_num": 313546090,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2661-46-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "24-11-2026 12:00",
+    "fcierre_iso": "2026-11-24T12:00:00",
+    "finicio_preguntas_raw": "23-10-2026 18:47",
+    "finicio_preguntas_iso": "2026-10-23T18:47:00",
+    "ffinal_preguntas_raw": "02-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-02T12:00:00",
+    "frespuestas_raw": "05-11-2026 17:00",
+    "frespuestas_iso": "2026-11-05T17:00:00",
+    "fapertura_tecnica_raw": "24-11-2026 15:00",
+    "fapertura_tecnica_iso": "2026-11-24T15:00:00",
+    "fapertura_economica_raw": "25-11-2026 16:00",
+    "fapertura_economica_iso": "2026-11-25T16:00:00",
+    "fadjudicacion_raw": "14-12-2026 17:00",
+    "fadjudicacion_iso": "2026-12-14T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "SE CONTEMPLA LA CONSTRUCCIÓN OBRAS DE SANEAMIENTO SANITARIO SECTOR RUBÉN DARÍO ESTERO NATALES",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · SE CONTEMPLA LA CONSTRUCCIÓN OBRAS DE SANEAMIENTO SANITARIO SECTOR RUBÉN DARÍO ESTERO NATALES "
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "2684-58-LR26",
+    "nombre": "PP Nº59-2026 CONSTRUCCIÓN RED AGUA POTABLE Y ALCANTARILLADO POB. AGUIRRE CERDA VILLA ALEMANA",
+    "entidad": "I MUNICIPALIDAD DE VILLA ALEMANA - SECPLA",
+    "region": "Valparaíso",
+    "comuna": "Villa Alemana",
+    "fpub": "29-10-2026",
+    "monto_raw": "$802.294.000",
+    "monto_num": 802294000,
+    "plazo": "150 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2684-58-LR26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "01-12-2026 15:00",
+    "fcierre_iso": "2026-12-01T15:00:00",
+    "finicio_preguntas_raw": "04-11-2026 17:00",
+    "finicio_preguntas_iso": "2026-11-04T17:00:00",
+    "ffinal_preguntas_raw": "11-11-2026 17:00",
+    "ffinal_preguntas_iso": "2026-11-11T17:00:00",
+    "frespuestas_raw": "18-11-2026 17:00",
+    "frespuestas_iso": "2026-11-18T17:00:00",
+    "fapertura_tecnica_raw": "01-12-2026 15:00",
+    "fapertura_tecnica_iso": "2026-12-01T15:00:00",
+    "fapertura_economica_raw": "15-12-2026 15:00",
+    "fapertura_economica_iso": "2026-12-15T15:00:00",
+    "fadjudicacion_raw": "15-02-2027 17:00",
+    "fadjudicacion_iso": "2027-02-15T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "\"CONSTRUCCIÓN RED AGUA POTABLE Y ALCANTARILLADO POB. AGUIRRE CERDA VILLA ALEMANA\"",
+    "tipo": "LR",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · Se requiere la construcción de red de agua potable y alcantarillado en Pob. Aguirre Cerda en la comuna de Villa Alemana."
+    ],
+    "fuente_financiamiento": "GOBIERNO REGIONAL DE VALPARAISO"
+   }
+  },
+  {
+   "palabras": [
+    "cuenca"
+   ],
+   "registro": {
+    "id": "2709-89-LR26",
+    "nombre": "SERVICIO DE APERTURA Y MANTENCIÓN DE CUENTAS CORRIENTES Y OTROS SERVICIOS - ILUSTRE MUNICIPALIDAD DE OVALLE",
+    "entidad": "MUNICIPALIDAD DE OVALLE - Municipalidad de Ovalle - Secplan",
+    "region": "Coquimbo",
+    "comuna": "",
+    "fpub": "04-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "48 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2709-89-LR26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "04-12-2026 14:00",
+    "fcierre_iso": "2026-12-04T14:00:00",
+    "finicio_preguntas_raw": "05-11-2026 09:00",
+    "finicio_preguntas_iso": "2026-11-05T09:00:00",
+    "ffinal_preguntas_raw": "09-11-2026 17:00",
+    "ffinal_preguntas_iso": "2026-11-09T17:00:00",
+    "frespuestas_raw": "16-11-2026 17:00",
+    "frespuestas_iso": "2026-11-16T17:00:00",
+    "fapertura_tecnica_raw": "04-12-2026 15:30",
+    "fapertura_tecnica_iso": "2026-12-04T15:30:00",
+    "fapertura_economica_raw": "04-12-2026 15:30",
+    "fapertura_economica_iso": "2026-12-04T15:30:00",
+    "fadjudicacion_raw": "31-12-2026 17:00",
+    "fadjudicacion_iso": "2026-12-31T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "SERVICIO DE APERTURA Y MANTENCIÓN DE CUENTAS CORRIENTES Y OTROS SERVICIOS - ILUSTRE MUNICIPALIDAD DE OVALLE",
+    "tipo": "LR",
+    "items": [
+     "Servicios financieros, pensiones y seguros / Banca e inversiones / Instituciones bancarias · Bancos privados · SERVICIO DE APERTURA Y MANTENCIÓN DE CUENTAS CORRIENTES Y OTROS SERVICIOS - ILUSTRE MUNICIPALIDAD DE OVALLE"
+    ],
+    "fuente_financiamiento": "municipal"
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "2709-94-LR26",
+    "nombre": "PREVENCION APOYO EQUIPAMIENTOS SERVICIOS SANITARIOS RURALES 2026 COMUNA DE OVALLE",
+    "entidad": "MUNICIPALIDAD DE OVALLE - Municipalidad de Ovalle - Secplan",
+    "region": "Coquimbo",
+    "comuna": "",
+    "fpub": "05-11-2026",
+    "monto_raw": "$437.492.849",
+    "monto_num": 437492849,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2709-94-LR26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "07-12-2026 15:00",
+    "fcierre_iso": "2026-12-07T15:00:00",
+    "finicio_preguntas_raw": "06-11-2026 09:00",
+    "finicio_preguntas_iso": "2026-11-06T09:00:00",
+    "ffinal_preguntas_raw": "10-11-2026 17:10",
+    "ffinal_preguntas_iso": "2026-11-10T17:10:00",
+    "frespuestas_raw": "17-11-2026 17:10",
+    "frespuestas_iso": "2026-11-17T17:10:00",
+    "fapertura_tecnica_raw": "07-12-2026 15:30",
+    "fapertura_tecnica_iso": "2026-12-07T15:30:00",
+    "fapertura_economica_raw": "07-12-2026 15:30",
+    "fapertura_economica_iso": "2026-12-07T15:30:00",
+    "fadjudicacion_raw": "31-12-2026 16:16",
+    "fadjudicacion_iso": "2026-12-31T16:16:00"
+   },
+   "contexto": {
+    "descripcion": "PREVENCION APOYO EQUIPAMIENTOS SERVICIOS SANITARIOS RURALES 2026, COMUNA DE OVALLE, CÓDIGO BIP 50000901-0",
+    "tipo": "LR",
+    "items": [
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Bombas · Bombas de pozo · LINEA 1: ADQUISICIÓN DE BOMBAS Y MOTOR, SEGUN ESPECIFICACIONES TECNICAS (21 UNIDADES)",
+     "Maquinaria para generación y distribución de energía / Transmisión de energía eléctrica, mecánica y cinética / Grupos electrógenos · Generadores diesel · LINEA 2: ADQUISICIÓN DE GENERADORES, SEGUN ESPECIFICACIONES TECNICAS (9 UNIDADES)",
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Bombas · Bombas dosificadores · LINEA 3: ADQUISICIÓN DE BOMBAS DOSIFICADORAS DE CLORO, SEGUN ESPECIFICACIONES TECNICAS (15 UNIDADES)",
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Filtros y purificación industrial / Filtros · Filtros de agua · LINEA 4: ADQUISICIÓN DE FILTROS, SEGUN ESPECIFICACIONES TECNICAS (2 UNIDADES)",
+     "Artículos eléctricos y de iluminación / Equipamiento y artículos eléctricos / Equipamiento para distribución y transformación eléctrica · Conversores de frecuencia · LINEA 5: ADQUISICIÓN DE VARIADORES DE FRECUENCIA Y REGULADORES DE VOLTAJE, SEGUN ESPECIFICACIONES TECNICAS (26 UNIDADES)",
+     "Equipamiento para laboratorios / Equipos e insumos para laboratorio / Productos de expresión proteínica · Inductores o reguladores · LINEA 6: ADQUISICIÓN DE REGULADORES DE VOLTAJE, SEGUN ESPECIFICACIONES TECNICAS (9 UNIDADES)"
+    ],
+    "fuente_financiamiento": "GOBIERNO REGIONAL DE COQUIMBO"
+   }
+  },
+  {
+   "palabras": [
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "2741-74-LE26",
+    "nombre": "DISEÑO DE EXTENSIÓN REDES DE ALCANTARILLADO COMITE",
+    "entidad": "I MUNICIPALIDAD DE SAN FELIPE - SECPLA - MUNISANFE",
+    "region": "Valparaíso",
+    "comuna": "San Felipe",
+    "fpub": "29-10-2026",
+    "monto_raw": "$33.000.000",
+    "monto_num": 33000000,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2741-74-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "10-11-2026 12:00",
+    "fcierre_iso": "2026-11-10T12:00:00",
+    "finicio_preguntas_raw": "29-10-2026 12:00",
+    "finicio_preguntas_iso": "2026-10-29T12:00:00",
+    "ffinal_preguntas_raw": "04-11-2026 17:00",
+    "ffinal_preguntas_iso": "2026-11-04T17:00:00",
+    "frespuestas_raw": "06-11-2026 17:00",
+    "frespuestas_iso": "2026-11-06T17:00:00",
+    "fapertura_tecnica_raw": "10-11-2026 12:10",
+    "fapertura_tecnica_iso": "2026-11-10T12:10:00",
+    "fapertura_economica_raw": "10-11-2026 12:10",
+    "fapertura_economica_iso": "2026-11-10T12:10:00",
+    "fadjudicacion_raw": "15-12-2026 18:48",
+    "fadjudicacion_iso": "2026-12-15T18:48:00"
+   },
+   "contexto": {
+    "descripcion": "DISEÑO DE EXTENSIÓN REDES DE ALCANTARILLADO COMITE SANTA TERESITA DE CURIMÓN Y COMITÉ HACIENDA DE QUILPUÉ",
+    "tipo": "LE",
+    "items": [
+     "Servicios basados en ingeniería, ciencias sociales y tecnología de la información / Servicios profesionales de ingeniería / Ingeniería civil · Servicios de gestión de la construcción · DISEÑO DE EXTENSIÓN REDES DE ALCANTARILLADO COMITE SANTA TERESA DE CURIMÓN",
+     "Servicios basados en ingeniería, ciencias sociales y tecnología de la información / Servicios profesionales de ingeniería / Ingeniería civil · Servicios de gestión de la construcción · DISEÑO DE EXTENSIÓN DE REDES DE ALCANTARILLADO COMITÉ HACIENDA DE QUILPUE"
+    ],
+    "fuente_financiamiento": "Fondo de Equidad Territorial"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "2794-32-LP26",
+    "nombre": "Mejoramiento Sist. Agua Potable Rio Blanco Diseño",
+    "entidad": "MUNICIPALIDAD DE LOS ANDES - Secretaria Comunal de Planificación",
+    "region": "Valparaíso",
+    "comuna": "Los Andes",
+    "fpub": "06-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "365 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2794-32-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "26-11-2026 14:00",
+    "fcierre_iso": "2026-11-26T14:00:00",
+    "finicio_preguntas_raw": "06-11-2026 11:30",
+    "finicio_preguntas_iso": "2026-11-06T11:30:00",
+    "ffinal_preguntas_raw": "10-11-2026 16:00",
+    "ffinal_preguntas_iso": "2026-11-10T16:00:00",
+    "frespuestas_raw": "12-11-2026 17:00",
+    "frespuestas_iso": "2026-11-12T17:00:00",
+    "fapertura_tecnica_raw": "26-11-2026 15:00",
+    "fapertura_tecnica_iso": "2026-11-26T15:00:00",
+    "fapertura_economica_raw": "26-11-2026 15:00",
+    "fapertura_economica_iso": "2026-11-26T15:00:00",
+    "fadjudicacion_raw": "22-12-2026 17:00",
+    "fadjudicacion_iso": "2026-12-22T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "“DISEÑO MEJORAMIENTO SISTEMA DE AGUA POTABLE RURAL SECTOR RIO BLANCO, LOS ANDES”, PROYECTOS FONDO NACIONAL DE DESARROLLO REGIONAL, CODIGO BIP 40069187-0.",
+    "tipo": "LP",
+    "items": [
+     "Servicios profesionales, administrativos y consultorías de gestión empresarial / Servicios de recursos humanos / Contratación de personal · Profesionales · “DISEÑO MEJORAMIENTO SISTEMA DE AGUA POTABLE RURAL SECTOR RIO BLANCO, LOS ANDES”, PROYECTOS FONDO NACIONAL DE DESARROLLO REGIONAL, CODIGO BIP 40069187-0"
+    ],
+    "fuente_financiamiento": "FNDR "
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "2997-67-LP26",
+    "nombre": "Equipamiento Servicios Sanitarios Rurales 2026.",
+    "entidad": "I MUNICIPALIDAD DE MONTEPATRIA - Secpla",
+    "region": "Coquimbo",
+    "comuna": "Monte Patria",
+    "fpub": "05-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2997-67-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "25-11-2026 11:08",
+    "fcierre_iso": "2026-11-25T11:08:00",
+    "finicio_preguntas_raw": "05-11-2026 20:27",
+    "finicio_preguntas_iso": "2026-11-05T20:27:00",
+    "ffinal_preguntas_raw": "16-11-2026 20:27",
+    "ffinal_preguntas_iso": "2026-11-16T20:27:00",
+    "frespuestas_raw": "20-11-2026 20:27",
+    "frespuestas_iso": "2026-11-20T20:27:00",
+    "fapertura_tecnica_raw": "25-11-2026 11:09",
+    "fapertura_tecnica_iso": "2026-11-25T11:09:00",
+    "fapertura_economica_raw": "25-11-2026 11:09",
+    "fapertura_economica_iso": "2026-11-25T11:09:00",
+    "fadjudicacion_raw": "14-12-2026 11:09",
+    "fadjudicacion_iso": "2026-12-14T11:09:00"
+   },
+   "contexto": {
+    "descripcion": "La Municipalidad de Monte Patria requiere adquirir equipamientos, instrumentos, materiales y herramientas para fortalecer la operatividad de 27 Servicios Sanitarios Rurales de la comuna, en el marco del Convenio de Transferencia suscrito con el Gobierno Regional de Coquimbo, financiado con recursos FNDR 2026, código BIP 50002372-0.",
+    "tipo": "LP",
+    "items": [
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Bombas · Bombas para servicios sanitarios · Línea 1: Adquisición de equipamientos para Servicios Sanitarios Rurales, incluido traslado, instalación, puesta en marcha y capacitación, según corresponda y conforme a las TTR.",
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Bombas · Bombas para servicios sanitarios · Línea 2: Adquisición de instrumentos de medición y monitoreo para Servicios Sanitarios Rurales, incluido traslado, instalación, puesta en marcha y capacitación, según corresponda y conforme a las TTR.",
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Bombas · Bombas para servicios sanitarios · Línea 3: Adquisición de materiales y/o herramientas para Servicios Sanitarios Rurales, incluida su entrega en los lugares de destino y puesta en funcionamiento, cuando corresponda, conforme a las TTR."
+    ],
+    "fuente_financiamiento": "Gobierno Regional de Coquimbo FNDR"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "3274-14-L126",
+    "nombre": "REPARACION Y MANTENCION CORRECTIVA BOMBAS RED AGUA POTABLE Y SUMERGIBES CUARTEL ANTOFAGASTA",
+    "entidad": "POLICIA DE INVESTIGACIONES DE CHILE - LOGISTICA ANTOFAGASTA",
+    "region": "Antofagasta",
+    "comuna": "Antofagasta",
+    "fpub": "06-11-2026",
+    "monto_raw": "$5.400.000",
+    "monto_num": 5400000,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3274-14-L126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-11-2026 15:00",
+    "fcierre_iso": "2026-11-16T15:00:00",
+    "finicio_preguntas_raw": "06-11-2026 15:56",
+    "finicio_preguntas_iso": "2026-11-06T15:56:00",
+    "ffinal_preguntas_raw": "11-11-2026 10:00",
+    "ffinal_preguntas_iso": "2026-11-11T10:00:00",
+    "frespuestas_raw": "12-11-2026 10:05",
+    "frespuestas_iso": "2026-11-12T10:05:00",
+    "fapertura_tecnica_raw": "17-11-2026 11:05",
+    "fapertura_tecnica_iso": "2026-11-17T11:05:00",
+    "fapertura_economica_raw": "17-11-2026 11:05",
+    "fapertura_economica_iso": "2026-11-17T11:05:00",
+    "fadjudicacion_raw": "21-11-2026 17:00",
+    "fadjudicacion_iso": "2026-11-21T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "SE REQUIERE LA CONTRATACION DE LOS SERVICIOS DE REPARACION Y MANTENCION CORRECTIVA DE LAS BOMBAS DE RED DE AGUA POTABLE Y DE LAS BOMBAS SUMERGIBLES DEL CUARTEL DE LA REPOL ANTOFAGASTA",
+    "tipo": "L1",
+    "items": [
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Bombas · Bombas de agua · REPARACION Y MANTENIMIENTO CORRECTIVA BOMBAS DE RED DE AGUA POTABLE CUARTEL ANTOFAGASTA",
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Bombas · Bombas sumergibles · REPARACION Y MANTENIMIENTO CORRECTIVO BOMBAS SUMERGILBES CUARTEL ANTOFAGASTA"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "3502-52-LP26",
+    "nombre": "ABASTO AGUA POTABLE SECTOR PANTANO",
+    "entidad": "MUNICIPALIDAD DE TRAIGUEN - MUNICIPALIDAD DE TRAIGUEN",
+    "region": "La Araucanía",
+    "comuna": "Traiguén",
+    "fpub": "30-10-2026",
+    "monto_raw": "$92.500.075",
+    "monto_num": 92500075,
+    "plazo": "120 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3502-52-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "01-12-2026 15:00",
+    "fcierre_iso": "2026-12-01T15:00:00",
+    "finicio_preguntas_raw": "30-10-2026 11:15",
+    "finicio_preguntas_iso": "2026-10-30T11:15:00",
+    "ffinal_preguntas_raw": "11-11-2026 14:00",
+    "ffinal_preguntas_iso": "2026-11-11T14:00:00",
+    "frespuestas_raw": "18-11-2026 16:00",
+    "frespuestas_iso": "2026-11-18T16:00:00",
+    "fapertura_tecnica_raw": "01-12-2026 15:30",
+    "fapertura_tecnica_iso": "2026-12-01T15:30:00",
+    "fapertura_economica_raw": "10-12-2026 15:30",
+    "fapertura_economica_iso": "2026-12-10T15:30:00",
+    "fadjudicacion_raw": "08-01-2027 15:00",
+    "fadjudicacion_iso": "2027-01-08T15:00:00"
+   },
+   "contexto": {
+    "descripcion": "ABASTO AGUA POTABLE SECTOR PANTANO COMUNA DE TRAIGUEN",
+    "tipo": "LP",
+    "items": [
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Abastecimiento de agua · ABASTO AGUA POTABLE SECTOR PANTANO COMUNA DE TRAIGUEN"
+    ],
+    "fuente_financiamiento": "SUBDERE"
+   }
+  },
+  {
+   "palabras": [
+    "pozo profundo"
+   ],
+   "registro": {
+    "id": "3520-35-LP26",
+    "nombre": "CONSTRUCCIÓN POZO PROFUNDO PUPETRA LONCOMILLA COMUNA DE DALCAHUE",
+    "entidad": "I MUNICIPALIDAD DE DALCAHUE - Secpla",
+    "region": "Los Lagos",
+    "comuna": "Dalcahue",
+    "fpub": "05-11-2026",
+    "monto_raw": "$91.563.970",
+    "monto_num": 91563970,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3520-35-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "20-11-2026 10:00",
+    "fcierre_iso": "2026-11-20T10:00:00",
+    "finicio_preguntas_raw": "05-11-2026 15:30",
+    "finicio_preguntas_iso": "2026-11-05T15:30:00",
+    "ffinal_preguntas_raw": "10-11-2026 14:00",
+    "ffinal_preguntas_iso": "2026-11-10T14:00:00",
+    "frespuestas_raw": "12-11-2026 17:00",
+    "frespuestas_iso": "2026-11-12T17:00:00",
+    "fapertura_tecnica_raw": "20-11-2026 10:05",
+    "fapertura_tecnica_iso": "2026-11-20T10:05:00",
+    "fapertura_economica_raw": "20-11-2026 10:05",
+    "fapertura_economica_iso": "2026-11-20T10:05:00",
+    "fadjudicacion_raw": "04-12-2026 16:00",
+    "fadjudicacion_iso": "2026-12-04T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONSTRUCCIÓN POZO PROFUNDO PUPETRA LONCOMILLA, COMUNA DE DALCAHUE DE ACUERDO A BASES ADMINISTRATIVAS, ESPECIFICACIONES TECNICAS, PLANOS Y DEMÁS ANTECEDENTES ADJUNTOS",
+    "tipo": "LP",
+    "items": [
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Abastecimiento de agua · CONSTRUCCIÓN POZO PROFUNDO PUPETRA LONCOMILLA, COMUNA DE DALCAHUE DE ACUERDO A BASES ADMINISTRATIVAS, ESPECIFICACIONES TECNICAS, PLANOS Y DEMÁS ANTECEDENTES ADJUNTOS"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "saneamiento sanitario"
+   ],
+   "registro": {
+    "id": "3656-175-I226",
+    "nombre": "CONSTRUCCION SANEAMIENTO SANITARIO SECTOR VILLA MARIA COMUNA DE REQUÍNOA",
+    "entidad": "I MUNICIPALIDAD DE REQUINOA - Ilustre Municipalidad de Requínoa",
+    "region": "O'Higgins",
+    "comuna": "Requinoa",
+    "fpub": "03-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "547 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3656-175-I226",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "05-01-2027 15:00",
+    "fcierre_iso": "2027-01-05T15:00:00",
+    "finicio_preguntas_raw": "03-11-2026 18:50",
+    "finicio_preguntas_iso": "2026-11-03T18:50:00",
+    "ffinal_preguntas_raw": "25-11-2026 10:00",
+    "ffinal_preguntas_iso": "2026-11-25T10:00:00",
+    "frespuestas_raw": "07-12-2026 17:45",
+    "frespuestas_iso": "2026-12-07T17:45:00",
+    "fapertura_tecnica_raw": "05-01-2027 15:00",
+    "fapertura_tecnica_iso": "2027-01-05T15:00:00",
+    "fapertura_economica_raw": "05-01-2027 15:00",
+    "fapertura_economica_iso": "2027-01-05T15:00:00",
+    "fadjudicacion_raw": "18-02-2027 18:00",
+    "fadjudicacion_iso": "2027-02-18T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONSTRUCCION SANEAMIENTO SANITARIO SECTOR VILLA MARIA COMUNA DE REQUÍNOA",
+    "tipo": "I2",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · CONSTRUCCION SANEAMIENTO SANITARIO SECTOR VILLA MARIA, COMUNA DE REQUÍNOA, SEGUN BASES Y ESPECIFICACIONES TECNICAS ADJUNTAS."
+    ],
+    "fuente_financiamiento": "PROGRAMA SANEAMIENTO SANITARIO PROVISIÓN F.N.D.R."
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "3686-33-LE26",
+    "nombre": "DISEÑO Y CONST. SIST. AGUA POTABLE CEMENTERIO",
+    "entidad": "I MUNICIPALIDAD DE SALAMANCA - Dirección de Secplan",
+    "region": "Coquimbo",
+    "comuna": "Salamanca",
+    "fpub": "01-11-2026",
+    "monto_raw": "$35.000.000",
+    "monto_num": 35000000,
+    "plazo": "110 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3686-33-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "23-11-2026 15:31",
+    "fcierre_iso": "2026-11-23T15:31:00",
+    "finicio_preguntas_raw": "01-11-2026 11:00",
+    "finicio_preguntas_iso": "2026-11-01T11:00:00",
+    "ffinal_preguntas_raw": "11-11-2026 15:00",
+    "ffinal_preguntas_iso": "2026-11-11T15:00:00",
+    "frespuestas_raw": "13-11-2026 18:00",
+    "frespuestas_iso": "2026-11-13T18:00:00",
+    "fapertura_tecnica_raw": "23-11-2026 15:32",
+    "fapertura_tecnica_iso": "2026-11-23T15:32:00",
+    "fapertura_economica_raw": "26-11-2026 08:00",
+    "fapertura_economica_iso": "2026-11-26T08:00:00",
+    "fadjudicacion_raw": "07-12-2026 16:19",
+    "fadjudicacion_iso": "2026-12-07T16:19:00"
+   },
+   "contexto": {
+    "descripcion": "El proyecto consiste en el diseño y la posterior construcción de un sistema de abastecimiento, acumulación y distribución de agua potable para el Cementerio Municipal de Salamanca, comuna de Salamanca, Provincia de Choapa, Región de Coquimbo, que permita atender adecuadamente los distintos puntos de consumo considerados dentro del recinto, correspondientes principalmente a llaves de jardín distribuidas al interior del cementerio y al sector destinado a los puestos de floristas, de acuerdo con las condiciones existentes del terreno y los requerimientos técnicos del proyecto.",
+    "tipo": "LE",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · El proyecto consiste en el diseño y la posterior construcción de un sistema de abastecimiento, acumulación y distribución de agua potable para el Cementerio Municipal de Salamanca, comuna de Salamanca, Provincia de Choapa, Región de Coquimbo, que permita "
+    ],
+    "fuente_financiamiento": "PRESUPUESTO MUNICIPAL"
+   }
+  },
+  {
+   "palabras": [
+    "APR"
+   ],
+   "registro": {
+    "id": "3689-17-LP26",
+    "nombre": "Mejoramiento APR La Cebada Quilicura San José Tercer Llamado",
+    "entidad": "I MUNICIPALIDAD DE LAS CABRAS - Secplan",
+    "region": "O'Higgins",
+    "comuna": "Las Cabras",
+    "fpub": "28-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "450 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3689-17-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "02-12-2026 15:00",
+    "fcierre_iso": "2026-12-02T15:00:00",
+    "finicio_preguntas_raw": "06-11-2026 09:00",
+    "finicio_preguntas_iso": "2026-11-06T09:00:00",
+    "ffinal_preguntas_raw": "13-11-2026 10:00",
+    "ffinal_preguntas_iso": "2026-11-13T10:00:00",
+    "frespuestas_raw": "20-11-2026 16:00",
+    "frespuestas_iso": "2026-11-20T16:00:00",
+    "fapertura_tecnica_raw": "02-12-2026 15:30",
+    "fapertura_tecnica_iso": "2026-12-02T15:30:00",
+    "fapertura_economica_raw": "10-12-2026 09:00",
+    "fapertura_economica_iso": "2026-12-10T09:00:00",
+    "fadjudicacion_raw": "30-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-30T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "Proyecto denominado “Mejoramiento APR La Cebada Quilicura San Jose – M. Las Cabras” y así dar cumplimiento a resolución Exenta N° 11543/2024 entre Subdere e Ilustre Municipalidad de Las Cabras.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · Tercer Llamado, Proyecto Mejoramiento APR La Cebada, Quilicura, San José - M. Las Cabras, según lo establecido en las Bases Administrativas y/o Técnicas."
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "pozo profundo"
+   ],
+   "registro": {
+    "id": "3706-49-LP26",
+    "nombre": "CONSTRUCCION POZO PROFUNDO SECTOR CALLE ALEGRE",
+    "entidad": "I MUNICIPALIDAD DE SAN IGNACIO - Adquisiciones",
+    "region": "Ñuble",
+    "comuna": "San Ignacio",
+    "fpub": "04-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3706-49-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "25-11-2026 15:00",
+    "fcierre_iso": "2026-11-25T15:00:00",
+    "finicio_preguntas_raw": "04-11-2026 13:30",
+    "finicio_preguntas_iso": "2026-11-04T13:30:00",
+    "ffinal_preguntas_raw": "10-11-2026 10:00",
+    "ffinal_preguntas_iso": "2026-11-10T10:00:00",
+    "frespuestas_raw": "13-11-2026 16:00",
+    "frespuestas_iso": "2026-11-13T16:00:00",
+    "fapertura_tecnica_raw": "25-11-2026 15:05",
+    "fapertura_tecnica_iso": "2026-11-25T15:05:00",
+    "fapertura_economica_raw": "30-11-2026 14:30",
+    "fapertura_economica_iso": "2026-11-30T14:30:00",
+    "fadjudicacion_raw": "30-12-2026 16:00",
+    "fadjudicacion_iso": "2026-12-30T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "2. OBJETIVO  \r\nEl proyecto consiste en la construcción de un pozo profundo para un futuro sistema agua potable rural del sector Calle Alegre- San \r\nAntonio, que abastecerá un total de 350 familias. Esta obra comprende la perforación de un pozo en un diametro mínimo 14” con \r\nencamisado de diametro mínimo 10” en acero al carbono, cribas de acero inoxidable y filtro anular de gravilla sanitizada.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · “CONSTRUCCION POZO PROFUNDO SECTOR CALLE ALEGRE SAN ANTONIO \r\nCOMUNA DE SAN IGNACIO” de acuerdo con las especificaciones técnicas, planos, y demás antecedentes elaborados por la \r\nMunicipalidad de San Ignacio y en conformidad a Resolución exenta de aproba"
+    ],
+    "fuente_financiamiento": "SUBDERE"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "agua potable rural"
+   ],
+   "registro": {
+    "id": "3735-15-LE26",
+    "nombre": "CONTRATACIÓN PROFESIONAL ELÉCTRICO PARA TRABAJAR EN EL DESARROLLO DE PROYECTO PMB DE “ASISTENCIA TÉCNICA PARA DISEÑOS DE SOLUCIONES DE AGUA POTABLE RURAL Y SANEAMIENTO LAJA”",
+    "entidad": "I MUNICIPALIDAD DE LAJA - Secplan",
+    "region": "Biobío",
+    "comuna": "Laja",
+    "fpub": "02-11-2026",
+    "monto_raw": "$15.000.000",
+    "monto_num": 15000000,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3735-15-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-11-2026 15:00",
+    "fcierre_iso": "2026-11-16T15:00:00",
+    "finicio_preguntas_raw": "02-11-2026 17:16",
+    "finicio_preguntas_iso": "2026-11-02T17:16:00",
+    "ffinal_preguntas_raw": "10-11-2026 15:00",
+    "ffinal_preguntas_iso": "2026-11-10T15:00:00",
+    "frespuestas_raw": "11-11-2026 15:00",
+    "frespuestas_iso": "2026-11-11T15:00:00",
+    "fapertura_tecnica_raw": "16-11-2026 15:00",
+    "fapertura_tecnica_iso": "2026-11-16T15:00:00",
+    "fapertura_economica_raw": "16-11-2026 15:00",
+    "fapertura_economica_iso": "2026-11-16T15:00:00",
+    "fadjudicacion_raw": "04-12-2026 17:00",
+    "fadjudicacion_iso": "2026-12-04T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONTRATACIÓN PROFESIONAL ELÉCTRICO PARA TRABAJAR EN EL DESARROLLO DE PROYECTO PMB DE “ASISTENCIA TÉCNICA PARA DISEÑOS DE SOLUCIONES DE AGUA POTABLE RURAL Y SANEAMIENTO LAJA”",
+    "tipo": "LE",
+    "items": [
+     "Servicios profesionales, administrativos y consultorías de gestión empresarial / Servicios de recursos humanos / Contratación de personal · Profesionales · 01 PROFESIONAL INGENIERO DE EJECUCIÓN ELÉCTRICO O INGENIERO CIVIL ELÉCTRICO"
+    ],
+    "fuente_financiamiento": "SUBDERE- PROGRAMA MEJORAMIENTO DE BARRIOS"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "APR"
+   ],
+   "registro": {
+    "id": "3738-25-LP26",
+    "nombre": "AT CONSTRUCCION APR ABASTO DE AGUA POTABLE",
+    "entidad": "I MUNICIPALIDAD DE HUASCO - Planificación",
+    "region": "Atacama",
+    "comuna": "Huasco",
+    "fpub": "04-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "330 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3738-25-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-12-2026 15:00",
+    "fcierre_iso": "2026-12-16T15:00:00",
+    "finicio_preguntas_raw": "04-11-2026 15:31",
+    "finicio_preguntas_iso": "2026-11-04T15:31:00",
+    "ffinal_preguntas_raw": "24-11-2026 17:00",
+    "ffinal_preguntas_iso": "2026-11-24T17:00:00",
+    "frespuestas_raw": "01-12-2026 17:00",
+    "frespuestas_iso": "2026-12-01T17:00:00",
+    "fapertura_tecnica_raw": "17-12-2026 16:00",
+    "fapertura_tecnica_iso": "2026-12-17T16:00:00",
+    "fapertura_economica_raw": "18-12-2026 16:00",
+    "fapertura_economica_iso": "2026-12-18T16:00:00",
+    "fadjudicacion_raw": "22-01-2027 16:17",
+    "fadjudicacion_iso": "2027-01-22T16:17:00"
+   },
+   "contexto": {
+    "descripcion": "ADQUIRIR EL SERVICIO PARA LA CONSTRUCCCION DE LA APR PARA  ABASTO DE AGUA POTABLE EN LA LOCALIDAD DE CANTO DEL AGUA , EN LA COMUNA DE HUASCO",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · AT CONSTRUCCION APR ABASTO DE AGUA POTABLE, LOCALIDAD CANTO DEL AGUA"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "3748-24-LP26",
+    "nombre": "EQUIPAMIENTO PARA SERVICIOS SANITARIOS RURALES",
+    "entidad": "I MUNICIPALIDAD DE LA HIGUERA - Obras Y Secplan",
+    "region": "Coquimbo",
+    "comuna": "La Higuera",
+    "fpub": "23-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3748-24-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "12-11-2026 14:25",
+    "fcierre_iso": "2026-11-12T14:25:00",
+    "finicio_preguntas_raw": "23-10-2026 16:23",
+    "finicio_preguntas_iso": "2026-10-23T16:23:00",
+    "ffinal_preguntas_raw": "27-10-2026 16:23",
+    "ffinal_preguntas_iso": "2026-10-27T16:23:00",
+    "frespuestas_raw": "28-10-2026 16:23",
+    "frespuestas_iso": "2026-10-28T16:23:00",
+    "fapertura_tecnica_raw": "12-11-2026 14:26",
+    "fapertura_tecnica_iso": "2026-11-12T14:26:00",
+    "fapertura_economica_raw": "12-11-2026 14:26",
+    "fapertura_economica_iso": "2026-11-12T14:26:00",
+    "fadjudicacion_raw": "17-11-2026 14:26",
+    "fadjudicacion_iso": "2026-11-17T14:26:00"
+   },
+   "contexto": {
+    "descripcion": "Adquisición de equipamientos, instrumentos, materiales y herramientas, incluyendo trabajos complementarios de mantención y pintura de estanques de agua potable, destinados al fortalecimiento de siete Servicios Sanitarios Rurales de la comuna de La Higuera, conforme a las Bases Administrativas y demás antecedentes de la licitación.",
+    "tipo": "LP",
+    "items": [
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Bombas · Bombas de agua · Adquisición de equipamientos, instrumentos, materiales y herramientas, incluyendo trabajos complementarios de mantención y pintura de estanques de agua potable, destinados a siete Servicios Sanitarios Rurales de la comuna de La Higuera."
+    ],
+    "fuente_financiamiento": "GOBIERNO REGIONAL DE COQUIMBO"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "3842-39-LP26",
+    "nombre": "Construcción Agua Potable Y Alcant. Uno Norte",
+    "entidad": "I MUNICIPALIDAD DE PUNITAQUI - Oficina de Proyectos",
+    "region": "Coquimbo",
+    "comuna": "Punitaqui",
+    "fpub": "22-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "180 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3842-39-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "23-11-2026 17:43",
+    "fcierre_iso": "2026-11-23T17:43:00",
+    "finicio_preguntas_raw": "22-10-2026 13:41",
+    "finicio_preguntas_iso": "2026-10-22T13:41:00",
+    "ffinal_preguntas_raw": "09-11-2026 17:00",
+    "ffinal_preguntas_iso": "2026-11-09T17:00:00",
+    "frespuestas_raw": "13-11-2026 18:00",
+    "frespuestas_iso": "2026-11-13T18:00:00",
+    "fapertura_tecnica_raw": "23-11-2026 17:44",
+    "fapertura_tecnica_iso": "2026-11-23T17:44:00",
+    "fapertura_economica_raw": "23-11-2026 17:44",
+    "fapertura_economica_iso": "2026-11-23T17:44:00",
+    "fadjudicacion_raw": "31-01-2027 17:44",
+    "fadjudicacion_iso": "2027-01-31T17:44:00"
+   },
+   "contexto": {
+    "descripcion": "Se proyecta la extensión de la matriz de agua potable y el colector de alcantarillado de la empresa sanitaria aguas del valle para dotar de factibilidad al pasaje uno norte y a la avenida las torres, que consiste en la construcción de 474 metros lineales de matriz de agua potable en hdpe de diámetro 110 mm y 453,3 metros lineales de colector de alcantarillado en hdpe de diámetro de 200 mm. Se considera además las instalaciones domiciliarias interiores de agua potable y alcantarillado de 10 lotes. Además, el proyecto factibilizará otros lotes del sector que actualmente.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · “Construcción Sistema De Agua Potable Y Alcantarillado, Sector Uno\r\nNorte, Comuna De Punitaqui”, Código 4304240701-C"
+    ],
+    "fuente_financiamiento": "SUBDERE"
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "3912-25-CO26",
+    "nombre": "PREVENCION APOYO SERVICIOS SANITARIOS RURALES 2026",
+    "entidad": "I MUNICIPALIDAD PAIHUANO - Secplan",
+    "region": "Coquimbo",
+    "comuna": "Paihuano",
+    "fpub": "06-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3912-25-CO26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "11-11-2026 19:27",
+    "fcierre_iso": "2026-11-11T19:27:00",
+    "finicio_preguntas_raw": "06-11-2026 18:40",
+    "finicio_preguntas_iso": "2026-11-06T18:40:00",
+    "ffinal_preguntas_raw": "07-11-2026 19:40",
+    "ffinal_preguntas_iso": "2026-11-07T19:40:00",
+    "frespuestas_raw": "09-11-2026 18:40",
+    "frespuestas_iso": "2026-11-09T18:40:00",
+    "fapertura_tecnica_raw": "12-11-2026 17:28",
+    "fapertura_tecnica_iso": "2026-11-12T17:28:00",
+    "fapertura_economica_raw": "12-11-2026 17:28",
+    "fapertura_economica_iso": "2026-11-12T17:28:00",
+    "fadjudicacion_raw": "13-11-2026 17:28",
+    "fadjudicacion_iso": "2026-11-13T17:28:00"
+   },
+   "contexto": {
+    "descripcion": "LA NECESIDAD DE REALIZAR LA ADQUISICION DE INSUMOS PARA LOS SSR DE LA COMUNA DE PAIHUANO",
+    "tipo": "CO",
+    "items": [
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Bombas · Bombas de agua · Equipamientos para servicios sanitarios rurales comuna de paihuano"
+    ],
+    "fuente_financiamiento": "Gobierno Regional"
+   }
+  },
+  {
+   "palabras": [
+    "pozo profundo"
+   ],
+   "registro": {
+    "id": "4037-74-L126",
+    "nombre": "CONTRATACION SERVICIO PROFESIONALES PARA DISEÑO DE PROYECTO ELECTRICO Y TRAMITACION DE EMPALME POZO PROFUNDO SECTOR LAS CUYAS.",
+    "entidad": "I MUNICIPALIDAD DE FRESIA - Departamento de adquisiciones y abastecimiento",
+    "region": "Los Lagos",
+    "comuna": "Fresia",
+    "fpub": "05-11-2026",
+    "monto_raw": "$700.000",
+    "monto_num": 700000,
+    "plazo": "40 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4037-74-L126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "12-11-2026 09:00",
+    "fcierre_iso": "2026-11-12T09:00:00",
+    "finicio_preguntas_raw": "05-11-2026 09:59",
+    "finicio_preguntas_iso": "2026-11-05T09:59:00",
+    "ffinal_preguntas_raw": "08-11-2026 20:23",
+    "ffinal_preguntas_iso": "2026-11-08T20:23:00",
+    "frespuestas_raw": "09-11-2026 16:00",
+    "frespuestas_iso": "2026-11-09T16:00:00",
+    "fapertura_tecnica_raw": "12-11-2026 09:01",
+    "fapertura_tecnica_iso": "2026-11-12T09:01:00",
+    "fapertura_economica_raw": "12-11-2026 09:01",
+    "fapertura_economica_iso": "2026-11-12T09:01:00",
+    "fadjudicacion_raw": "15-12-2026 11:24",
+    "fadjudicacion_iso": "2026-12-15T11:24:00"
+   },
+   "contexto": {
+    "descripcion": "CONTRATACION SERVICIO PROFESIONALES PARA DISEÑO DE PROYECTO ELECTRICO Y TRAMITACION DE EMPALME, POZO PROFUNDO SECTOR LAS CUYAS, SEGUN BASES ADJUNTAS",
+    "tipo": "L1",
+    "items": [
+     "Servicios profesionales, administrativos y consultorías de gestión empresarial / Servicios de recursos humanos / Contratación de personal · Profesionales · CONTRATACION SERVICIO PROFESIONALES PARA DISEÑO DE PROYECTO ELECTRICO Y TRAMITACION DE EMPALME, POZO PROFUNDO SECTOR LAS CUYAS, SEGUN BASES ADJUNTAS"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "saneamiento sanitario"
+   ],
+   "registro": {
+    "id": "4118-6-LP26",
+    "nombre": "PROYECTO SANEAMIENTO SANITARIO ESCUELAS RURALES",
+    "entidad": "I MUNICIPALIDAD DE CURACAUTIN - SECPLA",
+    "region": "La Araucanía",
+    "comuna": "Curacautín",
+    "fpub": "23-10-2026",
+    "monto_raw": "$148.053.709",
+    "monto_num": 148053709,
+    "plazo": "360 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4118-6-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "12-11-2026 12:00",
+    "fcierre_iso": "2026-11-12T12:00:00",
+    "finicio_preguntas_raw": "23-10-2026 15:45",
+    "finicio_preguntas_iso": "2026-10-23T15:45:00",
+    "ffinal_preguntas_raw": "27-10-2026 15:45",
+    "ffinal_preguntas_iso": "2026-10-27T15:45:00",
+    "frespuestas_raw": "02-11-2026 12:00",
+    "frespuestas_iso": "2026-11-02T12:00:00",
+    "fapertura_tecnica_raw": "12-11-2026 12:15",
+    "fapertura_tecnica_iso": "2026-11-12T12:15:00",
+    "fapertura_economica_raw": "12-11-2026 12:30",
+    "fapertura_economica_iso": "2026-11-12T12:30:00",
+    "fadjudicacion_raw": "11-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-11T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "La Municipalidad llama a Licitación Pública para ejecutar la obra denominada \"DESARROLLO PROYECTO\r\nDE SANEAMIENTO SANITARIO, ESCUELAS RURALES DE CURACAUTÍN\" según antecedentes adjuntos en los anexos.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · Se llama a Licitación Pública para ejecutar la obra denominada: \" DESARROLLO PROYECTO\r\nDE SANEAMIENTO SANITARIO, ESCUELAS RURALES DE CURACAUTÍN\" de acuerdo a documentos adjuntos en los anexo."
+    ],
+    "fuente_financiamiento": "SUBDERE"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "4170-66-LE26",
+    "nombre": "ARRIENDO DE CAMIONES ALJIBE PARA DISTRIBUCIÓN DE AGUA POTABLE",
+    "entidad": "Ilustre Municipalidad de Galvarino - Municipalidad",
+    "region": "La Araucanía",
+    "comuna": "Galvarino",
+    "fpub": "03-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "2 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4170-66-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-11-2026 15:01",
+    "fcierre_iso": "2026-11-16T15:01:00",
+    "finicio_preguntas_raw": "03-11-2026 16:41",
+    "finicio_preguntas_iso": "2026-11-03T16:41:00",
+    "ffinal_preguntas_raw": "09-11-2026 16:00",
+    "ffinal_preguntas_iso": "2026-11-09T16:00:00",
+    "frespuestas_raw": "11-11-2026 16:00",
+    "frespuestas_iso": "2026-11-11T16:00:00",
+    "fapertura_tecnica_raw": "16-11-2026 15:02",
+    "fapertura_tecnica_iso": "2026-11-16T15:02:00",
+    "fapertura_economica_raw": "16-11-2026 15:02",
+    "fapertura_economica_iso": "2026-11-16T15:02:00",
+    "fadjudicacion_raw": "16-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-16T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "Servicio de arriendo camión aljibe para distribución de agua potable en sectores rurales y urbanos de la comuna de Galvarino año 2026.",
+    "tipo": "LE",
+    "items": [
+     "Servicios de transporte, almacenaje y correo / Transporte de pasajeros / Transporte marítimo de pasajeros · Arriendo de vehículos de agua · Arriendo de un camión aljibe por 2 meses para la distribución de agua potable en diferentes sectores de la comuna de Galvarino con una entrega diaria de 25.000 litros de agua potable mínimo y como máximo 35.000 litros con un recorrido máximo de 120 kiló",
+     "Servicios de transporte, almacenaje y correo / Transporte de pasajeros / Transporte marítimo de pasajeros · Arriendo de vehículos de agua · Arriendo de un camión aljibe por 2 meses para la distribución de agua potable en diferentes sectores de la comuna de Galvarino con una entrega diaria de 25.000 litros de agua potable mínimo y como máximo 35.000 litros con un recorrido máximo de 120 kilóme"
+    ],
+    "fuente_financiamiento": "GORE"
+   }
+  },
+  {
+   "palabras": [
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "4237-14-LP26",
+    "nombre": "DISEÑO ALCANTARILLADO PMB SAN JOSE DE COLICO Y COL",
+    "entidad": "I MUNICIPALIDAD DE CURANILAHUE - Secretaria de Planificación",
+    "region": "Biobío",
+    "comuna": "Curanilahue",
+    "fpub": "04-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "190 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4237-14-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "27-11-2026 15:15",
+    "fcierre_iso": "2026-11-27T15:15:00",
+    "finicio_preguntas_raw": "04-11-2026 20:20",
+    "finicio_preguntas_iso": "2026-11-04T20:20:00",
+    "ffinal_preguntas_raw": "12-11-2026 17:00",
+    "ffinal_preguntas_iso": "2026-11-12T17:00:00",
+    "frespuestas_raw": "17-11-2026 17:30",
+    "frespuestas_iso": "2026-11-17T17:30:00",
+    "fapertura_tecnica_raw": "27-11-2026 15:30",
+    "fapertura_tecnica_iso": "2026-11-27T15:30:00",
+    "fapertura_economica_raw": "27-11-2026 15:30",
+    "fapertura_economica_iso": "2026-11-27T15:30:00",
+    "fadjudicacion_raw": "30-12-2026 17:42",
+    "fadjudicacion_iso": "2026-12-30T17:42:00"
+   },
+   "contexto": {
+    "descripcion": "DISEÑO ALCANTARILLADO PMB SAN JOSE DE COLICO Y COLICO NORTE, CURANILAHUE",
+    "tipo": "LP",
+    "items": [
+     "Servicios profesionales, administrativos y consultorías de gestión empresarial / Servicios de recursos humanos / Servicios de personal temporal · Servicios temporales de ingeniería · DISEÑO ALCANTARILLADO PMB SAN JOSE DE COLICO Y COLICO NORTE, CURANILAHUE"
+    ],
+    "fuente_financiamiento": "PRESUPUESTO MUNICIPAL"
+   }
+  },
+  {
+   "palabras": [
+    "cuenca"
+   ],
+   "registro": {
+    "id": "4252-19-LP26",
+    "nombre": "MANTENCIÓN Y APERTURA DE CUENTAS CORRIENTES",
+    "entidad": "I MUNICIPALIDAD DE SAN FABIAN - DAF",
+    "region": "Ñuble",
+    "comuna": "San Fabián",
+    "fpub": "06-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "72 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4252-19-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "26-11-2026 15:32",
+    "fcierre_iso": "2026-11-26T15:32:00",
+    "finicio_preguntas_raw": "06-11-2026 14:18",
+    "finicio_preguntas_iso": "2026-11-06T14:18:00",
+    "ffinal_preguntas_raw": "09-11-2026 14:18",
+    "ffinal_preguntas_iso": "2026-11-09T14:18:00",
+    "frespuestas_raw": "10-11-2026 14:18",
+    "frespuestas_iso": "2026-11-10T14:18:00",
+    "fapertura_tecnica_raw": "26-11-2026 15:33",
+    "fapertura_tecnica_iso": "2026-11-26T15:33:00",
+    "fapertura_economica_raw": "26-11-2026 15:33",
+    "fapertura_economica_iso": "2026-11-26T15:33:00",
+    "fadjudicacion_raw": "10-12-2026 16:00",
+    "fadjudicacion_iso": "2026-12-10T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "MANTENCIÓN Y APERTURA DE CUENTAS CORRIENTES",
+    "tipo": "LP",
+    "items": [
+     "Servicios financieros, pensiones y seguros / Contabilidad y auditorías / Servicios contables · Servicios de mantención de libros contables · MANTENCION Y APERTURA DE CUENTAS CORRIENTES"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "humedal"
+   ],
+   "registro": {
+    "id": "5052-38-LE26",
+    "nombre": "ADQUISICIÓN DE REPUESTO MOPA HÚMEDA REACTIVOS DE CLORO Y PRODUCTOS VARIOS PARA REHABILITACIÓN",
+    "entidad": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE TALCA - Generales",
+    "region": "Maule",
+    "comuna": "Talca",
+    "fpub": "09-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "12 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5052-38-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "19-11-2026 19:00",
+    "fcierre_iso": "2026-11-19T19:00:00",
+    "finicio_preguntas_raw": "09-11-2026 16:31",
+    "finicio_preguntas_iso": "2026-11-09T16:31:00",
+    "ffinal_preguntas_raw": "12-11-2026 16:31",
+    "ffinal_preguntas_iso": "2026-11-12T16:31:00",
+    "frespuestas_raw": "13-11-2026 16:31",
+    "frespuestas_iso": "2026-11-13T16:31:00",
+    "fapertura_tecnica_raw": "19-11-2026 19:01",
+    "fapertura_tecnica_iso": "2026-11-19T19:01:00",
+    "fapertura_economica_raw": "19-11-2026 19:01",
+    "fapertura_economica_iso": "2026-11-19T19:01:00",
+    "fadjudicacion_raw": "28-12-2026 19:53",
+    "fadjudicacion_iso": "2026-12-28T19:53:00"
+   },
+   "contexto": {
+    "descripcion": "El objetivo de la presente licitación, es invitar a través de www.mercadopublico.cl a todos los proveedores del rubro a participar de la ADQUISICIÓN\r\nDE REPUESTO MOPA HÚMEDA, REACTIVOS DE CLORO Y PRODUCTOS VARIOS PARA REHABILITACIÓN del Hospital Regional de Talca y bajo las especificaciones técnicas requeridas por la\r\nInstitución con el fin de seleccionar la oferta más conveniente de acuerdo a los criterios de evaluación, asegurando el abastecimiento en calidad y oportunidad, satisfaciendo así la demanda de los\r\nusuarios.",
+    "tipo": "LE",
+    "items": [
+     "Equipos y suministros de limpieza / Suministros de limpieza / Escobas, traperos, cepillos y accesorios · Mopas húmedas · REPUESTO DE MOPA HÚMEDA 24 OZ 100% ALGODÓN DE\r\nCOLOR BLANCO",
+     "Equipamiento para laboratorios / Instrumentos de medida y experimentación / Kits para ensayos manuales, controles de calidad, calibradores y normativas · Reactivos o soluciones químicos · Reactivo Cloro Libre polvo (100 tests) por caja.",
+     "Equipamiento y suministros médicos / Productos quirúrgicos / Dispositivos esqueléticos quirúrgicos de tracción y productos relacionados · Dispositivos de tracción del cráneo o productos relacionados · Craneómetro pediátrico",
+     "Equipamiento y suministros médicos / Suministros y productos clínicos / Corrección de la visión, gafas, anteojos y productos relacionados · Lentes de gafas · Pack 4 lentes de seguridad persona claro McCarthy equivalente de\r\ncalidad similar o superior",
+     "Equipos, suministros y accesorios deportivos y recreativos / Equipos para entrenamiento físico / Equipo de entrenamiento de pesas y resistencia · Bandas de resistencia · BANDAS ELÁSTICAS DE RESISTENCIA ( SEGÚN LO ESTABLECIDO EN ANEXO N°7) ",
+     "Equipos, suministros y accesorios deportivos y recreativos / Equipos para entrenamiento físico / Equipo de entrenamiento de pesas y resistencia · Pesas · TOBILLERAS ( SEGÚN LO ESTABLECIDO EN ANEXO N°7)"
+    ],
+    "fuente_financiamiento": "Hospital Regional de Talca"
+   }
+  },
+  {
+   "palabras": [
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "514862-148-E226",
+    "nombre": "UNIÓN DOMICILIARIA ALCANTARILLADO COSAM 10032928",
+    "entidad": "CORPORACION MUNICIPAL DE PENALOLEN PARA EL DESARROLO SOCIAL CORMUP - CORPORACION MUNICIPAL DE PENALOLEN PARA EL DESARRO",
+    "region": "Metropolitana",
+    "comuna": "Peñalolén",
+    "fpub": "09-11-2026",
+    "monto_raw": "$19.885.223",
+    "monto_num": 19885223,
+    "plazo": "90 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=514862-148-E226",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "30-11-2026 15:01",
+    "fcierre_iso": "2026-11-30T15:01:00",
+    "finicio_preguntas_raw": "09-11-2026 17:30",
+    "finicio_preguntas_iso": "2026-11-09T17:30:00",
+    "ffinal_preguntas_raw": "17-11-2026 18:00",
+    "ffinal_preguntas_iso": "2026-11-17T18:00:00",
+    "frespuestas_raw": "20-11-2026 23:59",
+    "frespuestas_iso": "2026-11-20T23:59:00",
+    "fapertura_tecnica_raw": "30-11-2026 15:30",
+    "fapertura_tecnica_iso": "2026-11-30T15:30:00",
+    "fapertura_economica_raw": "15-12-2026 10:00",
+    "fapertura_economica_iso": "2026-12-15T10:00:00",
+    "fadjudicacion_raw": "14-01-2027 23:59",
+    "fadjudicacion_iso": "2027-01-14T23:59:00"
+   },
+   "contexto": {
+    "descripcion": "EJECUCIÓN NUEVA UNIÓN DOMICILIARIA POR PASAJE 120 Y CI N°29 DE LA NUEVA RED DE ALCANTARILLADO – COSAM SOLPED 10032928",
+    "tipo": "E2",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · EJECUCIÓN NUEVA UNIÓN DOMICILIARIA POR PASAJE 120 Y CI N°29 DE LA NUEVA RED DE ALCANTARILLADO – COSAM (10032928)"
+    ],
+    "fuente_financiamiento": "10032928"
+   }
+  },
+  {
+   "palabras": [
+    "cuenca"
+   ],
+   "registro": {
+    "id": "552578-58-LP26",
+    "nombre": "SERVICIO DE APERTURA MANTENCIÓN DE CUENTAS CORRIENTES Y SERVICIOS BANCARIOS PARA LA I. MUNICIPALIDAD DE SAN RAFAEL",
+    "entidad": "I MUNICIPALIDAD DE SAN RAFAEL - SECPLAN",
+    "region": "Maule",
+    "comuna": "San Rafael",
+    "fpub": "26-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=552578-58-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "18-11-2026 16:00",
+    "fcierre_iso": "2026-11-18T16:00:00",
+    "finicio_preguntas_raw": "26-10-2026 19:30",
+    "finicio_preguntas_iso": "2026-10-26T19:30:00",
+    "ffinal_preguntas_raw": "05-11-2026 17:00",
+    "ffinal_preguntas_iso": "2026-11-05T17:00:00",
+    "frespuestas_raw": "11-11-2026 18:00",
+    "frespuestas_iso": "2026-11-11T18:00:00",
+    "fapertura_tecnica_raw": "18-11-2026 16:00",
+    "fapertura_tecnica_iso": "2026-11-18T16:00:00",
+    "fapertura_economica_raw": "18-11-2026 16:00",
+    "fapertura_economica_iso": "2026-11-18T16:00:00",
+    "fadjudicacion_raw": "02-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-02T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "SERVICIO DE APERTURA, MANTENCIÓN DE CUENTAS CORRIENTES Y SERVICIOS BANCARIOS PARA LA I. MUNICIPALIDAD DE SAN RAFAEL",
+    "tipo": "LP",
+    "items": [
+     "Servicios financieros, pensiones y seguros / Banca e inversiones / Servicios de mercados de valores · Servicios de custodia de valores · SERVICIO DE APERTURA, MANTENCIÓN DE CUENTAS CORRIENTES Y SERVICIOS BANCARIOS PARA LA I. MUNICIPALIDAD DE SAN RAFAEL"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "5661-36-O126",
+    "nombre": "CONSTRUCCION SERVICIO SANITARIO RURAL HUECHUL, COMUNA DE RIO BUENO",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "10-09-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-36-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "01-12-2026 11:00",
+    "fcierre_iso": "2026-12-01T11:00:00",
+    "finicio_preguntas_raw": "10-09-2026 17:00",
+    "finicio_preguntas_iso": "2026-09-10T17:00:00",
+    "ffinal_preguntas_raw": "06-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-06T12:00:00",
+    "frespuestas_raw": "17-11-2026 14:24",
+    "frespuestas_iso": "2026-11-17T14:24:00",
+    "fapertura_tecnica_raw": "01-12-2026 11:01",
+    "fapertura_tecnica_iso": "2026-12-01T11:01:00",
+    "fapertura_economica_raw": "16-12-2026 11:00",
+    "fapertura_economica_iso": "2026-12-16T11:00:00",
+    "fadjudicacion_raw": "21-12-2026 12:00",
+    "fadjudicacion_iso": "2026-12-21T12:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONSTRUCCION SERVICIO SANITARIO RURAL HUECHUL, COMUNA DE RIO BUENO",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIAL "
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "5661-38-O126",
+    "nombre": "CONSTRUCCION SSR SANTA ISABEL BOQUIAL Y LOS AZADORES,RÍO BUENO",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "29-09-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-38-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "11-11-2026 11:00",
+    "fcierre_iso": "2026-11-11T11:00:00",
+    "finicio_preguntas_raw": "29-09-2026 18:31",
+    "finicio_preguntas_iso": "2026-09-29T18:31:00",
+    "ffinal_preguntas_raw": "15-10-2026 12:00",
+    "ffinal_preguntas_iso": "2026-10-15T12:00:00",
+    "frespuestas_raw": "30-10-2026 18:00",
+    "frespuestas_iso": "2026-10-30T18:00:00",
+    "fapertura_tecnica_raw": "11-11-2026 11:01",
+    "fapertura_tecnica_iso": "2026-11-11T11:01:00",
+    "fapertura_economica_raw": "19-11-2026 11:00",
+    "fapertura_economica_iso": "2026-11-19T11:00:00",
+    "fadjudicacion_raw": "23-12-2026 17:00",
+    "fadjudicacion_iso": "2026-12-23T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONSTRUCCION SERVICIO SANITARIO RURAL SANTA ISABEL BOQUIAL Y LOS AZADORES, COMUNA RÍO BUENO",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIALES MOP 2026"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "5661-40-O126",
+    "nombre": "CONSTRUCCION SSR LAGO VERDE, COMUNA DE PAILLACO, REGIÓN DE LOS RÍOS",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "16-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-40-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "18-11-2026 10:59",
+    "fcierre_iso": "2026-11-18T10:59:00",
+    "finicio_preguntas_raw": "16-10-2026 17:01",
+    "finicio_preguntas_iso": "2026-10-16T17:01:00",
+    "ffinal_preguntas_raw": "30-10-2026 12:00",
+    "ffinal_preguntas_iso": "2026-10-30T12:00:00",
+    "frespuestas_raw": "10-11-2026 12:05",
+    "frespuestas_iso": "2026-11-10T12:05:00",
+    "fapertura_tecnica_raw": "18-11-2026 11:00",
+    "fapertura_tecnica_iso": "2026-11-18T11:00:00",
+    "fapertura_economica_raw": "26-11-2026 11:00",
+    "fapertura_economica_iso": "2026-11-26T11:00:00",
+    "fadjudicacion_raw": "01-12-2026 15:00",
+    "fadjudicacion_iso": "2026-12-01T15:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONSTRUCCION SSR LAGO VERDE, COMUNA DE PAILLACO, REGIÓN DE LOS RÍOS",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIAL "
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "5661-42-O126",
+    "nombre": "CONSTRUCCIÓN SERVICIO SANITARIO RURAL ROPULLI PICHIQUEMA, PAILLACO",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "21-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-42-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "24-11-2026 10:59",
+    "fcierre_iso": "2026-11-24T10:59:00",
+    "finicio_preguntas_raw": "21-10-2026 19:30",
+    "finicio_preguntas_iso": "2026-10-21T19:30:00",
+    "ffinal_preguntas_raw": "05-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-05T12:00:00",
+    "frespuestas_raw": "13-11-2026 17:00",
+    "frespuestas_iso": "2026-11-13T17:00:00",
+    "fapertura_tecnica_raw": "24-11-2026 11:00",
+    "fapertura_tecnica_iso": "2026-11-24T11:00:00",
+    "fapertura_economica_raw": "30-11-2026 15:00",
+    "fapertura_economica_iso": "2026-11-30T15:00:00",
+    "fadjudicacion_raw": "29-12-2026 12:00",
+    "fadjudicacion_iso": "2026-12-29T12:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONSTRUCCIÓN SERVICIO SANITARIO RURAL ROPULLI PICHIQUEMA, PAILLACO",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "Sectorial MOP"
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "5661-45-O126",
+    "nombre": "CONSTRUCCIÓN SERVICIO SANITARIO RURAL DE LAS QUEMAS, COMUNA DE LANCO, REGIÓ",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "28-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-45-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "01-12-2026 11:00",
+    "fcierre_iso": "2026-12-01T11:00:00",
+    "finicio_preguntas_raw": "28-10-2026 17:36",
+    "finicio_preguntas_iso": "2026-10-28T17:36:00",
+    "ffinal_preguntas_raw": "11-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-11T12:00:00",
+    "frespuestas_raw": "20-11-2026 15:00",
+    "frespuestas_iso": "2026-11-20T15:00:00",
+    "fapertura_tecnica_raw": "01-12-2026 11:01",
+    "fapertura_tecnica_iso": "2026-12-01T11:01:00",
+    "fapertura_economica_raw": "10-12-2026 11:00",
+    "fapertura_economica_iso": "2026-12-10T11:00:00",
+    "fadjudicacion_raw": "23-01-2027 17:37",
+    "fadjudicacion_iso": "2027-01-23T17:37:00"
+   },
+   "contexto": {
+    "descripcion": "CONSTRUCCIÓN SERVICIO SANITARIO RURAL DE LAS QUEMAS, COMUNA DE LANCO, REGIÓ",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIALES MOP 2026"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "5661-46-O126",
+    "nombre": "CONSTRUCCIÓN SSR DE PINDACO COMUNA DE RÍO BUENO Y DE ALTOS DE SANTA ELVIRA",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "28-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-46-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "01-12-2026 11:00",
+    "fcierre_iso": "2026-12-01T11:00:00",
+    "finicio_preguntas_raw": "28-10-2026 12:01",
+    "finicio_preguntas_iso": "2026-10-28T12:01:00",
+    "ffinal_preguntas_raw": "10-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-10T12:00:00",
+    "frespuestas_raw": "24-11-2026 12:05",
+    "frespuestas_iso": "2026-11-24T12:05:00",
+    "fapertura_tecnica_raw": "01-12-2026 11:00",
+    "fapertura_tecnica_iso": "2026-12-01T11:00:00",
+    "fapertura_economica_raw": "15-12-2026 11:00",
+    "fapertura_economica_iso": "2026-12-15T11:00:00",
+    "fadjudicacion_raw": "18-12-2026 15:00",
+    "fadjudicacion_iso": "2026-12-18T15:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONSTRUCCIÓN SSR DE PINDACO COMUNA DE RÍO BUENO Y DE ALTOS DE SANTA ELVIRA COMUNA DE VALDIVIA (ESTUDIO HIDROGEOLÓGICO)",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIAL"
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "5661-47-O126",
+    "nombre": "Construcción Servicio Sanitario Rural de Llonquén y Tayos Bajos",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "29-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-47-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "01-12-2026 10:59",
+    "fcierre_iso": "2026-12-01T10:59:00",
+    "finicio_preguntas_raw": "29-10-2026 16:01",
+    "finicio_preguntas_iso": "2026-10-29T16:01:00",
+    "ffinal_preguntas_raw": "10-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-10T12:00:00",
+    "frespuestas_raw": "24-11-2026 16:00",
+    "frespuestas_iso": "2026-11-24T16:00:00",
+    "fapertura_tecnica_raw": "01-12-2026 11:00",
+    "fapertura_tecnica_iso": "2026-12-01T11:00:00",
+    "fapertura_economica_raw": "15-12-2026 11:00",
+    "fapertura_economica_iso": "2026-12-15T11:00:00",
+    "fadjudicacion_raw": "18-12-2026 12:49",
+    "fadjudicacion_iso": "2026-12-18T12:49:00"
+   },
+   "contexto": {
+    "descripcion": "Construcción Servicio Sanitario Rural de Llonquén y Tayos Bajos comuna de Panguipulli Estudio Hidrogeológico",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIALES"
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "5661-48-O126",
+    "nombre": "AIF CONSTRUCCION SERVICIO SANITARIO RURAL DE CUINCO, LA UNIÓN",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "29-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-48-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "14-12-2026 16:00",
+    "fcierre_iso": "2026-12-14T16:00:00",
+    "finicio_preguntas_raw": "29-10-2026 15:01",
+    "finicio_preguntas_iso": "2026-10-29T15:01:00",
+    "ffinal_preguntas_raw": "06-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-06T12:00:00",
+    "frespuestas_raw": "16-11-2026 18:00",
+    "frespuestas_iso": "2026-11-16T18:00:00",
+    "fapertura_tecnica_raw": "14-12-2026 16:01",
+    "fapertura_tecnica_iso": "2026-12-14T16:01:00",
+    "fapertura_economica_raw": "21-12-2026 16:00",
+    "fapertura_economica_iso": "2026-12-21T16:00:00",
+    "fadjudicacion_raw": "31-01-2027 15:07",
+    "fadjudicacion_iso": "2027-01-31T15:07:00"
+   },
+   "contexto": {
+    "descripcion": "AIF CONSTRUCCION SERVICIO SANITARIO RURAL DE CUINCO, LA UNIÓN",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIALES MOP 2026"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "5661-49-O126",
+    "nombre": "AIF CONSTRUCCION SSR DE PURO CHILE-VICTORIA, COMUNA RÍO BUENO",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "29-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-49-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "01-12-2026 15:00",
+    "fcierre_iso": "2026-12-01T15:00:00",
+    "finicio_preguntas_raw": "29-10-2026 15:01",
+    "finicio_preguntas_iso": "2026-10-29T15:01:00",
+    "ffinal_preguntas_raw": "06-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-06T12:00:00",
+    "frespuestas_raw": "16-11-2026 18:00",
+    "frespuestas_iso": "2026-11-16T18:00:00",
+    "fapertura_tecnica_raw": "01-12-2026 15:01",
+    "fapertura_tecnica_iso": "2026-12-01T15:01:00",
+    "fapertura_economica_raw": "10-12-2026 15:00",
+    "fapertura_economica_iso": "2026-12-10T15:00:00",
+    "fadjudicacion_raw": "21-01-2027 11:15",
+    "fadjudicacion_iso": "2027-01-21T11:15:00"
+   },
+   "contexto": {
+    "descripcion": "AIF CONSTRUCCION SERVICIO SANITARIO RURAL DE PURO CHILE-VICTORIA, COMUNA RÍO BUENO",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIALES MOP 2026"
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "5661-51-O126",
+    "nombre": "CONSTRUCCION SERVICIO SANITARIO RURAL DE HUEIMEN ORIENTE, LAGO RANCO",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "30-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-51-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "01-12-2026 10:59",
+    "fcierre_iso": "2026-12-01T10:59:00",
+    "finicio_preguntas_raw": "30-10-2026 12:01",
+    "finicio_preguntas_iso": "2026-10-30T12:01:00",
+    "ffinal_preguntas_raw": "10-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-10T12:00:00",
+    "frespuestas_raw": "20-11-2026 15:30",
+    "frespuestas_iso": "2026-11-20T15:30:00",
+    "fapertura_tecnica_raw": "01-12-2026 11:00",
+    "fapertura_tecnica_iso": "2026-12-01T11:00:00",
+    "fapertura_economica_raw": "10-12-2026 11:00",
+    "fapertura_economica_iso": "2026-12-10T11:00:00",
+    "fadjudicacion_raw": "17-12-2026 16:00",
+    "fadjudicacion_iso": "2026-12-17T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONSTRUCCION SERVICIO SANITARIO RURAL DE HUEIMEN ORIENTE, LAGO RANCO",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIALES"
+   }
+  },
+  {
+   "palabras": [
+    "cuenca"
+   ],
+   "registro": {
+    "id": "5661-52-O126",
+    "nombre": "CONSERVACIÓN DE RIBERAS DE CAUCES NATURALES EN LA CUENCA DEL RÍO VALDIVIA C",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "23-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-52-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "10-11-2026 15:00",
+    "fcierre_iso": "2026-11-10T15:00:00",
+    "finicio_preguntas_raw": "23-10-2026 17:03",
+    "finicio_preguntas_iso": "2026-10-23T17:03:00",
+    "ffinal_preguntas_raw": "02-11-2026 17:00",
+    "ffinal_preguntas_iso": "2026-11-02T17:00:00",
+    "frespuestas_raw": "04-11-2026 18:00",
+    "frespuestas_iso": "2026-11-04T18:00:00",
+    "fapertura_tecnica_raw": "10-11-2026 15:01",
+    "fapertura_tecnica_iso": "2026-11-10T15:01:00",
+    "fapertura_economica_raw": "10-11-2026 15:01",
+    "fapertura_economica_iso": "2026-11-10T15:01:00",
+    "fadjudicacion_raw": "24-12-2026 15:03",
+    "fadjudicacion_iso": "2026-12-24T15:03:00"
+   },
+   "contexto": {
+    "descripcion": "CONSERVACIÓN DE RIBERAS DE CAUCES NATURALES EN LA CUENCA DEL RÍO VALDIVIA COMUNAS DE MARIQUINA Y MAFIL REGIÓN DE LOS RÍOS 2026-2027",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIALES MOP 2026"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "5661-53-O126",
+    "nombre": "ASESORÍA A LA INSPECCIÓN FISCAL AMPLIACION MEJORAMIENTO SSR MEHUIN BAJO, MA",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "03-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-53-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "10-12-2026 10:59",
+    "fcierre_iso": "2026-12-10T10:59:00",
+    "finicio_preguntas_raw": "03-11-2026 18:00",
+    "finicio_preguntas_iso": "2026-11-03T18:00:00",
+    "ffinal_preguntas_raw": "13-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-13T12:00:00",
+    "frespuestas_raw": "27-11-2026 12:00",
+    "frespuestas_iso": "2026-11-27T12:00:00",
+    "fapertura_tecnica_raw": "10-12-2026 11:00",
+    "fapertura_tecnica_iso": "2026-12-10T11:00:00",
+    "fapertura_economica_raw": "22-12-2026 11:00",
+    "fapertura_economica_iso": "2026-12-22T11:00:00",
+    "fadjudicacion_raw": "12-01-2027 17:00",
+    "fadjudicacion_iso": "2027-01-12T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "ASESORÍA A LA INSPECCIÓN FISCAL AMPLIACION MEJORAMIENTO SSR MEHUIN BAJO, MARIQUINA",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "Sectorial MOP"
+   }
+  },
+  {
+   "palabras": [
+    "cuenca"
+   ],
+   "registro": {
+    "id": "5661-54-O126",
+    "nombre": "CONSERVACIÓN DE RIBERAS DE CAUCES NATURALES EN LA CUENCA DEL RÍO VALDIVIA,",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "29-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-54-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "13-11-2026 14:59",
+    "fcierre_iso": "2026-11-13T14:59:00",
+    "finicio_preguntas_raw": "29-10-2026 12:00",
+    "finicio_preguntas_iso": "2026-10-29T12:00:00",
+    "ffinal_preguntas_raw": "06-11-2026 17:00",
+    "ffinal_preguntas_iso": "2026-11-06T17:00:00",
+    "frespuestas_raw": "10-11-2026 17:00",
+    "frespuestas_iso": "2026-11-10T17:00:00",
+    "fapertura_tecnica_raw": "13-11-2026 15:00",
+    "fapertura_tecnica_iso": "2026-11-13T15:00:00",
+    "fapertura_economica_raw": "13-11-2026 15:00",
+    "fapertura_economica_iso": "2026-11-13T15:00:00",
+    "fadjudicacion_raw": "30-11-2026 17:00",
+    "fadjudicacion_iso": "2026-11-30T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONSERVACIÓN DE RIBERAS DE CAUCES NATURALES EN LA CUENCA DEL RÍO VALDIVIA, COMUNAS DE PAILLACO Y LOS LAGOS REGIÓN DE LOS RÍOS 2026-2027",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "Sectorial MOP"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "5661-55-O126",
+    "nombre": "AIF CONSTRUCCION SSR SANTA ISABEL BOQUIAL Y LOS AZADORES COMUNA RÍO BUENO",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "09-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-55-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "11-12-2026 11:00",
+    "fcierre_iso": "2026-12-11T11:00:00",
+    "finicio_preguntas_raw": "09-11-2026 17:25",
+    "finicio_preguntas_iso": "2026-11-09T17:25:00",
+    "ffinal_preguntas_raw": "19-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-19T12:00:00",
+    "frespuestas_raw": "02-12-2026 17:00",
+    "frespuestas_iso": "2026-12-02T17:00:00",
+    "fapertura_tecnica_raw": "11-12-2026 11:01",
+    "fapertura_tecnica_iso": "2026-12-11T11:01:00",
+    "fapertura_economica_raw": "28-12-2026 11:00",
+    "fapertura_economica_iso": "2026-12-28T11:00:00",
+    "fadjudicacion_raw": "26-02-2027 17:26",
+    "fadjudicacion_iso": "2027-02-26T17:26:00"
+   },
+   "contexto": {
+    "descripcion": "AIF CONSTRUCCION SERVICIO SANITARIO RURAL SANTA ISABEL BOQUIAL Y LOS AZADORES, COMUNA RÍO BUENO.",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIALES MOP 2026"
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "5661-59-O126",
+    "nombre": "AIF CONSTRUCCION SERVICIO SANITARIO RURAL ROPULLI - PICHIQUEMA, PAILLACO",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - XIV Región",
+    "region": "Los Ríos",
+    "comuna": "",
+    "fpub": "10-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5661-59-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "10-12-2026 10:59",
+    "fcierre_iso": "2026-12-10T10:59:00",
+    "finicio_preguntas_raw": "10-11-2026 19:00",
+    "finicio_preguntas_iso": "2026-11-10T19:00:00",
+    "ffinal_preguntas_raw": "20-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-20T12:00:00",
+    "frespuestas_raw": "30-11-2026 17:00",
+    "frespuestas_iso": "2026-11-30T17:00:00",
+    "fapertura_tecnica_raw": "10-12-2026 11:00",
+    "fapertura_tecnica_iso": "2026-12-10T11:00:00",
+    "fapertura_economica_raw": "17-12-2026 11:00",
+    "fapertura_economica_iso": "2026-12-17T11:00:00",
+    "fadjudicacion_raw": "30-12-2026 12:00",
+    "fadjudicacion_iso": "2026-12-30T12:00:00"
+   },
+   "contexto": {
+    "descripcion": "AIF CONSTRUCCION SERVICIO SANITARIO RURAL ROPULLI - PICHIQUEMA, PAILLACO",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "Sectorial MOP"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "5908-36-LP26",
+    "nombre": "CONSTRUCCIÓN DE CONEXIONES DOMICILIARIAS DE AGUA POTABLE Y ALCANTARILLADO LOCALIDAD DE HUARA",
+    "entidad": "ILUSTRE MUNICIPALIDAD DE HUARA - SECPLAC",
+    "region": "Tarapacá",
+    "comuna": "Huara",
+    "fpub": "22-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "0 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5908-36-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "11-11-2026 15:00",
+    "fcierre_iso": "2026-11-11T15:00:00",
+    "finicio_preguntas_raw": "22-10-2026 13:01",
+    "finicio_preguntas_iso": "2026-10-22T13:01:00",
+    "ffinal_preguntas_raw": "28-10-2026 10:00",
+    "ffinal_preguntas_iso": "2026-10-28T10:00:00",
+    "frespuestas_raw": "02-11-2026 17:30",
+    "frespuestas_iso": "2026-11-02T17:30:00",
+    "fapertura_tecnica_raw": "11-11-2026 15:01",
+    "fapertura_tecnica_iso": "2026-11-11T15:01:00",
+    "fapertura_economica_raw": "11-11-2026 15:01",
+    "fapertura_economica_iso": "2026-11-11T15:01:00",
+    "fadjudicacion_raw": "28-12-2026 17:18",
+    "fadjudicacion_iso": "2026-12-28T17:18:00"
+   },
+   "contexto": {
+    "descripcion": "permitirá otorgar una solución sanitaria a familias de la localidad de Huara, mediante la ejecución de conexiones domiciliarias de agua potable y alcantarillado, conforme a la normativa sanitaria vigente y a los estándares técnicos establecidos por los organismos competentes.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · CONSTRUCCIÓN DE CONEXIONES DOMICILIARIAS DE AGUA POTABLE Y ALCANTARILLADO, LOCALIDAD DE HUARA    "
+    ],
+    "fuente_financiamiento": "FONDOS SUBDERE"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "673663-34-LE26",
+    "nombre": "CONSTRUCCIÓN SISTEMA AGUA POTABLE POR ACARREO LOC",
+    "entidad": "I MUNICIPALIDAD DE ANDACOLLO - Secplan",
+    "region": "Coquimbo",
+    "comuna": "Andacollo",
+    "fpub": "28-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=673663-34-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "17-11-2026 11:00",
+    "fcierre_iso": "2026-11-17T11:00:00",
+    "finicio_preguntas_raw": "28-10-2026 18:49",
+    "finicio_preguntas_iso": "2026-10-28T18:49:00",
+    "ffinal_preguntas_raw": "04-11-2026 18:49",
+    "ffinal_preguntas_iso": "2026-11-04T18:49:00",
+    "frespuestas_raw": "09-11-2026 18:49",
+    "frespuestas_iso": "2026-11-09T18:49:00",
+    "fapertura_tecnica_raw": "17-11-2026 11:00",
+    "fapertura_tecnica_iso": "2026-11-17T11:00:00",
+    "fapertura_economica_raw": "17-11-2026 11:05",
+    "fapertura_economica_iso": "2026-11-17T11:05:00",
+    "fadjudicacion_raw": "24-12-2026 15:03",
+    "fadjudicacion_iso": "2026-12-24T15:03:00"
+   },
+   "contexto": {
+    "descripcion": "CONSTRUCCIÓN SISTEMA AGUA POTABLE POR ACARREO, LOCALIDAD LA JARILLA, ANDACOLLO.\r\n\r\nsegún decreto N°2047 del 16 de abril de 2026 se aprueba la liquidación final del contrato y hágase efectivo el Certificado de Fianza N°B0137444-01 correspondiente al Fiel Cumplimiento del Contrato y Correcta Ejecución de la Obra CONSTRUCCIÓN DE PROYECTOS DOMICILIARIOS AGUA POTABLE Y ALCANTARILLADO Y EXTENSIÓN RED DE AGUA POTABLE Y ALCANTARILLADO, CALLE MANUEL DE SALAS, COMUNA DE ANDACOLLO\r\n\r\nEs por este motivo anteriormente expuesto que la presente licitación busca dar termino y ejecución de las partidas que quedaron pendientes en el Contrato anterior.\r\n\r\nLa Municipalidad de Andacollo requiere contratar personas naturales o jurídicas especializadas en el rubro de la presente licitación, para la ejecución “CONSTRUCCIÓN SISTEMA AGUA POTABLE POR ACARREO, LOCALIDAD LA JARILLA, ANDACOLLO”, Programa de Mejoramiento de Barrios PMB, de acuerdo con lo establecido en Bases Administrativas Especiales, Especificaciones Técnicas y demás documentación Técnica. La obra contempla las partidas pendientes de ejecución de los siguientes proyectos: \r\n\r\nCONSTRUCCIÓN SISTEMA AGUA POTABLE POR ACARREO, LOCALIDAD LA JARILLA, ANDACOLLO, busca solucionar la problemática sanitaria de las familias del sector de La jarilla de la comuna de Andacollo, que no cuentan con el servicio de agua potable, con la instalación de Estanque el cual se be llenar por acarreo y construyendo la correspondiente red de distribución de agua pot",
+    "tipo": "LE",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · CONSTRUCCIÓN SISTEMA AGUA POTABLE POR ACARREO, LOCALIDAD LA JARILLA, ANDACOLLO"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "cuenca"
+   ],
+   "registro": {
+    "id": "673663-47-LR26",
+    "nombre": "Servicios Bancarios Y Abonos De Intereses Por Saldos En Cuentas Corrientes De La Municipalidad De Andacollo",
+    "entidad": "I MUNICIPALIDAD DE ANDACOLLO - Secplan",
+    "region": "Coquimbo",
+    "comuna": "Andacollo",
+    "fpub": "27-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=673663-47-LR26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "01-12-2026 12:00",
+    "fcierre_iso": "2026-12-01T12:00:00",
+    "finicio_preguntas_raw": "27-10-2026 20:35",
+    "finicio_preguntas_iso": "2026-10-27T20:35:00",
+    "ffinal_preguntas_raw": "01-11-2026 20:35",
+    "ffinal_preguntas_iso": "2026-11-01T20:35:00",
+    "frespuestas_raw": "11-11-2026 20:35",
+    "frespuestas_iso": "2026-11-11T20:35:00",
+    "fapertura_tecnica_raw": "01-12-2026 12:05",
+    "fapertura_tecnica_iso": "2026-12-01T12:05:00",
+    "fapertura_economica_raw": "01-12-2026 12:05",
+    "fapertura_economica_iso": "2026-12-01T12:05:00",
+    "fadjudicacion_raw": "31-12-2026 12:17",
+    "fadjudicacion_iso": "2026-12-31T12:17:00"
+   },
+   "contexto": {
+    "descripcion": "Servicios Bancarios Y Abonos De Intereses Por Saldos En Cuentas Corrientes De La Municipalidad De Andacollo",
+    "tipo": "LR",
+    "items": [
+     "Organizaciones y consultorías políticas, demográficas, económicas, sociales y de administración pública / Administración y finanzas públicas / Finanzas públicas · Servicios bancarios gubernamentales o centrales · Servicios Bancarios Y Abonos De Intereses Por Saldos En Cuentas Corrientes De La Municipalidad De Andacollo"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "cuenca"
+   ],
+   "registro": {
+    "id": "691232-8-LP26",
+    "nombre": "SERVICIO DE CUENTAS CORRIENTES BANCARIAS",
+    "entidad": "DIRECCION DE ABASTECIMIENTO DE LA ARMADA - ADM. FINANCIERO DEL SISTEMA DE SALUD DE LA ARMADA",
+    "region": "Valparaíso",
+    "comuna": "Viña del Mar",
+    "fpub": "22-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "60 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=691232-8-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "23-11-2026 15:01",
+    "fcierre_iso": "2026-11-23T15:01:00",
+    "finicio_preguntas_raw": "22-10-2026 18:30",
+    "finicio_preguntas_iso": "2026-10-22T18:30:00",
+    "ffinal_preguntas_raw": "06-11-2026 23:59",
+    "ffinal_preguntas_iso": "2026-11-06T23:59:00",
+    "frespuestas_raw": "13-11-2026 23:59",
+    "frespuestas_iso": "2026-11-13T23:59:00",
+    "fapertura_tecnica_raw": "23-11-2026 15:30",
+    "fapertura_tecnica_iso": "2026-11-23T15:30:00",
+    "fapertura_economica_raw": "23-11-2026 15:30",
+    "fapertura_economica_iso": "2026-11-23T15:30:00",
+    "fadjudicacion_raw": "14-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-14T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "El Administrador Financiero del Sistema de Salud de la Armada, llama a presentar propuestas, para proveer el servicio de cuentas corrientes bancarias, para el manejo y administración de los recursos financieros a que se refieren los artículos 28°, 30° y 33° de la Ley N°19.465. Este servicio debe ser sin ningún tipo de costo, por mantención u operación y remunerar en base al Saldo Promedio Mensual Disponible (SPMD). La oferta de la entidad bancaria, debe considerar además la implementación, igualmente sin costo de un servicio de pago a proveedores y/o personas naturales y traspaso de recursos al extranjero. ",
+    "tipo": "LP",
+    "items": [
+     "Servicios financieros, pensiones y seguros / Banca e inversiones / Instituciones bancarias · Bancos privados · SERVICIO DE CUENTAS CORRIENTES BANCARIAS, PARA LOS FONDOS DE SALUD DE LA ARMADA."
+    ],
+    "fuente_financiamiento": "FONDOS DE SALUD"
+   }
+  },
+  {
+   "palabras": [
+    "cuenca"
+   ],
+   "registro": {
+    "id": "691944-41-LE26",
+    "nombre": "Adquisición hormigón G-25 proyectos linea cuenca del carbon",
+    "entidad": "I MUNICIPALIDAD DE CURANILAHUE - OBRAS",
+    "region": "Biobío",
+    "comuna": "",
+    "fpub": "07-11-2026",
+    "monto_raw": "$18.050.000",
+    "monto_num": 18050000,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=691944-41-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-11-2026 15:05",
+    "fcierre_iso": "2026-11-16T15:05:00",
+    "finicio_preguntas_raw": "07-11-2026 16:01",
+    "finicio_preguntas_iso": "2026-11-07T16:01:00",
+    "ffinal_preguntas_raw": "11-11-2026 16:01",
+    "ffinal_preguntas_iso": "2026-11-11T16:01:00",
+    "frespuestas_raw": "12-11-2026 16:30",
+    "frespuestas_iso": "2026-11-12T16:30:00",
+    "fapertura_tecnica_raw": "16-11-2026 15:06",
+    "fapertura_tecnica_iso": "2026-11-16T15:06:00",
+    "fapertura_economica_raw": "16-11-2026 15:06",
+    "fapertura_economica_iso": "2026-11-16T15:06:00",
+    "fadjudicacion_raw": "28-12-2026 12:18",
+    "fadjudicacion_iso": "2026-12-28T12:18:00"
+   },
+   "contexto": {
+    "descripcion": "Propuesta 35/2026. Se requiere hormigon para proyectos PMU linea Cuenca del Carbón, segun notas de pedido 1550, 1551 y 1552.",
+    "tipo": "LE",
+    "items": [
+     "Maquinaria para construcción y edificación / Maquinaria pesada de construcción / Equipos de pavimentación · Revestimientos de pavimento de hormigón · Hormigón G-25 con entrega parcializada según solicitud del mandante"
+    ],
+    "fuente_financiamiento": "Subdere"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "707419-54-L126",
+    "nombre": "MANTENIMIENTO PREVENTIVO Y CORRECTIVO  PARA HIDROPACK Y EQUIPOS DE BOMBEO DE AGUA POTABLE Y LIMPIEZA DE ESTANQUE DE ACUMULACIÓN, UBICADOS EN JARDINES INFANTILES , SALAS CUNA DE FUNDACIÓN INTEGRA, REGIÓN DE VALPARAÍSO",
+    "entidad": "FUNDACION EDUCACIONAL PARA EL DESAROLLO INTEGRAL DE LA NIÑEZ - Regional Valparaiso",
+    "region": "Metropolitana",
+    "comuna": "Buin",
+    "fpub": "29-10-2026",
+    "monto_raw": "$7.000.000",
+    "monto_num": 7000000,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=707419-54-L126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "13-11-2026 18:00",
+    "fcierre_iso": "2026-11-13T18:00:00",
+    "finicio_preguntas_raw": "29-10-2026 17:53",
+    "finicio_preguntas_iso": "2026-10-29T17:53:00",
+    "ffinal_preguntas_raw": "05-11-2026 23:59",
+    "ffinal_preguntas_iso": "2026-11-05T23:59:00",
+    "frespuestas_raw": "06-11-2026 17:30",
+    "frespuestas_iso": "2026-11-06T17:30:00",
+    "fapertura_tecnica_raw": "14-11-2026 15:00",
+    "fapertura_tecnica_iso": "2026-11-14T15:00:00",
+    "fapertura_economica_raw": "14-11-2026 15:00",
+    "fapertura_economica_iso": "2026-11-14T15:00:00",
+    "fadjudicacion_raw": "17-11-2026 17:30",
+    "fadjudicacion_iso": "2026-11-17T17:30:00"
+   },
+   "contexto": {
+    "descripcion": "El servicio que se solicita contratar tiene como objetivo asegurar la continuidad operativa, sanitaria y de seguridad de los sistemas de abastecimiento de agua potable de los establecimientos.\nEl objetivo principal del servicio es mantener los sistemas hidropack, bombas de impulsión y estanques de agua en óptimas condiciones de funcionamiento, garantizando:Presión y caudal.; Correcta operación , tableros y accesorios.; Condiciones sanitarias seguras.; Prevencion de fallas y respuesta oportuna\n.\n",
+    "tipo": "L1",
+    "items": [
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Bombas · Bombas de agua · Mantención preventiva y correctiva para HIDROPACK Y EQUIPOS DE BOMBEO DE AGUA POTABLE Y LIMPIEZA DE ESTANQUE DE ACUMULACIÓN"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "pozo profundo"
+   ],
+   "registro": {
+    "id": "816696-20-LP26",
+    "nombre": "CONSTRUCCION POZO PROFUNDO MACROZONA PUQUELDON",
+    "entidad": "I MUNICIPALIDAD DE PUQUELDON - SECPLAN",
+    "region": "Los Lagos",
+    "comuna": "Puqueldón",
+    "fpub": "26-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "120 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=816696-20-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "17-11-2026 15:00",
+    "fcierre_iso": "2026-11-17T15:00:00",
+    "finicio_preguntas_raw": "26-10-2026 14:30",
+    "finicio_preguntas_iso": "2026-10-26T14:30:00",
+    "ffinal_preguntas_raw": "01-11-2026 14:30",
+    "ffinal_preguntas_iso": "2026-11-01T14:30:00",
+    "frespuestas_raw": "03-11-2026 17:30",
+    "frespuestas_iso": "2026-11-03T17:30:00",
+    "fapertura_tecnica_raw": "17-11-2026 15:00",
+    "fapertura_tecnica_iso": "2026-11-17T15:00:00",
+    "fapertura_economica_raw": "23-11-2026 15:00",
+    "fapertura_economica_iso": "2026-11-23T15:00:00",
+    "fadjudicacion_raw": "31-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-31T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "EJECUCION DE OBRAS PROYECTO FINANCIADO POR LA SUBSECRETARIA DE DESARROLLO REGIONAL Y ADMINISTRATIVO SUBDERE DENOMINADO CONSTRUCCION POZO PROFUNDO MACROZONA PUQUELDON.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · CONSTRUCCION POZO PROFUNDO MACROZONA PUQUELDON"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "817-46-O126",
+    "nombre": "Construcción SSR Llanada Grande",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - X Región",
+    "region": "Los Lagos",
+    "comuna": "Puerto Montt",
+    "fpub": "05-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=817-46-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "24-11-2026 14:30",
+    "fcierre_iso": "2026-11-24T14:30:00",
+    "finicio_preguntas_raw": "05-10-2026 15:01",
+    "finicio_preguntas_iso": "2026-10-05T15:01:00",
+    "ffinal_preguntas_raw": "16-10-2026 16:00",
+    "ffinal_preguntas_iso": "2026-10-16T16:00:00",
+    "frespuestas_raw": "17-11-2026 16:00",
+    "frespuestas_iso": "2026-11-17T16:00:00",
+    "fapertura_tecnica_raw": "24-11-2026 15:00",
+    "fapertura_tecnica_iso": "2026-11-24T15:00:00",
+    "fapertura_economica_raw": "02-12-2026 15:00",
+    "fapertura_economica_iso": "2026-12-02T15:00:00",
+    "fadjudicacion_raw": "30-12-2026 16:00",
+    "fadjudicacion_iso": "2026-12-30T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "Esta iniciativa contempla la construcción de una captación superficial tipo vertedero, posteriormente las aguas serán trasladadas aducción a un recinto donde estas serán tratadas. Luego, las aguas tratadas serán impulsadas a otro recinto donde serán almacenadas en un estanque de hormigón armado. Finalmente las aguas serán distribuidas gravitacionalmente mediante tuberías de HDPE en un total de 25.5 km aproximadamente para un total de 227 arranques.",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "Sectorial"
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "817-56-O126",
+    "nombre": "Conservación Servicio Sanitario Rural de Bahía Pargua, Calbuco",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - X Región",
+    "region": "Los Lagos",
+    "comuna": "Puerto Montt",
+    "fpub": "22-10-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=817-56-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "10-11-2026 14:30",
+    "fcierre_iso": "2026-11-10T14:30:00",
+    "finicio_preguntas_raw": "22-10-2026 15:01",
+    "finicio_preguntas_iso": "2026-10-22T15:01:00",
+    "ffinal_preguntas_raw": "30-10-2026 16:00",
+    "ffinal_preguntas_iso": "2026-10-30T16:00:00",
+    "frespuestas_raw": "03-11-2026 16:00",
+    "frespuestas_iso": "2026-11-03T16:00:00",
+    "fapertura_tecnica_raw": "10-11-2026 15:00",
+    "fapertura_tecnica_iso": "2026-11-10T15:00:00",
+    "fapertura_economica_raw": "17-11-2026 15:00",
+    "fapertura_economica_iso": "2026-11-17T15:00:00",
+    "fadjudicacion_raw": "26-11-2026 16:00",
+    "fadjudicacion_iso": "2026-11-26T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "Se requiere la contratación de obras de conservación para el Servicio Sanitario Rural de Bahía Pargua, comuna de Calbuco",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "Sectorial"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "817-59-O126",
+    "nombre": "Construcción SSR Canal Quihua 2 Río Yale",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - X Región",
+    "region": "Los Lagos",
+    "comuna": "Puerto Montt",
+    "fpub": "05-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=817-59-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "26-11-2026 14:30",
+    "fcierre_iso": "2026-11-26T14:30:00",
+    "finicio_preguntas_raw": "05-11-2026 16:01",
+    "finicio_preguntas_iso": "2026-11-05T16:01:00",
+    "ffinal_preguntas_raw": "16-11-2026 16:00",
+    "ffinal_preguntas_iso": "2026-11-16T16:00:00",
+    "frespuestas_raw": "20-11-2026 16:00",
+    "frespuestas_iso": "2026-11-20T16:00:00",
+    "fapertura_tecnica_raw": "26-11-2026 15:00",
+    "fapertura_tecnica_iso": "2026-11-26T15:00:00",
+    "fapertura_economica_raw": "04-12-2026 15:00",
+    "fapertura_economica_iso": "2026-12-04T15:00:00",
+    "fadjudicacion_raw": "29-12-2026 16:00",
+    "fadjudicacion_iso": "2026-12-29T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "Las obras consideradas corresponden a la instalación de un sistema de agua potable rural donde se consideran obras de captación de aguas subterráneas, sistema de desinfección, redes de impulsión, estanque de regulación y redes de distribución hacia toda la localidad.",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "Sectorial"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "817-62-O126",
+    "nombre": "Estudio Mecánica de Suelos para el SSR Pid Pid",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - X Región",
+    "region": "Los Lagos",
+    "comuna": "Puerto Montt",
+    "fpub": "06-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=817-62-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "24-11-2026 14:30",
+    "fcierre_iso": "2026-11-24T14:30:00",
+    "finicio_preguntas_raw": "06-11-2026 12:11",
+    "finicio_preguntas_iso": "2026-11-06T12:11:00",
+    "ffinal_preguntas_raw": "13-11-2026 16:00",
+    "ffinal_preguntas_iso": "2026-11-13T16:00:00",
+    "frespuestas_raw": "17-11-2026 16:00",
+    "frespuestas_iso": "2026-11-17T16:00:00",
+    "fapertura_tecnica_raw": "24-11-2026 15:00",
+    "fapertura_tecnica_iso": "2026-11-24T15:00:00",
+    "fapertura_economica_raw": "01-12-2026 15:00",
+    "fapertura_economica_iso": "2026-12-01T15:00:00",
+    "fadjudicacion_raw": "30-12-2026 16:00",
+    "fadjudicacion_iso": "2026-12-30T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "Se requiere realizar una mecánica de suelos según TTR para la posterior construcción del estanque de Servicio Sanitario Rural de Pid Pid en la comuna de Castro",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "Sectorial"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "882-3-LP26",
+    "nombre": "SERVICIO DISTRIBUCION AGUA POTABLE - CAMION ALJIBE",
+    "entidad": "DELEGACIÓN PRESIDENCIAL REGIONAL DEL LIBERTADOR BERNARDO  O´HIGGINS - DPR OHiggins - Emergencias",
+    "region": "O'Higgins",
+    "comuna": "Rancagua",
+    "fpub": "06-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "6 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=882-3-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "26-11-2026 15:06",
+    "fcierre_iso": "2026-11-26T15:06:00",
+    "finicio_preguntas_raw": "06-11-2026 23:59",
+    "finicio_preguntas_iso": "2026-11-06T23:59:00",
+    "ffinal_preguntas_raw": "11-11-2026 23:59",
+    "ffinal_preguntas_iso": "2026-11-11T23:59:00",
+    "frespuestas_raw": "16-11-2026 23:59",
+    "frespuestas_iso": "2026-11-16T23:59:00",
+    "fapertura_tecnica_raw": "26-11-2026 15:07",
+    "fapertura_tecnica_iso": "2026-11-26T15:07:00",
+    "fapertura_economica_raw": "26-11-2026 15:07",
+    "fapertura_economica_iso": "2026-11-26T15:07:00",
+    "fadjudicacion_raw": "14-12-2026 15:07",
+    "fadjudicacion_iso": "2026-12-14T15:07:00"
+   },
+   "contexto": {
+    "descripcion": "La Delegación Presidencial Regional de O´Higgins requiere contratar el Servicio de distribución de agua potable en vehículos aljibes para las comunas afectada en la región de O´Higgins, periodo enero a junio del año 2027.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Transporte de carga por carretera · Servicios de transporte local en camión · Servicio de distribución de agua potable en vehículos aljibe - Comuna de MACHALI",
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Transporte de carga por carretera · Servicios de transporte local en camión · Servicio de distribución de agua potable en vehículos aljibe - Comuna de RANCAGUA"
+    ],
+    "fuente_financiamiento": "Glosa 06 Partida 05-10-01 de la Sub. Int. año 2027"
+   }
+  },
+  {
+   "palabras": [
+    "piezómetro"
+   ],
+   "registro": {
+    "id": "889-11-LP26",
+    "nombre": "Constr. de 3 Piezómetros T Paine Natales Primavera",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección General de Aguas - XII Región",
+    "region": "Magallanes",
+    "comuna": "Punta Arenas",
+    "fpub": "29-10-2026",
+    "monto_raw": "$189.075.630",
+    "monto_num": 189075630,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=889-11-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "18-11-2026 15:00",
+    "fcierre_iso": "2026-11-18T15:00:00",
+    "finicio_preguntas_raw": "29-10-2026 22:10",
+    "finicio_preguntas_iso": "2026-10-29T22:10:00",
+    "ffinal_preguntas_raw": "07-11-2026 22:00",
+    "ffinal_preguntas_iso": "2026-11-07T22:00:00",
+    "frespuestas_raw": "12-11-2026 22:00",
+    "frespuestas_iso": "2026-11-12T22:00:00",
+    "fapertura_tecnica_raw": "18-11-2026 18:00",
+    "fapertura_tecnica_iso": "2026-11-18T18:00:00",
+    "fapertura_economica_raw": "18-11-2026 18:00",
+    "fapertura_economica_iso": "2026-11-18T18:00:00",
+    "fadjudicacion_raw": "07-12-2026 13:00",
+    "fadjudicacion_iso": "2026-12-07T13:00:00"
+   },
+   "contexto": {
+    "descripcion": "Construcción de 3 estaciones piezométricas de monitoreo de aguas subterráneas, las que se encuentran distribuidas en las comunas de Torres del Paine y Natales en la provincia de Última Esperanza y comuna de primavera en la provincia de Tierra del Fuego en la región de Magallanes y de la Antártica Chilena.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de perforación de minería, petróleo y gas / Servicios de mantenimiento, construcción y perforación de pozos / Servicios de perforación del pozo petrolero · Servicios de perforación de pozo · Construcción de 3 estaciones piezométricas de monitoreo en las Provincias de Última Esperanza y Tierra del Fuego en la región de Magallanes y de la Antártica Chilena."
+    ],
+    "fuente_financiamiento": "Sectorial 31-02-004 40007100-0"
+   }
+  },
+  {
+   "palabras": [
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "966131-73-LP26",
+    "nombre": "MEJORAMIENTO SISTEMA DE ALCANTARILLADO Y AGUAS SUPERFICIALES PESCADERÍA FERIA YUMBEL",
+    "entidad": "I MUNICIPALIDAD DE CASTRO - SECPLAN",
+    "region": "Los Lagos",
+    "comuna": "Castro",
+    "fpub": "23-10-2026",
+    "monto_raw": "$326.590.000",
+    "monto_num": 326590000,
+    "plazo": "0 horas",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-73-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-11-2026 15:01",
+    "fcierre_iso": "2026-11-16T15:01:00",
+    "finicio_preguntas_raw": "23-10-2026 16:02",
+    "finicio_preguntas_iso": "2026-10-23T16:02:00",
+    "ffinal_preguntas_raw": "03-11-2026 13:00",
+    "ffinal_preguntas_iso": "2026-11-03T13:00:00",
+    "frespuestas_raw": "05-11-2026 14:00",
+    "frespuestas_iso": "2026-11-05T14:00:00",
+    "fapertura_tecnica_raw": "16-11-2026 15:02",
+    "fapertura_tecnica_iso": "2026-11-16T15:02:00",
+    "fapertura_economica_raw": "16-11-2026 15:03",
+    "fapertura_economica_iso": "2026-11-16T15:03:00",
+    "fadjudicacion_raw": "08-12-2026 17:33",
+    "fadjudicacion_iso": "2026-12-08T17:33:00"
+   },
+   "contexto": {
+    "descripcion": "La necesidad de mejorar el sistema de alcantarillado de aguas servidas y aguas superficiales en la feria Yumbel de la comuna de Castro.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · La necesidad de mejorar el sistema de alcantarillado de aguas servidas y aguas superficiales en la feria Yumbel de la comuna de Castro."
+    ],
+    "fuente_financiamiento": "Extra presupuestaria "
+   }
+  }
+ ]
+}
