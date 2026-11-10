@@ -1,9 +1,9 @@
 {
- "fecha": "2026-11-10T11:54:58",
- "activas": 4953,
- "candidatas": 3,
+ "fecha": "2026-11-10T12:14:49",
+ "activas": 4948,
+ "candidatas": 0,
  "excluidas": 1,
- "actualizadas": 0,
+ "actualizadas": 1,
  "actas": 0,
  "errores": [],
  "muestra": {
@@ -43,15 +43,15 @@
   "CantidadReclamos": "number",
   "Fechas": {
    "FechaCreacion": "string",
-   "FechaCierre": "null",
-   "FechaInicio": "null",
-   "FechaFinal": "null",
-   "FechaPubRespuestas": "null",
-   "FechaActoAperturaTecnica": "null",
-   "FechaActoAperturaEconomica": "null",
+   "FechaCierre": "string",
+   "FechaInicio": "string",
+   "FechaFinal": "string",
+   "FechaPubRespuestas": "string",
+   "FechaActoAperturaTecnica": "string",
+   "FechaActoAperturaEconomica": "string",
    "FechaPublicacion": "string",
-   "FechaAdjudicacion": "null",
-   "FechaEstimadaAdjudicacion": "null",
+   "FechaAdjudicacion": "string",
+   "FechaEstimadaAdjudicacion": "string",
    "FechaSoporteFisico": "null",
    "FechaTiempoEvaluacion": "null",
    "FechaEstimadaFirma": "null",
@@ -62,10 +62,10 @@
   "UnidadTiempoEvaluacion": "number",
   "DireccionVisita": "string",
   "DireccionEntrega": "string",
-  "Estimacion": "number",
+  "Estimacion": "null",
   "FuenteFinanciamiento": "string",
   "VisibilidadMonto": "number",
-  "MontoEstimado": "number",
+  "MontoEstimado": "null",
   "Tiempo": "null",
   "UnidadTiempo": "string",
   "Modalidad": "number",
@@ -107,5 +107,5 @@
    ]
   }
  },
- "peticiones": 53
+ "peticiones": 46
 }
