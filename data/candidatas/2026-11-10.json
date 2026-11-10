@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-10T11:49:54",
- "fecha_barrido": "10-11-2026 11:49",
+ "generado": "2026-11-10T11:54:58",
+ "fecha_barrido": "10-11-2026 11:54",
  "candidatas": [
   {
    "palabras": [
@@ -41,6 +41,88 @@
      "Servicios de perforación de minería, petróleo y gas / Servicios de mantenimiento, construcción y perforación de pozos / Servicios de perforación del pozo petrolero · Servicios de entrada de agua de perforación de pozo · EL SERVICIO DE HABILITACIÓN DEL SISTEMA DE IMPULSIÓN DE AGUA EN EL COMPLEJO FRONTERIZO CARDENAL ANTONIO SAMORÉ, COMUNA DE PUYEHUE, PROVINCIA DE OSORNO."
     ],
     "fuente_financiamiento": "Delegación Presidencial Provincial de Osorno"
+   }
+  },
+  {
+   "palabras": [
+    "prefactibilidad"
+   ],
+   "registro": {
+    "id": "1460570-2-LS26",
+    "nombre": "Estudio de prefactibilidad técnica",
+    "entidad": "DIRECCION GENERAL DE GENDARMERIA DE CHIL - Compras GORE Aysén",
+    "region": "Aysén",
+    "comuna": "",
+    "fpub": "30-09-2026",
+    "monto_raw": "$715.702.000",
+    "monto_num": 715702000,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1460570-2-LS26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "",
+    "fcierre_iso": "",
+    "finicio_preguntas_raw": "",
+    "finicio_preguntas_iso": "",
+    "ffinal_preguntas_raw": "",
+    "ffinal_preguntas_iso": "",
+    "frespuestas_raw": "",
+    "frespuestas_iso": "",
+    "fapertura_tecnica_raw": "",
+    "fapertura_tecnica_iso": "",
+    "fapertura_economica_raw": "",
+    "fapertura_economica_iso": "",
+    "fadjudicacion_raw": "",
+    "fadjudicacion_iso": ""
+   },
+   "contexto": {
+    "descripcion": "APRUEBA BASES ADMINISTRATIVAS, BASES TÉCNICAS, FORMULARIOS, Y ANEXOS TÉCNICOS PARA CONTRATAR UN ESTUDIO DE PREFACTIBILIDAD TÉCNICA PARA LA EJECUCIÓN DEL PROYECTO REPOSICIÓN Y AMPLIACIÓN DEL ESTABLECIMIENTO PENITENCIARIO DE LA REGIÓN DE AYSÉN, CÓDIGO BIP 40069949-0, A TRAVÉS DE SERVICIOS PERSONALES ESPECIALIZADOS.E102RT9",
+    "tipo": "LS",
+    "items": [
+     "Servicios profesionales, administrativos y consultorías de gestión empresarial / Servicios de recursos humanos / Servicios de personal temporal · Servicios temporales de arquitectura · ESTUDIO DE PREFACTIBILIDAD TÉCNICA PARA LA EJECUCIÓN DEL PROYECTO REPOSICIÓN Y AMPLIACIÓN DEL ESTABLECIMIENTO PENITENCIARIO DE LA REGIÓN DE AYSÉN, CÓDIGO BIP 40069949-0."
+    ],
+    "fuente_financiamiento": "Gobierno Regional de Aysén"
+   }
+  },
+  {
+   "palabras": [
+    "acuífero"
+   ],
+   "registro": {
+    "id": "891-5-LR26",
+    "nombre": "EXPLORACIÓN CAPACIDAD DE EXPLOTACIÓN DE ACUIFEROS",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección General de Aguas - VIII Región de Biobio",
+    "region": "Biobío",
+    "comuna": "Concepción",
+    "fpub": "01-10-2026",
+    "monto_raw": "$600.000.000",
+    "monto_num": 600000000,
+    "plazo": "24 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=891-5-LR26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-11-2026 15:10",
+    "fcierre_iso": "2026-11-16T15:10:00",
+    "finicio_preguntas_raw": "02-10-2026 14:10",
+    "finicio_preguntas_iso": "2026-10-02T14:10:00",
+    "ffinal_preguntas_raw": "14-10-2026 14:10",
+    "ffinal_preguntas_iso": "2026-10-14T14:10:00",
+    "frespuestas_raw": "29-10-2026 14:10",
+    "frespuestas_iso": "2026-10-29T14:10:00",
+    "fapertura_tecnica_raw": "16-11-2026 15:10",
+    "fapertura_tecnica_iso": "2026-11-16T15:10:00",
+    "fapertura_economica_raw": "16-11-2026 15:10",
+    "fapertura_economica_iso": "2026-11-16T15:10:00",
+    "fadjudicacion_raw": "17-12-2026 15:10",
+    "fadjudicacion_iso": "2026-12-17T15:10:00"
+   },
+   "contexto": {
+    "descripcion": "Explorar la ocurrencia y capacidad de explotación \r\nde las aguas subterráneas en la cuenca de planificación del río Biobío, generando una herramienta hidrológica superficial-subterránea de gestión hídrica integrada \r\nactualizable en el tiempo que permita una administración sustentable del recurso hídrico y adaptación al cambio climático.",
+    "tipo": "LR",
+    "items": [
+     "Servicios basados en ingeniería, ciencias sociales y tecnología de la información / Servicios relativos a la meteorología y ciencias de la tierra / Oceanografía e hidrología · Estudios hidrológicos · \"EXPLORACIÓN \r\nDE LA CAPACIDAD DE EXPLOTACIÓN DE \r\nACUÍFEROS EN LA CUENCA DE \r\nPLANIFICACIÓN DEL RIO BIOBIO”"
+    ],
+    "fuente_financiamiento": "3101002"
    }
   }
  ]
