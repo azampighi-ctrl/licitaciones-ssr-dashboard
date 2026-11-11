@@ -1,12 +1,12 @@
 {
  "fecha_barrido": "10-11-2026 11:54",
  "api": {
-  "fecha": "2026-11-10T12:14:49",
-  "peticiones": 46,
-  "activas": 4948,
-  "candidatas": 0,
-  "excluidas_construccion_mantencion": 1,
-  "actualizadas": 1,
+  "fecha": "2026-11-11T07:45:54",
+  "peticiones": 57,
+  "activas": 4978,
+  "candidatas": 3,
+  "excluidas_construccion_mantencion": 6,
+  "actualizadas": 0,
   "actas": 0,
   "errores": 0
  },

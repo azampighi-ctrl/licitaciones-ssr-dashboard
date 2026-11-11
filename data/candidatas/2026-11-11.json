@@ -1,0 +1,134 @@
+{
+ "generado": "2026-11-11T07:45:54",
+ "fecha_barrido": "11-11-2026 07:45",
+ "candidatas": [
+  {
+   "palabras": [
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "3671-87-LP26",
+    "nombre": "“MEJORAMIENTO PTAS Y PEAS SISTEMA DE ALCANTARILLADO RUCAPEQUÉN CHILLÁN VIEJO” CODIGO BIP 40072887-0.",
+    "entidad": "ILUSTRE MUNICIPALIDAD DE CHILLAN VIEJO - Secplan",
+    "region": "Ñuble",
+    "comuna": "Chillán Viejo",
+    "fpub": "10-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3671-87-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "30-11-2026 17:01",
+    "fcierre_iso": "2026-11-30T17:01:00",
+    "finicio_preguntas_raw": "10-11-2026 17:01",
+    "finicio_preguntas_iso": "2026-11-10T17:01:00",
+    "ffinal_preguntas_raw": "20-11-2026 14:00",
+    "ffinal_preguntas_iso": "2026-11-20T14:00:00",
+    "frespuestas_raw": "25-11-2026 17:30",
+    "frespuestas_iso": "2026-11-25T17:30:00",
+    "fapertura_tecnica_raw": "30-11-2026 17:01",
+    "fapertura_tecnica_iso": "2026-11-30T17:01:00",
+    "fapertura_economica_raw": "02-12-2026 17:00",
+    "fapertura_economica_iso": "2026-12-02T17:00:00",
+    "fadjudicacion_raw": "31-12-2026 18:37",
+    "fadjudicacion_iso": "2026-12-31T18:37:00"
+   },
+   "contexto": {
+    "descripcion": "La presente licitación tiene por objeto la ejecución del proyecto denominado “Mejoramiento PTAS y PEAS Sistema de Alcantarillado Rucapequén, Chillán Viejo”, el cual contempla obras destinadas a recuperar y mejorar las condiciones operativas y sanitarias de la Planta de Tratamiento de Aguas Servidas y de sus Plantas Elevadoras Asociadas. Las intervenciones consideran, entre otras, limpieza y rehabilitación de unidades del sistema, reposición de componentes electromecánicos e hidráulicos deteriorados, incorporación de equipamiento de respaldo eléctrico, mejoramiento de las condiciones de operación y acceso mediante obras civiles complementarias, y demás partidas necesarias para restituir el adecuado funcionamiento del sistema, todo ello conforme a las Bases Administrativas, Especificaciones Técnicas, planos y demás antecedentes de la presente licitación.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · MEJORAMIENTO PTAS Y PEAS SISTEMA DE ALCANTARILLADO RUCAPEQUEN, CHILLÁN VIEJO CÓDIGO BIP 10072887-0 PRESUPUESTO $145.795.000. SEGÚN REQUERIMIENTOS TÉCNICOS ADJUNTOS."
+    ],
+    "fuente_financiamiento": "Municipal "
+   }
+  },
+  {
+   "palabras": [
+    "servicio sanitario rural"
+   ],
+   "registro": {
+    "id": "4318-20-LP26",
+    "nombre": "Mejoramiento Servicios Sanitarios Rurales Chonchi",
+    "entidad": "I MUNICIPALIDAD DE CHONCHI - Secretaria de Planificación Comunal",
+    "region": "Los Lagos",
+    "comuna": "Chonchi",
+    "fpub": "10-11-2026",
+    "monto_raw": "$91.559.583",
+    "monto_num": 91559583,
+    "plazo": "210 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4318-20-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "01-12-2026 10:00",
+    "fcierre_iso": "2026-12-01T10:00:00",
+    "finicio_preguntas_raw": "10-11-2026 17:30",
+    "finicio_preguntas_iso": "2026-11-10T17:30:00",
+    "ffinal_preguntas_raw": "13-11-2026 17:00",
+    "ffinal_preguntas_iso": "2026-11-13T17:00:00",
+    "frespuestas_raw": "20-11-2026 16:30",
+    "frespuestas_iso": "2026-11-20T16:30:00",
+    "fapertura_tecnica_raw": "01-12-2026 10:01",
+    "fapertura_tecnica_iso": "2026-12-01T10:01:00",
+    "fapertura_economica_raw": "01-12-2026 10:01",
+    "fapertura_economica_iso": "2026-12-01T10:01:00",
+    "fadjudicacion_raw": "31-12-2026 12:00",
+    "fadjudicacion_iso": "2026-12-31T12:00:00"
+   },
+   "contexto": {
+    "descripcion": "Se requiere contratar la ejecución de las obras de mejoramiento de servicios sanitarios rurales en la comuna de Chonchi, de acuerdo a lo establecido en la bases administrativas, especificaciones técnicas y demás antecedentes que se adjuntan.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · Se requiere contratar la ejecución de las obras de mejoramiento de servicios sanitarios rurales en la comuna de Chonchi, de acuerdo a lo establecido en la bases administrativas, especificaciones técnicas y demás antecedentes que se adjuntan."
+    ],
+    "fuente_financiamiento": "Subsecretaria Desarrollo Regional y Administrativo"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "582-13-LP26",
+    "nombre": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE CHILOÉ",
+    "entidad": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE CHILOÉ - Delegacion Presidencial Provincial de Chiloé",
+    "region": "Los Lagos",
+    "comuna": "Castro",
+    "fpub": "10-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=582-13-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "30-11-2026 15:00",
+    "fcierre_iso": "2026-11-30T15:00:00",
+    "finicio_preguntas_raw": "10-11-2026 20:01",
+    "finicio_preguntas_iso": "2026-11-10T20:01:00",
+    "ffinal_preguntas_raw": "16-11-2026 20:00",
+    "ffinal_preguntas_iso": "2026-11-16T20:00:00",
+    "frespuestas_raw": "18-11-2026 20:00",
+    "frespuestas_iso": "2026-11-18T20:00:00",
+    "fapertura_tecnica_raw": "30-11-2026 15:01",
+    "fapertura_tecnica_iso": "2026-11-30T15:01:00",
+    "fapertura_economica_raw": "30-11-2026 15:01",
+    "fapertura_economica_iso": "2026-11-30T15:01:00",
+    "fadjudicacion_raw": "03-12-2026 20:00",
+    "fadjudicacion_iso": "2026-12-03T20:00:00"
+   },
+   "contexto": {
+    "descripcion": "“Servicio de Distribución de agua potable para consumo humano mediante camiones aljibe para la provincia de Chiloé”.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de transporte, almacenaje y correo / Transporte de pasajeros / Transporte de pasajeros por carretera · Arriendo de vehículos · Línea 1: Servicio de distribución de 406.000 litros de agua potable semanales en la comuna de Ancud mediante 4 camiones aljibe de 10.000 litros.",
+     "Servicios de transporte, almacenaje y correo / Transporte de pasajeros / Transporte de pasajeros por carretera · Arriendo de vehículos · Línea 2: Servicio de distribución de 303.450 litros de agua potable semanales en la comuna de Quemchi mediante 3 camiones aljibe de 10.000 litros.",
+     "Servicios de transporte, almacenaje y correo / Transporte de pasajeros / Transporte de pasajeros por carretera · Arriendo de vehículos · Línea 3: Servicio de distribución de 112.700 litros de agua potable semanales en la comuna de Dalcahue mediante 1 camión aljibe de 10.000 litros.",
+     "Servicios de transporte, almacenaje y correo / Transporte de pasajeros / Transporte de pasajeros por carretera · Arriendo de vehículos · Línea 4: Servicio de distribución de 50.000 litros de agua potable semanales en la comuna de Quinchao mediante 1 camión aljibe de 5.000 a 8.000 litros.",
+     "Servicios de transporte, almacenaje y correo / Transporte de pasajeros / Transporte de pasajeros por carretera · Arriendo de vehículos · Línea 5: Servicio de distribución de 172.200 litros de agua potable semanales en la comuna de Chonchi mediante 2 camiones aljibe de 6.000 a 10.000 litros.",
+     "Servicios de transporte, almacenaje y correo / Transporte de pasajeros / Transporte de pasajeros por carretera · Arriendo de vehículos · Línea 6: Servicio de distribución de 127.050 litros de agua potable semanales en la comuna de Queilen mediante 1 camión aljibe de 10.000 litros."
+    ],
+    "fuente_financiamiento": ""
+   }
+  }
+ ]
+}
