@@ -160,8 +160,18 @@
   }
   .col-filter:focus{ outline:none; border-color:var(--blue-700); box-shadow:0 0 0 2px rgba(0,96,156,0.15); }
 
-  .tender-name{ font-weight:bold; color:var(--blue-900); margin-bottom:2px; }
+  .tender-name{ display:block; font-weight:bold; color:var(--blue-900); margin-bottom:2px; text-decoration:none; }
+  a.tender-name:hover{ color:var(--blue-700); text-decoration:underline; }
   .tender-meta{ color:var(--gray-400); font-size:11.5px; }
+  /* Anchos: región y publicación angostas para dar espacio al nombre */
+  table.tenders .c-nombre{ min-width:350px; }
+  table.tenders .c-media{ width:100px; }
+  table.tenders .c-preg{ min-width:136px; }
+  table.tenders .c-preg .preguntas-row{ white-space:nowrap; }
+  table.tenders thead tr.header-row th.c-media, table.tenders thead tr.header-row th.c-preg{ white-space:normal; }
+  table.tenders .c-angosta{ width:96px; max-width:110px; font-size:11.5px; }
+  table.tenders .c-fecha{ width:74px; font-size:11.5px; white-space:nowrap; }
+  table.tenders .c-angosta .col-filter, table.tenders .c-fecha .col-filter{ padding:4px; font-size:11px; }
   .tender-id{ color:var(--gray-400); font-size:11px; margin-top:2px; }
 
   .badge{ display:inline-block; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:bold; }
@@ -450,19 +460,19 @@ const COLUMNS = [
     render: (t, i) => `<strong>${i + 1}</strong>`
   },
   {
-    key: "tender", label: "Licitación", sortable: true, filterable: true,
+    key: "tender", label: "Licitación", cls: "c-nombre", sortable: true, filterable: true,
     sortVal: t => (t.nombre || "").toLowerCase(),
     filterVal: t => `${t.nombre} ${t.entidad} ${t.id}`.toLowerCase(),
-    render: t => `<div class="tender-name">${t.nombre}</div><div class="tender-meta">${t.entidad}</div><div class="tender-id">${t.id}${t.fdeteccion ? " · Detectada: " + t.fdeteccion : ""}</div>`
+    render: t => `<a class="tender-name" href="${t.link}" target="_blank" rel="noopener" title="Abrir ficha en Mercado Público">${t.nombre}</a><div class="tender-meta">${t.entidad}</div><div class="tender-id">${t.id}${t.fdeteccion ? " · Detectada: " + t.fdeteccion : ""}</div>`
   },
   {
-    key: "region", label: "Región / Comuna", sortable: true, filterable: true,
+    key: "region", label: "Región", cls: "c-angosta", sortable: true, filterable: true,
     sortVal: t => (t.region || "").toLowerCase(),
     filterVal: t => `${t.region} ${t.comuna}`.toLowerCase(),
     render: t => `${t.region}<br><span class="tender-meta">${t.comuna}</span>` + (isAvoid(t) ? `<br><span class="badge badge-avoid" title="Licitación DOH en región fuera de foco prioritario de Hidrogestión">⚠ Evitar</span>` : "")
   },
   {
-    key: "fpub", label: "Publicación", sortable: true, filterable: true,
+    key: "fpub", label: "Publicada", cls: "c-fecha", sortable: true, filterable: true,
     sortVal: t => isoFromDMY(t.fpub),
     filterVal: t => (t.fpub || "").toLowerCase(),
     render: t => t.fpub
@@ -480,7 +490,7 @@ const COLUMNS = [
     }
   },
   {
-    key: "preguntas", label: "Preguntas / Resp.", sortable: true, filterable: false,
+    key: "preguntas", label: "Preguntas / Resp.", cls: "c-preg", sortable: true, filterable: false,
     sortVal: t => t.ffinal_preguntas_iso || "",
     render: t => {
       if(!t.finicio_preguntas_raw) return `<span class="preguntas-na">No informado</span>`;
@@ -493,21 +503,15 @@ const COLUMNS = [
     }
   },
   {
-    key: "visita", label: "Visita a terreno", sortable: true, filterable: false,
+    key: "visita", label: "Visita a terreno", cls: "c-media", sortable: true, filterable: false,
     sortVal: t => { const i = visitaTerrenoInfo(t); return i.tipo === "Obligatoria" ? "1" : (i.tipo ? "2" : "3"); },
     render: t => visitaBadge(t)
   },
   {
-    key: "monto", label: "Monto estimado", sortable: true, filterable: true,
+    key: "monto", label: "Monto estimado", cls: "c-media", sortable: true, filterable: true,
     sortVal: t => (t.monto_num === null || t.monto_num === undefined) ? -1 : t.monto_num,
     filterVal: t => (t.monto_num ? fmtCLP(t.monto_num) : (t.monto_raw || "")).toLowerCase(),
     render: t => t.monto_num ? `<strong>${fmtCLP(t.monto_num)}</strong>` : `<span class="monto-na">${t.monto_raw}</span>`
-  },
-  {
-    key: "estado", label: "Estado", sortable: true, filterable: true,
-    sortVal: t => (t.estado || "").toLowerCase(),
-    filterVal: t => `${t.estado || ""} ${t.estado_mp || ""}`.toLowerCase(),
-    render: t => estadoBadge(t.estado) + (t.estado_mp ? `<div class="tender-meta" style="margin-top:3px;">MP: ${t.estado_mp}</div>` : "")
   },
   {
     key: "link", label: "", sortable: false, filterable: false,
@@ -689,7 +693,7 @@ function renderPostulacionesTbody(){
       const opciones = RESULTADOS_HDG.map(r => `<option${r === (t.resultado_hdg || "Pendiente") ? " selected" : ""}>${r}</option>`).join("");
       const meta = t.post_actualizado ? `<div class="post-meta">Actualizado ${esc(t.post_actualizado)}${t.post_por ? " · " + esc(t.post_por) : ""}</div>` : "";
       const main = `<tr class="${isAvoid(t) ? "tr-avoid" : ""}">
-        <td><div class="tender-name">${t.nombre}</div><div class="tender-meta">${t.entidad} · ${t.region}</div><div class="tender-id">${t.id}</div><a class="mp-link" href="${t.link}" target="_blank" rel="noopener">Ver ficha →</a></td>
+        <td><a class="tender-name" href="${t.link}" target="_blank" rel="noopener" title="Abrir ficha en Mercado Público">${t.nombre}</a><div class="tender-meta">${t.entidad} · ${t.region}</div><div class="tender-id">${t.id}</div><a class="mp-link" href="${t.link}" target="_blank" rel="noopener">Ver ficha →</a></td>
         <td>${t.fcierre_raw || "—"}</td>
         <td>${fmtHitoCell(t.fapertura_tecnica_raw, t.fapertura_tecnica_iso)}</td>
         <td>${fmtHitoCell(t.fapertura_economica_raw, t.fapertura_economica_iso)}</td>
@@ -731,7 +735,7 @@ function renderSeguimientoTbody(key){
   tb.innerHTML = !items.length
     ? `<tr class="empty-row"><td colspan="7">Sin licitaciones para esta vista.</td></tr>`
     : items.map(t => `<tr class="${isAvoid(t) ? "tr-avoid" : ""}">
-        <td><div class="tender-name">${t.nombre}</div><div class="tender-meta">${t.entidad} · ${t.region}</div><div class="tender-id">${t.id} · ${esc(t.categoria || "")}</div><a class="mp-link" href="${t.link}" target="_blank" rel="noopener">Ver ficha →</a><br>${postBtnHtml(t)}</td>
+        <td><a class="tender-name" href="${t.link}" target="_blank" rel="noopener" title="Abrir ficha en Mercado Público">${t.nombre}</a><div class="tender-meta">${t.entidad} · ${t.region}</div><div class="tender-id">${t.id} · ${esc(t.categoria || "")}</div><a class="mp-link" href="${t.link}" target="_blank" rel="noopener">Ver ficha →</a><br>${postBtnHtml(t)}</td>
         <td>${t.fcierre_raw || "—"}</td>
         <td>${fmtHitoCell(t.fapertura_tecnica_raw, t.fapertura_tecnica_iso)}</td>
         <td>${fmtHitoCell(t.fapertura_economica_raw, t.fapertura_economica_iso)}</td>
@@ -872,7 +876,7 @@ function getFilteredSorted(cat){
 }
 
 function rowsHtml(items){
-  return items.map((t, i) => `<tr class="${isAvoid(t) ? "tr-avoid" : ""}">${COLUMNS.map(col => `<td>${col.render(t, i)}</td>`).join("")}</tr>`).join("");
+  return items.map((t, i) => `<tr class="${isAvoid(t) ? "tr-avoid" : ""}">${COLUMNS.map(col => `<td class="${col.cls || ""}">${col.render(t, i)}</td>`).join("")}</tr>`).join("");
 }
 
 function renderTbody(cat){
@@ -908,12 +912,12 @@ function updateSortIndicators(cat){
 function buildCategoryTable(cat){
   const id = catId(cat);
   const headCells = COLUMNS.map(col => {
-    if(!col.sortable) return `<th>${col.label}</th>`;
-    return `<th id="th-${id}-${col.key}" class="sortable-th" data-cat="${cat}" data-key="${col.key}">${col.label} <span class="sort-arrow"></span></th>`;
+    if(!col.sortable) return `<th class="${col.cls || ""}">${col.label}</th>`;
+    return `<th id="th-${id}-${col.key}" class="sortable-th ${col.cls || ""}" data-cat="${cat}" data-key="${col.key}">${col.label} <span class="sort-arrow"></span></th>`;
   }).join("");
   const filterCells = COLUMNS.map(col => {
-    if(!col.filterable) return `<td></td>`;
-    return `<td><input type="text" class="col-filter" data-cat="${cat}" data-key="${col.key}" placeholder="Filtrar..."></td>`;
+    if(!col.filterable) return `<td class="${col.cls || ""}"></td>`;
+    return `<td class="${col.cls || ""}"><input type="text" class="col-filter" data-cat="${cat}" data-key="${col.key}" placeholder="Filtrar..."></td>`;
   }).join("");
   return `<div class="table-wrap"><table class="tenders" data-cat="${cat}">
     <thead>
