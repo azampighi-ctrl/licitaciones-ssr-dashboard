@@ -1,0 +1,10 @@
+{
+ "fecha_barrido": "11-11-2026 07:45",
+ "nuevas": [],
+ "actualizaciones": [],
+ "descartadas": [
+  {"id": "3671-87-LP26", "nombre": "MEJORAMIENTO PTAS Y PEAS SISTEMA DE ALCANTARILLADO RUCAPEQUÉN CHILLÁN VIEJO", "motivo": "Ejecución de obras de rehabilitación de planta de tratamiento y plantas elevadoras (ítem construcción de obras civiles); no es estudio ni diseño."},
+  {"id": "4318-20-LP26", "nombre": "Mejoramiento Servicios Sanitarios Rurales Chonchi", "motivo": "Contratación de la ejecución de obras de mejoramiento de SSR (construcción); no es estudio ni diseño."},
+  {"id": "582-13-LP26", "nombre": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE CHILOÉ", "motivo": "Suministro de agua potable mediante camiones aljibe; servicio de distribución, no ingeniería ni estudio."}
+ ]
+}
