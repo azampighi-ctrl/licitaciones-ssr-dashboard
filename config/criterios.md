@@ -64,6 +64,9 @@ incluir según los criterios de este archivo; las descartadas no se vuelven a pr
 - factibilidad
 - prefactibilidad
 - fuente de agua
+- fluviométrica
+- red de monitoreo
+- estudio de riego
 
 ## Exclusión automática: construcción, mantención e inspección de obras
 
@@ -75,6 +78,7 @@ contiene alguna de estas palabras. No llegan a Claude ni al dashboard.
 - mantención
 - mantenimiento
 - conservación
+- conserv
 - reparación
 - ejecución de obras
 - obras civiles
