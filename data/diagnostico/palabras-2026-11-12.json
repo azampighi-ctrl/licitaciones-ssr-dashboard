@@ -1,497 +1,1150 @@
 {
- "generado": "2026-11-12T16:13:54.490Z",
+ "generado": "2026-11-12T16:37:41.366Z",
  "dias": 60,
- "universo": 31018,
- "traidas_por_palabras_actuales": 471,
+ "universo": 31035,
+ "traidas_por_palabras_actuales": 484,
  "resumen": [
   {
-   "palabra": "caudalímetro",
+   "palabra": "extracciones efectivas",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "flujómetro",
+   "palabra": "extracción efectiva",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "medidor de caudal",
+   "palabra": "monitoreo de extracciones",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "macromedidor",
+   "palabra": "control de extracciones",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "macromedición",
+   "palabra": "medición de caudal",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "telemetría",
-   "coincidencias": 1,
-   "ya_traidas_por_actuales": 1,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 0
-  },
-  {
-   "palabra": "datalogger",
-   "coincidencias": 1,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 1
-  },
-  {
-   "palabra": "data logger",
+   "palabra": "medición de caudales",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "registrador de datos",
-   "coincidencias": 1,
+   "palabra": "habilitación de pozo",
+   "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 1
+   "nuevas_candidatas": 0
   },
   {
-   "palabra": "sonda multiparamétrica",
-   "coincidencias": 1,
+   "palabra": "habilitación de pozos",
+   "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 1
+   "nuevas_candidatas": 0
   },
   {
-   "palabra": "multiparamétrica",
-   "coincidencias": 2,
+   "palabra": "oxígeno disuelto",
+   "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "turbidez",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "cloro residual",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "medidor de cloro",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "analizador de cloro",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "transmisor de nivel",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "transmisor de presión",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "sonda de presión",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "automatización APR",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "telemetría y automatización",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "automatización sanitaria",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "tablero de control",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "PLC",
+   "coincidencias": 5,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 3,
    "nuevas_candidatas": 2
   },
   {
-   "palabra": "limnímetro",
+   "palabra": "lorawan",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "limnígrafo",
+   "palabra": "monitoreo en línea",
+   "coincidencias": 1,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 1
+  },
+  {
+   "palabra": "monitoreo online",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "pluviómetro",
-   "coincidencias": 0,
+   "palabra": "riles",
+   "coincidencias": 1,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 0
+   "nuevas_candidatas": 1
   },
   {
-   "palabra": "estación meteorológica",
-   "coincidencias": 5,
+   "palabra": "aguas lluvia",
+   "coincidencias": 66,
+   "ya_traidas_por_actuales": 4,
+   "excluidas_obra_mantencion": 26,
+   "nuevas_candidatas": 36
+  },
+  {
+   "palabra": "drenaje",
+   "coincidencias": 27,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 2,
-   "nuevas_candidatas": 3
+   "nuevas_candidatas": 25
   },
   {
-   "palabra": "red hidrométrica",
-   "coincidencias": 1,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 1
-  },
-  {
-   "palabra": "hidrométrica",
-   "coincidencias": 1,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 1
-  },
-  {
-   "palabra": "hidrométrico",
-   "coincidencias": 1,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 1
-  },
-  {
-   "palabra": "sensor de nivel",
-   "coincidencias": 2,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 2,
-   "nuevas_candidatas": 0
-  },
-  {
-   "palabra": "medidor de nivel",
-   "coincidencias": 0,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 0
-  },
-  {
-   "palabra": "transductor de presión",
-   "coincidencias": 1,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 1
-  },
-  {
-   "palabra": "correntómetro",
-   "coincidencias": 0,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 0
-  },
-  {
-   "palabra": "turbidímetro",
-   "coincidencias": 0,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 0
-  },
-  {
-   "palabra": "medidor de agua",
-   "coincidencias": 0,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 0
-  },
-  {
-   "palabra": "estación de monitoreo",
-   "coincidencias": 1,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 1
-  },
-  {
-   "palabra": "equipos de monitoreo",
+   "palabra": "sistema de drenaje",
    "coincidencias": 4,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 4
   },
   {
-   "palabra": "instrumentación",
+   "palabra": "estación meteorológica automática",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "equipos hidrométricos",
+   "palabra": "sensores de humedad de suelo",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "sonda de nivel",
+   "palabra": "humedad de suelo",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "medidor de oxígeno",
+   "palabra": "medición de nivel",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "oxímetro",
-   "coincidencias": 2,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 2
-  },
-  {
-   "palabra": "conductivímetro",
+   "palabra": "nivel freático",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "phmetro",
-   "coincidencias": 1,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 1
-  },
-  {
-   "palabra": "estación hidrométrica",
-   "coincidencias": 0,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 0
-  },
-  {
-   "palabra": "monitoreo ambiental",
+   "palabra": "sondas de nivel",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   }
  ],
- "con_detalle": 17,
+ "con_detalle": 64,
  "nuevas": [
   {
-   "id": "891-9-LP26",
-   "nombre": "CONST. DE ESTACIÓN METEOROLÓGICA DE ALTA MONTAÑA",
+   "id": "2175-18-LE26",
+   "nombre": "DRENES DE AGUAS LLUVIAS CENTRO JUSTICIA VALLENAR",
+   "estado": "Publicada",
+   "cierre": "2026-11-13",
+   "origen": "activa",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "CORP ADMINISTRATIVA DEL PODER JUDICIAL - Corp. Adm. del Poder Judicial - Copiapó",
+   "region": "Región de Atacama ",
+   "tipo": "LE",
+   "descripcion": "EJECUCIÓN DE DRENES DE AGUAS LLUVIAS PROYECTO CONSTRUCCIÓN CENTRO JUDICIAL DE VALLENAR. UBICADO EN AV. Matta N°791, Esquina Faez, Vallenar"
+  },
+  {
+   "id": "2342-41-LP26",
+   "nombre": "SERVICIO DE SUMINISTRO DE SACOS DE ARENA PARA CONTENCIÓN DE AGUAS LLUVIAS EN LA COMUNA DE SAN BERNARDO",
+   "estado": "Publicada",
+   "cierre": "2026-11-17",
+   "origen": "activa",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE SAN BERNARDO - SECRETARIA COMUNAL DE PLANIFICACION",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LP",
+   "descripcion": "SERVICIO DE SUMINISTRO DE SACOS DE ARENA PARA CONTENCIÓN DE AGUAS LLUVIAS EN LA COMUNA DE SAN BERNARDO"
+  },
+  {
+   "id": "2446-326-LE26",
+   "nombre": "MEJ. EVACUACION AGUAS LLUVIAS GERONIMO MENDEZ",
    "estado": "Publicada",
    "cierre": "2026-11-12",
    "origen": "activa",
    "palabras": [
-    "estación meteorológica"
+    "aguas lluvia"
    ],
-   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección General de Aguas - VIII Región de Biobio",
-   "region": "Región del Biobío ",
-   "tipo": "LP",
-   "descripcion": "Las presentes bases tienen como objetivo establecer los requisitos mínimos necesarios de ingeniería y construcción, para la construcción y puesta en marcha de una nueva estación hidrometeorológica de la DGA"
-  },
-  {
-   "id": "1230848-62-L126",
-   "nombre": "CALIBRACIÓN DE TERMOHIGRÓMETROS Y DATALOGGER",
-   "estado": "Adjudicada",
-   "cierre": "2026-09-16",
-   "origen": "fecha",
-   "palabras": [
-    "datalogger"
-   ],
-   "organismo": "Corporación Municipal de Desarrollo Social de Calama - Corporación Municipal de Desarrollo Social de Cala",
-   "region": "Región de Antofagasta ",
-   "tipo": "L1",
-   "descripcion": "LA PRESENTE LICITACIÓN TIENE POR OBJETO CONTRATAR UN SERVICIO DE CALIBRACIÓN TÉCNICA CERTIFICADA PARA TERMOHIGRÓMETROS Y DATALOGGER UTILIZADOS EN LA SUPERVISIÓN DE CONDICIONES AMBIENTALES EN ALMACENAMIENTO DE DISPOSITIVOS MÉDICOS, MEDICAMENTOS Y PRODUCTOS FARMACÉUTICOS EN GENERAL, PARA LA UNIDAD DE DROGUERÍA CENTRAL DE CALAMA."
-  },
-  {
-   "id": "612-37-LE26",
-   "nombre": "Adquisición registradores de datos con sensores",
-   "estado": "Adjudicada",
-   "cierre": "2026-10-05",
-   "origen": "fecha",
-   "palabras": [
-    "registrador de datos"
-   ],
-   "organismo": "SERVICIO AGRICOLA Y GANADERO - Servicio Agricola y Ganadero (SAG central)",
-   "region": "Región Metropolitana de Santiago",
-   "tipo": "LE",
-   "descripcion": "Uno de los requerimientos fundamentales para este departamento es contar con tecnología de punta como el uso de sensores de temperatura de aire, humedad, suelo y viento con transmisión de datos que permitan obtener información precisa en áreas específicas donde se requiera calcular el tiempo térmico acumulado grados-día, y zonas de dispersión como estrategia de erradicación de focos de mosca de la fruta."
-  },
-  {
-   "id": "1019-125-LE26",
-   "nombre": "ADQUISICIÓN DE SONDA MULTIPARAMÉTRICA E INSUMOS",
-   "estado": "Adjudicada",
-   "cierre": "2026-11-04",
-   "origen": "fecha",
-   "palabras": [
-    "sonda multiparamétrica",
-    "multiparamétrica"
-   ],
-   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO",
-   "region": "Región Metropolitana de Santiago",
-   "tipo": "LE",
-   "descripcion": "ADQUISICIÓN DE SONDA MULTIPARAMÉTRICA E INSUMOS PARA MONITOREO DE CUERPOS LACUSTRES La presente licitación tiene por objeto la adquisición de una sonda multiparámetros para monitoreo de calidad de aguas, junto con los sensores y elementos necesarios para su correcta operación, calibración y mantenimiento, de acuerdo con las especificaciones técnicas establecidas en las presentes Bases Técnicas y en las Bases Administrativas."
-  },
-  {
-   "id": "2933-81-L126",
-   "nombre": "ADQUISICION DE MULTIPARAMÉTRICO DE AGUA",
-   "estado": "Cerrada",
-   "cierre": "2026-11-03",
-   "origen": "fecha",
-   "palabras": [
-    "multiparamétrica"
-   ],
-   "organismo": "I MUNICIPALIDAD DE ALHUE - DPTO. MUNICIPALIDAD",
-   "region": "Región Metropolitana de Santiago",
-   "tipo": "L1",
-   "descripcion": "El objetivo de la presente licitación corresponde a la adquisición de Multiparamétrico de agua el cual permitirá a la Oficina de Medio Ambiente Municipal monitorear diversos parámetros de calidad del agua, tales como el pH y el potencial de oxidación, entre otros. Su adquisición es fundamental para la atención de incidentes técnicos y para el desarrollo del proyecto del humedal."
-  },
-  {
-   "id": "2562-22-LP26",
-   "nombre": "Adquisición de 5 estaciones meteorológicas",
-   "estado": "Adjudicada",
-   "cierre": "2026-09-10",
-   "origen": "fecha",
-   "palabras": [
-    "estación meteorológica"
-   ],
-   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL - UNIDAD DE COMPRA CONTRATOS EXTRANJEROS",
-   "region": "Región Metropolitana de Santiago",
-   "tipo": "LP",
-   "descripcion": "La DGAC requiere adquirir cinco estaciones meteorológicas climatológicas para la Dirección Meteorológica de Chile."
-  },
-  {
-   "id": "5416-40-LE26",
-   "nombre": "Adquisición de Estaciones Meteorológicas Automátic",
-   "estado": "Cerrada",
-   "cierre": "2026-10-20",
-   "origen": "fecha",
-   "palabras": [
-    "estación meteorológica"
-   ],
-   "organismo": "UNIVERSIDAD DE LA SERENA - DEPARTAMENTO DE ABASTECIMIENTO",
+   "organismo": "I MUNICIPALIDAD DE COQUIMBO - IMUNI_COQUIMBO",
    "region": "Región de Coquimbo ",
    "tipo": "LE",
-   "descripcion": "Adquisición de Estaciones Meteorológicas Automáticas para el Departamento de Agronomía."
+   "descripcion": "PROPUESTA PUBLICA 459-2026, MEJORAMIENTO EVACUACION AGUAS LLUVIAS GERONIMO MENDEZ, COQUIMBO"
   },
   {
-   "id": "1019-103-LP26",
-   "nombre": "ADQUISICIÓN DE SENSORES RED HIDROMETRICA NACIONAL",
-   "estado": "Adjudicada",
-   "cierre": "2026-09-28",
-   "origen": "fecha",
+   "id": "2784-58-LR26",
+   "nombre": "Mejoramiento vial y aguas lluvias La Ligua",
+   "estado": "Publicada",
+   "cierre": "2026-12-03",
+   "origen": "activa",
    "palabras": [
-    "red hidrométrica",
-    "hidrométrica",
-    "hidrométrico"
+    "aguas lluvia"
    ],
-   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO",
-   "region": "Región Metropolitana de Santiago",
-   "tipo": "LP",
-   "descripcion": "El objetivo general de la presente licitación pública es la adquisición de sensores para la conservación de la Red Hidrométrica Nacional, de acuerdo con las disposiciones que se especifican en las presentes Bases Técnicas y Administrativas."
-  },
-  {
-   "id": "608-123-LR26",
-   "nombre": "KSU Adquisición de Transductores de Presión",
-   "estado": "Adjudicada",
-   "cierre": "2026-07-23",
-   "origen": "fecha",
-   "palabras": [
-    "transductor de presión"
-   ],
-   "organismo": "HOSPITAL DR GUSTAVO FRICKE DE VINA DEL MAR - Hospital Dr. Gustavo Fricke",
+   "organismo": "I MUNICIPALIDAD DE LA LIGUA - SECRETARIA DE PLANIFICACION",
    "region": "Región de Valparaíso ",
    "tipo": "LR",
-   "descripcion": "El Hospital Dr. Gusto Fricke requiere de la Adquisición de Transductores de Presión Simple y Doble Compatibles con Cables y Accesorios en Comodato "
+   "descripcion": "Contratar la ejecución del proyecto “Conservación y mejoramiento de calles, veredas y obras de evacuación de aguas lluvias en diversos sectores de la comuna de La Ligua”, mediante contrato a suma alzada, sin reajustes ni intereses, conforme a las bases administrativas, planos, especificaciones técnicas y demás antecedentes aprobados por Decreto Alcaldicio N°2521, de fecha 15 de octubre de 2026."
   },
   {
-   "id": "5657-16-LP26",
-   "nombre": "SERVICIO DE MONITOREO DE INCENDIOS FORESTALES EN TIEMPO REAL CON CAMARAS DE ALTA RESOLUCIÓN E IMPLEMENTACIÓN DE ESTACION DE MONITOREO EN LA CENTRAL DE DESPACHO VALDIVIA",
-   "estado": "Adjudicada",
-   "cierre": "2026-10-23",
-   "origen": "fecha",
+   "id": "3882-95-LE26",
+   "nombre": "MEJORAMIENTO TECHUMBRE Y EVACUACION AGUAS LLUVIAS RECINTO BIBLIOTECA MUNICIPAL COMUNA DE LLAY LLAY",
+   "estado": "Publicada",
+   "cierre": "2026-11-19",
+   "origen": "activa",
    "palabras": [
-    "estación de monitoreo"
+    "aguas lluvia"
    ],
-   "organismo": "CORP NACIONAL FORESTAL - XIV región - Oficina Regional de Los Rios",
-   "region": "Región de Los Ríos",
+   "organismo": "I MUNICIPALIDAD DE LLAY LLAY - Ilustre Municipalidad de Llay Llay",
+   "region": "Región de Valparaíso ",
+   "tipo": "LE",
+   "descripcion": "Se requiere contratar empresa idónea para ejecutar las obras correspondientes a el remplazo de cubierta de techumbre, sistema de evacuación de aguas lluvia, forros y revestimiento de muro mediterráneo, tratamiento de impermeabilización de muro estructural, reemplazo de fachada exterior segundo nivel con mejoramiento en impermeabilización, siguiendo como base las especificaciones técnicas."
+  },
+  {
+   "id": "3947-34-LR26",
+   "nombre": "“CONTRATACION MANO DE OBRA SERVICIO DE RECOLECCION Y DISPOSICION DE RESIDUOS DOMICILIARIOS ASEO LIMPIEZA BARRIDO Y DESMALEZAMIENTO DE CALLES PASAJES VEREDAS ESPACIOS PUBLICOS CAMINOS SISTEMA EVACUACION DE AGUAS LLUVIAS Y CANALES COMUNA DE SANTA JU",
+   "estado": "Publicada",
+   "cierre": "2026-12-02",
+   "origen": "activa",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE SANTA JUANA - Municipalidad de Santa Juana",
+   "region": "Región del Biobío ",
+   "tipo": "LR",
+   "descripcion": "“CONTRATACION MANO DE OBRA SERVICIO DE RECOLECCION Y DISPOSICION DE RESIDUOS DOMICILIARIOS, ASEO, LIMPIEZA, BARRIDO Y DESMALEZAMIENTO DE CALLES, PASAJES, VEREDAS, ESPACIOS PUBLICOS, CAMINOS, SISTEMA EVACUACION DE AGUAS LLUVIAS Y CANALES COMUNA DE SANTA JUANA 2027-2028”"
+  },
+  {
+   "id": "5413-84-LR26",
+   "nombre": "PAVIMENTACIÓN Y AGUAS LLUVIA UNIVERSIDAD DE LOS LAGOS CAMPUS CHUYACA",
+   "estado": "Publicada",
+   "cierre": "2026-11-20",
+   "origen": "activa",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "UNIVERSIDAD DE LOS LAGOS - CAMPUS OSORNO",
+   "region": "Región de los Lagos ",
+   "tipo": "LR",
+   "descripcion": "PAVIMENTACIÓN Y AGUAS LLUVIA UNIVERSIDAD DE LOS LAGOS, CAMPUS CHUYACA"
+  },
+  {
+   "id": "839186-15-LE26",
+   "nombre": "DISEÑO DE PAVIMENTACIÓN Y SISTEMA DE AGUAS LLUVIAS",
+   "estado": "Publicada",
+   "cierre": "2026-11-23",
+   "origen": "activa",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE HUALANE - Secretaria Comunal de Planificación",
+   "region": "Región del Maule ",
+   "tipo": "LE",
+   "descripcion": "CORRESPONDE AL LA CONTRATACIÓN DE UNA CONSULTORÍA PARA LLEVAR A CABO EL DISEÑO DE PAVIMENTACIÓN Y EVACUACION DE AGUAS LLUVIA DE LA VILLA LOS JARDINES, COMUNA DE HUALAÑÉ"
+  },
+  {
+   "id": "1057492-147-LP26",
+   "nombre": "SUMINISTRO KIT DE DRENAJE Y CATÉTER MULTIPROPÓSITO",
+   "estado": "Publicada",
+   "cierre": "2026-11-23",
+   "origen": "activa",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "HOSPITAL ORIENTE DR LUIS TISNE BROUSSE - HOSPITAL ORIENTE DR LUIS TISNE BROUSSE",
+   "region": "Región Metropolitana de Santiago",
    "tipo": "LP",
-   "descripcion": "El departamento de protección contra incendios forestales, necesita monitorear las zonas, especificadas en la cartografía , a través de la vigilancia mediante cámaras de alta resolución con la finalidad de detectar tempranamente el inicio de focos de incendios y poder responder adecuadamente, de esa forma evitar el desarrollo de un incendio de magnitud. Lo anterior desde los puntos señalados de interés de la corporación, donde se deberá instalar las cámaras de tele vigilancia. Lo anterior se mon"
+   "descripcion": "SUMINISTRO KIT DE DRENAJE Y CATÉTER MULTIPROPÓSITO"
   },
   {
-   "id": "507428-132-LE26",
-   "nombre": "“ADQUISICIÓN EQUIPOS DE MONITOREO CARDIOLÓGICO NHA”",
+   "id": "1075963-440-LE26",
+   "nombre": "ADQUISICION DE SET CORRUGADOS DE INFUSION ONCOLOGICO NEFROSTOMIA DE VENTILACION MECANICA Y SISTEMA DE DRENAJE TRES CAMARAS",
+   "estado": "Publicada",
+   "cierre": "2026-11-16",
+   "origen": "activa",
+   "palabras": [
+    "drenaje",
+    "sistema de drenaje"
+   ],
+   "organismo": "SERVICIO DE SALUD ARICA HOSP DR JUAN NOE CREVANI - Hospital Juan Noé",
+   "region": "Región de Arica y Parinacota",
+   "tipo": "LE",
+   "descripcion": "ADQUISICION DE SET CORRUGADOS, DE INFUSION ONCOLOGICO, NEFROSTOMIA, DE VENTILACION MECANICA Y SISTEMA DE DRENAJE TRES CAMARAS"
+  },
+  {
+   "id": "1380-214-LP26",
+   "nombre": "PPTA 389-26 ADQUISICIÓN DE DRENAJE VENTRICULAR",
+   "estado": "Publicada",
+   "cierre": "2026-11-24",
+   "origen": "activa",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "HOSPITAL DOCTOR HERNAN HENRIQUEZ ARAVENA - HOSPITAL DOCTOR HERNAN HENRIQUEZ ARAVENA",
+   "region": "Región de la Araucanía ",
+   "tipo": "LP",
+   "descripcion": "Las presentes bases se refieren a las condiciones y características técnicas requeridas para la ADQUISICIÓN DE DRENAJE VENTRICULAR, en adelante: “los Insumos” por el periodo de doce (12) meses, todo en concordancia al Plan Compras y Contrataciones año 2026 (PAC), Bases Administrativas y Técnicas, Requerimientos técnicos, detallados en el Anexo Nº1, Anexo 1B y otros anexos que constituyen el referido llamado a licitación."
+  },
+  {
+   "id": "2080-336-LP26",
+   "nombre": "SUMINISTRO DE SISTEMAS DE DRENAJE",
+   "estado": "Publicada",
+   "cierre": "2026-11-23",
+   "origen": "activa",
+   "palabras": [
+    "drenaje",
+    "sistema de drenaje"
+   ],
+   "organismo": "SERVICIO DE SALUD DEL LIBERTADOR B O'HIGGINS HOSPITAL REG RANCAGUA - Hospital Regional Rancagua - HRR",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "tipo": "LP",
+   "descripcion": "El objeto de esta Licitación es contar con una adecuada provisión de “SUMINISTRO DE SISTEMAS DE DRENAJE PARA EL HOSPITAL DR. FRANCO RAVERA ZUNINO ”, durante la vigencia del proceso."
+  },
+  {
+   "id": "621-979-LP26",
+   "nombre": "SET DRENAJE VESIC SUPRAPUB 15FR ADULTO 1000023231",
+   "estado": "Publicada",
+   "cierre": "2026-11-18",
+   "origen": "activa",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "CENTRAL DE ABASTECIMIENTO DEL SISTEMA NACIONAL DE SERVICIO DE SALUD - Compras del Giro 621",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LP",
+   "descripcion": "BASES ADMINISTRATIVAS Y TÉCNICAS TIPO, POR LAS QUE SE REGIRÁN LOS PROCESOS DE LICITACIÓN PARA LA ADQUISICIÓN DE PRODUCTOS FARMACÉUTICOS, COSMÉTICOS, VACUNAS, INSUMOS, DISPOSITIVOS, Y/O ALIMENTOS DE USO MÉDICO, DESTINADO AL EJERCICIO DE ACCIONES DE SALUD"
+  },
+  {
+   "id": "2548-99-L126",
+   "nombre": "ESTUDIO MECÁNICA DE SUELO PROYECTO CESFAM PLC",
    "estado": "Cerrada",
-   "cierre": "2026-11-10",
+   "cierre": "2026-10-22",
    "origen": "fecha",
    "palabras": [
-    "equipos de monitoreo"
+    "PLC"
    ],
-   "organismo": "SERVICIO DE SALUD CHILOE - Servicio de Salud Chiloé",
+   "organismo": "I MUNICIPALIDAD DE PADRE LAS CASAS - MUNICIPALIDAD DE PADRE LAS CASAS  SALUD",
+   "region": "Región de la Araucanía ",
+   "tipo": "L1",
+   "descripcion": "Servicio de Estudio mecánica de suelo para proyecto reposición de Cesfam Padre las Casas establecimiento dependiente del Departamento de Salud Municipal de la comuna de Padre Las Casas."
+  },
+  {
+   "id": "2548-83-L126",
+   "nombre": "SERVICIO HABILITACIÓN OFICINA CESFAM PLC",
+   "estado": "Adjudicada",
+   "cierre": "2026-09-11",
+   "origen": "fecha",
+   "palabras": [
+    "PLC"
+   ],
+   "organismo": "I MUNICIPALIDAD DE PADRE LAS CASAS - MUNICIPALIDAD DE PADRE LAS CASAS  SALUD",
+   "region": "Región de la Araucanía ",
+   "tipo": "L1",
+   "descripcion": "Están elaborados para el Servicio de habilitación de oficina en Cesfam Padre Las Casas perteneciente al Departamento de Salud Municipal, de acuerdo a las especificaciones técnicas adjuntas que forman parte integrante de estos Términos Técnicos Administrativos de Referencia."
+  },
+  {
+   "id": "1075963-403-L126",
+   "nombre": "ARRIENDO SISTEMA MONITOREO EN LINEA PARA REFRIGERADORES DE FARMACOS ONCOLOGICOS",
+   "estado": "Adjudicada",
+   "cierre": "2026-10-13",
+   "origen": "fecha",
+   "palabras": [
+    "monitoreo en línea"
+   ],
+   "organismo": "SERVICIO DE SALUD ARICA HOSP DR JUAN NOE CREVANI - Hospital Juan Noé",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "L1",
+   "descripcion": "SERVICIO DE ARRIENDO MENSUA PARA SISTEMA DE MONITOREO EN LINEA PARA 2 REFRIGERADORES DE FÁRMACOS ONNCOLOGICOS UBICADOS EN BODEGA DE FÁRMACOS Y AREA DE ACCESOS. DEBE INCLUIR: - 2 Sensores de Humedad/ Temperatura Alta, AA battery - 1 Gateway Alta IoT Ethernet - Capacitación administrado - Puesta en marcha Sistema de Monitoreo - Instalación sensores y Gateway - Mantenimiento preventivo y correctivo incluido durante periodo de arriendo "
+  },
+  {
+   "id": "1057417-184-LE26",
+   "nombre": "CONVENIO DE SERVICIOS DE AUTOCONTROL MONITOREO Y ANÁLISIS DE RILES",
+   "estado": "Desierta",
+   "cierre": "2026-10-13",
+   "origen": "fecha",
+   "palabras": [
+    "riles"
+   ],
+   "organismo": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ - Bienes y Servicios",
+   "region": "Región del Biobío ",
+   "tipo": "LE",
+   "descripcion": "El Complejo Asistencial Dr. Víctor Ríos Ruiz llama a licitación pública para contratar el servicio de autocontrol, monitoreo y análisis de Residuos Industriales Líquidos RILES, incluyendo muestreo del punto de control de descargas, análisis físico-químicos en laboratorio acreditado y emisión de certificados de análisis e informes de terreno mensuales, por un período de 36 meses."
+  },
+  {
+   "id": "2859-38-LE26",
+   "nombre": "MEJ.TECH. Y REEMPLAZO CANAL Y BAJADAS AGUAS LLUVIA",
+   "estado": "Adjudicada",
+   "cierre": "2026-09-17",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "UNIVERSIDAD DE ATACAMA - SECCIÓN ABASTECIMIENTO",
+   "region": "Región de Atacama ",
+   "tipo": "LE",
+   "descripcion": "EJECUCIÓN DE “MEJORAMIENTO DE TECHUMBRE Y REEMPLAZO DE CANAL Y BAJADAS DE AGUAS LLUVIAS PARA EL EDIFICIO DEL DEPARTAMENTO DE MATEMÁTICAS” DE LA UNIVERSIDAD DE ATACAMA, según Bases de licitación adjuntas."
+  },
+  {
+   "id": "707415-44-L126",
+   "nombre": "SERVICIO DE ELABORACIÓN DE PROYECTO DE CÁLCULO ESTRUCTURAL Y PROYECTO DE AGUAS LLUVIA, PARA EL JARDÍN INFANTIL Y SALA CUNA JAVIERA CARRERA, COMUNA DE TOCOPILLA, REGIÓN DE ANTOFAGASTA”.",
+   "estado": "Cerrada",
+   "cierre": "2026-11-11",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "FUNDACION EDUCACIONAL PARA EL DESAROLLO INTEGRAL DE LA NIÑEZ - Regional Antofagasta",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "L1",
+   "descripcion": "Elaboración de Proyecto de Cálculo Estructural y proyecto de aguas lluvias para sala cuna y niveles medios, debe contemple, Planimetrías de proyecto de Estructuras de cubierta, Memoria de Cálculo Estructural, Especificaciones Técnicas de Ingeniería, Presupuesto con itemizado cubicado y valorizado del proyecto de Ingeniería. "
+  },
+  {
+   "id": "3588-65-LE26",
+   "nombre": "MEJORAMIENTO CANAL RED AGUAS LLUVIAS Y VEREDAS",
+   "estado": "Cerrada",
+   "cierre": "2026-11-09",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE YUNGAY - Direccion Administración y Finanzas",
+   "region": "Región del Ñuble",
+   "tipo": "LE",
+   "descripcion": "El proyecto consiste en la reposición de tapas de hormigón en canal de aguas lluvias y sumideros, considerando el reemplazo o reparación de estructura soportante y pintura anticorrosiva. Además, deberá considerar la reparación y reposición de distintos paños de veredas en la localidad, así también la instalación de bolardos de seguridad y barandas peatonales. Todo en la localidad de Campanario."
+  },
+  {
+   "id": "2446-308-LE26",
+   "nombre": "SOLUCIÓN AGUAS LLUVIAS SCHNEIDER CON LONCOCHE",
+   "estado": "Desierta",
+   "cierre": "2026-11-09",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE COQUIMBO - IMUNI_COQUIMBO",
+   "region": "Región de Coquimbo ",
+   "tipo": "LE",
+   "descripcion": "El proyecto, tiene por objetivo la reposición integral de sumideros existentes de alta capacidad, el reemplazo de un murete por muros de contención estructurales de hormigón armado, la construcción de una acera continua de hormigón para dar continuidad peatonal sobre el pasaje Loncoche, y la reposición de la pavimentación intervenida."
+  },
+  {
+   "id": "1735-32-LE26",
+   "nombre": "RECONSTRUCCIÓN ATRAVIESO AGUAS LLUVIAS",
+   "estado": "Adjudicada",
+   "cierre": "2026-08-31",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE ARAUCO - Secretaría Comunal de Planificación",
+   "region": "Región del Biobío ",
+   "tipo": "LE",
+   "descripcion": "Las presentes Bases Administrativas y Especificaciones Técnicas hacen referencia a la construcción de los trabajos necesarios para obra “Reconstrucción Atravieso Aguas lluvias Calle O’Higgins con Yungay, que considera básicamente la construcción de un atravieso compuesto por cajones dobles de hormigón de 1,5 x 2,0 x 2,0 m, además de la reconstrucción de la calzada existente sobre el atravieso y habilitar un paso para peatones."
+  },
+  {
+   "id": "1735-31-LP26",
+   "nombre": "REPOSICIÓN ATRAVIESO AGUAS LLUVIAS",
+   "estado": "Adjudicada",
+   "cierre": "2026-08-31",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE ARAUCO - Secretaría Comunal de Planificación",
+   "region": "Región del Biobío ",
+   "tipo": "LP",
+   "descripcion": "La construcción de los trabajos necesarios para obra “Reposición Atravieso Aguas lluvias Calle O’Higgins, que considera básicamente la construcción de un atravieso compuesto por cajones dobles de hormigón de 1,5 x 2,0 x 2,0 m, además de la reconstrucción de la calzada existente sobre el atravieso y habilitar un paso para peatones."
+  },
+  {
+   "id": "2928-24-LE26",
+   "nombre": "MEJORAMIENTO EVACUACIÓN AGUAS LLUVIAS QUELLÓN",
+   "estado": "Adjudicada",
+   "cierre": "2026-10-26",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "Ilustre Municipalidad De Quellón - SECPLAN",
    "region": "Región de los Lagos ",
    "tipo": "LE",
-   "descripcion": "El Servicio de Salud de Chiloé requiere la adquisición de Equipos de Monitoreo Cardiológico para la implementación del Nuevo Hospital de Ancud (NHA)."
+   "descripcion": "La presente licitación tiene por objetivo contratar la ejecución del proyecto “Mejoramiento del Sistema de Evacuación de Aguas Lluvia en Calle Pedro Montt. Etapa 1”, destinado a mejorar la captación, conducción y evacuación de aguas lluvias en el sector, contribuyendo a disminuir acumulaciones de agua y mejorar las condiciones de seguridad vial y peatonal. Las obras consideran principalmente demolición de pavimentos, excavaciones y rellenos, instalación de tuberías HDPE, construcción de sumidero"
   },
   {
-   "id": "1057499-30-LP26",
-   "nombre": "ADQUISICION DE EQUIPOS DE MONITOREO PARA CESFAM",
-   "estado": "Adjudicada",
-   "cierre": "2026-07-13",
-   "origen": "fecha",
-   "palabras": [
-    "equipos de monitoreo"
-   ],
-   "organismo": "SERVICIO DE SALUD SUR UNIDAD HOSPITALARI - Bienes y Servicios",
-   "region": "Región Metropolitana de Santiago",
-   "tipo": "LP",
-   "descripcion": "El objetivo de la presente licitación es adquirir equipos y equipamiento para el CESFAM Haydee Lopez, nuevo y sin uso, el que deberá contar con la respectiva garantía postventa y capacitación en el uso y funcionamiento del mismo."
-  },
-  {
-   "id": "1057448-46-LP26",
-   "nombre": "Adquisición Equipos de Monitoreo y Diagnostico para la Red Oncológica",
+   "id": "2415-21-LE26",
+   "nombre": "Provision de tuberias para conduccion aguas lluvia",
    "estado": "Cerrada",
-   "cierre": "2026-10-14",
+   "cierre": "2026-11-02",
    "origen": "fecha",
    "palabras": [
-    "equipos de monitoreo"
+    "aguas lluvia"
    ],
-   "organismo": "SERVICIO DE SALUD IQUIQUE - Bienes y Servicios",
-   "region": "Región de Tarapacá  ",
-   "tipo": "LP",
-   "descripcion": "La presente licitación pública tiene por objeto la Adquisición Equipos para la Red Oncológica, destinados a la implementación y habilitación del nuevo Servicio Oncológico de Iquique."
-  },
-  {
-   "id": "1057503-117-LP26",
-   "nombre": "Servicio de arriendo de equipos de monitoreo",
-   "estado": "Adjudicada",
-   "cierre": "2026-08-27",
-   "origen": "fecha",
-   "palabras": [
-    "equipos de monitoreo"
-   ],
-   "organismo": "HOSPITAL PADRE ALBERTO HURTADO - Bienes y Servicios",
-   "region": "Región Metropolitana de Santiago",
-   "tipo": "LP",
-   "descripcion": "1. La necesidad de contar con un servicio de arriendo que disponga de una central de monitoreo con monitores multiparámetros, para el centro de responsabilidad de Urgencia Adultos. 2. Que los monitores multiparámetros, junto a la central de monitoreo, son indispensables para el monitoreo continuo de los parámetros fisiológicos de los pacientes. 3. Que los instrumentos que se licitan no se encuentran incluido en el catálogo de convenios marco de Mercado Público. Adicionalmente se consultó en la p"
-  },
-  {
-   "id": "1499-195-LE26",
-   "nombre": "PTF ADQUISICION OXIMETROS DE PULSO",
-   "estado": "Cerrada",
-   "cierre": "2026-10-15",
-   "origen": "fecha",
-   "palabras": [
-    "oxímetro"
-   ],
-   "organismo": "INSTITUTO NACIONAL DEL TORAX - INSTITUTO NACIONAL DEL TORAX",
-   "region": "Región Metropolitana de Santiago",
+   "organismo": "I MUNICIPALIDAD DE CONCEPCION - IMUNI_CONCEPCION ADQUISICIONES",
+   "region": "Región del Biobío ",
    "tipo": "LE",
-   "descripcion": "Las presentes bases de licitación tienen por objeto la adquisición de oxímetros de pulso para el Instituto Nacional del Tórax."
+   "descripcion": "Consiste en la provisión de tuberías que permitan mejorar la transitabilidad en sectores afectados por incendios forestales, frente a condiciones de erosión, acumulación de material y deficiencias en la evacuación de aguas, las cuales podrían intensificarse durante el periodo invernal."
   },
   {
-   "id": "1499-170-LE26",
-   "nombre": "SAM MONITOR DESFIBRILADOR CAMILLA DE TRASLADO DE PACIENTES Y OXÍMETRO DE PULSO",
+   "id": "4086-42-LE26",
+   "nombre": "DISEÑO PAVIMENTO Y AGUAS LLUVIAS VILLA SAN PEDRO",
    "estado": "Adjudicada",
-   "cierre": "2026-08-27",
+   "cierre": "2026-09-09",
    "origen": "fecha",
    "palabras": [
-    "oxímetro"
+    "aguas lluvia"
    ],
-   "organismo": "INSTITUTO NACIONAL DEL TORAX - INSTITUTO NACIONAL DEL TORAX",
-   "region": "Región Metropolitana de Santiago",
+   "organismo": "I MUNICIPALIDAD DE MAULLIN - Administracion y Finanzas",
+   "region": "Región de los Lagos ",
    "tipo": "LE",
-   "descripcion": "A. Que el Instituto Nacional del Tórax necesita contar para su gestión con equipamiento del tipo SAM MONITOR DESFIBRILADOR, CAMILLA DE TRASLADO DE PACIENTES Y OXÍMETRO DE PULSO en forma permanente, con el objeto de poder cumplir y satisfacer debidamente la demanda asistencial que legalmente le ha sido encomendada; B. Que nuestros valores institucionales son la excelencia y el compromiso. "
+   "descripcion": "DISEÑO PAVIMENTO Y AGUAS LLUVIAS VILLA SAN PEDRO, SEGÚN BASES Y DEMÁS DOCUMENTOS ADJUNTOS"
   },
   {
-   "id": "1180730-48-LP26",
-   "nombre": "REPOSICION PHMETRO Y MANOMETRO HCM",
+   "id": "2817-74-LE26",
+   "nombre": "DISEÑO PAVIMENTACIÓN Y EVACUACIÓN DE AGUAS LLUVIA",
    "estado": "Cerrada",
    "cierre": "2026-10-30",
    "origen": "fecha",
    "palabras": [
-    "phmetro"
+    "aguas lluvia"
    ],
-   "organismo": "SERVICIO DE SALUD MAGALLANES - Compras Convenio GORE Magallanes",
-   "region": "Región de Magallanes y de la Antártica",
+   "organismo": "I MUNICIPALIDAD DE SAN FERNANDO - I MUNICIPALIDAD DE SAN FERNANDO",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "tipo": "LE",
+   "descripcion": "LA MUNICIPALIDAD DE SAN FERNANDO REQUIERE LA CONTRATACIÓN DE SERVICIO PARA “DISEÑO PAVIMENTACIÓN Y EVACUACIÓN DE AGUAS LLUVIAS CALLE CAMILO HENRIQUEZ Y CALLE MATEO TORO Y ZAMBRANO”"
+  },
+  {
+   "id": "4086-41-LE26",
+   "nombre": "DISEÑO PAVIMENTO Y AGUAS LLUVIAS SECTOR LOS CARRERA",
+   "estado": "Adjudicada",
+   "cierre": "2026-09-09",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE MAULLIN - Administracion y Finanzas",
+   "region": "Región de los Lagos ",
+   "tipo": "LE",
+   "descripcion": "DISEÑO PAVIMENTO Y AGUAS LLUVIAS SECTOR LOS CARRERA, SEGÚN BASES Y DEMÁS DOCUMENTACIÓN ADJUNTA."
+  },
+  {
+   "id": "712307-79-CO26",
+   "nombre": "Diseño Colector De Aguas Lluvias Mejoramiento Anegamientos Sector Los Confines- Las Rocas Comuna de Angol Provincia De Malleco",
+   "estado": "Desierta",
+   "cierre": "2026-10-29",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION - Licitaciones y Costos",
+   "region": "Región de la Araucanía ",
+   "tipo": "CO",
+   "descripcion": "Diseño Colector De Aguas Lluvias Mejoramiento Anegamientos Sector Los Confines- Las Rocas, Comuna de Angol, Provincia De Malleco"
+  },
+  {
+   "id": "2490-14-R226",
+   "nombre": "REPOSICIÓN DE TECHUMBRE Y SISTEMA DE EVACUACIÓN DE AGUAS LLUVIA COMUNIDAD DIAGONAL ORIENTE N°1954",
+   "estado": "Adjudicada",
+   "cierre": "2026-03-19",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE PROVIDENCIA - Dirección de Secpla",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LE",
+   "descripcion": "La Municipalidad de Providencia, requiere contratar la ejecución de las obras denominadas “REPOSICIÓN DE TECHUMBRE Y SISTEMA DE EVACUACIÓN DE AGUAS LLUVIA COMUNIDAD DIAGONAL ORIENTE N°1954”, el proyecto considera obras de retiro y cambio completo de la techumbre, sus complementos, y manejo de retiro de elementos de material de asbesto cemento según indicaciones del SEREMI de Salud, además considera la incorporación de elementos para la correcta evacuación de agua lluvia. "
+  },
+  {
+   "id": "3908-45-L126",
+   "nombre": "CONTRATACIÓN DE SERVICIOS DE DISEÑO DE INGENIERÍA DE PAVIMENTACIÓN Y SOLUCIÓN DE AGUAS LLUVIAS MÁS LEVANTAMIENTO TOPOGRÁFICO Y ESTUDIO DE MECÁNICA DE SUELO COMUNA DE RENAICO.",
+   "estado": "Adjudicada",
+   "cierre": "2026-10-07",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE RENAICO - Secpla",
+   "region": "Región de la Araucanía ",
+   "tipo": "L1",
+   "descripcion": "La presente contratación se refiere a la contratación por el sistema a Suma Alzada para el servicio de Línea 1: DISEÑO DE INGENIERÍA DE PAVIMENTACIÓN Y SOLUCIÓN DE AGUAS LLUVIAS MÁS LEVANTAMIENTO TOPOGRÁFICO Y Línea 2: ESTUDIO MECÁNICA DE SUELO, para la Comuna de Renaico, específicamente para las calles de Comercio: entre calle 18 de septiembre y Av. América; y Cornelio Olsen: entre comercio y Av. Estadio. El objeto de la presente licitación comprende la adquisición de servicios profesionales pa"
+  },
+  {
+   "id": "2175-16-LE26",
+   "nombre": "DRENES DE AGUAS LLUVIAS CENTRO JUSTICIA VALLENAR",
+   "estado": "Desierta",
+   "cierre": "2026-10-28",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "CORP ADMINISTRATIVA DEL PODER JUDICIAL - Corp. Adm. del Poder Judicial - Copiapó",
+   "region": "Región de Atacama ",
+   "tipo": "LE",
+   "descripcion": "EJECUCIÓN DE DRENES DE AGUAS LLUVIAS PROYECTO CONSTRUCCIÓN CENTRO JUDICIAL DE VALLENAR, ubicado en Av. Matta N° 791 esquina Faez, Vallenar, Región de Atacama, Chile."
+  },
+  {
+   "id": "5783-24-LE26",
+   "nombre": "DISEÑO MEJORAMIENTO CALZADAS Y AGUAS LLUVIAS BARRIO LAGOS DE CHILE",
+   "estado": "",
+   "cierre": "2026-10-27",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE RIO NEGRO - Secpla",
+   "region": "Región de los Lagos ",
+   "tipo": "LE",
+   "descripcion": "DISEÑO MEJORAMIENTO CALZADAS Y AGUAS LLUVIAS BARRIO LAGOS DE CHILE, de acuerdo con bases administrativas, bases técnicas, anexos y formatos adjuntos."
+  },
+  {
+   "id": "2446-241-LP26",
+   "nombre": "SOLUCIÓN EVACUACIÓN AGUAS LLUVIAS VILLA TALINAY",
+   "estado": "Adjudicada",
+   "cierre": "2026-09-25",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE COQUIMBO - IMUNI_COQUIMBO",
+   "region": "Región de Coquimbo ",
    "tipo": "LP",
-   "descripcion": "Licitación: “Reposición pHmetro con impedanciometría y Manómetro anorectal, UPC pediátrica y UPC neonatal, HCM” “Reposición y Adquisición de equipos para paciente crítico UPC pediátrica y UPC neonatal, HCM” – Código BIP 40058225 Lugar de entrega Bienes Hospital Clínico de Magallanes, Av. Los Flamencos 01364, Punta Arenas."
+   "descripcion": "La obra materia de la licitación se denomina “Solución Evacuación Aguas Lluvias Villa Talinay”. El proyecto consta en la construcción de un sistema de drenaje que incluye la ejecución de un nuevo sumidero de 7 metros de captación. Este sistema contempla una conducción subterránea de 53 metros utilizando una tubería tipo TOPSAN de 600 mm o equivalente instalada en zanja con rellenos compactados al 95% del Proctor Modificado. La tubería conectará el sumidero con un Muro de Boca a través del cual e"
+  },
+  {
+   "id": "3929-54-LE26",
+   "nombre": "MEJORAMIENTO DE SISTEMA DE EVACUACIÓN DE AGUAS LLUVIAS EN PALACIO RIOJA",
+   "estado": "Adjudicada",
+   "cierre": "2026-08-27",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE VINA DEL MAR - Secpla",
+   "region": "Región de Valparaíso ",
+   "tipo": "LE",
+   "descripcion": "Las presentes bases norman el proceso de la propuesta pública que efectúa la Municipalidad de Viña del Mar, para la contratación y ejecución de la obra denominada “Mejoramiento de Sistema de evacuación de aguas lluvias en Palacio Rioja”. El proyecto consiste en la reparación y mejoramiento del sistema de evacuación de aguas lluvias del inmueble. Las obras incluyen la limpieza completa del sistema, la reparación de sus puntos críticos, la impermeabilización del total de los canales y la instalaci"
+  },
+  {
+   "id": "2324-68-LE26",
+   "nombre": "Licitación Pública Nº 67.2026 “ESTUDIO DE PAVIMENTACION Y AGUAS LLUVIAS CALLES VOLCAN CALBUCO Y CHOSHUENCO PUERTO MONTT”.",
+   "estado": "Adjudicada",
+   "cierre": "2026-06-22",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE PUERTO MONTT - Departamento de Licitaciones y gestión de Abastecimiento ",
+   "region": "Región de los Lagos ",
+   "tipo": "LE",
+   "descripcion": "Licitación Pública Nº 67/2026 para la ejecución del estudio denominado “ESTUDIO DE PAVIMENTACION Y AGUAS LLUVIAS CALLES VOLCAN CALBUCO Y CHOSHUENCO, PUERTO MONTT”."
+  },
+  {
+   "id": "707418-45-LE26",
+   "nombre": "NORMALIZACION ELECTRICA Y SISTEMA DE AGUAS LLUVIAS",
+   "estado": "Adjudicada",
+   "cierre": "2026-09-15",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "FUNDACION EDUCACIONAL PARA EL DESAROLLO INTEGRAL DE LA NIÑEZ - Regional Coquimbo",
+   "region": "Región de Coquimbo ",
+   "tipo": "LE",
+   "descripcion": "SERVICIO DE EJECUCION DE OBRA NORMALIZACION ELECTRICA Y SISTEMA DE AGUAS LLUVIAS JI BRISAS DEL VALLE"
+  },
+  {
+   "id": "5509-3-LE26",
+   "nombre": "Sistema de alivio de aguas lluvias para el Senado",
+   "estado": "Adjudicada",
+   "cierre": "2026-10-02",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "SENADO DE LA REPUBLICA - Departamento de Mantención",
+   "region": "Región de Valparaíso ",
+   "tipo": "LE",
+   "descripcion": "Servicios de provisión e instalación de sistema de alivio de aguas lluvias, sector subterráneo del Senado, en el Edificio del Congreso Nacional, comuna de Valparaíso."
+  },
+  {
+   "id": "2176-53-LE26",
+   "nombre": "Ejecución de drenes de aguas lluvias Juzgado de Le",
+   "estado": "Adjudicada",
+   "cierre": "2026-09-11",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "CORP ADMINISTRATIVA DEL PODER JUDICIAL - Corp. Adm. del Poder Judicial -  Valparaiso",
+   "region": "Región de Valparaíso ",
+   "tipo": "LE",
+   "descripcion": "Se requiere la ejecución de un sistema de drenes aguas lluvias previo a la construcción del Juzgado de Letras de La Calera."
+  },
+  {
+   "id": "4086-40-LE26",
+   "nombre": "DISEÑO PAVIMENTO Y AGUAS LLUVIAS CARELMAPU",
+   "estado": "Desierta",
+   "cierre": "2026-09-25",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE MAULLIN - Administracion y Finanzas",
+   "region": "Región de los Lagos ",
+   "tipo": "LE",
+   "descripcion": "DISEÑO PAVIMENTO Y AGUAS LLUVIAS CARELMAPU SEGÚN BASES Y DEMÁS DOCUMENTACIÓN ADJUNTA"
+  },
+  {
+   "id": "975-12-O126",
+   "nombre": "Plan Maestro de Evacuación y Drenaje de Aguas Lluvias de Buin y Paine, RM.",
+   "estado": "Cerrada",
+   "cierre": "2026-09-25",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia",
+    "drenaje"
+   ],
+   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas - MOP",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "O1",
+   "descripcion": "Plan Maestro de Evacuación y Drenaje de Aguas Lluvias de Buin y Paine, RM."
+  },
+  {
+   "id": "438-49-LE26",
+   "nombre": "HABILITACION INTERIOR AGUAS LLUVIAS E INSTALACION ELECTRICA Y OTROS PARA LA DROGUERIA MUNICIPAL",
+   "estado": "Adjudicada",
+   "cierre": "2026-09-04",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE SAN RAMON - SECRETARÍA COMUNAL DE PLANIFICACIÓN",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LE",
+   "descripcion": "ESTA PROPUESTA CONSISTE EN LA HABILITACION INTERIOR, AGUAS LLUVIAS E INSTALACION ELECTRICA Y OTROS PARA LA DROGUERIA MUNICIPA"
+  },
+  {
+   "id": "2693-29-LE26",
+   "nombre": "PROYECTO INVERSION MUNICIPAL DENOMINADO “CANALIZACION Y DESCARGA DE AGUAS LLUVIAS CALLE ALMIRANTE LYNCH-SECTOR MIRASOL Y MEJORAMIENTO DE AGUAS LLUVIAS CRUCE LA PUNTILLA CON LA MUNICIPALIDAD Y PLAZA AGUAS MARINAS",
+   "estado": "Adjudicada",
+   "cierre": "2026-08-13",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "I MUNICIPALIDAD DE ALGARROBO - MUNICIPALIDAD DE ALGARROBO - SECPLA",
+   "region": "Región de Valparaíso ",
+   "tipo": "LE",
+   "descripcion": "PROYECTO INVERSION MUNICIPAL DENOMINADO “CANALIZACION Y DESCARGA DE AGUAS LLUVIAS CALLE ALMIRANTE LYNCH-SECTOR MIRASOL Y MEJORAMIENTO DE AGUAS LLUVIAS CRUCE LA PUNTILLA CON LA MUNICIPALIDAD Y PLAZA AGUAS MARINAS"
+  },
+  {
+   "id": "712307-72-LE26",
+   "nombre": "Diseño Colector De Aguas Lluvias Mejoramiento Anegamientos Sector Los Confines- Las Rocas Comuna de Angol Provincia De Malleco",
+   "estado": "Desierta",
+   "cierre": "2026-09-22",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION IX REGION - Licitaciones y Costos",
+   "region": "Región de la Araucanía ",
+   "tipo": "LE",
+   "descripcion": "Diseño Colector De Aguas Lluvias Mejoramiento Anegamientos Sector Los Confines- Las Rocas, Comuna de Angol, Provincia De Malleco"
+  },
+  {
+   "id": "1057979-12-LE26",
+   "nombre": "INGRESO ACTUALIZACIÓN PROYECTO AGUAS LLUVIA SERVIU",
+   "estado": "Adjudicada",
+   "cierre": "2026-08-31",
+   "origen": "fecha",
+   "palabras": [
+    "aguas lluvia"
+   ],
+   "organismo": "DIRECCION SERVICIO DE SALUD TALCAHUANO - Obras Civiles",
+   "region": "Región del Biobío ",
+   "tipo": "LE",
+   "descripcion": "Se requiere contratar los servicios de ingeniería de consultor o empresa consultora facultada para realizar actualización del proyecto de aguas lluvia en el SERVIU región del Bío Bío"
+  },
+  {
+   "id": "1044-20-LE26",
+   "nombre": "LIMPIEZA DRENAJE DE GUAS LLUVIAS AD. PELDEHUE",
+   "estado": "Adjudicada",
+   "cierre": "2026-10-26",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Aeropuerto Arturo Merino Benítez",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LE",
+   "descripcion": "Que, se requiere conservar la red de drenaje del Aeródromo de Peldehue mediante la limpieza de 1.500 metros lineales, la extracción de sedimentos y vegetación, y la conformación de taludes; con el fin de asegurar la integridad de la infraestructura, su correcto funcionamiento y la eficiente evacuación de aguas lluvias"
+  },
+  {
+   "id": "3296-22-LE26",
+   "nombre": "DRENAJES Y HORMIGONES EXTERIORES SECTOR PARQUE LOS MOLINOS CURACO DE VELEZ",
+   "estado": "Cerrada",
+   "cierre": "2026-11-10",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "I MUNICIPALIDAD DE CURACO DE VELEZ - SECPLAN",
+   "region": "Región de los Lagos ",
+   "tipo": "LE",
+   "descripcion": "La Ilustre Municipalidad de Curaco de Vélez llama a presentar ofertas mediante Licitación Pública para la Construcción de drenajes y hormigones exteriores en el Parque Los Molinos de la comuna de Curaco de Vélez."
+  },
+  {
+   "id": "1002772-118-LP26",
+   "nombre": "SISTEMA DE DRENAJE CON EQUIPO EN COMODATO",
+   "estado": "",
+   "cierre": "2026-11-09",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje",
+    "sistema de drenaje"
+   ],
+   "organismo": "SERVICIO SALUD OCCIDENTE HOSPITAL DR FELIX BULNES CERDA - INSUMOS CLINICOS",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LP",
+   "descripcion": "Las presentes Bases constituyen el instrumento guía destinado a celebrar un CONVENIO DE SUMINISTRO DE SISTEMAS DE DRENAJE CON EQUIPO EN COMODATO PARA EL HOSPITAL DR. FÉLIX BULNES CERDA, en adelante Hospital, éstas, establecen los fines, condiciones y requisitos que deberán ser cumplidos por los oferentes, en todas y cada una de las partes que conformen su oferta, además de regular el todo el proceso licitatorio hasta la suscripción del correspondiente contrato."
+  },
+  {
+   "id": "1499-182-LE26",
+   "nombre": "INSUMOS NECESARIOS PARA SISTEMA DE SUPERVISIÓN Y DRENAJE TORÁCICO DIGITAL CON EQUIPO EN COMODATO",
+   "estado": "Adjudicada",
+   "cierre": "2026-10-02",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "INSTITUTO NACIONAL DEL TORAX - INSTITUTO NACIONAL DEL TORAX",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LE",
+   "descripcion": "El proveedor deberá garantizar el suministro oportuno de los insumos de consumo necesarios para la gestión clínica y administrativa del Instituto Nacional del Tórax, con el fin de prestar servicios con la efectividad, seguridad y condiciones de calidad que cada paciente requiere."
+  },
+  {
+   "id": "1057501-506-LP26",
+   "nombre": "CONVENIO SISTEMAS DE DRENAJE TORÁCICO SIMPLE Y DOBLE",
+   "estado": "Adjudicada",
+   "cierre": "2026-09-16",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje",
+    "sistema de drenaje"
+   ],
+   "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO - COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LP",
+   "descripcion": "DAR CONTINUIDAD A LA ATENCION DE PACIENTES "
+  },
+  {
+   "id": "2098-140-LE26",
+   "nombre": "CONVENIO SUMINISTRO INSUMOS SONDA DE ASPIRACIÓN Y DRENAJE QUIRÚRGICO PARA REPOSICIÓN BODEGA  FOLIO PAC 199 – PARA UN PERIODO DE 18 MESES",
+   "estado": "Adjudicada",
+   "cierre": "2026-09-22",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE C - Hospital Curanilahue",
+   "region": "Región del Biobío ",
+   "tipo": "LE",
+   "descripcion": "Conforme a Ley de Compras Públicas Nº19.886, el reglamento, sus modificaciones y su modernización, el Hospital Dr. Rafael Avaria Valenzuela de Curanilahue a través del Departamento de Abastecimiento y Logística, invita a los oferentes, personas naturales o jurídicas y Uniones Temporales de Proveedores, a participar en la licitación pública para contar con una Empresa externa, que provea de bienes o servicios, para el Hospital de Curanilahue y la red del Servicio de Salud, determinado los requisi"
+  },
+  {
+   "id": "4037-61-CO26",
+   "nombre": "IMPLEMENTACION DE SISTEMA DE RIEGO DRENAJE Y USO EFICIENTE DE AGUAS PREDIALES.",
+   "estado": "Desierta",
+   "cierre": "2026-10-14",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "I MUNICIPALIDAD DE FRESIA - Departamento de adquisiciones y abastecimiento",
+   "region": "Región de los Lagos ",
+   "tipo": "CO",
+   "descripcion": "IMPLEMENTACION DE SISTEMA DE RIEGO, DRENAJE Y USO EFICIENTE DE AGUAS PREDIALES PARA POTENCIAR EL DESARROLLO PRODUCTIVO Y MEJORAR LA CALIDAD DE VIDA DE LAS FAMILIAS, PARTES DE COMUNIDADES Y/O COMUNIDADES INDIGENAS DE LA COMUNA DE FRESIA, SEGUN BASES Y ANTECEDENTES ADJUNTOS DECRETO ALCALDICIO N°1680 DE FECHA 04/09/2026"
+  },
+  {
+   "id": "1057049-363-LE26",
+   "nombre": "CAPS ADQ. CATETERES DRENAJE FOGARTY Y OTROS",
+   "estado": "Cerrada",
+   "cierre": "2026-10-13",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN - Bienes y Servicios",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LE",
+   "descripcion": "El objetivo de la Propuesta es la ADQUISICIÓN DE CATETERES DRENAJE, FOGARTY Y OTROS PARA LOS SERVICIOS DEL HCSBA, solicitados en las especificaciones técnicas, en concordancia con las Bases Administrativas, Técnicas, Formularios, aclaraciones y otros documentos que pudieran formularse en el transcurso de la licitación. Se entenderá que todo proveedor conoce y acepta irrevocablemente el contenido de estas Bases, por el solo hecho de presentar ofertas en este proceso de licitación."
+  },
+  {
+   "id": "1057489-213-LP26",
+   "nombre": "Convenio de Suministro de  Drenajes para Pabellón por 36 meses para Hospital del Salvador",
+   "estado": "Adjudicada",
+   "cierre": "2026-08-11",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR - Bienes y Servicios",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LP",
+   "descripcion": "Que, el Hospital del Salvador necesita contar con un Convenio de Suministro de Drenajes para Pabellón por 36 meses para Hospital del Salvador con la finalidad de satisfacer de manera adecuada y eficiente la labor asistencial; Que, por la cuantía determinada, la presente licitación se ubica en el tramo para contrataciones iguales o superiores a 1.000 UTM e inferiores a 5.000 UTM, de conformidad al Artículo 36º del Reglamento de la Ley Nº19.886; Que, hechas las consultas respectivas, la provisión "
+  },
+  {
+   "id": "1002772-63-R126",
+   "nombre": "SUMINISTRO DE DRENAJES QUIRÚRGICOS Y RESERVORIO",
+   "estado": "Adjudicada",
+   "cierre": "2026-07-21",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "SERVICIO SALUD OCCIDENTE HOSPITAL DR FELIX BULNES CERDA - INSUMOS CLINICOS",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LP",
+   "descripcion": "Las presentes Bases constituyen el instrumento guía destinado a celebrar un CONVENIO DE SUMINISTRO DE DRENAJES QUIRÚRGICOS Y RESERVORIO PARA EL HOSPITAL DR. FÉLIX BULNES CERDA, en adelante Hospital, éstas, establecen los fines, condiciones y requisitos que deberán ser cumplidos por los oferentes, en todas y cada una de las partes que conformen su oferta, además de regular el todo el proceso licitatorio hasta la suscripción del correspondiente contrato. "
+  },
+  {
+   "id": "699866-87-LP26",
+   "nombre": "ADQUISICIÓN DE INSUMOS PARA PROCEDIMIENTOS DE CIERRE QUIRÚRGICO DRENAJE MONITORIZACIÓN CARDÍACA CURACIÓN AVANZADA Y CUIDADO INTEGRAL DEL PACIENTE",
+   "estado": "Adjudicada",
+   "cierre": "2026-07-22",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE TALCA - Insumos Clínicos",
+   "region": "Región del Maule ",
+   "tipo": "LP",
+   "descripcion": "El objetivo de la presente licitación, es invitar a través de www.mercadopublico.cl a todos los proveedores del rubro a participar en la adquisición de insumos y dispositivos médicos especializados destinados a procedimientos de cierre quirúrgico, manejo avanzado de la vía aérea, monitorización y soporte cardiovascular, drenaje y manejo urológico, así como curación avanzada y cuidado integral de pacientes, incluyendo sondas urinarias y apósitos especializados, los cuales constituyen elementos es"
+  },
+  {
+   "id": "1549-78-LR26",
+   "nombre": "INSUMOS DE RADIOLOGIA CATETER DRENAJE",
+   "estado": "Cerrada",
+   "cierre": "2026-09-30",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE - Hospital San  José",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LR",
+   "descripcion": "ADQUISICIÓN DE INSUMOS PARA RADIOLOGÍA, DE LA UNIDAD DE IMAGENOLOGÍA DESTINADOS AL HOSPITAL SAN JOSÉ."
+  },
+  {
+   "id": "1075963-363-LE26",
+   "nombre": "Adquisición de Catéteres drenajes insumos de vía aérea y otros materiales clínicos",
+   "estado": "Adjudicada",
+   "cierre": "2026-08-31",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "SERVICIO DE SALUD ARICA HOSP DR JUAN NOE CREVANI - Hospital Juan Noé",
+   "region": "Región de Arica y Parinacota",
+   "tipo": "LE",
+   "descripcion": "SE DEBEN ADJUNTAR TODOS LOS ANEXOS CON SUS RESPECTIVAS FIRMAS DEL REPRESENTANTE LEGAL SEGÚN LO INDICADO EN BASES ADMINISTRATIVA ARTICULO N°12 \"DE LA PRESENTACIÓN DE LA PROPUESTA Y REQUISITOS PARA LOS OFERENTES\". ADEMAS, ADJUNTAR LOS ANTECEDENTES LEGALES PARA OFERTAR SEGÚN LO ESTABLECIDO EN EL ARTÍCULO N°13 \"ANTECEDENTES LEGALES PARA OFERTAR\" DE LAS BASES ADMINISTRATIVAS."
+  },
+  {
+   "id": "948806-101-LE26",
+   "nombre": "ADQUISICIÓN DE KIT DE DRENAJE VENTRICULAR EN MODALIDAD DE CONSIGNACIÓN DEFINITIVA POR SISTEMA DE SUMINISTRO PARA EL HOSPITAL DIPRECA",
+   "estado": "Adjudicada",
+   "cierre": "2026-08-11",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "FONDO HOSPITAL DE LA DIRECCION DE PREVISION DE CARABINEROS DE CHILE - Unidad de Compra Insumos en Consignación",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LE",
+   "descripcion": "El Hospital de la Dirección de Previsión de Carabineros de Chile, ubicado en Vital Apoquindo N°1.200, Comuna de Las Condes, Región Metropolitana, en adelante “EL HOSPITAL”, llama a licitación pública para la Adquisición de Kit de Drenaje Ventricular en Modalidad de Consignación Definitiva, por Sistema de Suministro, en adelante “EL INSUMO”, para un periodo de 36 meses o hasta que se consuma la totalidad del monto contratado, según lo que primero ocurra, para el referido Centro Asistencial, cuyas"
+  },
+  {
+   "id": "1057049-341-LE26",
+   "nombre": "JAC ADQUISICIÓN DE DRENAJE TIPO PIGTAIL PARA TORAX",
+   "estado": "Cerrada",
+   "cierre": "2026-09-23",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN - Bienes y Servicios",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LE",
+   "descripcion": "El objetivo de la Propuesta es la ADQUISICIÓN DE DRENAJE TIPO PIGTAIL UNIDAD DE TORAX DEL HCSBA, solicitados en las especificaciones técnicas, en concordancia con las Bases Administrativas, Técnicas, Formularios, aclaraciones y otros documentos que pudieran formularse en el transcurso de la licitación. Se entenderá que todo proveedor conoce y acepta irrevocablemente el contenido de estas Bases, por el solo hecho de presentar ofertas en este proceso de licitación."
+  },
+  {
+   "id": "1057494-60-LE26",
+   "nombre": "SUMINISTRO DE DRENAJES DE HERIDAS CON EQUIPAMIENTO EN COMODATO PARA EL HOSPITAL DR. EXEQUIEL GONZÁLEZ CORTÉS",
+   "estado": "Cerrada",
+   "cierre": "2026-09-22",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL - Bienes y Servicios",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LE",
+   "descripcion": "SUMINISTRO DE DRENAJES DE HERIDAS CON EQUIPAMIENTO EN COMODATO PARA EL HOSPITAL DR. EXEQUIEL GONZÁLEZ CORTÉS"
+  },
+  {
+   "id": "1057547-393-LE26",
+   "nombre": "CONV. NSUMOS MÉDICOS DE INFUSIÓN VENTILACIÓN DRENAJE Y UROLOGÍA",
+   "estado": "Cerrada",
+   "cierre": "2026-09-21",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE - Bienes y Servicios",
+   "region": "Región de Los Ríos",
+   "tipo": "LE",
+   "descripcion": "CONVENIO DE INSUMOS MÉDICOS DE INFUSIÓN, VENTILACIÓN, DRENAJE Y UROLOGÍA PARA EL HOSPITAL BASE VALDIVIA"
+  },
+  {
+   "id": "1499-157-LP26",
+   "nombre": "CPL INSUMOS PARA MANEJO DE VÍA AÉREA DRENAJE Y ASPIRACIÓN QUE RESULTARON DESIERTOS EN LA LICITACIÓN 1499-95-LP26",
+   "estado": "Adjudicada",
+   "cierre": "2026-08-24",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "INSTITUTO NACIONAL DEL TORAX - INSTITUTO NACIONAL DEL TORAX",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LP",
+   "descripcion": "El proveedor deberá garantizar el suministro oportuno de los insumos de consumo necesarios para la gestión clínica y administrativa del Instituto Nacional del Tórax, con el fin de prestar servicios con la efectividad, seguridad y condiciones de calidad que cada paciente requiere. Para efectos del presente contrato, se entenderá por Insumos Médicos todo instrumento, aparato, aplicación, material o artículo utilizado solo o en combinación, definido por el fabricante para ser empleado directamente "
+  },
+  {
+   "id": "1075963-305-LE26",
+   "nombre": "ADQUISICION DE CATETERMASCARILLAS TUBO ENDOTQQ BRONCO CTAH ESTILETE SQ EQUIPO DRENAJE VESICAL Y OTROS INSUMOS CLINICOS",
+   "estado": "Adjudicada",
+   "cierre": "2026-07-31",
+   "origen": "fecha",
+   "palabras": [
+    "drenaje"
+   ],
+   "organismo": "SERVICIO DE SALUD ARICA HOSP DR JUAN NOE CREVANI - Hospital Juan Noé",
+   "region": "Región de Arica y Parinacota",
+   "tipo": "LE",
+   "descripcion": "ADQUISICION DE CATETER,MASCARILLAS, TUBO ENDOTQQ, BRONCO CTAH, ESTILETE, SQ, EQUIPO DRENAJE VESICAL Y OTROS INSUMOS CLINICOS"
   }
  ]
 }
