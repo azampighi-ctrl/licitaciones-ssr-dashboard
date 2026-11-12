@@ -1,22 +1,113 @@
 {
- "generado": "2026-11-12T15:59:32.535Z",
+ "generado": "2026-11-12T16:13:54.490Z",
  "dias": 60,
- "universo": 31006,
- "traidas_por_palabras_actuales": 452,
+ "universo": 31018,
+ "traidas_por_palabras_actuales": 471,
  "resumen": [
   {
-   "palabra": "recarga de acuíferos",
+   "palabra": "caudalímetro",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "recarga de acuífero",
+   "palabra": "flujómetro",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "medidor de caudal",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "macromedidor",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "macromedición",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "telemetría",
+   "coincidencias": 1,
+   "ya_traidas_por_actuales": 1,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "datalogger",
+   "coincidencias": 1,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 1
+  },
+  {
+   "palabra": "data logger",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "registrador de datos",
+   "coincidencias": 1,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 1
+  },
+  {
+   "palabra": "sonda multiparamétrica",
+   "coincidencias": 1,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 1
+  },
+  {
+   "palabra": "multiparamétrica",
+   "coincidencias": 2,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 2
+  },
+  {
+   "palabra": "limnímetro",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "limnígrafo",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "pluviómetro",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "estación meteorológica",
+   "coincidencias": 5,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 2,
+   "nuevas_candidatas": 3
   },
   {
    "palabra": "red hidrométrica",
@@ -33,64 +124,232 @@
    "nuevas_candidatas": 1
   },
   {
-   "palabra": "estación fluviométrica",
-   "coincidencias": 13,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 10,
-   "nuevas_candidatas": 3
-  },
-  {
-   "palabra": "fluviométrica",
-   "coincidencias": 17,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 13,
-   "nuevas_candidatas": 4
-  },
-  {
-   "palabra": "estudio de riego",
-   "coincidencias": 0,
-   "ya_traidas_por_actuales": 0,
-   "excluidas_obra_mantencion": 0,
-   "nuevas_candidatas": 0
-  },
-  {
-   "palabra": "proyecto de riego",
+   "palabra": "hidrométrico",
    "coincidencias": 1,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 1
   },
   {
-   "palabra": "monitoreo hídrico",
+   "palabra": "sensor de nivel",
+   "coincidencias": 2,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 2,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "medidor de nivel",
    "coincidencias": 0,
    "ya_traidas_por_actuales": 0,
    "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 0
   },
   {
-   "palabra": "red de monitoreo",
-   "coincidencias": 5,
-   "ya_traidas_por_actuales": 3,
-   "excluidas_obra_mantencion": 1,
+   "palabra": "transductor de presión",
+   "coincidencias": 1,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
    "nuevas_candidatas": 1
+  },
+  {
+   "palabra": "correntómetro",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "turbidímetro",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "medidor de agua",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "estación de monitoreo",
+   "coincidencias": 1,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 1
+  },
+  {
+   "palabra": "equipos de monitoreo",
+   "coincidencias": 4,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 4
+  },
+  {
+   "palabra": "instrumentación",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "equipos hidrométricos",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "sonda de nivel",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "medidor de oxígeno",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "oxímetro",
+   "coincidencias": 2,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 2
+  },
+  {
+   "palabra": "conductivímetro",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "phmetro",
+   "coincidencias": 1,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 1
+  },
+  {
+   "palabra": "estación hidrométrica",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
+  },
+  {
+   "palabra": "monitoreo ambiental",
+   "coincidencias": 0,
+   "ya_traidas_por_actuales": 0,
+   "excluidas_obra_mantencion": 0,
+   "nuevas_candidatas": 0
   }
  ],
- "con_detalle": 7,
+ "con_detalle": 17,
  "nuevas": [
   {
-   "id": "1114-15-LP26",
-   "nombre": "RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO",
+   "id": "891-9-LP26",
+   "nombre": "CONST. DE ESTACIÓN METEOROLÓGICA DE ALTA MONTAÑA",
    "estado": "Publicada",
-   "cierre": "2026-11-17",
+   "cierre": "2026-11-12",
    "origen": "activa",
    "palabras": [
-    "estación fluviométrica",
-    "fluviométrica"
+    "estación meteorológica"
    ],
-   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección General de Aguas - Región Metropolitana",
+   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección General de Aguas - VIII Región de Biobio",
+   "region": "Región del Biobío ",
+   "tipo": "LP",
+   "descripcion": "Las presentes bases tienen como objetivo establecer los requisitos mínimos necesarios de ingeniería y construcción, para la construcción y puesta en marcha de una nueva estación hidrometeorológica de la DGA"
+  },
+  {
+   "id": "1230848-62-L126",
+   "nombre": "CALIBRACIÓN DE TERMOHIGRÓMETROS Y DATALOGGER",
+   "estado": "Adjudicada",
+   "cierre": "2026-09-16",
+   "origen": "fecha",
+   "palabras": [
+    "datalogger"
+   ],
+   "organismo": "Corporación Municipal de Desarrollo Social de Calama - Corporación Municipal de Desarrollo Social de Cala",
+   "region": "Región de Antofagasta ",
+   "tipo": "L1",
+   "descripcion": "LA PRESENTE LICITACIÓN TIENE POR OBJETO CONTRATAR UN SERVICIO DE CALIBRACIÓN TÉCNICA CERTIFICADA PARA TERMOHIGRÓMETROS Y DATALOGGER UTILIZADOS EN LA SUPERVISIÓN DE CONDICIONES AMBIENTALES EN ALMACENAMIENTO DE DISPOSITIVOS MÉDICOS, MEDICAMENTOS Y PRODUCTOS FARMACÉUTICOS EN GENERAL, PARA LA UNIDAD DE DROGUERÍA CENTRAL DE CALAMA."
+  },
+  {
+   "id": "612-37-LE26",
+   "nombre": "Adquisición registradores de datos con sensores",
+   "estado": "Adjudicada",
+   "cierre": "2026-10-05",
+   "origen": "fecha",
+   "palabras": [
+    "registrador de datos"
+   ],
+   "organismo": "SERVICIO AGRICOLA Y GANADERO - Servicio Agricola y Ganadero (SAG central)",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LE",
+   "descripcion": "Uno de los requerimientos fundamentales para este departamento es contar con tecnología de punta como el uso de sensores de temperatura de aire, humedad, suelo y viento con transmisión de datos que permitan obtener información precisa en áreas específicas donde se requiera calcular el tiempo térmico acumulado grados-día, y zonas de dispersión como estrategia de erradicación de focos de mosca de la fruta."
+  },
+  {
+   "id": "1019-125-LE26",
+   "nombre": "ADQUISICIÓN DE SONDA MULTIPARAMÉTRICA E INSUMOS",
+   "estado": "Adjudicada",
+   "cierre": "2026-11-04",
+   "origen": "fecha",
+   "palabras": [
+    "sonda multiparamétrica",
+    "multiparamétrica"
+   ],
+   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LE",
+   "descripcion": "ADQUISICIÓN DE SONDA MULTIPARAMÉTRICA E INSUMOS PARA MONITOREO DE CUERPOS LACUSTRES La presente licitación tiene por objeto la adquisición de una sonda multiparámetros para monitoreo de calidad de aguas, junto con los sensores y elementos necesarios para su correcta operación, calibración y mantenimiento, de acuerdo con las especificaciones técnicas establecidas en las presentes Bases Técnicas y en las Bases Administrativas."
+  },
+  {
+   "id": "2933-81-L126",
+   "nombre": "ADQUISICION DE MULTIPARAMÉTRICO DE AGUA",
+   "estado": "Cerrada",
+   "cierre": "2026-11-03",
+   "origen": "fecha",
+   "palabras": [
+    "multiparamétrica"
+   ],
+   "organismo": "I MUNICIPALIDAD DE ALHUE - DPTO. MUNICIPALIDAD",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "L1",
+   "descripcion": "El objetivo de la presente licitación corresponde a la adquisición de Multiparamétrico de agua el cual permitirá a la Oficina de Medio Ambiente Municipal monitorear diversos parámetros de calidad del agua, tales como el pH y el potencial de oxidación, entre otros. Su adquisición es fundamental para la atención de incidentes técnicos y para el desarrollo del proyecto del humedal."
+  },
+  {
+   "id": "2562-22-LP26",
+   "nombre": "Adquisición de 5 estaciones meteorológicas",
+   "estado": "Adjudicada",
+   "cierre": "2026-09-10",
+   "origen": "fecha",
+   "palabras": [
+    "estación meteorológica"
+   ],
+   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL - UNIDAD DE COMPRA CONTRATOS EXTRANJEROS",
    "region": "Región Metropolitana de Santiago",
    "tipo": "LP",
-   "descripcion": "“RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO EN NALTAHUA” La D.G.A., ha estimado necesario efectuar un llamado a licitación pública, con el fin de restituir la estación fluviométrica de monitoreo de aguas superficiales denominada Río Maipo en Naltahua, comuna de Isla de Maipo, en la Región Metropolitana de Santiago, para mejorar la gestión hídrica regional y las labores propias del Servicio."
+   "descripcion": "La DGAC requiere adquirir cinco estaciones meteorológicas climatológicas para la Dirección Meteorológica de Chile."
+  },
+  {
+   "id": "5416-40-LE26",
+   "nombre": "Adquisición de Estaciones Meteorológicas Automátic",
+   "estado": "Cerrada",
+   "cierre": "2026-10-20",
+   "origen": "fecha",
+   "palabras": [
+    "estación meteorológica"
+   ],
+   "organismo": "UNIVERSIDAD DE LA SERENA - DEPARTAMENTO DE ABASTECIMIENTO",
+   "region": "Región de Coquimbo ",
+   "tipo": "LE",
+   "descripcion": "Adquisición de Estaciones Meteorológicas Automáticas para el Departamento de Agronomía."
   },
   {
    "id": "1019-103-LP26",
@@ -100,7 +359,8 @@
    "origen": "fecha",
    "palabras": [
     "red hidrométrica",
-    "hidrométrica"
+    "hidrométrica",
+    "hidrométrico"
    ],
    "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO",
    "region": "Región Metropolitana de Santiago",
@@ -108,76 +368,130 @@
    "descripcion": "El objetivo general de la presente licitación pública es la adquisición de sensores para la conservación de la Red Hidrométrica Nacional, de acuerdo con las disposiciones que se especifican en las presentes Bases Técnicas y Administrativas."
   },
   {
-   "id": "1114-14-LP26",
-   "nombre": "RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO",
-   "estado": "",
-   "cierre": "2026-10-07",
+   "id": "608-123-LR26",
+   "nombre": "KSU Adquisición de Transductores de Presión",
+   "estado": "Adjudicada",
+   "cierre": "2026-07-23",
    "origen": "fecha",
    "palabras": [
-    "estación fluviométrica",
-    "fluviométrica"
+    "transductor de presión"
    ],
-   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección General de Aguas - Región Metropolitana",
+   "organismo": "HOSPITAL DR GUSTAVO FRICKE DE VINA DEL MAR - Hospital Dr. Gustavo Fricke",
+   "region": "Región de Valparaíso ",
+   "tipo": "LR",
+   "descripcion": "El Hospital Dr. Gusto Fricke requiere de la Adquisición de Transductores de Presión Simple y Doble Compatibles con Cables y Accesorios en Comodato "
+  },
+  {
+   "id": "5657-16-LP26",
+   "nombre": "SERVICIO DE MONITOREO DE INCENDIOS FORESTALES EN TIEMPO REAL CON CAMARAS DE ALTA RESOLUCIÓN E IMPLEMENTACIÓN DE ESTACION DE MONITOREO EN LA CENTRAL DE DESPACHO VALDIVIA",
+   "estado": "Adjudicada",
+   "cierre": "2026-10-23",
+   "origen": "fecha",
+   "palabras": [
+    "estación de monitoreo"
+   ],
+   "organismo": "CORP NACIONAL FORESTAL - XIV región - Oficina Regional de Los Rios",
+   "region": "Región de Los Ríos",
+   "tipo": "LP",
+   "descripcion": "El departamento de protección contra incendios forestales, necesita monitorear las zonas, especificadas en la cartografía , a través de la vigilancia mediante cámaras de alta resolución con la finalidad de detectar tempranamente el inicio de focos de incendios y poder responder adecuadamente, de esa forma evitar el desarrollo de un incendio de magnitud. Lo anterior desde los puntos señalados de interés de la corporación, donde se deberá instalar las cámaras de tele vigilancia. Lo anterior se mon"
+  },
+  {
+   "id": "507428-132-LE26",
+   "nombre": "“ADQUISICIÓN EQUIPOS DE MONITOREO CARDIOLÓGICO NHA”",
+   "estado": "Cerrada",
+   "cierre": "2026-11-10",
+   "origen": "fecha",
+   "palabras": [
+    "equipos de monitoreo"
+   ],
+   "organismo": "SERVICIO DE SALUD CHILOE - Servicio de Salud Chiloé",
+   "region": "Región de los Lagos ",
+   "tipo": "LE",
+   "descripcion": "El Servicio de Salud de Chiloé requiere la adquisición de Equipos de Monitoreo Cardiológico para la implementación del Nuevo Hospital de Ancud (NHA)."
+  },
+  {
+   "id": "1057499-30-LP26",
+   "nombre": "ADQUISICION DE EQUIPOS DE MONITOREO PARA CESFAM",
+   "estado": "Adjudicada",
+   "cierre": "2026-07-13",
+   "origen": "fecha",
+   "palabras": [
+    "equipos de monitoreo"
+   ],
+   "organismo": "SERVICIO DE SALUD SUR UNIDAD HOSPITALARI - Bienes y Servicios",
    "region": "Región Metropolitana de Santiago",
    "tipo": "LP",
-   "descripcion": "RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO EN NALTAHUA"
+   "descripcion": "El objetivo de la presente licitación es adquirir equipos y equipamiento para el CESFAM Haydee Lopez, nuevo y sin uso, el que deberá contar con la respectiva garantía postventa y capacitación en el uso y funcionamiento del mismo."
   },
   {
-   "id": "895-16-LP26",
-   "nombre": "CONSERV. ESTACIÓN FLUVIOMÉTRICA RÍO CHALINGA",
-   "estado": "Adjudicada",
-   "cierre": "2026-09-02",
+   "id": "1057448-46-LP26",
+   "nombre": "Adquisición Equipos de Monitoreo y Diagnostico para la Red Oncológica",
+   "estado": "Cerrada",
+   "cierre": "2026-10-14",
    "origen": "fecha",
    "palabras": [
-    "estación fluviométrica",
-    "fluviométrica"
+    "equipos de monitoreo"
    ],
-   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección General de Aguas - IV Región ",
-   "region": "Región de Coquimbo ",
-   "tipo": "LP",
-   "descripcion": "El objetivo de la presente licitación es mejorar el monitoreo hídrico en la estación Fluviométrica Río Chalinga antes Bocatoma Cunlagua, mediante la reconstrucción de muros, caseta, accesos, regla limnimétrica, además de labores de roce, despeje y pintura, entre otras. Todo ello considera un nuevo diseño de la estación, bajo condiciones hidráulicas estandarizadas."
-  },
-  {
-   "id": "895-18-LP26",
-   "nombre": "CONSULTORÍA EST. FLUVIOMETRICAS RÍO LIMARÍ Y CHOAP",
-   "estado": "Adjudicada",
-   "cierre": "2026-09-22",
-   "origen": "fecha",
-   "palabras": [
-    "fluviométrica"
-   ],
-   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección General de Aguas - IV Región ",
-   "region": "Región de Coquimbo ",
-   "tipo": "LP",
-   "descripcion": "El objetivo de la presente contratación es elaborar el diagnóstico, análisis de emplazamiento e ingeniería de detalle para la construcción, reconstrucción, mejoramiento o eventual reubicación de las estaciones fluviométricas individualizadas en la Tabla Nº 1. Para cada estación, el estudio deberá definir la alternativa técnica más conveniente, considerando sus condiciones hidrológicas, ETC."
-  },
-  {
-   "id": "585893-10-LP26",
-   "nombre": "Cont Ejecución proyectos de riego Bajo Soga Huara",
-   "estado": "Adjudicada",
-   "cierre": "2026-10-06",
-   "origen": "fecha",
-   "palabras": [
-    "proyecto de riego"
-   ],
-   "organismo": "INSTITUTO DE DESARROLLO AGROPECUARIO - INDAP - Region de Tarapaca",
+   "organismo": "SERVICIO DE SALUD IQUIQUE - Bienes y Servicios",
    "region": "Región de Tarapacá  ",
    "tipo": "LP",
-   "descripcion": "CONTRATACION DE LOS SERVICIOS DE “EJECUCIÓN DE PROYECTOS DE RIEGO, ORIENTADOS AL MEJORAMIENTO DE LA INFRAESTRUCTURA DE RIEGO PARA AGRICULTORES DEL SECTOR PRODUCTIVO BAJO SOGA, COMUNA DE HUARA, CONVENIO DE IMPLEMENTACIÓN EN RIEGO, AÑO 2026 CONADI-INDAP TARAPACÁ”. Con motivo de generar un mejoramiento de la infraestructura de riego para agricultores en el sector denominado Bajo Soga."
+   "descripcion": "La presente licitación pública tiene por objeto la Adquisición Equipos para la Red Oncológica, destinados a la implementación y habilitación del nuevo Servicio Oncológico de Iquique."
   },
   {
-   "id": "5617-5-LP26",
-   "nombre": "AMPLIACIÓN RED DE MONITOREO DE POZOS 2026",
+   "id": "1057503-117-LP26",
+   "nombre": "Servicio de arriendo de equipos de monitoreo",
    "estado": "Adjudicada",
+   "cierre": "2026-08-27",
+   "origen": "fecha",
+   "palabras": [
+    "equipos de monitoreo"
+   ],
+   "organismo": "HOSPITAL PADRE ALBERTO HURTADO - Bienes y Servicios",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LP",
+   "descripcion": "1. La necesidad de contar con un servicio de arriendo que disponga de una central de monitoreo con monitores multiparámetros, para el centro de responsabilidad de Urgencia Adultos. 2. Que los monitores multiparámetros, junto a la central de monitoreo, son indispensables para el monitoreo continuo de los parámetros fisiológicos de los pacientes. 3. Que los instrumentos que se licitan no se encuentran incluido en el catálogo de convenios marco de Mercado Público. Adicionalmente se consultó en la p"
+  },
+  {
+   "id": "1499-195-LE26",
+   "nombre": "PTF ADQUISICION OXIMETROS DE PULSO",
+   "estado": "Cerrada",
    "cierre": "2026-10-15",
    "origen": "fecha",
    "palabras": [
-    "red de monitoreo"
+    "oxímetro"
    ],
-   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección General de Aguas - XIV Región de los Rios",
-   "region": "Región de Los Ríos",
+   "organismo": "INSTITUTO NACIONAL DEL TORAX - INSTITUTO NACIONAL DEL TORAX",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LE",
+   "descripcion": "Las presentes bases de licitación tienen por objeto la adquisición de oxímetros de pulso para el Instituto Nacional del Tórax."
+  },
+  {
+   "id": "1499-170-LE26",
+   "nombre": "SAM MONITOR DESFIBRILADOR CAMILLA DE TRASLADO DE PACIENTES Y OXÍMETRO DE PULSO",
+   "estado": "Adjudicada",
+   "cierre": "2026-08-27",
+   "origen": "fecha",
+   "palabras": [
+    "oxímetro"
+   ],
+   "organismo": "INSTITUTO NACIONAL DEL TORAX - INSTITUTO NACIONAL DEL TORAX",
+   "region": "Región Metropolitana de Santiago",
+   "tipo": "LE",
+   "descripcion": "A. Que el Instituto Nacional del Tórax necesita contar para su gestión con equipamiento del tipo SAM MONITOR DESFIBRILADOR, CAMILLA DE TRASLADO DE PACIENTES Y OXÍMETRO DE PULSO en forma permanente, con el objeto de poder cumplir y satisfacer debidamente la demanda asistencial que legalmente le ha sido encomendada; B. Que nuestros valores institucionales son la excelencia y el compromiso. "
+  },
+  {
+   "id": "1180730-48-LP26",
+   "nombre": "REPOSICION PHMETRO Y MANOMETRO HCM",
+   "estado": "Cerrada",
+   "cierre": "2026-10-30",
+   "origen": "fecha",
+   "palabras": [
+    "phmetro"
+   ],
+   "organismo": "SERVICIO DE SALUD MAGALLANES - Compras Convenio GORE Magallanes",
+   "region": "Región de Magallanes y de la Antártica",
    "tipo": "LP",
-   "descripcion": "AMPLIACIÓN RED DE MONITOREO DE POZOS DE AGUAS SUBTERRÁNEAS DE LA REGIÓN DE LOS RÍOS AÑO 2026. En lo específico, se requiere la construcción de cuatro 4 nuevas estaciones de Monitoreo de aguas subterráneas, los cuales se sumarán a la red hidrométrica de la Dirección General de Aguas de la Región de Los Ríos"
+   "descripcion": "Licitación: “Reposición pHmetro con impedanciometría y Manómetro anorectal, UPC pediátrica y UPC neonatal, HCM” “Reposición y Adquisición de equipos para paciente crítico UPC pediátrica y UPC neonatal, HCM” – Código BIP 40058225 Lugar de entrega Bienes Hospital Clínico de Magallanes, Av. Los Flamencos 01364, Punta Arenas."
   }
  ]
 }
