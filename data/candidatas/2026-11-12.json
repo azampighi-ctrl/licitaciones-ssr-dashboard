@@ -1,216 +1,46 @@
 {
- "generado": "2026-11-12T13:15:29",
- "fecha_barrido": "12-11-2026 13:15",
+ "generado": "2026-11-12T13:38:50",
+ "fecha_barrido": "12-11-2026 13:38",
  "candidatas": [
   {
    "palabras": [
-    "fluviométrica"
+    "datalogger"
    ],
    "registro": {
-    "id": "1114-15-LP26",
-    "nombre": "RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO",
-    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección General de Aguas - Región Metropolitana",
+    "id": "1392-37-LE26",
+    "nombre": "Adquisicion de datalogger  Req 62",
+    "entidad": "DIRECCION GENERAL DE AERONAUTICA CIVIL - UNIDAD DE COMPRA DMC",
     "region": "Metropolitana",
-    "comuna": "Santiago",
-    "fpub": "19-10-2026",
-    "monto_raw": "$313.683.000",
-    "monto_num": 313683000,
-    "plazo": "No especificado en ficha",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1114-15-LP26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "17-11-2026 12:00",
-    "fcierre_iso": "2026-11-17T12:00:00",
-    "finicio_preguntas_raw": "19-10-2026 17:30",
-    "finicio_preguntas_iso": "2026-10-19T17:30:00",
-    "ffinal_preguntas_raw": "30-10-2026 13:00",
-    "ffinal_preguntas_iso": "2026-10-30T13:00:00",
-    "frespuestas_raw": "06-11-2026 13:00",
-    "frespuestas_iso": "2026-11-06T13:00:00",
-    "fapertura_tecnica_raw": "17-11-2026 12:00",
-    "fapertura_tecnica_iso": "2026-11-17T12:00:00",
-    "fapertura_economica_raw": "17-11-2026 12:00",
-    "fapertura_economica_iso": "2026-11-17T12:00:00",
-    "fadjudicacion_raw": "04-12-2026 12:00",
-    "fadjudicacion_iso": "2026-12-04T12:00:00"
-   },
-   "contexto": {
-    "descripcion": "“RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO EN NALTAHUA”\r\nLa D.G.A., ha estimado necesario efectuar un llamado a licitación pública, con el fin de restituir la estación fluviométrica de monitoreo de aguas superficiales denominada Río Maipo en Naltahua, comuna de Isla de Maipo, en la Región Metropolitana de Santiago, para mejorar la gestión hídrica regional y las labores propias del Servicio.",
-    "tipo": "LP",
-    "items": [
-     "Artículos para estructuras, obras y construcciones / Construcciones permanentes / Construcciones para trasporte permanentes · Puente para peatones · RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO EN NALTAHUA"
-    ],
-    "fuente_financiamiento": ""
-   }
-  },
-  {
-   "palabras": [
-    "bombeo"
-   ],
-   "registro": {
-    "id": "1328912-3-LE26",
-    "nombre": "REPOSICIÓN DE TABLERO ELÉCTRICO LIMPIEZA DE NORIA Y REEMPLAZO DE EQUIPO DE BOMBEO COMUNA DE CHOL CHOL",
-    "entidad": "DELEGACIÓN PRESIDENCIAL REGIONAL DE LA ARAUCANÍA - EMERGENCIAS",
-    "region": "La Araucanía",
-    "comuna": "Temuco",
+    "comuna": "Quinta Normal",
     "fpub": "12-11-2026",
-    "monto_raw": "No informado en ficha pública",
-    "monto_num": null,
+    "monto_raw": "$17.600.000",
+    "monto_num": 17600000,
     "plazo": "No especificado en ficha",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1328912-3-LE26",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1392-37-LE26",
     "visita_terreno": "No exige",
     "estado_mp": "Publicada",
     "fcierre_raw": "25-11-2026 15:00",
     "fcierre_iso": "2026-11-25T15:00:00",
-    "finicio_preguntas_raw": "12-11-2026 12:00",
-    "finicio_preguntas_iso": "2026-11-12T12:00:00",
-    "ffinal_preguntas_raw": "17-11-2026 12:00",
-    "ffinal_preguntas_iso": "2026-11-17T12:00:00",
-    "frespuestas_raw": "19-11-2026 23:59",
-    "frespuestas_iso": "2026-11-19T23:59:00",
+    "finicio_preguntas_raw": "12-11-2026 15:01",
+    "finicio_preguntas_iso": "2026-11-12T15:01:00",
+    "ffinal_preguntas_raw": "18-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-18T12:00:00",
+    "frespuestas_raw": "23-11-2026 12:00",
+    "frespuestas_iso": "2026-11-23T12:00:00",
     "fapertura_tecnica_raw": "25-11-2026 15:01",
     "fapertura_tecnica_iso": "2026-11-25T15:01:00",
     "fapertura_economica_raw": "25-11-2026 15:01",
     "fapertura_economica_iso": "2026-11-25T15:01:00",
-    "fadjudicacion_raw": "25-12-2026 23:59",
-    "fadjudicacion_iso": "2026-12-25T23:59:00"
+    "fadjudicacion_raw": "25-12-2026 20:00",
+    "fadjudicacion_iso": "2026-12-25T20:00:00"
    },
    "contexto": {
-    "descripcion": "REPOSICIÓN DE TABLERO ELÉCTRICO, LIMPIEZA DE NORIA Y REEMPLAZO DE EQUIPO DE BOMBEO COMUNA DE CHOL CHOL ",
+    "descripcion": "En este documento se dan a conocer las especificaciones técnicas de la adquisición Datalogger necesarios para la red de plataformas de información meteorológicas para calidad  del aire, perteneciente al convenio del Ministerio del Medio Ambiente.",
     "tipo": "LE",
     "items": [
-     "Servicios agrícolas, pesqueros, forestales y relacionados con la fauna / Desarrollo y vigilancia de recursos hidráulicos / Riego · Servicios de mantenimiento y administración de pozos de agua · “REPOSICIÓN DE TABLERO ELÉCTRICO, LIMPIEZA DE NORIA Y REEMPLAZO DE EQUIPO DE BOMBEO, SSR CURACO PITRACO SANTA CAROLINA, COMUNA DE CHOLCHOL”"
+     "Equipamiento para laboratorios / Instrumentos de medida y experimentación / Instrumentos meteorológicos · Estación meteorológica · Adquisición de datalogger para la red de plataformas de información meteorológicas."
     ],
-    "fuente_financiamiento": "DELEGACION PRESIDENCIAL REGIONAL DE LA ARAUCANIA"
-   }
-  },
-  {
-   "palabras": [
-    "agua potable"
-   ],
-   "registro": {
-    "id": "1406-10-LE26",
-    "nombre": "Compra de agua potable Alhué y San Pedro 1S 2027",
-    "entidad": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE MELIPILLA - Delegación Presidencial Provincia de  Melipilla",
-    "region": "Metropolitana",
-    "comuna": "Melipilla",
-    "fpub": "12-11-2026",
-    "monto_raw": "$40.681.518",
-    "monto_num": 40681518,
-    "plazo": "No especificado en ficha",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1406-10-LE26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "23-11-2026 18:45",
-    "fcierre_iso": "2026-11-23T18:45:00",
-    "finicio_preguntas_raw": "13-11-2026 18:44",
-    "finicio_preguntas_iso": "2026-11-13T18:44:00",
-    "ffinal_preguntas_raw": "18-11-2026 18:44",
-    "ffinal_preguntas_iso": "2026-11-18T18:44:00",
-    "frespuestas_raw": "20-11-2026 18:44",
-    "frespuestas_iso": "2026-11-20T18:44:00",
-    "fapertura_tecnica_raw": "23-11-2026 18:46",
-    "fapertura_tecnica_iso": "2026-11-23T18:46:00",
-    "fapertura_economica_raw": "23-11-2026 18:46",
-    "fapertura_economica_iso": "2026-11-23T18:46:00",
-    "fadjudicacion_raw": "26-11-2026 18:46",
-    "fadjudicacion_iso": "2026-11-26T18:46:00"
-   },
-   "contexto": {
-    "descripcion": "Adquirir agua potable para consumo humano destinada al abastecimiento domiciliario de Alhué y San Pedro y al Servicio Sanitario Rural SSR Nihue, en San Pedro, durante el primer semestre de 2027, conforme a las bases de licitación.",
-    "tipo": "LE",
-    "items": [
-     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Abastecimiento de agua · Adquisición de agua potable para consumo humano destinada al abastecimiento domiciliario de Alhué, primer semestre de 2027, según bases.",
-     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Abastecimiento de agua · Adquisición de agua potable para San Pedro, primer semestre de 2027. Incluye 7.692,500 m³ para abastecimiento domiciliario y 7.941,375 m³ para el SSR Nihue, según bases."
-    ],
-    "fuente_financiamiento": "Fondos de emergencia de la Subsecretaría del Inte"
-   }
-  },
-  {
-   "palabras": [
-    "agua potable"
-   ],
-   "registro": {
-    "id": "1406-9-LR26",
-    "nombre": "DISTRIBUCION DE AGUA POTABLE 1S 2027 - PROVINCIAL",
-    "entidad": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE MELIPILLA - Delegación Presidencial Provincia de  Melipilla",
-    "region": "Metropolitana",
-    "comuna": "Melipilla",
-    "fpub": "12-11-2026",
-    "monto_raw": "$525.747.338",
-    "monto_num": 525747338,
-    "plazo": "6 meses",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1406-9-LR26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "14-12-2026 17:25",
-    "fcierre_iso": "2026-12-14T17:25:00",
-    "finicio_preguntas_raw": "13-11-2026 14:53",
-    "finicio_preguntas_iso": "2026-11-13T14:53:00",
-    "ffinal_preguntas_raw": "25-11-2026 14:53",
-    "ffinal_preguntas_iso": "2026-11-25T14:53:00",
-    "frespuestas_raw": "30-11-2026 14:53",
-    "frespuestas_iso": "2026-11-30T14:53:00",
-    "fapertura_tecnica_raw": "14-12-2026 17:26",
-    "fapertura_tecnica_iso": "2026-12-14T17:26:00",
-    "fapertura_economica_raw": "14-12-2026 17:26",
-    "fapertura_economica_iso": "2026-12-14T17:26:00",
-    "fadjudicacion_raw": "17-12-2026 17:26",
-    "fadjudicacion_iso": "2026-12-17T17:26:00"
-   },
-   "contexto": {
-    "descripcion": "Contratar el servicio de distribución de agua potable para consumo humano mediante camiones aljibe para beneficiarios domiciliarios de Alhué, Curacaví, Melipilla y San Pedro, y para el SSR Nihue de San Pedro, del 1 de enero al 30 de junio de 2027, conforme a los nueve recorridos establecidos en las bases.",
-    "tipo": "LR",
-    "items": [
-     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de distribución de agua potable mediante camión aljibe, recorrido Re 1A, comuna de Alhué, primer semestre de 2027, según bases.",
-     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de distribución de agua potable mediante camión aljibe, recorrido Re 2C, comuna de Curacaví, primer semestre de 2027, según bases.",
-     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de distribución de agua potable mediante camión aljibe, recorrido Re 3C, comuna de Curacaví, primer semestre de 2027, según bases.",
-     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de distribución de agua potable mediante camión aljibe, recorrido Re 4M, comuna de Melipilla, primer semestre de 2027, según bases.",
-     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de distribución de agua potable mediante camión aljibe, recorrido Re 5M, comuna de Melipilla, primer semestre de 2027, según bases.",
-     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de distribución de agua potable mediante camión aljibe, recorrido Re 6M, comuna de Melipilla, primer semestre de 2027, según bases."
-    ],
-    "fuente_financiamiento": "Fondos de emergencia de la Subsecretaría del Inte"
-   }
-  },
-  {
-   "palabras": [
-    "agua potable"
-   ],
-   "registro": {
-    "id": "3711-30-LP26",
-    "nombre": "ABASTO DE AGUA POTABLE SECTOR LA AURORA",
-    "entidad": "I MUNICIPALIDAD DE VICTORIA - Secpla",
-    "region": "La Araucanía",
-    "comuna": "Victoria",
-    "fpub": "12-11-2026",
-    "monto_raw": "No informado en ficha pública",
-    "monto_num": null,
-    "plazo": "300 días",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3711-30-LP26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "02-12-2026 15:00",
-    "fcierre_iso": "2026-12-02T15:00:00",
-    "finicio_preguntas_raw": "12-11-2026 14:49",
-    "finicio_preguntas_iso": "2026-11-12T14:49:00",
-    "ffinal_preguntas_raw": "23-11-2026 17:30",
-    "ffinal_preguntas_iso": "2026-11-23T17:30:00",
-    "frespuestas_raw": "25-11-2026 17:30",
-    "frespuestas_iso": "2026-11-25T17:30:00",
-    "fapertura_tecnica_raw": "02-12-2026 15:05",
-    "fapertura_tecnica_iso": "2026-12-02T15:05:00",
-    "fapertura_economica_raw": "02-12-2026 15:05",
-    "fapertura_economica_iso": "2026-12-02T15:05:00",
-    "fadjudicacion_raw": "25-12-2026 18:50",
-    "fadjudicacion_iso": "2026-12-25T18:50:00"
-   },
-   "contexto": {
-    "descripcion": "Para la ejecución de las obras objeto de la presente licitación “ABASTO DE AGUA POTABLE SECTOR LA AURORA”, (OBRA) código N°9211250701-B.- en la ciudad de Victoria, se consulta la construcción y ejecución de 15 soluciones de abastecimiento de agua, conforme a Bases administrativas, generales, especificaciones técnicas, y demás antecedentes adjuntos.",
-    "tipo": "LP",
-    "items": [
-     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · La presente licitación tiene por objeto la ejecución de los trabajos de construcción de 15 soluciones de abastecimiento de agua para el proyecto “ABASTO DE AGUA POTABLE SECTOR LA AURORA”,(OBRA) código N°9211250701-B, en la comuna de Victoria, segun bases "
-    ],
-    "fuente_financiamiento": "PMB IRAL 2025"
+    "fuente_financiamiento": "vale vista"
    }
   }
  ]
