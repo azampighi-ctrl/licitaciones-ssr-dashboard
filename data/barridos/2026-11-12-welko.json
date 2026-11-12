@@ -1,0 +1,60 @@
+{
+ "fecha_barrido": "",
+ "nuevas": [
+  {
+   "id": "1114-15-LP26",
+   "nombre": "RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO",
+   "entidad": "MOP - Dirección General de Aguas",
+   "region": "Metropolitana",
+   "comuna": "Santiago",
+   "fpub": "19-10-2026",
+   "monto_raw": "$313.683.000",
+   "monto_num": 313683000,
+   "plazo": "No especificado en ficha",
+   "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1114-15-LP26",
+   "visita_terreno": "No exige",
+   "estado_mp": "Publicada",
+   "fcierre_raw": "17-11-2026 12:00",
+   "fcierre_iso": "2026-11-17T12:00:00",
+   "finicio_preguntas_raw": "19-10-2026 17:30",
+   "finicio_preguntas_iso": "2026-10-19T17:30:00",
+   "ffinal_preguntas_raw": "30-10-2026 13:00",
+   "ffinal_preguntas_iso": "2026-10-30T13:00:00",
+   "frespuestas_raw": "06-11-2026 13:00",
+   "frespuestas_iso": "2026-11-06T13:00:00",
+   "fapertura_tecnica_raw": "17-11-2026 12:00",
+   "fapertura_tecnica_iso": "2026-11-17T12:00:00",
+   "fapertura_economica_raw": "17-11-2026 12:00",
+   "fapertura_economica_iso": "2026-11-17T12:00:00",
+   "fadjudicacion_raw": "04-12-2026 12:00",
+   "fadjudicacion_iso": "2026-12-04T12:00:00",
+   "categoria": "Equipos e Instrumentación (Welko)",
+   "interes": "Medio",
+   "estado": "Revisar - Verificar Alcance",
+   "observaciones": "Restitución de la estación fluviométrica Río Maipo en Naltahua (DGA). Es obra civil con instrumentación hidrométrica: oportunidad para Welko como proveedor de equipos o subcontratista; verificar en bases el alcance de equipamiento."
+  }
+ ],
+ "actualizaciones": [],
+ "descartadas": [
+  {
+   "id": "1328912-3-LE26",
+   "nombre": "REPOSICIÓN DE TABLERO ELÉCTRICO LIMPIEZA DE NORIA Y REEMPLAZO DE EQUIPO DE BOMBEO COMUNA DE CHOL CHOL",
+   "motivo": "Reposición de tablero eléctrico, limpieza de noria y cambio de bomba: obra y mantención, no ingeniería ni instrumentación."
+  },
+  {
+   "id": "1406-10-LE26",
+   "nombre": "Compra de agua potable Alhué y San Pedro 1S 2027",
+   "motivo": "Compra de agua potable para abastecimiento: suministro, no ingeniería ni estudio."
+  },
+  {
+   "id": "1406-9-LR26",
+   "nombre": "DISTRIBUCION DE AGUA POTABLE 1S 2027 - PROVINCIAL",
+   "motivo": "Distribución de agua potable en camiones aljibe: servicio de suministro."
+  },
+  {
+   "id": "3711-30-LP26",
+   "nombre": "ABASTO DE AGUA POTABLE SECTOR LA AURORA",
+   "motivo": "Construcción de 15 soluciones de abasto de agua potable (obra)."
+  }
+ ]
+}

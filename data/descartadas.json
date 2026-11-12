@@ -403,5 +403,25 @@
   "nombre": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE QUEMCHI",
   "motivo": "Distribución de agua potable mediante camiones aljibe; servicio, no ingeniería ni estudio.",
   "fecha": "12-11-2026"
+ },
+ "1328912-3-LE26": {
+  "nombre": "REPOSICIÓN DE TABLERO ELÉCTRICO LIMPIEZA DE NORIA Y REEMPLAZO DE EQUIPO DE BOMBEO COMUNA DE CHOL CHOL",
+  "motivo": "Reposición de tablero eléctrico, limpieza de noria y cambio de bomba: obra y mantención, no ingeniería ni instrumentación.",
+  "fecha": "12-11-2026"
+ },
+ "1406-10-LE26": {
+  "nombre": "Compra de agua potable Alhué y San Pedro 1S 2027",
+  "motivo": "Compra de agua potable para abastecimiento: suministro, no ingeniería ni estudio.",
+  "fecha": "12-11-2026"
+ },
+ "1406-9-LR26": {
+  "nombre": "DISTRIBUCION DE AGUA POTABLE 1S 2027 - PROVINCIAL",
+  "motivo": "Distribución de agua potable en camiones aljibe: servicio de suministro.",
+  "fecha": "12-11-2026"
+ },
+ "3711-30-LP26": {
+  "nombre": "ABASTO DE AGUA POTABLE SECTOR LA AURORA",
+  "motivo": "Construcción de 15 soluciones de abasto de agua potable (obra).",
+  "fecha": "12-11-2026"
  }
 }
