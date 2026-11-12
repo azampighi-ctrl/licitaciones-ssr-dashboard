@@ -383,5 +383,25 @@
   "nombre": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE CHILOÉ",
   "motivo": "Suministro de agua potable mediante camiones aljibe; servicio de distribución, no ingeniería ni estudio.",
   "fecha": "11-11-2026"
+ },
+ "1502-11-LE26": {
+  "nombre": "Contenedores de 20 Pies para SSR DOH MOP ATACAMA",
+  "motivo": "Compra de contenedores prefabricados para bodega; suministro, no ingeniería ni estudio.",
+  "fecha": "12-11-2026"
+ },
+ "1510-22-LE26": {
+  "nombre": "Camión Aljibe APR Trintre",
+  "motivo": "Servicio de distribución de agua potable con camión aljibe; operación, no ingeniería ni estudio.",
+  "fecha": "12-11-2026"
+ },
+ "3801-31-LP26": {
+  "nombre": "SOLUCIÓN AGUA POTABLE CERRO EL PADRE ORIENTE",
+  "motivo": "Construcción de 10 soluciones individuales de agua potable (obra); no es estudio ni diseño.",
+  "fecha": "12-11-2026"
+ },
+ "582-14-LE26": {
+  "nombre": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE QUEMCHI",
+  "motivo": "Distribución de agua potable mediante camiones aljibe; servicio, no ingeniería ni estudio.",
+  "fecha": "12-11-2026"
  }
 }

@@ -1,0 +1,60 @@
+{
+ "fecha_barrido": "12-11-2026 07:47",
+ "nuevas": [
+  {
+   "id": "2793-144-LE26",
+   "nombre": "ESTUDIO PREFACTIBILIDAD Y DISEÑO DE SOLUCIÓN DE INFRAESTRUCTURA VERDE PARA LA GESTIÓN DE AGUAS EN LA COMUNA",
+   "entidad": "Municipalidad de Huechuraba - Municipalidad de Huechuraba",
+   "region": "Metropolitana",
+   "comuna": "Huechuraba",
+   "fpub": "11-11-2026",
+   "monto_raw": "No informado en ficha pública",
+   "monto_num": null,
+   "plazo": "90 días",
+   "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2793-144-LE26",
+   "visita_terreno": "No exige",
+   "estado_mp": "Publicada",
+   "fcierre_raw": "23-11-2026 15:00",
+   "fcierre_iso": "2026-11-23T15:00:00",
+   "finicio_preguntas_raw": "11-11-2026 17:01",
+   "finicio_preguntas_iso": "2026-11-11T17:01:00",
+   "ffinal_preguntas_raw": "17-11-2026 12:00",
+   "ffinal_preguntas_iso": "2026-11-17T12:00:00",
+   "frespuestas_raw": "20-11-2026 18:00",
+   "frespuestas_iso": "2026-11-20T18:00:00",
+   "fapertura_tecnica_raw": "23-11-2026 15:30",
+   "fapertura_tecnica_iso": "2026-11-23T15:30:00",
+   "fapertura_economica_raw": "23-11-2026 15:30",
+   "fapertura_economica_iso": "2026-11-23T15:30:00",
+   "fadjudicacion_raw": "29-01-2027 17:30",
+   "fadjudicacion_iso": "2027-01-29T17:30:00",
+   "categoria": "Gestión Hídrica",
+   "interes": "Bajo-Medio",
+   "estado": "Revisar - Verificar Alcance",
+   "observaciones": "Estudio de prefactibilidad y diseño de infraestructura verde para la gestión de aguas lluvia/urbanas en Huechuraba; calza parcialmente con gestión hídrica, verificar si el alcance incluye modelación hidrológica o hidráulica. Cierra el 23-11."
+  }
+ ],
+ "actualizaciones": [],
+ "descartadas": [
+  {
+   "id": "1502-11-LE26",
+   "nombre": "Contenedores de 20 Pies para SSR DOH MOP ATACAMA",
+   "motivo": "Compra de contenedores prefabricados para bodega; suministro, no ingeniería ni estudio."
+  },
+  {
+   "id": "1510-22-LE26",
+   "nombre": "Camión Aljibe APR Trintre",
+   "motivo": "Servicio de distribución de agua potable con camión aljibe; operación, no ingeniería ni estudio."
+  },
+  {
+   "id": "3801-31-LP26",
+   "nombre": "SOLUCIÓN AGUA POTABLE CERRO EL PADRE ORIENTE",
+   "motivo": "Construcción de 10 soluciones individuales de agua potable (obra); no es estudio ni diseño."
+  },
+  {
+   "id": "582-14-LE26",
+   "nombre": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE QUEMCHI",
+   "motivo": "Distribución de agua potable mediante camiones aljibe; servicio, no ingeniería ni estudio."
+  }
+ ]
+}
