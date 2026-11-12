@@ -15,9 +15,12 @@ asigna según el objeto principal de la licitación:
 | Estudio Tarifario | Estudios tarifarios de SSR/APR |
 | Estudios Hidrogeológicos | Estudios hidrogeológicos y geofísicos, prospección de aguas subterráneas, construcción de pozos o piezómetros asociada a un estudio, redes de monitoreo |
 | Gestión Hídrica | Planes y estrategias de gestión hídrica, estudios de cuencas, balances hídricos, modelación hidrológica e hidráulica |
+| Aguas Lluvias | Diseños, estudios, ingeniería y planes maestros de evacuación y drenaje de aguas lluvias: colectores, redes urbanas, diseños de pavimentación con sistema de aguas lluvias. No incluye obras ni mantención |
 | Equipos e Instrumentación (Welko) | Compra, arriendo, instalación, calibración o servicio de **equipos de medición e instrumentación hídrica y ambiental**: caudalímetros, medidores y transmisores de nivel y presión, sondas multiparamétricas y sensores de calidad de agua (pH, oxígeno disuelto, turbidez, conductividad, cloro), sensores y redes hidrométricas, estaciones meteorológicas o fluviométricas, telemetría y automatización (incluida la de APR/SSR), dataloggers, pluviómetros, **monitoreo de extracciones efectivas (DGA)** y habilitación de pozos con equipamiento. Oportunidades para Welko SpA (welko.cl) |
 
 ## Palabras clave de búsqueda
+
+Una palabra con « + » exige que todas sus partes aparezcan en el nombre (ver «Aguas lluvias»).
 
 El barrido diario por API revisa el nombre de todas las licitaciones publicadas en Mercado
 Público y propone como candidatas las que contienen alguna de estas palabras (sin importar
@@ -68,6 +71,23 @@ incluir según los criterios de este archivo; las descartadas no se vuelven a pr
 - fluviométrica
 - red de monitoreo
 - estudio de riego
+
+### Aguas lluvias (Hidrogestión)
+
+Palabras combinadas: con « + » la licitación entra solo si su nombre contiene **todas** las
+partes, en cualquier orden. Así se captan diseños y estudios sin traer las obras. Evaluadas
+contra 31.068 licitaciones de 60 días: «diseño + aguas lluvias» trajo 8 diseños y ninguna obra.
+Se descartaron «evacuación + aguas lluvias» y «proyecto + aguas lluvias» porque traían obras.
+
+- diseño + aguas lluvias
+- estudio + aguas lluvias
+- ingeniería + aguas lluvias
+- consultoría + aguas lluvias
+- plan maestro + aguas lluvias
+- plan maestro + drenaje
+- colector + aguas lluvias
+- anteproyecto + aguas lluvias
+- factibilidad + aguas lluvias
 
 ### Equipos e instrumentación (Welko)
 

@@ -265,7 +265,8 @@
 const TENDERS = /*__TENDERS__*/[];
 
 const WELKO = "Equipos e Instrumentación (Welko)";
-const ACTIVE_CATEGORIES = ["Diseños SSR/APR", "Estudios Hidrogeológicos", "Estudio Tarifario", "Diagnósticos Técnicos", "Gestión Hídrica", WELKO];
+const AGUAS_LLUVIAS = "Aguas Lluvias";
+const ACTIVE_CATEGORIES = ["Diseños SSR/APR", "Estudios Hidrogeológicos", "Estudio Tarifario", "Diagnósticos Técnicos", "Gestión Hídrica", AGUAS_LLUVIAS, WELKO];
 // Welko va totalmente aparte: las vistas, contadores y cierres próximos de Hidrogestión la excluyen.
 const HDG_CATEGORIES = ACTIVE_CATEGORIES.filter(c => c !== WELKO);
 const WELKO_SEG = "Seguimiento Welko";
@@ -292,6 +293,7 @@ const ICONOS = {
   "Diseños SSR/APR": '<path d="M3 21h18"/><path d="M5 21V8l7-4 7 4v13"/><path d="M9 21v-6h6v6"/>',
   "Diagnósticos Técnicos": '<circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/>',
   "Estudio Tarifario": '<path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/>',
+  [AGUAS_LLUVIAS]: '<path d="M7 15a4 4 0 0 1-.6-7.96A5.5 5.5 0 0 1 17 7.5a3.5 3.5 0 0 1 .5 7"/><path d="M8 18l-1 2.5"/><path d="M12 18l-1 2.5"/><path d="M16 18l-1 2.5"/>',
   [WELKO_SEG]: '<path d="M6 3h12"/><path d="M6 21h12"/><path d="M7 3c0 5 5 6 5 9s-5 4-5 9"/><path d="M17 3c0 5-5 6-5 9s5 4 5 9"/>',
   [WELKO]: '<path d="M4.5 17a8 8 0 1 1 15 0"/><path d="M12 13l4-4"/><circle cx="12" cy="13" r="1.3"/><path d="M3 20h18"/>',
 };
@@ -305,6 +307,7 @@ const VISTAS = [
   { grupo: "Hidrogestión · vigentes", clave: "SSR", etiqueta: "SSR / APR", desc: "Diseños, diagnósticos técnicos y estudios tarifarios de servicios sanitarios rurales." },
   { grupo: "Hidrogestión · vigentes", clave: "Estudios Hidrogeológicos", etiqueta: "Estudios hidrogeológicos", desc: "Estudios hidrogeológicos y geofísicos, prospección de aguas subterráneas y redes de monitoreo." },
   { grupo: "Hidrogestión · vigentes", clave: GESTION_HIDRICA, etiqueta: "Gestión hídrica", desc: "Planes y estrategias de gestión hídrica, estudios de cuencas y modelación hidrológica e hidráulica." },
+  { grupo: "Hidrogestión · vigentes", clave: AGUAS_LLUVIAS, etiqueta: "Aguas lluvias", desc: "Diseños, estudios y planes maestros de evacuación y drenaje de aguas lluvias (colectores, redes urbanas, pavimentación con aguas lluvias)." },
   { grupo: "Hidrogestión · seguimiento", clave: EVALUACION, etiqueta: "En evaluación", desc: "Licitaciones de Hidrogestión cerradas: aperturas, oferentes y adjudicación en curso." },
   { grupo: "Hidrogestión · seguimiento", clave: POSTULACIONES, etiqueta: "Postulaciones HDG", desc: "Licitaciones en las que Hidrogestión SpA presentó oferta." },
   { grupo: "Hidrogestión · seguimiento", clave: PASADAS, etiqueta: "Pasadas", desc: "Adjudicadas, desiertas o revocadas hace más de 5 días. Se conservan para trazabilidad." },
@@ -321,6 +324,7 @@ function tabItems(tab){
   if(tab === "SSR") return TENDERS.filter(t => esVigente(t) && SSR_CATS.includes(t.categoria));
   if(tab === GESTION_HIDRICA) return TENDERS.filter(t => esVigente(t) && t.categoria === GESTION_HIDRICA);
   if(tab === WELKO) return TENDERS.filter(t => esVigente(t) && t.categoria === WELKO);
+  if(tab === AGUAS_LLUVIAS) return TENDERS.filter(t => esVigente(t) && t.categoria === AGUAS_LLUVIAS);
   if(tab === "Estudios Hidrogeológicos") return TENDERS.filter(t => esVigente(t) && t.categoria === "Estudios Hidrogeológicos");
   if(tab === EVALUACION) return TENDERS.filter(t => !esWelko(t) && !esVigente(t) && t.categoria_display !== PASADAS);
   if(tab === PASADAS) return TENDERS.filter(t => !esWelko(t) && t.categoria_display === PASADAS);
