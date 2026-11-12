@@ -195,15 +195,18 @@ function variantes(w) {
   if (/[oa]$/.test(w)) { const g = w.slice(0, -1) + (w.endsWith("o") ? "a" : "o"); v.add(g); v.add(g + "s"); }
   return v;
 }
+// Una clave con « + » exige que TODAS sus partes aparezcan en el nombre, en cualquier orden
+// (p. ej. «diseño + aguas lluvias»). Cada parte se busca como frase seguida.
+function frase(t, k) {
+  const kt = tokens(k).map(variantes);
+  for (let i = 0; i + kt.length <= t.length; i++) {
+    if (kt.every((v, j) => v.has(t[i + j]))) return true;
+  }
+  return false;
+}
 function coincide(nombre, claves) {
   const t = tokens(nombre);
-  return claves.filter((k) => {
-    const kt = tokens(k).map(variantes);
-    for (let i = 0; i + kt.length <= t.length; i++) {
-      if (kt.every((v, j) => v.has(t[i + j]))) return true;
-    }
-    return false;
-  });
+  return claves.filter((k) => k.split(/\s\+\s/).every((parte) => frase(t, parte)));
 }
 
 async function main() {
