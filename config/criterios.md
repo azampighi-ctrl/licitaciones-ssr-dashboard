@@ -15,7 +15,7 @@ asigna según el objeto principal de la licitación:
 | Estudio Tarifario | Estudios tarifarios de SSR/APR |
 | Estudios Hidrogeológicos | Estudios hidrogeológicos y geofísicos, prospección de aguas subterráneas, construcción de pozos o piezómetros asociada a un estudio, redes de monitoreo |
 | Gestión Hídrica | Planes y estrategias de gestión hídrica, estudios de cuencas, balances hídricos, modelación hidrológica e hidráulica |
-| Equipos e Instrumentación (Welko) | Compra, arriendo, instalación, calibración o servicio de **equipos de medición e instrumentación hídrica y ambiental**: caudalímetros, medidores de nivel, sondas multiparamétricas y de calidad de agua, sensores y redes hidrométricas, estaciones meteorológicas o fluviométricas, telemetría, dataloggers, pluviómetros. Oportunidades para Welko SpA |
+| Equipos e Instrumentación (Welko) | Compra, arriendo, instalación, calibración o servicio de **equipos de medición e instrumentación hídrica y ambiental**: caudalímetros, medidores y transmisores de nivel y presión, sondas multiparamétricas y sensores de calidad de agua (pH, oxígeno disuelto, turbidez, conductividad, cloro), sensores y redes hidrométricas, estaciones meteorológicas o fluviométricas, telemetría y automatización (incluida la de APR/SSR), dataloggers, pluviómetros, **monitoreo de extracciones efectivas (DGA)** y habilitación de pozos con equipamiento. Oportunidades para Welko SpA (welko.cl) |
 
 ## Palabras clave de búsqueda
 
@@ -71,8 +71,12 @@ incluir según los criterios de este archivo; las descartadas no se vuelven a pr
 
 ### Equipos e instrumentación (Welko)
 
-Palabras para detectar compras y servicios de equipos de medición. Evaluadas contra 31.018
-licitaciones de 60 días: solo se dejaron las que no traen equipamiento médico u otro ruido.
+Palabras para detectar compras y servicios de equipos de medición, según las líneas de
+producto de welko.cl (nivel, temperatura y presión; calidad de agua; caudal; telemetría y
+automatización; meteorología) y su oferta para la normativa DGA de Monitoreo de Extracciones
+Efectivas. Evaluadas contra ~31.000 licitaciones de 60 días: solo se dejaron las que no traen
+equipamiento médico u otro ruido (se descartaron «equipos de monitoreo», «oxímetro», «PLC»,
+«monitoreo en línea», «drenaje» y «riles»).
 
 - hidrométrica
 - multiparamétrica
@@ -94,6 +98,23 @@ licitaciones de 60 días: solo se dejaron las que no traen equipamiento médico 
 - correntómetro
 - turbidímetro
 - conductivímetro
+- extracciones efectivas
+- extracción efectiva
+- monitoreo de extracciones
+- control de extracciones
+- medición de caudal
+- habilitación de pozo
+- oxígeno disuelto
+- turbidez
+- cloro residual
+- analizador de cloro
+- transmisor de nivel
+- transmisor de presión
+- sonda de presión
+- medición de nivel
+- nivel freático
+- humedad de suelo
+- lorawan
 
 ## Exclusión automática: construcción, mantención e inspección de obras
 
@@ -140,6 +161,9 @@ o «Diseño construcción servicio APR»):
   análisis de laboratorio rutinarios, operación de plantas. **Excepción:** la compra, arriendo,
   instalación o calibración de equipos de medición e instrumentación hídrica, meteorológica o
   de calidad de agua se incluye en la categoría «Equipos e Instrumentación (Welko)».
+- Telemetría, automatización o equipos de medición de APR/SSR van a Welko aunque los traiga una
+  palabra de Hidrogestión (por ejemplo «Telemetría APR Los Maitenes»). Un diseño o estudio que
+  incluye telemetría como parte del proyecto sigue siendo de Hidrogestión.
 - Para Welko se descarta el equipamiento médico, de laboratorio clínico o de uso general
   (oxímetros de pulso, monitores de pacientes, termómetros de bodega, etc.) y los reactivos.
 - Licitaciones ya cerradas al momento de detectarlas.

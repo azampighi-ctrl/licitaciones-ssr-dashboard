@@ -57,6 +57,8 @@
   .sb-toggle:hover{ background:rgba(255,255,255,.16); color:var(--white); }
   .sb-toggle svg{ flex-shrink:0; transition:transform .2s ease; }
   body.sb-min .sb-toggle svg{ transform:rotate(180deg); }
+  .sb-group.sb-welko{ color:#FF9A5C; }
+  body.vista-welko #urgentes{ display:none !important; }
   .sb-group{ font-size:10.5px; text-transform:uppercase; letter-spacing:.08em; color:#8FB3CC; padding:14px 22px 6px; white-space:nowrap; }
   .nav-item{
     position:relative; display:flex; align-items:center; gap:12px; width:calc(100% - 20px); margin:2px 10px; padding:10px 12px;
@@ -183,7 +185,8 @@
   .badge-avoid{ background:var(--red-bg); color:var(--red); margin-top:3px; }
   /* Welko SpA: naranja corporativo #FF6C0E */
   .badge-welko{ background:#FFE9DB; color:#B84400; font-size:10px; padding:1px 7px; }
-  .nav-item[data-tab="Equipos e Instrumentación (Welko)"] .nav-ico{ color:#FF6C0E; }
+  .nav-item[data-tab="Equipos e Instrumentación (Welko)"] .nav-ico, .nav-item[data-tab="Seguimiento Welko"] .nav-ico{ color:#FF6C0E; }
+  .category-block[data-cat="Seguimiento Welko"] .category-header h3 svg{ color:#FF6C0E; }
   .category-block[data-cat="Equipos e Instrumentación (Welko)"] .category-header h3 svg,
   .seccion-titulo.welko svg{ color:#FF6C0E; }
 
@@ -263,6 +266,10 @@ const TENDERS = /*__TENDERS__*/[];
 
 const WELKO = "Equipos e Instrumentación (Welko)";
 const ACTIVE_CATEGORIES = ["Diseños SSR/APR", "Estudios Hidrogeológicos", "Estudio Tarifario", "Diagnósticos Técnicos", "Gestión Hídrica", WELKO];
+// Welko va totalmente aparte: las vistas, contadores y cierres próximos de Hidrogestión la excluyen.
+const HDG_CATEGORIES = ACTIVE_CATEGORIES.filter(c => c !== WELKO);
+const WELKO_SEG = "Seguimiento Welko";
+const esWelko = t => t.categoria === WELKO;
 const GESTION_HIDRICA = "Gestión Hídrica";
 const POST_CIERRE_CATEGORIES = ["Apertura Oferta Técnica", "Apertura Oferta Económica", "Resultados"];
 // Pestaña transversal: licitaciones a las que HDG postuló (flag `aplicamos`),
@@ -285,6 +292,7 @@ const ICONOS = {
   "Diseños SSR/APR": '<path d="M3 21h18"/><path d="M5 21V8l7-4 7 4v13"/><path d="M9 21v-6h6v6"/>',
   "Diagnósticos Técnicos": '<circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/>',
   "Estudio Tarifario": '<path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/>',
+  [WELKO_SEG]: '<path d="M6 3h12"/><path d="M6 21h12"/><path d="M7 3c0 5 5 6 5 9s-5 4-5 9"/><path d="M17 3c0 5-5 6-5 9s5 4 5 9"/>',
   [WELKO]: '<path d="M4.5 17a8 8 0 1 1 15 0"/><path d="M12 13l4-4"/><circle cx="12" cy="13" r="1.3"/><path d="M3 20h18"/>',
 };
 function icono(clave, size){
@@ -293,29 +301,31 @@ function icono(clave, size){
   return `<svg width="${n}" height="${n}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
 }
 const VISTAS = [
-  { grupo: "Vigentes", clave: "Todas", etiqueta: "Todas las vigentes", desc: "Licitaciones a las que aún se puede ofertar, agrupadas por categoría." },
-  { grupo: "Vigentes", clave: "SSR", etiqueta: "SSR / APR", desc: "Diseños, diagnósticos técnicos y estudios tarifarios de servicios sanitarios rurales." },
-  { grupo: "Vigentes", clave: "Estudios Hidrogeológicos", etiqueta: "Estudios hidrogeológicos", desc: "Estudios hidrogeológicos y geofísicos, prospección de aguas subterráneas y redes de monitoreo." },
-  { grupo: "Vigentes", clave: GESTION_HIDRICA, etiqueta: "Gestión hídrica", desc: "Planes y estrategias de gestión hídrica, estudios de cuencas y modelación hidrológica e hidráulica." },
-  { grupo: "Vigentes", clave: WELKO, etiqueta: "Welko · equipos", desc: "Compra, arriendo, instalación o calibración de equipos de medición e instrumentación hídrica y ambiental (caudal, nivel, calidad de agua, telemetría, estaciones). Oportunidades para Welko SpA." },
-  { grupo: "Seguimiento", clave: EVALUACION, etiqueta: "En evaluación", desc: "Licitaciones cerradas: aperturas, oferentes y adjudicación en curso." },
-  { grupo: "Seguimiento", clave: POSTULACIONES, etiqueta: "Postulaciones HDG", desc: "Licitaciones en las que Hidrogestión SpA presentó oferta." },
-  { grupo: "Seguimiento", clave: PASADAS, etiqueta: "Pasadas", desc: "Adjudicadas, desiertas o revocadas hace más de 5 días. Se conservan para trazabilidad." },
+  { grupo: "Hidrogestión · vigentes", clave: "Todas", etiqueta: "Vigentes HDG", desc: "Licitaciones de Hidrogestión SpA a las que aún se puede ofertar, agrupadas por categoría." },
+  { grupo: "Hidrogestión · vigentes", clave: "SSR", etiqueta: "SSR / APR", desc: "Diseños, diagnósticos técnicos y estudios tarifarios de servicios sanitarios rurales." },
+  { grupo: "Hidrogestión · vigentes", clave: "Estudios Hidrogeológicos", etiqueta: "Estudios hidrogeológicos", desc: "Estudios hidrogeológicos y geofísicos, prospección de aguas subterráneas y redes de monitoreo." },
+  { grupo: "Hidrogestión · vigentes", clave: GESTION_HIDRICA, etiqueta: "Gestión hídrica", desc: "Planes y estrategias de gestión hídrica, estudios de cuencas y modelación hidrológica e hidráulica." },
+  { grupo: "Hidrogestión · seguimiento", clave: EVALUACION, etiqueta: "En evaluación", desc: "Licitaciones de Hidrogestión cerradas: aperturas, oferentes y adjudicación en curso." },
+  { grupo: "Hidrogestión · seguimiento", clave: POSTULACIONES, etiqueta: "Postulaciones HDG", desc: "Licitaciones en las que Hidrogestión SpA presentó oferta." },
+  { grupo: "Hidrogestión · seguimiento", clave: PASADAS, etiqueta: "Pasadas", desc: "Adjudicadas, desiertas o revocadas hace más de 5 días. Se conservan para trazabilidad." },
+  { grupo: "Welko", clave: WELKO, etiqueta: "Vigentes Welko", desc: "Compra, arriendo, instalación o calibración de equipos de medición e instrumentación: caudal, nivel y presión, calidad de agua, telemetría y automatización, meteorología, monitoreo de extracciones efectivas (DGA). Oportunidades para Welko SpA." },
+  { grupo: "Welko", clave: WELKO_SEG, etiqueta: "Seguimiento Welko", desc: "Licitaciones de Welko ya cerradas: aperturas, oferentes, adjudicación e historial." },
 ];
 const TABS = VISTAS.map(v => v.clave);
 const VISTA = Object.fromEntries(VISTAS.map(v => [v.clave, v]));
-const TODAS_SECCIONES = ACTIVE_CATEGORIES; // secciones por categoría dentro de "Todas"
+const TODAS_SECCIONES = HDG_CATEGORIES; // secciones por categoría dentro de "Vigentes HDG"
 function esVigente(t){ const d = daysRemaining(t.fcierre_iso); return d !== null && d >= 0; }
 function tabItems(tab){
-  if(tab === POSTULACIONES) return TENDERS.filter(t => t.aplicamos === true);
+  if(tab === POSTULACIONES) return TENDERS.filter(t => t.aplicamos === true && !esWelko(t));
+  if(tab === WELKO_SEG) return TENDERS.filter(t => esWelko(t) && !esVigente(t));
   if(tab === "SSR") return TENDERS.filter(t => esVigente(t) && SSR_CATS.includes(t.categoria));
   if(tab === GESTION_HIDRICA) return TENDERS.filter(t => esVigente(t) && t.categoria === GESTION_HIDRICA);
   if(tab === WELKO) return TENDERS.filter(t => esVigente(t) && t.categoria === WELKO);
   if(tab === "Estudios Hidrogeológicos") return TENDERS.filter(t => esVigente(t) && t.categoria === "Estudios Hidrogeológicos");
-  if(tab === EVALUACION) return TENDERS.filter(t => !esVigente(t) && t.categoria_display !== PASADAS);
-  if(tab === PASADAS) return TENDERS.filter(t => t.categoria_display === PASADAS);
+  if(tab === EVALUACION) return TENDERS.filter(t => !esWelko(t) && !esVigente(t) && t.categoria_display !== PASADAS);
+  if(tab === PASADAS) return TENDERS.filter(t => !esWelko(t) && t.categoria_display === PASADAS);
   if(tab.indexOf("Todas::") === 0){ const cat = tab.slice(7); return TENDERS.filter(t => esVigente(t) && t.categoria === cat); }
-  return TENDERS.filter(esVigente); // "Todas"
+  return TENDERS.filter(t => esVigente(t) && !esWelko(t)); // "Todas" = vigentes HDG
 }
 const esHdg = (nombre) => /hidrogesti/i.test(normalize(nombre || ""));
 
@@ -570,6 +580,7 @@ function esc(s){
   return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c]));
 }
 function postBtnHtml(t){
+  if(esWelko(t)) return "";
   const dis = guardando.has(t.id) ? " disabled" : "";
   return t.aplicamos
     ? `<button class="post-btn on" data-post-toggle="${t.id}" title="Quitar de Postulaciones HDG"${dis}>✓ Postulada</button>`
@@ -728,7 +739,7 @@ function estadoMpBadge(e){
 function seguimientoItems(key){
   const items = tabItems(key).filter(matchesGlobal);
   const f = t => t.fadjudicacion_iso || t.fcierre_iso || "";
-  return items.slice().sort((a, b) => key === PASADAS ? f(b).localeCompare(f(a)) : f(a).localeCompare(f(b)));
+  return items.slice().sort((a, b) => (key === PASADAS || key === WELKO_SEG) ? f(b).localeCompare(f(a)) : f(a).localeCompare(f(b)));
 }
 function buildSeguimientoTable(key){
   const heads = ["Licitación", "Cierre", "Apertura técnica", "Apertura económica", "Adjudicación", "Estado en MP", "Oferentes"];
@@ -780,13 +791,13 @@ function matchesGlobal(t){
 function renderUrgentes(){
   const el = document.getElementById("urgentes");
   const urg = TENDERS
-    .filter(t => ACTIVE_CATEGORIES.includes(t.categoria_display))
+    .filter(t => HDG_CATEGORIES.includes(t.categoria_display))
     .map(t => ({ t, d: daysRemaining(t.fcierre_iso) }))
     .filter(x => x.d !== null && x.d >= 0 && x.d <= 7)
     .sort((a, b) => a.d - b.d);
   if(!urg.length){ el.style.display = "none"; el.innerHTML = ""; return; }
   el.style.display = "block";
-  el.innerHTML = `<h2>⏰ Próximos cierres (≤ 7 días) — todas las categorías</h2>` + urg.map(({t, d}) => {
+  el.innerHTML = `<h2>⏰ Próximos cierres HDG (≤ 7 días)</h2>` + urg.map(({t, d}) => {
     const ms = new Date(t.fcierre_iso) - new Date();
     const badgeCls = d <= 2 ? "badge-red" : "badge-orange";
     return `<div class="urgent-row">
@@ -801,6 +812,8 @@ function renderUrgentes(){
 
 function setActiveTab(tab){
   activeTab = tab;
+  // En las vistas Welko no se muestran los cierres próximos de Hidrogestión.
+  document.body.classList.toggle("vista-welko", tab === WELKO || tab === WELKO_SEG);
   document.querySelectorAll(".nav-item").forEach(b => {
     const on = b.dataset.tab === tab;
     b.classList.toggle("active", on);
@@ -825,7 +838,7 @@ function renderNav(){
   document.getElementById("nav").innerHTML = VISTAS.map((v, i) => {
     let cab = "";
     if(v.grupo !== grupo){
-      cab = (i ? `<div class="sb-sep"></div>` : "") + `<div class="sb-group">${v.grupo}</div>`;
+      cab = (i ? `<div class="sb-sep"></div>` : "") + `<div class="sb-group${v.grupo === "Welko" ? " sb-welko" : ""}">${v.grupo}</div>`;
       grupo = v.grupo;
     }
     return cab + `<button class="nav-item" type="button" data-tab="${v.clave}" title="${v.etiqueta}">
@@ -890,7 +903,7 @@ function rowsHtml(items){
 
 function renderTbody(cat){
   if(cat === POSTULACIONES){ renderPostulacionesTbody(); return; }
-  if(cat === EVALUACION || cat === PASADAS){ renderSeguimientoTbody(cat); return; }
+  if(cat === EVALUACION || cat === PASADAS || cat === WELKO_SEG){ renderSeguimientoTbody(cat); return; }
   if(cat === "Todas"){ TODAS_SECCIONES.forEach(scat => { const k = "Todas::" + scat; if(tableState[k]) renderTbodyTable(k); }); return; }
   renderTbodyTable(cat);
 }
@@ -944,7 +957,7 @@ function renderCategories(){
     const isPost = cat === POSTULACIONES;
     const id = catId(cat);
     let inner, countTxt;
-    if(cat === EVALUACION || cat === PASADAS){
+    if(cat === EVALUACION || cat === PASADAS || cat === WELKO_SEG){
       const n = tabItems(cat).length;
       inner = buildSeguimientoTable(cat);
       countTxt = `${n} licitaci${n === 1 ? "ón" : "ones"}`;
@@ -1039,7 +1052,8 @@ function renderStats(){
     `<div class="stat${x.alert ? " alert" : ""}"><div class="stat-label">${x.label}</div><div class="stat-value${x.small ? " small" : ""}">${x.value}</div></div>`).join("");
 }
 function renderMeta(){
-  document.getElementById("meta-line").textContent = `Monitoreo diario de Mercado Público · ${TENDERS.length} licitaciones en seguimiento`;
+  const nW = TENDERS.filter(esWelko).length;
+  document.getElementById("meta-line").textContent = `Monitoreo diario de Mercado Público · ${TENDERS.length - nW} licitaciones HDG` + (nW ? ` · ${nW} Welko` : "");
   document.getElementById("sb-foot").textContent = `Último barrido: ${ULTIMO_BARRIDO}`;
   renderStats();
   document.getElementById("footer").innerHTML = `
