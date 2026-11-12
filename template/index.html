@@ -181,6 +181,11 @@
   .badge-gray{ background:var(--gray-100); color:var(--gray-400); }
   .badge-blue{ background:var(--blue-100); color:var(--blue-700); }
   .badge-avoid{ background:var(--red-bg); color:var(--red); margin-top:3px; }
+  /* Welko SpA: naranja corporativo #FF6C0E */
+  .badge-welko{ background:#FFE9DB; color:#B84400; font-size:10px; padding:1px 7px; }
+  .nav-item[data-tab="Equipos e Instrumentación (Welko)"] .nav-ico{ color:#FF6C0E; }
+  .category-block[data-cat="Equipos e Instrumentación (Welko)"] .category-header h3 svg,
+  .seccion-titulo.welko svg{ color:#FF6C0E; }
 
   .closing-cell .badge{ display:block; margin-top:4px; width:fit-content; }
   .hito-next{ font-size:11.5px; color:var(--gray-700); margin-top:5px; }
@@ -256,7 +261,8 @@
 <script>
 const TENDERS = /*__TENDERS__*/[];
 
-const ACTIVE_CATEGORIES = ["Diseños SSR/APR", "Estudios Hidrogeológicos", "Estudio Tarifario", "Diagnósticos Técnicos", "Gestión Hídrica"];
+const WELKO = "Equipos e Instrumentación (Welko)";
+const ACTIVE_CATEGORIES = ["Diseños SSR/APR", "Estudios Hidrogeológicos", "Estudio Tarifario", "Diagnósticos Técnicos", "Gestión Hídrica", WELKO];
 const GESTION_HIDRICA = "Gestión Hídrica";
 const POST_CIERRE_CATEGORIES = ["Apertura Oferta Técnica", "Apertura Oferta Económica", "Resultados"];
 // Pestaña transversal: licitaciones a las que HDG postuló (flag `aplicamos`),
@@ -279,6 +285,7 @@ const ICONOS = {
   "Diseños SSR/APR": '<path d="M3 21h18"/><path d="M5 21V8l7-4 7 4v13"/><path d="M9 21v-6h6v6"/>',
   "Diagnósticos Técnicos": '<circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/>',
   "Estudio Tarifario": '<path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/>',
+  [WELKO]: '<path d="M4.5 17a8 8 0 1 1 15 0"/><path d="M12 13l4-4"/><circle cx="12" cy="13" r="1.3"/><path d="M3 20h18"/>',
 };
 function icono(clave, size){
   const d = ICONOS[clave] || ICONOS["Todas"];
@@ -290,6 +297,7 @@ const VISTAS = [
   { grupo: "Vigentes", clave: "SSR", etiqueta: "SSR / APR", desc: "Diseños, diagnósticos técnicos y estudios tarifarios de servicios sanitarios rurales." },
   { grupo: "Vigentes", clave: "Estudios Hidrogeológicos", etiqueta: "Estudios hidrogeológicos", desc: "Estudios hidrogeológicos y geofísicos, prospección de aguas subterráneas y redes de monitoreo." },
   { grupo: "Vigentes", clave: GESTION_HIDRICA, etiqueta: "Gestión hídrica", desc: "Planes y estrategias de gestión hídrica, estudios de cuencas y modelación hidrológica e hidráulica." },
+  { grupo: "Vigentes", clave: WELKO, etiqueta: "Welko · equipos", desc: "Compra, arriendo, instalación o calibración de equipos de medición e instrumentación hídrica y ambiental (caudal, nivel, calidad de agua, telemetría, estaciones). Oportunidades para Welko SpA." },
   { grupo: "Seguimiento", clave: EVALUACION, etiqueta: "En evaluación", desc: "Licitaciones cerradas: aperturas, oferentes y adjudicación en curso." },
   { grupo: "Seguimiento", clave: POSTULACIONES, etiqueta: "Postulaciones HDG", desc: "Licitaciones en las que Hidrogestión SpA presentó oferta." },
   { grupo: "Seguimiento", clave: PASADAS, etiqueta: "Pasadas", desc: "Adjudicadas, desiertas o revocadas hace más de 5 días. Se conservan para trazabilidad." },
@@ -302,6 +310,7 @@ function tabItems(tab){
   if(tab === POSTULACIONES) return TENDERS.filter(t => t.aplicamos === true);
   if(tab === "SSR") return TENDERS.filter(t => esVigente(t) && SSR_CATS.includes(t.categoria));
   if(tab === GESTION_HIDRICA) return TENDERS.filter(t => esVigente(t) && t.categoria === GESTION_HIDRICA);
+  if(tab === WELKO) return TENDERS.filter(t => esVigente(t) && t.categoria === WELKO);
   if(tab === "Estudios Hidrogeológicos") return TENDERS.filter(t => esVigente(t) && t.categoria === "Estudios Hidrogeológicos");
   if(tab === EVALUACION) return TENDERS.filter(t => !esVigente(t) && t.categoria_display !== PASADAS);
   if(tab === PASADAS) return TENDERS.filter(t => t.categoria_display === PASADAS);
@@ -463,7 +472,7 @@ const COLUMNS = [
     key: "tender", label: "Licitación", cls: "c-nombre", sortable: true, filterable: true,
     sortVal: t => (t.nombre || "").toLowerCase(),
     filterVal: t => `${t.nombre} ${t.entidad} ${t.id}`.toLowerCase(),
-    render: t => `<a class="tender-name" href="${t.link}" target="_blank" rel="noopener" title="Abrir ficha en Mercado Público">${t.nombre}</a><div class="tender-meta">${t.entidad}</div><div class="tender-id">${t.id}${t.fdeteccion ? " · Detectada: " + t.fdeteccion : ""}</div>`
+    render: t => `<a class="tender-name" href="${t.link}" target="_blank" rel="noopener" title="Abrir ficha en Mercado Público">${t.nombre}</a><div class="tender-meta">${t.entidad}</div><div class="tender-id">${t.id}${t.fdeteccion ? " · Detectada: " + t.fdeteccion : ""}${t.categoria === WELKO ? ` <span class="badge badge-welko">Welko</span>` : ""}</div>`
   },
   {
     key: "region", label: "Región", cls: "c-angosta", sortable: true, filterable: true,
@@ -948,7 +957,7 @@ function renderCategories(){
         const k = "Todas::" + scat;
         const n = tabItems(k).length;
         if(!n) return "";
-        return `<div class="todas-seccion"><h4 class="seccion-titulo">${icono(scat, 18)} ${scat} <span class="tab-count">(${n})</span></h4>${buildCategoryTable(k)}</div>`;
+        return `<div class="todas-seccion"><h4 class="seccion-titulo${scat === WELKO ? " welko" : ""}">${icono(scat, 18)} ${scat} <span class="tab-count">(${n})</span></h4>${buildCategoryTable(k)}</div>`;
       }).filter(Boolean).join("");
       const total = tabItems("Todas").length;
       inner = secciones || `<div class="category-empty">Sin licitaciones vigentes.</div>`;

@@ -23,7 +23,7 @@ const META = path.join(raiz, "data", "meta.json");
 const PROTEGIDOS = new Set(["aplicamos", "resultado_hdg", "notas_hdg", "id"]);
 const OBLIGATORIOS = ["id", "nombre", "entidad", "region", "categoria", "fcierre_raw", "fcierre_iso"];
 const LINK = (id) => `https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=${id}`;
-const CATEGORIAS = ["Diseños SSR/APR", "Estudios Hidrogeológicos", "Estudio Tarifario", "Diagnósticos Técnicos", "Gestión Hídrica"];
+const CATEGORIAS = ["Diseños SSR/APR", "Estudios Hidrogeológicos", "Estudio Tarifario", "Diagnósticos Técnicos", "Gestión Hídrica", "Equipos e Instrumentación (Welko)"];
 const ISO = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$/;
 
 // Valores por defecto para que el dashboard nunca reciba campos ausentes.

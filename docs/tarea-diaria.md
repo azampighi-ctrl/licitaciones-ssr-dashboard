@@ -41,7 +41,8 @@ GitHub → Actions → «Barrido Mercado Público» → Run workflow.
    Si no aparece, revisar `data/meta.json` → `api` y avisar en el resumen; terminar sin commit.
 3. **Clasificar cada candidata** según `config/criterios.md`, usando nombre, organismo y
    `contexto` (descripción, tipo, ítems):
-   - **Incluir** si es ingeniería o estudio de alguna categoría. Tomar `registro` y agregar
+   - **Incluir** si es ingeniería o estudio de alguna categoría, o si es compra o servicio de
+     equipos de medición hídrica (categoría «Equipos e Instrumentación (Welko)»). Tomar `registro` y agregar
      `categoria`, `interes`, `estado` («Revisar», o «Revisar - relevante» / «Revisar - ALTA
      RELEVANCIA» si calza muy bien) y una línea de `observaciones` con el alcance.
      Mejorar `entidad` si viene poco legible, sin inventar datos.

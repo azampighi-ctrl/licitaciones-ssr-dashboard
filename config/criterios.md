@@ -15,6 +15,7 @@ asigna según el objeto principal de la licitación:
 | Estudio Tarifario | Estudios tarifarios de SSR/APR |
 | Estudios Hidrogeológicos | Estudios hidrogeológicos y geofísicos, prospección de aguas subterráneas, construcción de pozos o piezómetros asociada a un estudio, redes de monitoreo |
 | Gestión Hídrica | Planes y estrategias de gestión hídrica, estudios de cuencas, balances hídricos, modelación hidrológica e hidráulica |
+| Equipos e Instrumentación (Welko) | Compra, arriendo, instalación, calibración o servicio de **equipos de medición e instrumentación hídrica y ambiental**: caudalímetros, medidores de nivel, sondas multiparamétricas y de calidad de agua, sensores y redes hidrométricas, estaciones meteorológicas o fluviométricas, telemetría, dataloggers, pluviómetros. Oportunidades para Welko SpA |
 
 ## Palabras clave de búsqueda
 
@@ -68,6 +69,32 @@ incluir según los criterios de este archivo; las descartadas no se vuelven a pr
 - red de monitoreo
 - estudio de riego
 
+### Equipos e instrumentación (Welko)
+
+Palabras para detectar compras y servicios de equipos de medición. Evaluadas contra 31.018
+licitaciones de 60 días: solo se dejaron las que no traen equipamiento médico u otro ruido.
+
+- hidrométrica
+- multiparamétrica
+- estación meteorológica
+- telemetría
+- datalogger
+- registrador de datos
+- sensor de nivel
+- sonda de nivel
+- medidor de nivel
+- caudalímetro
+- flujómetro
+- medidor de caudal
+- macromedidor
+- medidor de agua
+- limnímetro
+- limnígrafo
+- pluviómetro
+- correntómetro
+- turbidímetro
+- conductivímetro
+
 ## Exclusión automática: construcción, mantención e inspección de obras
 
 Antes de proponer candidatas, el barrido por API deja fuera las licitaciones cuyo **nombre**
@@ -75,6 +102,7 @@ contiene alguna de estas palabras. No llegan a Claude ni al dashboard.
 
 - construcción
 - constr
+- const
 - mantención
 - mantenimiento
 - conservación
@@ -109,7 +137,11 @@ o «Diseño construcción servicio APR»):
   sistema APR…» cuando la descripción muestra que es obra.
 - Asesoría a la Inspección Fiscal (AIF) de obras.
 - Suministro, operación o mantención: entrega de agua en camión aljibe, compra de insumos,
-  análisis de laboratorio rutinarios, operación de plantas.
+  análisis de laboratorio rutinarios, operación de plantas. **Excepción:** la compra, arriendo,
+  instalación o calibración de equipos de medición e instrumentación hídrica, meteorológica o
+  de calidad de agua se incluye en la categoría «Equipos e Instrumentación (Welko)».
+- Para Welko se descarta el equipamiento médico, de laboratorio clínico o de uso general
+  (oxímetros de pulso, monitores de pacientes, termómetros de bodega, etc.) y los reactivos.
 - Licitaciones ya cerradas al momento de detectarlas.
 
 Las descartadas se anotan en el archivo del barrido con su motivo, para revisar el criterio.
