@@ -1,7 +1,7 @@
 {
- "fecha": "2026-11-12T14:38:55",
- "activas": 5250,
- "candidatas": 1,
+ "fecha": "2026-11-12T14:48:28",
+ "activas": 5256,
+ "candidatas": 2,
  "excluidas": 12,
  "actualizadas": 0,
  "actas": 0,
@@ -62,7 +62,7 @@
   "UnidadTiempoEvaluacion": "number",
   "DireccionVisita": "string",
   "DireccionEntrega": "string",
-  "Estimacion": "null",
+  "Estimacion": "number",
   "FuenteFinanciamiento": "string",
   "VisibilidadMonto": "number",
   "MontoEstimado": "null",
@@ -107,5 +107,5 @@
    ]
   }
  },
- "peticiones": 51
+ "peticiones": 50
 }

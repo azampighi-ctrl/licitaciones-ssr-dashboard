@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-12T14:38:55",
- "fecha_barrido": "12-11-2026 14:38",
+ "generado": "2026-11-12T14:48:28",
+ "fecha_barrido": "12-11-2026 14:48",
  "candidatas": [
   {
    "palabras": [
@@ -41,6 +41,47 @@
      "Equipamiento para laboratorios / Instrumentos de medida y experimentación / Instrumentos meteorológicos · Estación meteorológica · Adquisición de datalogger para la red de plataformas de información meteorológicas."
     ],
     "fuente_financiamiento": "vale vista"
+   }
+  },
+  {
+   "palabras": [
+    "diseño + aguas lluvias"
+   ],
+   "registro": {
+    "id": "839186-15-LE26",
+    "nombre": "DISEÑO DE PAVIMENTACIÓN Y SISTEMA DE AGUAS LLUVIAS",
+    "entidad": "I MUNICIPALIDAD DE HUALANE - Secretaria Comunal de Planificación",
+    "region": "Maule",
+    "comuna": "Hualañé",
+    "fpub": "11-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=839186-15-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "23-11-2026 15:30",
+    "fcierre_iso": "2026-11-23T15:30:00",
+    "finicio_preguntas_raw": "11-11-2026 19:43",
+    "finicio_preguntas_iso": "2026-11-11T19:43:00",
+    "ffinal_preguntas_raw": "14-11-2026 19:43",
+    "ffinal_preguntas_iso": "2026-11-14T19:43:00",
+    "frespuestas_raw": "16-11-2026 19:43",
+    "frespuestas_iso": "2026-11-16T19:43:00",
+    "fapertura_tecnica_raw": "23-11-2026 15:31",
+    "fapertura_tecnica_iso": "2026-11-23T15:31:00",
+    "fapertura_economica_raw": "23-11-2026 15:31",
+    "fapertura_economica_iso": "2026-11-23T15:31:00",
+    "fadjudicacion_raw": "11-12-2026 17:30",
+    "fadjudicacion_iso": "2026-12-11T17:30:00"
+   },
+   "contexto": {
+    "descripcion": "CORRESPONDE AL LA CONTRATACIÓN DE UNA CONSULTORÍA PARA LLEVAR A CABO EL DISEÑO DE PAVIMENTACIÓN Y EVACUACION DE AGUAS LLUVIA DE LA VILLA LOS JARDINES, COMUNA DE HUALAÑÉ",
+    "tipo": "LE",
+    "items": [
+     "Servicios basados en ingeniería, ciencias sociales y tecnología de la información / Servicios profesionales de ingeniería / Ingeniería civil · Ingeniería arquitectónica · CORRESPONDE AL LA CONTRATACIÓN DE UNA CONSULTORÍA PARA LLEVAR A CABO EL DISEÑO DE PAVIMENTACIÓN DE LA VILLA LOS JARDINES, COMUNA DE HUALAÑÉ"
+    ],
+    "fuente_financiamiento": ""
    }
   }
  ]
