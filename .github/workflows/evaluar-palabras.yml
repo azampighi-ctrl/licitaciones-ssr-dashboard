@@ -1,0 +1,51 @@
+name: Evaluar palabras clave
+
+# Prueba palabras clave nuevas contra licitaciones reales (activas + últimos días) sin tocar el
+# barrido diario. Deja el resultado en data/diagnostico/palabras-AAAA-MM-DD.json.
+on:
+  workflow_dispatch:
+    inputs:
+      palabras:
+        description: "Palabras a evaluar, separadas por «;» (vacío = lista por defecto del script)"
+        type: string
+        default: ""
+      dias:
+        description: "Días hacia atrás a revisar"
+        type: string
+        default: "60"
+  push:
+    branches: [main]
+    paths:
+      - scripts/evaluar_palabras.js
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datos
+  cancel-in-progress: false
+
+jobs:
+  evaluar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Evaluar
+        env:
+          MP_TICKET: ${{ secrets.MP_TICKET }}
+          PALABRAS: ${{ inputs.palabras }}
+          DIAS: ${{ inputs.dias || '60' }}
+        run: node scripts/evaluar_palabras.js
+      - name: Guardar resultado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/diagnostico/
+          git diff --cached --quiet && exit 0
+          git commit -m "Evaluación de palabras clave $(TZ=America/Santiago date '+%d-%m-%Y %H:%M')"
+          git pull --rebase origin main
+          git push

@@ -294,4 +294,4 @@ function estructura(o, d = 0) {
 }
 
 if (require.main === module) main().catch((e) => { console.error("ERROR: " + e.message); process.exit(1); });
-module.exports = { registro, hitos, coincide, palabrasClave, exclusiones, excluida, region, fecha, leerActa };
+module.exports = { api, campo, registro, hitos, coincide, palabrasClave, exclusiones, excluida, region, fecha, leerActa };
