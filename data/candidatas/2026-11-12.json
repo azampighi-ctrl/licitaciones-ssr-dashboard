@@ -1,7 +1,48 @@
 {
- "generado": "2026-11-12T11:35:17",
- "fecha_barrido": "12-11-2026 11:35",
+ "generado": "2026-11-12T13:00:24",
+ "fecha_barrido": "12-11-2026 13:00",
  "candidatas": [
+  {
+   "palabras": [
+    "fluviométrica"
+   ],
+   "registro": {
+    "id": "1114-15-LP26",
+    "nombre": "RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección General de Aguas - Región Metropolitana",
+    "region": "Metropolitana",
+    "comuna": "Santiago",
+    "fpub": "19-10-2026",
+    "monto_raw": "$313.683.000",
+    "monto_num": 313683000,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1114-15-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "17-11-2026 12:00",
+    "fcierre_iso": "2026-11-17T12:00:00",
+    "finicio_preguntas_raw": "19-10-2026 17:30",
+    "finicio_preguntas_iso": "2026-10-19T17:30:00",
+    "ffinal_preguntas_raw": "30-10-2026 13:00",
+    "ffinal_preguntas_iso": "2026-10-30T13:00:00",
+    "frespuestas_raw": "06-11-2026 13:00",
+    "frespuestas_iso": "2026-11-06T13:00:00",
+    "fapertura_tecnica_raw": "17-11-2026 12:00",
+    "fapertura_tecnica_iso": "2026-11-17T12:00:00",
+    "fapertura_economica_raw": "17-11-2026 12:00",
+    "fapertura_economica_iso": "2026-11-17T12:00:00",
+    "fadjudicacion_raw": "04-12-2026 12:00",
+    "fadjudicacion_iso": "2026-12-04T12:00:00"
+   },
+   "contexto": {
+    "descripcion": "“RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO EN NALTAHUA”\r\nLa D.G.A., ha estimado necesario efectuar un llamado a licitación pública, con el fin de restituir la estación fluviométrica de monitoreo de aguas superficiales denominada Río Maipo en Naltahua, comuna de Isla de Maipo, en la Región Metropolitana de Santiago, para mejorar la gestión hídrica regional y las labores propias del Servicio.",
+    "tipo": "LP",
+    "items": [
+     "Artículos para estructuras, obras y construcciones / Construcciones permanentes / Construcciones para trasporte permanentes · Puente para peatones · RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO EN NALTAHUA"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
   {
    "palabras": [
     "bombeo"
@@ -129,6 +170,47 @@
      "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de distribución de agua potable mediante camión aljibe, recorrido Re 6M, comuna de Melipilla, primer semestre de 2027, según bases."
     ],
     "fuente_financiamiento": "Fondos de emergencia de la Subsecretaría del Inte"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "3711-30-LP26",
+    "nombre": "ABASTO DE AGUA POTABLE SECTOR LA AURORA",
+    "entidad": "I MUNICIPALIDAD DE VICTORIA - Secpla",
+    "region": "La Araucanía",
+    "comuna": "Victoria",
+    "fpub": "12-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "300 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3711-30-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "02-12-2026 15:00",
+    "fcierre_iso": "2026-12-02T15:00:00",
+    "finicio_preguntas_raw": "12-11-2026 14:49",
+    "finicio_preguntas_iso": "2026-11-12T14:49:00",
+    "ffinal_preguntas_raw": "23-11-2026 17:30",
+    "ffinal_preguntas_iso": "2026-11-23T17:30:00",
+    "frespuestas_raw": "25-11-2026 17:30",
+    "frespuestas_iso": "2026-11-25T17:30:00",
+    "fapertura_tecnica_raw": "02-12-2026 15:05",
+    "fapertura_tecnica_iso": "2026-12-02T15:05:00",
+    "fapertura_economica_raw": "02-12-2026 15:05",
+    "fapertura_economica_iso": "2026-12-02T15:05:00",
+    "fadjudicacion_raw": "25-12-2026 18:50",
+    "fadjudicacion_iso": "2026-12-25T18:50:00"
+   },
+   "contexto": {
+    "descripcion": "Para la ejecución de las obras objeto de la presente licitación “ABASTO DE AGUA POTABLE SECTOR LA AURORA”, (OBRA) código N°9211250701-B.- en la ciudad de Victoria, se consulta la construcción y ejecución de 15 soluciones de abastecimiento de agua, conforme a Bases administrativas, generales, especificaciones técnicas, y demás antecedentes adjuntos.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · La presente licitación tiene por objeto la ejecución de los trabajos de construcción de 15 soluciones de abastecimiento de agua para el proyecto “ABASTO DE AGUA POTABLE SECTOR LA AURORA”,(OBRA) código N°9211250701-B, en la comuna de Victoria, segun bases "
+    ],
+    "fuente_financiamiento": "PMB IRAL 2025"
    }
   }
  ]
