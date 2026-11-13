@@ -1,0 +1,45 @@
+{
+ "fecha_barrido": "13-11-2026 07:44",
+ "nuevas": [
+  {
+   "id": "4295-100-LP26",
+   "nombre": "PREVENCIÓN APOYO EQUIPAMIENTOS SSR LA SERENA",
+   "entidad": "Ilustre Municipalidad de La Serena - Secretaría Comunal de Planificación",
+   "region": "Coquimbo",
+   "comuna": "La Serena",
+   "fpub": "12-11-2026",
+   "monto_raw": "No informado en ficha pública",
+   "monto_num": null,
+   "plazo": "2 meses",
+   "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4295-100-LP26",
+   "visita_terreno": "No exige",
+   "estado_mp": "Publicada",
+   "fcierre_raw": "14-12-2026 15:00",
+   "fcierre_iso": "2026-12-14T15:00:00",
+   "finicio_preguntas_raw": "12-11-2026 20:30",
+   "finicio_preguntas_iso": "2026-11-12T20:30:00",
+   "ffinal_preguntas_raw": "19-11-2026 13:30",
+   "ffinal_preguntas_iso": "2026-11-19T13:30:00",
+   "frespuestas_raw": "01-12-2026 20:00",
+   "frespuestas_iso": "2026-12-01T20:00:00",
+   "fapertura_tecnica_raw": "14-12-2026 15:05",
+   "fapertura_tecnica_iso": "2026-12-14T15:05:00",
+   "fapertura_economica_raw": "14-12-2026 15:05",
+   "fapertura_economica_iso": "2026-12-14T15:05:00",
+   "fadjudicacion_raw": "07-01-2027 20:00",
+   "fadjudicacion_iso": "2027-01-07T20:00:00",
+   "categoria": "Equipos e Instrumentación (Welko)",
+   "interes": "Bajo-Medio",
+   "estado": "Revisar - Verificar Alcance",
+   "observaciones": "Adquisición de equipos para 10 SSR de La Serena (financia GORE Coquimbo): mayormente generadores, electrobombas y herramientas, pero incluye medidores inteligentes de consumo, pozómetros y detectores de fugas (parte Welko); verificar si se puede ofertar por ítem. Cierra el 14-12."
+  }
+ ],
+ "actualizaciones": [],
+ "descartadas": [
+  {
+   "id": "1197594-20-LP26",
+   "nombre": "SANEAMIENTO SANITARIO RURAL LAGO VARGAS-LOS ÑADIS",
+   "motivo": "Ejecución de obra de construcción de saneamiento sanitario rural; no es ingeniería ni estudio."
+  }
+ ]
+}
