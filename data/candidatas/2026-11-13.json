@@ -1,0 +1,93 @@
+{
+ "generado": "2026-11-13T07:44:51",
+ "fecha_barrido": "13-11-2026 07:44",
+ "candidatas": [
+  {
+   "palabras": [
+    "saneamiento sanitario"
+   ],
+   "registro": {
+    "id": "1197594-20-LP26",
+    "nombre": "SANEAMIENTO SANITARIO RURAL LAGO VARGAS-LOS ÑADIS",
+    "entidad": "I MUNICIPALIDAD DE COCHRANE - SECPLA",
+    "region": "Aysén",
+    "comuna": "Cochrane",
+    "fpub": "12-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1197594-20-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "11-12-2026 19:57",
+    "fcierre_iso": "2026-12-11T19:57:00",
+    "finicio_preguntas_raw": "12-11-2026 20:00",
+    "finicio_preguntas_iso": "2026-11-12T20:00:00",
+    "ffinal_preguntas_raw": "20-11-2026 13:59",
+    "ffinal_preguntas_iso": "2026-11-20T13:59:00",
+    "frespuestas_raw": "24-11-2026 18:59",
+    "frespuestas_iso": "2026-11-24T18:59:00",
+    "fapertura_tecnica_raw": "11-12-2026 19:58",
+    "fapertura_tecnica_iso": "2026-12-11T19:58:00",
+    "fapertura_economica_raw": "11-12-2026 19:58",
+    "fapertura_economica_iso": "2026-12-11T19:58:00",
+    "fadjudicacion_raw": "18-12-2026 19:58",
+    "fadjudicacion_iso": "2026-12-18T19:58:00"
+   },
+   "contexto": {
+    "descripcion": "Las presentes bases administrativas regirán la Licitación Pública, adjudicación, contrato, plazos, sanciones y sistema de pago, de la propuesta mencionada precedentemente, conjuntamente con las especificaciones técnicas, eventuales aclaraciones, respuestas a consultas y demás antecedentes de la licitación, para llevar a cabo el proyecto “CONSTRUCCIÓN SANEAMIENTO SANITARIO RURAL, LAGO VARGAS – LOS ÑADIS, de acuerdo con estas bases y condiciones contractuales y demás documentos asociados.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · Ejecución proyecto Construcción Saneamiento Sanitario Rural de Cochrane, Lago Vargas – Los Ñadis"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "4295-100-LP26",
+    "nombre": "PREVENCIÓN APOYO EQUIPAMIENTOS SSR LA SERENA",
+    "entidad": "ILUSTRE MUNICIPALIDAD DE LA SERENA - SECRETARIA COMUNAL DE PLANIFICACION",
+    "region": "Coquimbo",
+    "comuna": "La Serena",
+    "fpub": "12-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "2 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4295-100-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "14-12-2026 15:00",
+    "fcierre_iso": "2026-12-14T15:00:00",
+    "finicio_preguntas_raw": "12-11-2026 20:30",
+    "finicio_preguntas_iso": "2026-11-12T20:30:00",
+    "ffinal_preguntas_raw": "19-11-2026 13:30",
+    "ffinal_preguntas_iso": "2026-11-19T13:30:00",
+    "frespuestas_raw": "01-12-2026 20:00",
+    "frespuestas_iso": "2026-12-01T20:00:00",
+    "fapertura_tecnica_raw": "14-12-2026 15:05",
+    "fapertura_tecnica_iso": "2026-12-14T15:05:00",
+    "fapertura_economica_raw": "14-12-2026 15:05",
+    "fapertura_economica_iso": "2026-12-14T15:05:00",
+    "fadjudicacion_raw": "07-01-2027 20:00",
+    "fadjudicacion_iso": "2027-01-07T20:00:00"
+   },
+   "contexto": {
+    "descripcion": "La contratación tiene por objetivo fortalecer la operatividad de 10 Servicios Sanitarios Rurales (SSR) de la comuna de La Serena. Actualmente, cada uno de estos SSR, enfrentan diversos problemas, tales como: robo de agua a través de la manipulación de medidores de consumo, cortes de agua debido a la carencia de equipos de respaldo (electrobombas o grupos electrógenos) o herramientas adecuadas para abordar las roturas que se presentan frecuentemente. Es por ello que, mediante la adquisición de equipos, equipamientos y herramientas críticas (electrobombas de respaldo, medidores inteligentes de consumo, etc), se buscará garantizar la continuidad del suministro y la calidad sanitaria del agua. Al incorporar estos elementos, se optimizará el uso del recurso hídrico, reduciendo fugas, lo que permitirá mitigar directamente el riesgo de desabastecimiento de las distintas localidades donde operan los 10 SSR.",
+    "tipo": "LP",
+    "items": [
+     "Maquinaria para generación y distribución de energía / Transmisión de energía eléctrica, mecánica y cinética / Grupos electrógenos · Generadores diesel · Se requiere adquirir tres generadores de distintas características que incluye montaje, instalación y puesta en marcha en el Servicio Sanitario Rural (SSR) correspondiente. .",
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Bombas · Bombas de pozo · Se requiere adquirir tres electrobombas de pozo profundo de distintas características entregadas en el Servicio Sanitario Rural (SSR) correspondiente.",
+     "Equipamiento para laboratorios / Instrumentos de medida y experimentación / Instrumentos hidrológicos · Instrumentos de registrar pozos de agua · Se requiere la adquisición de pozómetros, detectores de fugas de agua, una cámara endoscópica y la reposición de un medidor trifásico, con entrega en los Servicios Sanitarios Rurales (SSR) correspondientes.",
+     "Maquinaria para construcción y edificación / Maquinaria pesada de construcción / Componentes para maquinaria pesada · Herramientas de trituración de pavimento o accesorios · Se requiere de herramientas destinadas a facilitar las labores asociadas a la intervención, reparación y mantención de pavimentos, redes e infraestructura sanitaria de los SSR",
+     "Maquinaria para fabricación y transformación industrial / Maquinaria y suministros de procesos industriales / Maquinaria para elaboración de cemento, cerámica y vidrio · Máquinas de soldadura por fusión o de estirado de vidrio · Se requiere adquirir dos máquinas; una de termofusión HDPE y la otra de electrofusión con entrega en los SSR correspondientes",
+     "Equipamiento para manejo y estiba de materiales / Recipientes para almacenamiento / Tanques y cilindros · Tanques de almacenamiento de agua · Se requiere adquirir materiales y equipamientos hidráulicos entre ellos ventosas, estanque, reductora, materiales para instalación de dos estanques y la reparación de una red de impulsión"
+    ],
+    "fuente_financiamiento": "Gobierno Regional de Coquimbo"
+   }
+  }
+ ]
+}
