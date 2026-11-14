@@ -3007,9 +3007,34 @@
   "estado": "Revisar",
   "observaciones": "Estudio hidrológico e hidráulico con modelación para delimitar tres humedales urbanos (Elqui, El Culebrón y Lluta). Calza con modelación hidrológica e hidráulica del área de estudios; cierra el 06-11.",
   "fdeteccion": "02-11-2026",
-  "estado_mp": "Cerrada",
+  "estado_mp": "Adjudicada",
   "visita_terreno": "No exige",
-  "oferentes": [],
+  "oferentes": [
+   {
+    "nombre": "MARTIN Y CEPEDA LIMITADA",
+    "monto": 16900000,
+    "adjudicado": true,
+    "estado": "Aceptada"
+   },
+   {
+    "nombre": "REKOSOL INGENERÍA SPA",
+    "monto": 15126050,
+    "adjudicado": false,
+    "estado": "Aceptada"
+   },
+   {
+    "nombre": "EDAFICA PABLO IVAN NORAMBUENA VEGA E.I.R.L.",
+    "monto": 19000000,
+    "adjudicado": false,
+    "estado": "Aceptada"
+   },
+   {
+    "nombre": "INCITE CHILE SPA",
+    "monto": 20000000,
+    "adjudicado": false,
+    "estado": "Aceptada"
+   }
+  ],
   "finicio_preguntas_raw": "23-10-2026 19:25",
   "finicio_preguntas_iso": "2026-10-23T19:25:00",
   "ffinal_preguntas_raw": "29-10-2026 09:00",
@@ -3020,8 +3045,8 @@
   "fapertura_tecnica_iso": "2026-11-06T10:30:00",
   "fapertura_economica_raw": "06-11-2026 10:30",
   "fapertura_economica_iso": "2026-11-06T10:30:00",
-  "fadjudicacion_raw": "16-11-2026 17:33",
-  "fadjudicacion_iso": "2026-11-16T17:33:00",
+  "fadjudicacion_raw": "13-11-2026 19:17",
+  "fadjudicacion_iso": "2026-11-13T19:17:00",
   "categoria_display": "Resultados",
   "n_grupo": 25
  },
@@ -3151,7 +3176,7 @@
   "estado": "Revisar - relevante",
   "observaciones": "Estudio hidrogeológico y geofísico (10 ERT y 30 SEV) en diez unidades geológicas para identificar captaciones de agua potable, con proyección a sistemas APR. Calza de lleno con la especialidad; Biobío está fuera del foco prioritario.",
   "fdeteccion": "02-11-2026",
-  "estado_mp": "Publicada",
+  "estado_mp": "Cerrada",
   "visita_terreno": "No exige",
   "oferentes": [],
   "finicio_preguntas_raw": "29-10-2026 16:13",
@@ -3166,7 +3191,7 @@
   "fapertura_economica_iso": "2026-11-13T14:01:00",
   "fadjudicacion_raw": "20-11-2026 16:30",
   "fadjudicacion_iso": "2026-11-20T16:30:00",
-  "categoria_display": "Estudios Hidrogeológicos",
+  "categoria_display": "Resultados",
   "n_grupo": 2
  },
  {
@@ -3366,10 +3391,10 @@
   "frespuestas_raw": "13-11-2026 15:00",
   "frespuestas_iso": "2026-11-13T15:00:00",
   "estado_mp": "Publicada",
-  "fapertura_tecnica_raw": "23-11-2026 15:05",
-  "fapertura_tecnica_iso": "2026-11-23T15:05:00",
-  "fapertura_economica_raw": "23-11-2026 15:05",
-  "fapertura_economica_iso": "2026-11-23T15:05:00",
+  "fapertura_tecnica_raw": "26-11-2026 15:05",
+  "fapertura_tecnica_iso": "2026-11-26T15:05:00",
+  "fapertura_economica_raw": "26-11-2026 15:05",
+  "fapertura_economica_iso": "2026-11-26T15:05:00",
   "fadjudicacion_raw": "11-02-2027 15:05",
   "fadjudicacion_iso": "2027-02-11T15:05:00",
   "categoria_display": "Gestión Hídrica",
@@ -3381,8 +3406,8 @@
   "nombre": "Estrategia Reconocimiento Humedales Comp2-3y5",
   "entidad": "Gobierno Regional Región Metropolitana - Programas Regionales",
   "region": "Metropolitana",
-  "fcierre_raw": "23-11-2026 15:01",
-  "fcierre_iso": "2026-11-23T15:01:00",
+  "fcierre_raw": "26-11-2026 15:01",
+  "fcierre_iso": "2026-11-26T15:01:00",
   "categoria": "Gestión Hídrica"
  },
  {

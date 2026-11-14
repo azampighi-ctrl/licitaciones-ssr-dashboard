@@ -1,0 +1,171 @@
+{
+ "generado": "2026-11-14T07:26:31",
+ "fecha_barrido": "14-11-2026 07:26",
+ "candidatas": [
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "1052836-9-LE26",
+    "nombre": "SERVICIO DE CAMIÓN ALJIBE SSR CANCHA DE PARRA",
+    "entidad": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE PUNILLA - GOBERNACION PROVINCIAL DE PUNILLA",
+    "region": "Ñuble",
+    "comuna": "Santiago",
+    "fpub": "13-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1052836-9-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "19-11-2026 16:00",
+    "fcierre_iso": "2026-11-19T16:00:00",
+    "finicio_preguntas_raw": "13-11-2026 20:38",
+    "finicio_preguntas_iso": "2026-11-13T20:38:00",
+    "ffinal_preguntas_raw": "16-11-2026 20:38",
+    "ffinal_preguntas_iso": "2026-11-16T20:38:00",
+    "frespuestas_raw": "17-11-2026 20:38",
+    "frespuestas_iso": "2026-11-17T20:38:00",
+    "fapertura_tecnica_raw": "20-11-2026 11:00",
+    "fapertura_tecnica_iso": "2026-11-20T11:00:00",
+    "fapertura_economica_raw": "20-11-2026 11:00",
+    "fapertura_economica_iso": "2026-11-20T11:00:00",
+    "fadjudicacion_raw": "20-11-2026 16:00",
+    "fadjudicacion_iso": "2026-11-20T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "La Delegación Presidencial Provincial de Punilla requiere contratar el servicio de distribución de agua potable mediante camiones aljibe para consumo humano, destinado al abastecimiento del SSR Cancha de Parra, comuna de Coihueco, provincia de Punilla, Región de Ñuble, durante el período comprendido entre noviembre de 2026 y febrero de 2027, conforme a las condiciones establecidas en las Bases Administrativas y Técnicas de la licitación.",
+    "tipo": "LE",
+    "items": [
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · Servicio de distribución de agua potable para consumo humano mediante camión aljibe, destinado al abastecimiento del SSR Cancha de Parra, comuna de Coihueco, provincia de Punilla, Región de Ñuble, conforme a las Bases Administrativas y Técnicas de la lici"
+    ],
+    "fuente_financiamiento": "subsecretaria del interior"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "1209004-8-LE26",
+    "nombre": "SERVICIO DE INDEPENDIZACIÓN DE AGUA POTABLE Y ALCANTARILLADO RESIDENCIA FAMILIAR PEHUENCHE",
+    "entidad": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCI - ADMINISTRACIÓN DIRECTA REGIÓN DEL MAULE",
+    "region": "Maule",
+    "comuna": "Talca",
+    "fpub": "13-11-2026",
+    "monto_raw": "$17.819.879",
+    "monto_num": 17819879,
+    "plazo": "300 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1209004-8-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "27-11-2026 16:30",
+    "fcierre_iso": "2026-11-27T16:30:00",
+    "finicio_preguntas_raw": "13-11-2026 17:30",
+    "finicio_preguntas_iso": "2026-11-13T17:30:00",
+    "ffinal_preguntas_raw": "20-11-2026 16:00",
+    "ffinal_preguntas_iso": "2026-11-20T16:00:00",
+    "frespuestas_raw": "25-11-2026 19:29",
+    "frespuestas_iso": "2026-11-25T19:29:00",
+    "fapertura_tecnica_raw": "27-11-2026 16:31",
+    "fapertura_tecnica_iso": "2026-11-27T16:31:00",
+    "fapertura_economica_raw": "27-11-2026 16:31",
+    "fapertura_economica_iso": "2026-11-27T16:31:00",
+    "fadjudicacion_raw": "17-12-2026 16:00",
+    "fadjudicacion_iso": "2026-12-17T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "SERVICIO DE INDEPENDIZACIÓN DE AGUA POTABLE Y ALCANTARILLADO RESIDENCIA FAMILIAR PEHUENCHE",
+    "tipo": "LE",
+    "items": [
+     "Servicios de construcción y mantenimiento / Servicios de atención, mantenimiento y reparaciones de edificios / Servicios de restauración de edificios y estructuras · Restauración de edificios, casas, señales o monumentos · SERVICIO DE INDEPENDIZACIÓN DE AGUA POTABLE Y ALCANTARILLADO RESIDENCIA FAMILIAR PEHUENCHE"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1664-30-L126",
+    "nombre": "Servicio de limpieza y desinfección de estanques de agua potable, Hospital de Fresia",
+    "entidad": "SERVICIO SALUD DEL RELONCAVI - HOSPITAL DE FRESIA",
+    "region": "Los Lagos",
+    "comuna": "Fresia",
+    "fpub": "13-11-2026",
+    "monto_raw": "$2.584.383",
+    "monto_num": 2584383,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1664-30-L126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "24-11-2026 17:00",
+    "fcierre_iso": "2026-11-24T17:00:00",
+    "finicio_preguntas_raw": "13-11-2026 15:36",
+    "finicio_preguntas_iso": "2026-11-13T15:36:00",
+    "ffinal_preguntas_raw": "20-11-2026 17:00",
+    "ffinal_preguntas_iso": "2026-11-20T17:00:00",
+    "frespuestas_raw": "23-11-2026 17:00",
+    "frespuestas_iso": "2026-11-23T17:00:00",
+    "fapertura_tecnica_raw": "24-11-2026 17:01",
+    "fapertura_tecnica_iso": "2026-11-24T17:01:00",
+    "fapertura_economica_raw": "24-11-2026 17:01",
+    "fapertura_economica_iso": "2026-11-24T17:01:00",
+    "fadjudicacion_raw": "04-12-2026 17:00",
+    "fadjudicacion_iso": "2026-12-04T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "Servicio de limpieza y desinfección de dos estanques semienterrados de almacenamiento de agua potable (aprox. 35 m3 cada uno) del Hospital de Fresia, incluyendo inspección, mediciones iniciales y finales de cloro y pH, y análisis de agua en laboratorio acreditado, conforme a las especificaciones técnicas adjuntas.",
+    "tipo": "L1",
+    "items": [
+     "Servicios de limpieza industrial / Servicios de descontaminación / Desinfección · Servicios de saneamiento de aseos · Servicio de limpieza y desinfección de 2 estanques semienterrados de agua potable (aprox. 35 m3 c/u) del Hospital de Fresia, con mediciones de cloro y pH y análisis de agua en laboratorio acreditado, según especificaciones técnicas."
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "4608-2-LE26",
+    "nombre": "HERRAMIENTAS E INSUMOS ALCANTARILLADO",
+    "entidad": "I MUNICIPALIDAD DE CHILE CHICO - Direccion Obras",
+    "region": "Aysén",
+    "comuna": "Chile Chico",
+    "fpub": "13-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4608-2-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "23-11-2026 16:21",
+    "fcierre_iso": "2026-11-23T16:21:00",
+    "finicio_preguntas_raw": "13-11-2026 16:00",
+    "finicio_preguntas_iso": "2026-11-13T16:00:00",
+    "ffinal_preguntas_raw": "16-11-2026 15:49",
+    "ffinal_preguntas_iso": "2026-11-16T15:49:00",
+    "frespuestas_raw": "17-11-2026 15:49",
+    "frespuestas_iso": "2026-11-17T15:49:00",
+    "fapertura_tecnica_raw": "24-11-2026 12:00",
+    "fapertura_tecnica_iso": "2026-11-24T12:00:00",
+    "fapertura_economica_raw": "24-11-2026 12:00",
+    "fapertura_economica_iso": "2026-11-24T12:00:00",
+    "fadjudicacion_raw": "26-11-2026 17:00",
+    "fadjudicacion_iso": "2026-11-26T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "Se requiere la adquisición de herramientas, materiales e insumos necesarios para el desarrollo de la oferta programática operación de alcantarillado localidades de Puerto Guadal y Puerto Bertrand, comuna de Chile Chico Año 2026, Código 22437027.",
+    "tipo": "LE",
+    "items": [
+     "Artículos para estructuras, obras y construcciones / Construcciones permanentes / Construcciones para trasporte permanentes · Estaciones de bombeo alcantarillado · HERRAMIENTAS E INSUMOS PARA ALCANTARILLADO DE ACUERDO A LISTADO ADJUNTO A LAS BASES"
+    ],
+    "fuente_financiamiento": "GOBIERNO REGIONAL DE AYSEN "
+   }
+  }
+ ]
+}
