@@ -1,0 +1,11 @@
+{
+ "fecha_barrido": "14-11-2026 07:26",
+ "nuevas": [],
+ "actualizaciones": [],
+ "descartadas": [
+  {"id": "1052836-9-LE26", "nombre": "SERVICIO DE CAMIÓN ALJIBE SSR CANCHA DE PARRA", "motivo": "Suministro de agua potable mediante camión aljibe; no es ingeniería ni estudio."},
+  {"id": "1209004-8-LE26", "nombre": "SERVICIO DE INDEPENDIZACIÓN DE AGUA POTABLE Y ALCANTARILLADO RESIDENCIA FAMILIAR PEHUENCHE", "motivo": "Obra menor de arranques en un edificio (restauración de edificios); no es ingeniería ni estudio."},
+  {"id": "1664-30-L126", "nombre": "Servicio de limpieza y desinfección de estanques de agua potable, Hospital de Fresia", "motivo": "Servicio de limpieza y desinfección de estanques; mantención rutinaria, no es ingeniería ni estudio."},
+  {"id": "4608-2-LE26", "nombre": "HERRAMIENTAS E INSUMOS ALCANTARILLADO", "motivo": "Compra de herramientas e insumos para operación de alcantarillado; suministro, no es ingeniería ni instrumentación de medición."}
+ ]
+}
