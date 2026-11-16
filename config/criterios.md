@@ -196,6 +196,7 @@ Todas las regiones se incluyen. Biobío y Coquimbo están fuera del foco priorit
 licitaciones de la Dirección de Obras Hidráulicas (DOH): el dashboard resalta en rojo esas, sin
 excluirlas. Las de otros mandantes (municipios, DGA, GORE, etc.) en esas regiones se muestran
 normal.
+Esta restricción es solo de Hidrogestión: no aplica a las licitaciones de Welko.
 
 ## Campo «interés»
 

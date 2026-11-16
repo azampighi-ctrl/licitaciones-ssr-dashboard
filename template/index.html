@@ -58,7 +58,6 @@
   .sb-toggle svg{ flex-shrink:0; transition:transform .2s ease; }
   body.sb-min .sb-toggle svg{ transform:rotate(180deg); }
   .sb-group.sb-welko{ color:#FF9A5C; }
-  body.vista-welko #urgentes{ display:none !important; }
   .sb-group{ font-size:10.5px; text-transform:uppercase; letter-spacing:.08em; color:#8FB3CC; padding:14px 22px 6px; white-space:nowrap; }
   .nav-item{
     position:relative; display:flex; align-items:center; gap:12px; width:calc(100% - 20px); margin:2px 10px; padding:10px 12px;
@@ -348,6 +347,7 @@ function esDOH(entidad){
   return /\bdoh\b|obras hidraulicas/.test(normalize(entidad));
 }
 function isAvoid(t){
+  if(t.categoria === WELKO) return false; // la restricción es solo de Hidrogestión
   return isAvoidRegion(t.region) && esDOH(t.entidad);
 }
 
@@ -791,17 +791,19 @@ function matchesGlobal(t){
   return hay.includes(normalize(globalSearch));
 }
 
-// Panel de próximos cierres (≤7 días), transversal a las pestañas.
+// Panel de próximos cierres (≤7 días) de la vista activa: en «Vigentes HDG» muestra todas las
+// de Hidrogestión; en cada categoría (SSR/APR, hidrogeológicos, aguas lluvias, Welko…) solo las suyas.
 function renderUrgentes(){
   const el = document.getElementById("urgentes");
-  const urg = TENDERS
-    .filter(t => HDG_CATEGORIES.includes(t.categoria_display))
+  const vista = VISTAS.find(v => v.clave === activeTab) || VISTAS[0];
+  const urg = tabItems(vista.clave)
+    .filter(esVigente)
     .map(t => ({ t, d: daysRemaining(t.fcierre_iso) }))
     .filter(x => x.d !== null && x.d >= 0 && x.d <= 7)
     .sort((a, b) => a.d - b.d);
   if(!urg.length){ el.style.display = "none"; el.innerHTML = ""; return; }
   el.style.display = "block";
-  el.innerHTML = `<h2>⏰ Próximos cierres HDG (≤ 7 días)</h2>` + urg.map(({t, d}) => {
+  el.innerHTML = `<h2>⏰ Próximos cierres (≤ 7 días) — ${vista.etiqueta}</h2>` + urg.map(({t, d}) => {
     const ms = new Date(t.fcierre_iso) - new Date();
     const badgeCls = d <= 2 ? "badge-red" : "badge-orange";
     return `<div class="urgent-row">
@@ -816,8 +818,7 @@ function renderUrgentes(){
 
 function setActiveTab(tab){
   activeTab = tab;
-  // En las vistas Welko no se muestran los cierres próximos de Hidrogestión.
-  document.body.classList.toggle("vista-welko", tab === WELKO || tab === WELKO_SEG);
+  renderUrgentes();
   document.querySelectorAll(".nav-item").forEach(b => {
     const on = b.dataset.tab === tab;
     b.classList.toggle("active", on);
@@ -1063,7 +1064,7 @@ function renderMeta(){
   document.getElementById("footer").innerHTML = `
     <p>Generado automáticamente por el monitoreo diario de licitaciones de ingeniería SSR/APR y de gestión hídrica en Mercado Público. No incluye licitaciones de construcción de obra ni de Asesoría a la Inspección Fiscal (AIF).</p>
     <p>Una vez vencida la "Fecha de cierre" (plazo límite para presentar la oferta, columna que no se modifica en etapas posteriores), la licitación avanza por los estados "Apertura Oferta Técnica", "Apertura Oferta Económica" y "Resultados" conforme se registran los hitos de la ficha en Mercado Público. Mientras tanto se muestra en «En evaluación». Transcurridos 5 días corridos desde la fecha de adjudicación, la licitación se traslada de forma definitiva a «Pasadas», donde permanece visible de manera indefinida para trazabilidad (no se retira nunca de este dashboard ni del registro en GitHub).</p>
-    <p>Las filas resaltadas en rojo corresponden a licitaciones de la Dirección de Obras Hidráulicas (DOH) en regiones fuera del foco prioritario de Hidrogestión (Biobío, Coquimbo) — se mantienen en el listado por trazabilidad, no se excluyen automáticamente. Las de otros mandantes en esas regiones se muestran sin advertencia.</p>
+    <p>Las filas resaltadas en rojo corresponden a licitaciones de la Dirección de Obras Hidráulicas (DOH) en regiones fuera del foco prioritario de Hidrogestión (Biobío, Coquimbo) — se mantienen en el listado por trazabilidad, no se excluyen automáticamente. Las de otros mandantes en esas regiones se muestran sin advertencia. La advertencia no aplica a las licitaciones de Welko.</p>
     <p>El nivel de interés/prioridad de cada licitación es un criterio del equipo y no se incluye en este dashboard.</p>
   `;
 }

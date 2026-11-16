@@ -28,7 +28,15 @@ minutos en horas de alta demanda; la tarea de Claude lo tolera (ver paso 2).
 3. Para cada licitación registrada que no está en «Pasadas», consulta el detalle y actualiza
    `estado_mp` y las fechas de hitos. Si la licitación tiene acta de adjudicación y aún no
    registra adjudicado, lee la página pública del acta y guarda los oferentes con sus montos.
-4. Recalcula `categoria_display` y anota el resumen en `data/meta.json` (`api`).
+4. Recalcula `categoria_display`.
+5. **Postulaciones detectadas solas.** Si Hidrogestión figura entre los oferentes de una
+   licitación (no Welko), la marca como postulada en `data/postulaciones.json` con autor
+   «Detección automática». Si una postulación seguía «Pendiente» y ya hay resultado (acta o
+   desierta), anota el resultado. No modifica lo que el equipo registró a mano.
+6. Anota el resumen en `data/meta.json` (`api`), incluida la lista `novedades`: cambios de
+   estado, actas leídas con su adjudicatario y postulaciones detectadas.
+7. **Día sin candidatas:** registra ahí mismo la fecha del barrido (`fecha_barrido`), porque no
+   queda nada por clasificar.
 
 Usa ≈150 consultas por día; el límite del ticket es 10.000. Se puede lanzar a mano desde
 GitHub → Actions → «Barrido Mercado Público» → Run workflow.
@@ -39,6 +47,8 @@ GitHub → Actions → «Barrido Mercado Público» → Run workflow.
 2. **Esperar la Action si hace falta.** El archivo del día es `data/candidatas/AAAA-MM-DD.json`
    (fecha de Chile). Si no existe, esperar y hacer `git pull` cada 10 minutos, hasta 60 minutos.
    Si no aparece, revisar `data/meta.json` → `api` y avisar en el resumen; terminar sin commit.
+   **Si el archivo trae cero candidatas, no hay nada que clasificar:** no escribir barrido ni
+   hacer commit; pasar directo al resumen (paso 7).
 3. **Clasificar cada candidata** según `config/criterios.md`, usando nombre, organismo y
    `contexto` (descripción, tipo, ítems):
    - **Incluir** si es ingeniería o estudio de alguna categoría, o si es compra o servicio de
@@ -67,9 +77,10 @@ GitHub → Actions → «Barrido Mercado Público» → Run workflow.
 6. **Publicar.** `git pull --rebase origin main`, commit
    `Barrido DD-MM-AAAA: N nuevas, M actualizadas, K descartadas` y push a `main`.
    «M actualizadas» es `data/meta.json` → `api.actualizadas`.
-7. **Resumen** para el equipo: nuevas incluidas (nombre, organismo, región, cierre), cambios
-   relevantes del día en el seguimiento (adjudicaciones, en especial si participa Hidrogestión),
-   cuántas se descartaron y cualquier problema.
+7. **Resumen** para el equipo: nuevas incluidas (nombre, organismo, región, cierre), las
+   `novedades` de `data/meta.json` → `api` (cambios de estado, adjudicaciones y postulaciones
+   de Hidrogestión detectadas o resueltas), cuántas se descartaron y cualquier problema. Si no
+   hubo candidatas ni novedades, decirlo en una línea.
 
 ## Qué no hace la tarea
 

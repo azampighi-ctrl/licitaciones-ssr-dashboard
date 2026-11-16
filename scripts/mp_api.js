@@ -209,6 +209,34 @@ function coincide(nombre, claves) {
   return claves.filter((k) => k.split(/\s\+\s/).every((parte) => frase(t, parte)));
 }
 
+// Postulaciones detectadas solas: si Hidrogestión figura entre los oferentes de una licitación
+// (no Welko), se marca como postulada en data/postulaciones.json; y si la postulación estaba
+// «Pendiente» y ya hay resultado (acta o desierta), se anota el resultado. Nunca pisa lo que el
+// equipo registró a mano: una entrada existente solo cambia si su resultado seguía «Pendiente».
+const WELKO = "Equipos e Instrumentación (Welko)";
+const esHDG = (o) => /hidrogesti/.test(norm(o && o.nombre));
+function detectarPostulaciones(datos, post, fecha) {
+  const novedades = [];
+  for (const t of datos) {
+    if (t.categoria === WELKO) continue;
+    const of = t.oferentes || [];
+    const hdg = of.find(esHDG);
+    if (!hdg) continue;
+    const res = hdg.adjudicado ? "Adjudicada"
+      : of.some((o) => o.adjudicado) ? "No adjudicada"
+      : /^desierta/i.test(t.estado_mp || "") ? "Desierta" : "Pendiente";
+    const e = post[t.id];
+    if (!e) {
+      post[t.id] = { aplicamos: true, resultado_hdg: res, notas: "", actualizado: fecha, actualizado_por: "Detección automática" };
+      novedades.push(`${t.id} «${t.nombre}»: Hidrogestión figura como oferente; se marcó como postulada (resultado: ${res}).`);
+    } else if (e.aplicamos === true && (e.resultado_hdg || "Pendiente") === "Pendiente" && res !== "Pendiente") {
+      e.resultado_hdg = res; e.actualizado = fecha; e.actualizado_por = "Detección automática";
+      novedades.push(`${t.id} «${t.nombre}»: resultado de la postulación de Hidrogestión: ${res}.`);
+    }
+  }
+  return novedades;
+}
+
 async function main() {
   if (!TICKET) throw new Error("Falta MP_TICKET (secreto del repo en GitHub)");
   const hoy = hoyChile();
@@ -218,6 +246,7 @@ async function main() {
   const claves = palabrasClave();
   const ex = exclusiones();
   const informe = { fecha: ahoraChile(), activas: 0, candidatas: 0, excluidas: 0, actualizadas: 0, actas: 0, errores: [] };
+  const novedades = []; // cambios relevantes del día, para el resumen de la tarea de Claude
 
   // 1. Candidatas nuevas
   const act = await api({ estado: "activas" });
@@ -256,15 +285,21 @@ async function main() {
         if (!d) continue;
         if (ARGS.has("--diagnostico") && !informe.muestra) informe.muestra = estructura(d);
         let cambio = false;
+        const estadoAntes = t.estado_mp;
         for (const [k, v] of Object.entries(hitos(d))) {
           if (v && v !== t[k]) { t[k] = v; cambio = true; }
         }
+        if (t.estado_mp !== estadoAntes) novedades.push(`${t.id} «${t.nombre}»: estado ${estadoAntes || "—"} → ${t.estado_mp}.`);
         const adj = d.Adjudicacion || {};
         const url = campo(adj, "UrlActa");
         const sinAdjudicado = !(t.oferentes || []).some((o) => o.adjudicado);
         if (url && sinAdjudicado) {
           const of = await oferentesActa(url);
-          if (of.length) { t.oferentes = of; cambio = true; informe.actas++; }
+          if (of.length) {
+            t.oferentes = of; cambio = true; informe.actas++;
+            const g = of.filter((o) => o.adjudicado).map((o) => o.nombre + (o.monto ? ` (${clp(o.monto)})` : ""));
+            novedades.push(`${t.id} «${t.nombre}»: acta de adjudicación con ${of.length} oferentes` + (g.length ? `; adjudicada a ${g.join(", ")}.` : "."));
+          }
         }
         if (cambio) informe.actualizadas++;
       } catch (e) { informe.errores.push(`${t.id}: ${e.message}`); }
@@ -276,10 +311,22 @@ async function main() {
   for (const t of datos) t.categoria_display = etapa(t, ahora);
   escribir("data/licitaciones.json", datos);
 
+  // 5. Postulaciones de Hidrogestión detectadas entre los oferentes
+  const post = leer("data/postulaciones.json", {});
+  const detectadas = detectarPostulaciones(datos, post, fecha_barrido);
+  if (detectadas.length) { escribir("data/postulaciones.json", post); novedades.push(...detectadas); }
+
   const meta = leer("data/meta.json", {});
+  // Día sin candidatas: no hay nada que clasificar, así que el barrido queda registrado aquí
+  // y la tarea de Claude termina sin commit.
+  if (candidatas.length === 0) {
+    meta.fecha_barrido = fecha_barrido;
+    meta.ultimo_resumen = { nuevas: 0, actualizadas: informe.actualizadas, descartadas: 0 };
+  }
   meta.api = { fecha: informe.fecha, peticiones, activas: informe.activas, candidatas: informe.candidatas,
     excluidas_construccion_mantencion: informe.excluidas,
-    actualizadas: informe.actualizadas, actas: informe.actas, errores: informe.errores.length };
+    actualizadas: informe.actualizadas, actas: informe.actas, errores: informe.errores.length,
+    postulaciones_detectadas: detectadas.length, novedades: novedades.slice(0, 40) };
   escribir("data/meta.json", meta);
   if (ARGS.has("--diagnostico")) escribir("data/diagnostico/api.json", { ...informe, peticiones });
 
@@ -297,4 +344,4 @@ function estructura(o, d = 0) {
 }
 
 if (require.main === module) main().catch((e) => { console.error("ERROR: " + e.message); process.exit(1); });
-module.exports = { api, campo, registro, hitos, coincide, palabrasClave, exclusiones, excluida, region, fecha, leerActa };
+module.exports = { detectarPostulaciones, api, campo, registro, hitos, coincide, palabrasClave, exclusiones, excluida, region, fecha, leerActa };
