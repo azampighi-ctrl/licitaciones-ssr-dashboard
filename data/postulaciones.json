@@ -33,5 +33,12 @@
   "notas": "Ganamos",
   "actualizado": "",
   "actualizado_por": ""
+ },
+ "817-41-O126": {
+  "aplicamos": true,
+  "resultado_hdg": "Pendiente",
+  "notas": "",
+  "actualizado": "16-11-2026 10:14",
+  "actualizado_por": "Detección automática"
  }
 }

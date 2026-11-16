@@ -1,5 +1,47 @@
 {
- "generado": "2026-11-16T08:05:06",
- "fecha_barrido": "16-11-2026 08:05",
- "candidatas": []
+ "generado": "2026-11-16T10:14:31",
+ "fecha_barrido": "16-11-2026 10:14",
+ "candidatas": [
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1572-27-LE26",
+    "nombre": "SERV. DE SUMINISTRO DE AGUA POTABLE PARA JI",
+    "entidad": "JUNTA NACIONAL DE JARDINES         INFANTILES - Junji - XV Región - Arica",
+    "region": "Arica y Parinacota",
+    "comuna": "Arica",
+    "fpub": "16-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "12 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1572-27-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "26-11-2026 18:48",
+    "fcierre_iso": "2026-11-26T18:48:00",
+    "finicio_preguntas_raw": "16-11-2026 10:00",
+    "finicio_preguntas_iso": "2026-11-16T10:00:00",
+    "ffinal_preguntas_raw": "20-11-2026 10:00",
+    "ffinal_preguntas_iso": "2026-11-20T10:00:00",
+    "frespuestas_raw": "24-11-2026 10:00",
+    "frespuestas_iso": "2026-11-24T10:00:00",
+    "fapertura_tecnica_raw": "27-11-2026 10:00",
+    "fapertura_tecnica_iso": "2026-11-27T10:00:00",
+    "fapertura_economica_raw": "27-11-2026 10:00",
+    "fapertura_economica_iso": "2026-11-27T10:00:00",
+    "fadjudicacion_raw": "16-12-2026 18:49",
+    "fadjudicacion_iso": "2026-12-16T18:49:00"
+   },
+   "contexto": {
+    "descripcion": "La Dirección Regional de la Junji Región de Arica y Parinacota requiere adquirir bajo la modalidad de contrato de suministro de agua potable, el cual debe ser entregado directamente los siguientes jardines, de acuerdo a lo que se establezca cada vez que se genere una orden de compra a través del sistema www.mercadopublico.cl.",
+    "tipo": "LE",
+    "items": [
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · El objeto de la presente licitación es la contratación del servicio de suministro de agua potable para jardines infantiles rurales Quebrada de Acha y Las Llosyas de la Junta Nacional de Jardines Infantiles de Arica y Parinacota, ajustándose a los criterio"
+    ],
+    "fuente_financiamiento": "44"
+   }
+  }
+ ]
 }

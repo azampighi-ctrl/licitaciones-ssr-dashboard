@@ -1,8 +1,8 @@
 {
- "fecha": "2026-11-12T14:48:28",
- "activas": 5256,
- "candidatas": 2,
- "excluidas": 12,
+ "fecha": "2026-11-16T10:14:31",
+ "activas": 5326,
+ "candidatas": 1,
+ "excluidas": 21,
  "actualizadas": 0,
  "actas": 0,
  "errores": [],
@@ -66,7 +66,7 @@
   "FuenteFinanciamiento": "string",
   "VisibilidadMonto": "number",
   "MontoEstimado": "null",
-  "Tiempo": "null",
+  "Tiempo": "string",
   "UnidadTiempo": "string",
   "Modalidad": "number",
   "TipoPago": "string",
@@ -107,5 +107,5 @@
    ]
   }
  },
- "peticiones": 50
+ "peticiones": 51
 }
