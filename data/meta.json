@@ -1,17 +1,17 @@
 {
  "fecha_barrido": "16-11-2026 08:05",
  "api": {
-  "fecha": "2026-11-16T10:14:31",
-  "peticiones": 51,
-  "activas": 5326,
-  "candidatas": 1,
-  "excluidas_construccion_mantencion": 21,
-  "actualizadas": 0,
+  "fecha": "2026-11-17T07:48:31",
+  "peticiones": 58,
+  "activas": 4875,
+  "candidatas": 2,
+  "excluidas_construccion_mantencion": 20,
+  "actualizadas": 2,
   "actas": 0,
   "errores": 0,
-  "postulaciones_detectadas": 1,
+  "postulaciones_detectadas": 0,
   "novedades": [
-   "817-41-O126 «Grupo 2 EH Geofísico SSR de Chifín Alto y Nueva Braunau»: Hidrogestión figura como oferente; se marcó como postulada (resultado: Pendiente)."
+   "891-5-LR26 «EXPLORACIÓN CAPACIDAD DE EXPLOTACIÓN DE ACUIFEROS»: estado Publicada → Cerrada."
   ]
  },
  "ultimo_resumen": {
