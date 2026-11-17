@@ -448,5 +448,15 @@
   "nombre": "HERRAMIENTAS E INSUMOS ALCANTARILLADO",
   "motivo": "Compra de herramientas e insumos para operación de alcantarillado; suministro, no es ingeniería ni instrumentación de medición.",
   "fecha": "14-11-2026"
+ },
+ "1572-27-LE26": {
+  "nombre": "SERV. DE SUMINISTRO DE AGUA POTABLE PARA JI",
+  "motivo": "Suministro de agua potable a jardines infantiles (Junji); no es ingeniería, estudio ni equipos de medición.",
+  "fecha": "17-11-2026"
+ },
+ "4511-69-LP26": {
+  "nombre": "“SERVICIO DE PERFORACIÓN DE POZOS PROFUNDOS RETIRO”",
+  "motivo": "Servicio de perforación de pozos por demanda (contrato de suministro) de la Municipalidad de Retiro; es ejecución de obra, no forma parte de un estudio hidrogeológico.",
+  "fecha": "17-11-2026"
  }
 }

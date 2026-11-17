@@ -1,0 +1,9 @@
+{
+  "fecha_barrido": "17-11-2026 07:48",
+  "nuevas": [],
+  "actualizaciones": [],
+  "descartadas": [
+    {"id": "1572-27-LE26", "nombre": "SERV. DE SUMINISTRO DE AGUA POTABLE PARA JI", "motivo": "Suministro de agua potable a jardines infantiles (Junji); no es ingeniería, estudio ni equipos de medición."},
+    {"id": "4511-69-LP26", "nombre": "“SERVICIO DE PERFORACIÓN DE POZOS PROFUNDOS RETIRO”", "motivo": "Servicio de perforación de pozos por demanda (contrato de suministro) de la Municipalidad de Retiro; es ejecución de obra, no forma parte de un estudio hidrogeológico."}
+  ]
+}
