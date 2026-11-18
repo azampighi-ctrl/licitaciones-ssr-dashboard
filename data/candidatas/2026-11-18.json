@@ -1,0 +1,134 @@
+{
+ "generado": "2026-11-18T07:47:33",
+ "fecha_barrido": "18-11-2026 07:47",
+ "candidatas": [
+  {
+   "palabras": [
+    "multiparamétrica"
+   ],
+   "registro": {
+    "id": "1019-135-LE26",
+    "nombre": "Insumos y repuestos para sondas multiparamétricas",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO",
+    "region": "Metropolitana",
+    "comuna": "Santiago",
+    "fpub": "17-11-2026",
+    "monto_raw": "$10.000.000",
+    "monto_num": 10000000,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1019-135-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "23-11-2026 15:02",
+    "fcierre_iso": "2026-11-23T15:02:00",
+    "finicio_preguntas_raw": "18-11-2026 11:40",
+    "finicio_preguntas_iso": "2026-11-18T11:40:00",
+    "ffinal_preguntas_raw": "19-11-2026 14:00",
+    "ffinal_preguntas_iso": "2026-11-19T14:00:00",
+    "frespuestas_raw": "20-11-2026 14:40",
+    "frespuestas_iso": "2026-11-20T14:40:00",
+    "fapertura_tecnica_raw": "23-11-2026 15:03",
+    "fapertura_tecnica_iso": "2026-11-23T15:03:00",
+    "fapertura_economica_raw": "23-11-2026 15:03",
+    "fapertura_economica_iso": "2026-11-23T15:03:00",
+    "fadjudicacion_raw": "01-12-2026 19:00",
+    "fadjudicacion_iso": "2026-12-01T19:00:00"
+   },
+   "contexto": {
+    "descripcion": "El objeto es la adquisición de sensores, módulos de pH y repuestos originales de fabricante\r\no equivalentes que cumplan lo dispuesto en el numeral 3.3 para las sondas multiparámetro\r\nYSI utilizados en actividades de monitoreo de calidad de aguas efectuadas por la Dirección\r\nGeneral de Aguas para mantener operativas sondas de calidad marca YSI modelos EXO y\r\nproDss.\r\nLos bienes requeridos deberán ser compatibles con los equipos institucionales existentes y\r\nmantener las condiciones de exactitud, trazabilidad, desempeño y garantía definidas por el\r\nfabricante.",
+    "tipo": "LE",
+    "items": [
+     "Equipamiento para laboratorios / Equipos e insumos para laboratorio / Equipo y suministros de purificación de agua para laboratorio · Sistemas de análisis de agua · Sensor óptico de oxígeno disuelto ProDSS (Cód. 120-626900). Rango 0-500% saturación aire o 0-50 mg/L; resolución 0,1% sat. aire o 0,01 mg/L.",
+     "Equipamiento para laboratorios / Equipos e insumos para laboratorio / Equipo y suministros de purificación de agua para laboratorio · Sistemas de análisis de agua · Sensor de conductividad y temperatura ProDSS (Cód. 120-626902). Conductividad rango 0-200 mS/cm; resolución 0,0001 a 0,01 mS/cm. Temperatura rango -5 a 50°C; resolución 0,001°C.",
+     "Equipamiento para laboratorios / Equipos e insumos para laboratorio / Equipo y suministros de purificación de agua para laboratorio · Sistemas de análisis de agua · Sensor de turbidez ProDSS (Cód. 120-626901). Rango 0-4000 NTU; resolución 0,3 FNU hasta 999 y 1 FNU sobre 1000.",
+     "Equipamiento para laboratorios / Equipos e insumos para laboratorio / Equipo y suministros de purificación de agua para laboratorio · Sistemas de análisis de agua · Sensor pH con módulo ProDSS (Cód. 120-626903). pH rango 0-14; resolución 0,01 pH.",
+     "Equipamiento para laboratorios / Equipos e insumos para laboratorio / Equipo y suministros de purificación de agua para laboratorio · Sistemas de análisis de agua · Módulo de reemplazo sensor pH/ORP EXO protegido (Guarded) (Cód. 1380-626792). pH rango 0-14 y ORP rango -999 a 999 mV.",
+     "Equipamiento para laboratorios / Equipos e insumos para laboratorio / Equipo y suministros de purificación de agua para laboratorio · Sistemas de análisis de agua · Módulo de reemplazo sensor pH EXO sin protección (UN-Guarded) (Cód. 1380-626793). Compatible con sistema EXO."
+    ],
+    "fuente_financiamiento": "2204012 Programa 02 Adm. de Infraestructura"
+   }
+  },
+  {
+   "palabras": [
+    "cuenca"
+   ],
+   "registro": {
+    "id": "2424-112-LE26",
+    "nombre": "KIT ARTICULOS PARA DESMALEZADOS LIMPIEZA DE CUENCAS Y QUEBRADAS - PED.51 - 4070 - N.C.V.",
+    "entidad": "I MUNICIPALIDAD DE VINA DEL MAR - I MUNICIPALIDAD DE VINA DEL MAR",
+    "region": "Valparaíso",
+    "comuna": "Viña del Mar",
+    "fpub": "17-11-2026",
+    "monto_raw": "$15.168.191",
+    "monto_num": 15168191,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2424-112-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "26-11-2026 15:30",
+    "fcierre_iso": "2026-11-26T15:30:00",
+    "finicio_preguntas_raw": "17-11-2026 21:01",
+    "finicio_preguntas_iso": "2026-11-17T21:01:00",
+    "ffinal_preguntas_raw": "19-11-2026 16:00",
+    "ffinal_preguntas_iso": "2026-11-19T16:00:00",
+    "frespuestas_raw": "24-11-2026 19:00",
+    "frespuestas_iso": "2026-11-24T19:00:00",
+    "fapertura_tecnica_raw": "26-11-2026 15:31",
+    "fapertura_tecnica_iso": "2026-11-26T15:31:00",
+    "fapertura_economica_raw": "26-11-2026 15:31",
+    "fapertura_economica_iso": "2026-11-26T15:31:00",
+    "fadjudicacion_raw": "08-01-2027 20:00",
+    "fadjudicacion_iso": "2027-01-08T20:00:00"
+   },
+   "contexto": {
+    "descripcion": "Ped.N° 51 - 4070 - Servicios del Ambiente - Sección Aseo - (n.c.v.)",
+    "tipo": "LE",
+    "items": [
+     "Herramientas y maquinaria en general / Herramientas manuales / Herramientas de jardinería · Horquetas · Se requiere la adquisición de Kt Artículos para Desmalezados, Limpieza de Cuencas y Quebradas. De acuerdo a especificaciones técnicas en Decreto de Bases. Proveedor debe ofertar por la totalidad del kit solicitado."
+    ],
+    "fuente_financiamiento": "Municipal"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "4732-28-LP26",
+    "nombre": "Mejoramiento Integral SSR Miraflores Comuna De Codegua.",
+    "entidad": "I MUNICIPALIDAD DE CODEGUA - Secpla",
+    "region": "O'Higgins",
+    "comuna": "Codegua",
+    "fpub": "17-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "300 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4732-28-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "07-12-2026 17:30",
+    "fcierre_iso": "2026-12-07T17:30:00",
+    "finicio_preguntas_raw": "17-11-2026 17:35",
+    "finicio_preguntas_iso": "2026-11-17T17:35:00",
+    "ffinal_preguntas_raw": "20-11-2026 18:00",
+    "ffinal_preguntas_iso": "2026-11-20T18:00:00",
+    "frespuestas_raw": "23-11-2026 18:00",
+    "frespuestas_iso": "2026-11-23T18:00:00",
+    "fapertura_tecnica_raw": "07-12-2026 17:35",
+    "fapertura_tecnica_iso": "2026-12-07T17:35:00",
+    "fapertura_economica_raw": "07-12-2026 17:35",
+    "fapertura_economica_iso": "2026-12-07T17:35:00",
+    "fadjudicacion_raw": "24-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-24T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "La presente licitación pública tiene por objeto contratar el servicio de consultoría especializado para desarrollar el diseño de ingeniería del proyecto “MEJORAMIENTO INTEGRAL SSR MIRAFLORES, COMUNA DE CODEGUA”, Código BIP N°40051054-0, localizado en los sectores de Miraflores y Tunca, comuna de Codegua, Región de O’Higgins. La iniciativa se encuentra en etapa de diseño y se enmarca en el Convenio Mandato suscrito entre el Gobierno Regional de O’Higgins y la Municipalidad de Codegua, de fecha 9 de septiembre de 2026.",
+    "tipo": "LP",
+    "items": [
+     "Servicios basados en ingeniería, ciencias sociales y tecnología de la información / Servicios relativos a la meteorología y ciencias de la tierra / Geología · Estudios geológicos · Servicio de consultoría especializado para desarrollar el diseño de ingeniería del proyecto “MEJORAMIENTO INTEGRAL SSR MIRAFLORES, COMUNA DE CODEGUA”, Código BIP N°40051054-0, localizado en los sectores de Miraflores y Tunca, comuna de Codegua, Región de "
+    ],
+    "fuente_financiamiento": "Programa de Inversión del Gobierno Regional"
+   }
+  }
+ ]
+}

@@ -1,18 +1,16 @@
 {
  "fecha_barrido": "17-11-2026 07:48",
  "api": {
-  "fecha": "2026-11-17T07:48:31",
-  "peticiones": 58,
-  "activas": 4875,
-  "candidatas": 2,
-  "excluidas_construccion_mantencion": 20,
-  "actualizadas": 2,
+  "fecha": "2026-11-18T07:47:33",
+  "peticiones": 56,
+  "activas": 4959,
+  "candidatas": 3,
+  "excluidas_construccion_mantencion": 21,
+  "actualizadas": 1,
   "actas": 0,
   "errores": 0,
   "postulaciones_detectadas": 0,
-  "novedades": [
-   "891-5-LR26 «EXPLORACIÓN CAPACIDAD DE EXPLOTACIÓN DE ACUIFEROS»: estado Publicada → Cerrada."
-  ]
+  "novedades": []
  },
  "ultimo_resumen": {
   "nuevas": 0,

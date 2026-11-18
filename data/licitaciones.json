@@ -2986,7 +2986,7 @@
   "fapertura_economica_iso": "2026-11-17T11:00:00",
   "fadjudicacion_raw": "11-12-2026 18:00",
   "fadjudicacion_iso": "2026-12-11T18:00:00",
-  "categoria_display": "Apertura Oferta Económica",
+  "categoria_display": "Resultados",
   "n_grupo": 1
  },
  {
@@ -3679,12 +3679,12 @@
   "frespuestas_raw": "06-11-2026 13:00",
   "frespuestas_iso": "2026-11-06T13:00:00",
   "estado_mp": "Publicada",
-  "fapertura_tecnica_raw": "17-11-2026 12:00",
-  "fapertura_tecnica_iso": "2026-11-17T12:00:00",
-  "fapertura_economica_raw": "17-11-2026 12:00",
-  "fapertura_economica_iso": "2026-11-17T12:00:00",
-  "fadjudicacion_raw": "04-12-2026 12:00",
-  "fadjudicacion_iso": "2026-12-04T12:00:00",
+  "fapertura_tecnica_raw": "19-11-2026 12:01",
+  "fapertura_tecnica_iso": "2026-11-19T12:01:00",
+  "fapertura_economica_raw": "19-11-2026 12:01",
+  "fapertura_economica_iso": "2026-11-19T12:01:00",
+  "fadjudicacion_raw": "09-12-2026 15:00",
+  "fadjudicacion_iso": "2026-12-09T15:00:00",
   "categoria_display": "Equipos e Instrumentación (Welko)",
   "n_grupo": 1,
   "visita_terreno": "No exige",
@@ -3694,8 +3694,8 @@
   "nombre": "RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO",
   "entidad": "MOP - Dirección General de Aguas",
   "region": "Metropolitana",
-  "fcierre_raw": "17-11-2026 12:00",
-  "fcierre_iso": "2026-11-17T12:00:00",
+  "fcierre_raw": "19-11-2026 12:00",
+  "fcierre_iso": "2026-11-19T12:00:00",
   "categoria": "Equipos e Instrumentación (Welko)"
  },
  {
