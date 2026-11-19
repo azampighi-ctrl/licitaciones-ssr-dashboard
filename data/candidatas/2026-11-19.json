@@ -1,0 +1,257 @@
+{
+ "generado": "2026-11-19T07:45:50",
+ "fecha_barrido": "19-11-2026 07:45",
+ "candidatas": [
+  {
+   "palabras": [
+    "fluviométrica"
+   ],
+   "registro": {
+    "id": "1114-16-LP26",
+    "nombre": "RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAPOCHO",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección General de Aguas - Región Metropolitana",
+    "region": "Metropolitana",
+    "comuna": "Santiago",
+    "fpub": "18-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1114-16-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "18-12-2026 12:00",
+    "fcierre_iso": "2026-12-18T12:00:00",
+    "finicio_preguntas_raw": "18-11-2026 14:00",
+    "finicio_preguntas_iso": "2026-11-18T14:00:00",
+    "ffinal_preguntas_raw": "29-11-2026 14:00",
+    "ffinal_preguntas_iso": "2026-11-29T14:00:00",
+    "frespuestas_raw": "06-12-2026 14:00",
+    "frespuestas_iso": "2026-12-06T14:00:00",
+    "fapertura_tecnica_raw": "18-12-2026 12:01",
+    "fapertura_tecnica_iso": "2026-12-18T12:01:00",
+    "fapertura_economica_raw": "18-12-2026 12:01",
+    "fapertura_economica_iso": "2026-12-18T12:01:00",
+    "fadjudicacion_raw": "08-01-2027 12:10",
+    "fadjudicacion_iso": "2027-01-08T12:10:00"
+   },
+   "contexto": {
+    "descripcion": "“RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAPOCHO EN RINCONADA DE MAIPÚ”",
+    "tipo": "LP",
+    "items": [
+     "Artículos para estructuras, obras y construcciones / Construcciones permanentes / Construcciones para trasporte permanentes · Puente para peatones · RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAPOCHO EN RINCONADA DE MAIPÚ"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "1155683-32-LE26",
+    "nombre": "EJECUCCION SISTEMA ALCANTARILLADO Y AGUA POTABLE PARA LA NUEVA BASE DE BRIGADA DE PREVENCIÓN Y CONTROL DE INCENDIOS FORESTALES DE NINHUE REGIÓN DE ÑUBLE.",
+    "entidad": "CORP NACIONAL FORESTAL - XVI - OFICINA REGIONAL DE ÑUBLE",
+    "region": "Ñuble",
+    "comuna": "Chillán",
+    "fpub": "18-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1155683-32-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "27-11-2026 13:22",
+    "fcierre_iso": "2026-11-27T13:22:00",
+    "finicio_preguntas_raw": "18-11-2026 16:35",
+    "finicio_preguntas_iso": "2026-11-18T16:35:00",
+    "ffinal_preguntas_raw": "24-11-2026 16:35",
+    "ffinal_preguntas_iso": "2026-11-24T16:35:00",
+    "frespuestas_raw": "25-11-2026 16:35",
+    "frespuestas_iso": "2026-11-25T16:35:00",
+    "fapertura_tecnica_raw": "27-11-2026 13:23",
+    "fapertura_tecnica_iso": "2026-11-27T13:23:00",
+    "fapertura_economica_raw": "27-11-2026 13:23",
+    "fapertura_economica_iso": "2026-11-27T13:23:00",
+    "fadjudicacion_raw": "11-12-2026 13:23",
+    "fadjudicacion_iso": "2026-12-11T13:23:00"
+   },
+   "contexto": {
+    "descripcion": "La Corporación Nacional Forestal (CONAF), a través del Departamento de Protección Contra Incendios Forestales (DEPRIF), requiere contratar:\r\nLa ejecuccion del diseño de los proyectos de los sistemas de alcantarillado y agua potable.\r\n\r\nActualmente en terreno, se puede constatar que se encuentran 24 contenedores, que son parte de la nueva base de brigada. De acuerdo con los requerimientos operativos institucionales, se define una dotación fija de diseño de 28 personas, lo que determina las bases de cálculo para consumos, caudales de punta y volúmenes de almacenamiento y tratamiento bajo las normativas vigentes administradas por la SEREMI de Salud de Ñuble.\r\n",
+    "tipo": "LE",
+    "items": [
+     "Servicios de construcción y mantenimiento / Servicios de atención, mantenimiento y reparaciones de edificios / Gasfitería, calefacción y aire acondicionado · Mantenimiento o reparación de sistemas de fontanería, gasfitería · Se requiere contratar el servicio de EJECUCION  ALCANTARILLADO Y AGUA POTABLE PARA LA NUEVA BASE DE BRIGADA DE PREVENCIÓN Y CONTROL DE INCENDIOS FORESTALES DE NINHUE, REGIÓN DE ÑUBLE."
+    ],
+    "fuente_financiamiento": "Corporación Nacional Forestal"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "1507-35-O126",
+    "nombre": "DIS. MEJ. Y AMPL. SSR LOTATO – ALTOS DEL SOL, COMUNA DE CONCEPCIÓN",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - VIII Región",
+    "region": "Biobío",
+    "comuna": "Concepción",
+    "fpub": "18-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1507-35-O126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "03-12-2026 15:01",
+    "fcierre_iso": "2026-12-03T15:01:00",
+    "finicio_preguntas_raw": "18-11-2026 15:01",
+    "finicio_preguntas_iso": "2026-11-18T15:01:00",
+    "ffinal_preguntas_raw": "25-11-2026 23:59",
+    "ffinal_preguntas_iso": "2026-11-25T23:59:00",
+    "frespuestas_raw": "30-11-2026 15:00",
+    "frespuestas_iso": "2026-11-30T15:00:00",
+    "fapertura_tecnica_raw": "03-12-2026 15:01",
+    "fapertura_tecnica_iso": "2026-12-03T15:01:00",
+    "fapertura_economica_raw": "10-12-2026 15:01",
+    "fapertura_economica_iso": "2026-12-10T15:01:00",
+    "fadjudicacion_raw": "28-12-2026 17:00",
+    "fadjudicacion_iso": "2026-12-28T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "El objetivo general corresponde a la elaboración del diseño de ingeniería y preparación de antecedentes para pasar a la siguiente etapa de ejecución de obras del proyecto, incluida la regularización legal de los terrenos, obtención de los permisos sectoriales e incluyendo la ingeniería de detalle respectiva. ",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Consultoria · Licitación Pública de Consultoria"
+    ],
+    "fuente_financiamiento": "FONDOS SECTORIALES"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "agua potable rural",
+    "diseño agua potable"
+   ],
+   "registro": {
+    "id": "966131-79-LP26",
+    "nombre": "Diseño Agua Potable Rural Gamboa La Antena",
+    "entidad": "I MUNICIPALIDAD DE CASTRO - SECPLAN",
+    "region": "Los Lagos",
+    "comuna": "Castro",
+    "fpub": "18-11-2026",
+    "monto_raw": "$78.000.000",
+    "monto_num": 78000000,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-79-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "09-12-2026 15:01",
+    "fcierre_iso": "2026-12-09T15:01:00",
+    "finicio_preguntas_raw": "18-11-2026 11:01",
+    "finicio_preguntas_iso": "2026-11-18T11:01:00",
+    "ffinal_preguntas_raw": "27-11-2026 13:00",
+    "ffinal_preguntas_iso": "2026-11-27T13:00:00",
+    "frespuestas_raw": "30-11-2026 13:00",
+    "frespuestas_iso": "2026-11-30T13:00:00",
+    "fapertura_tecnica_raw": "09-12-2026 15:02",
+    "fapertura_tecnica_iso": "2026-12-09T15:02:00",
+    "fapertura_economica_raw": "09-12-2026 15:02",
+    "fapertura_economica_iso": "2026-12-09T15:02:00",
+    "fadjudicacion_raw": "30-12-2026 17:33",
+    "fadjudicacion_iso": "2026-12-30T17:33:00"
+   },
+   "contexto": {
+    "descripcion": "La necesidad de contribuir al mejoramiento de la calidad de vida de los habitantes de la comuna de Castro, mediante el desarrollo del diseño del sistema de Agua Potable Rural (APR) Gamboa – La Antena, destinado a mejorar las condiciones de acceso y disponibilidad de agua potable para la comunidad beneficiaria",
+    "tipo": "LP",
+    "items": [
+     "Servicios profesionales, administrativos y consultorías de gestión empresarial / Servicios de recursos humanos / Contratación de personal · Profesionales · Servicios Profesionales de Diseño Agua Potable Rural Gamboa La Antena, Castro, según antecedentes administrativos, técnicos y económicos adjuntos."
+    ],
+    "fuente_financiamiento": "Municipal"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "agua potable rural",
+    "diseño agua potable"
+   ],
+   "registro": {
+    "id": "966131-80-LP26",
+    "nombre": "Diseño Agua Potable Rural Sectores Lingue Puyan y San Antonio Comuna de Castro",
+    "entidad": "I MUNICIPALIDAD DE CASTRO - SECPLAN",
+    "region": "Los Lagos",
+    "comuna": "Castro",
+    "fpub": "18-11-2026",
+    "monto_raw": "$82.000.000",
+    "monto_num": 82000000,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=966131-80-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "09-12-2026 15:01",
+    "fcierre_iso": "2026-12-09T15:01:00",
+    "finicio_preguntas_raw": "18-11-2026 11:01",
+    "finicio_preguntas_iso": "2026-11-18T11:01:00",
+    "ffinal_preguntas_raw": "27-11-2026 13:00",
+    "ffinal_preguntas_iso": "2026-11-27T13:00:00",
+    "frespuestas_raw": "30-11-2026 13:00",
+    "frespuestas_iso": "2026-11-30T13:00:00",
+    "fapertura_tecnica_raw": "09-12-2026 15:02",
+    "fapertura_tecnica_iso": "2026-12-09T15:02:00",
+    "fapertura_economica_raw": "09-12-2026 15:02",
+    "fapertura_economica_iso": "2026-12-09T15:02:00",
+    "fadjudicacion_raw": "30-12-2026 17:33",
+    "fadjudicacion_iso": "2026-12-30T17:33:00"
+   },
+   "contexto": {
+    "descripcion": "La necesidad de contribuir al mejoramiento de la calidad de vida de los habitantes de la comuna de Castro, mediante el desarrollo del diseño del sistema de Agua Potable Rural Sectores Lingue, Puyan y San Antonio, destinado a mejorar las condiciones de acceso y disponibilidad de agua potable para la comunidad beneficiaria",
+    "tipo": "LP",
+    "items": [
+     "Servicios profesionales, administrativos y consultorías de gestión empresarial / Servicios de recursos humanos / Contratación de personal · Profesionales · Servicios Profesionales de Diseño Agua Potable Rural Sectores Lingue, Puyan y San Antonio, Comuna Castro, según antecedentes administrativos, técnicos y económicos adjuntos."
+    ],
+    "fuente_financiamiento": "Municipal"
+   }
+  },
+  {
+   "palabras": [
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "980313-49-LE26",
+    "nombre": "MEJORAMIENTO UNIONES ALCANTARILLADO ANTUCO",
+    "entidad": "I MUNICIPALIDAD DE ANTUCO - UNIDAD DE COMPRAS",
+    "region": "Biobío",
+    "comuna": "Antuco",
+    "fpub": "18-11-2026",
+    "monto_raw": "$15.000.000",
+    "monto_num": 15000000,
+    "plazo": "30 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=980313-49-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "01-12-2026 15:01",
+    "fcierre_iso": "2026-12-01T15:01:00",
+    "finicio_preguntas_raw": "18-11-2026 19:01",
+    "finicio_preguntas_iso": "2026-11-18T19:01:00",
+    "ffinal_preguntas_raw": "26-11-2026 12:00",
+    "ffinal_preguntas_iso": "2026-11-26T12:00:00",
+    "frespuestas_raw": "29-11-2026 18:00",
+    "frespuestas_iso": "2026-11-29T18:00:00",
+    "fapertura_tecnica_raw": "01-12-2026 15:30",
+    "fapertura_tecnica_iso": "2026-12-01T15:30:00",
+    "fapertura_economica_raw": "01-12-2026 15:30",
+    "fapertura_economica_iso": "2026-12-01T15:30:00",
+    "fadjudicacion_raw": "01-01-2027 18:00",
+    "fadjudicacion_iso": "2027-01-01T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "Contratación del Servicio de Reparación, Reposición yo Mejoramiento de Uniones Domiciliarias de Alcantarillado para 08 Viviendas de la Comuna de Antuco. Ver Bases de Licitación y sus Anexos.",
+    "tipo": "LE",
+    "items": [
+     "Servicios basados en ingeniería, ciencias sociales y tecnología de la información / Metodologías y tecnologías para mejorar la producción y la fabricación / Administración de edificios e instalaciones · Servicio de gasfitería y alcantarillado · Servicio de Reparación, Reposición yo Mejoramiento de Uniones Domiciliarias de Alcantarillado para 08 Viviendas de la Comuna de Antuco. Ver Bases de Licitación y sus Anexos.\r\n"
+    ],
+    "fuente_financiamiento": "MUNICIPALIDAD DE ANTUCO"
+   }
+  }
+ ]
+}
