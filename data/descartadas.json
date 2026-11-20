@@ -468,5 +468,30 @@
   "nombre": "MEJORAMIENTO UNIONES ALCANTARILLADO ANTUCO",
   "motivo": "Obra de reparación y reposición de uniones domiciliarias de alcantarillado (8 viviendas); no es ingeniería ni estudio.",
   "fecha": "19-11-2026"
+ },
+ "1499899-24-L126": {
+  "nombre": "Suministro e instalación de batería de filtros en la red de agua potable del centro LAE IP Limache,",
+  "motivo": "Suministro e instalación de filtros en red interior de un centro; no es ingeniería ni estudio.",
+  "fecha": "20-11-2026"
+ },
+ "1593-29-LE26": {
+  "nombre": "Control de Calidad del Agua Potable y Fuentes de Captación de la Empresa de Servicios Sanitarios La Estación S.A. ESSESA- año 2027",
+  "motivo": "Autocontrol rutinario de calidad de agua (análisis de laboratorio) de una sanitaria; no es ingeniería ni equipos de medición.",
+  "fecha": "20-11-2026"
+ },
+ "2564-38-LP26": {
+  "nombre": "AMPLIACION RED DE AGUA POTABLE EL ZAPAL PONIENTE",
+  "motivo": "Ejecución de obra de ampliación de red de agua potable; construcción.",
+  "fecha": "20-11-2026"
+ },
+ "369-23-LP26": {
+  "nombre": "CONVENIO SUMINISTRO AGUA POTABLE SALAMANCA",
+  "motivo": "Suministro de agua potable en camión aljibe; servicio de abastecimiento, no ingeniería.",
+  "fecha": "20-11-2026"
+ },
+ "4290-86-LP26": {
+  "nombre": "Red agua potable y alcantarillado - Troncal Alto",
+  "motivo": "Obra de extensión de red de agua potable y alcantarillado; construcción.",
+  "fecha": "20-11-2026"
  }
 }

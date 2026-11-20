@@ -1,0 +1,97 @@
+{
+ "fecha_barrido": "20-11-2026 07:46",
+ "nuevas": [
+  {
+   "id": "4179-59-LE26",
+   "nombre": "Estudio diseño pavimentación aguas lluvias calle Rio Cautin Lautaro",
+   "entidad": "I MUNICIPALIDAD DE LAUTARO - ABASTECIMIENTO",
+   "region": "La Araucanía",
+   "comuna": "Lautaro",
+   "fpub": "19-11-2026",
+   "monto_raw": "$17.000.000",
+   "monto_num": 17000000,
+   "plazo": "180 días",
+   "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4179-59-LE26",
+   "visita_terreno": "No exige",
+   "estado_mp": "Publicada",
+   "fcierre_raw": "04-12-2026 15:00",
+   "fcierre_iso": "2026-12-04T15:00:00",
+   "finicio_preguntas_raw": "20-11-2026 09:00",
+   "finicio_preguntas_iso": "2026-11-20T09:00:00",
+   "ffinal_preguntas_raw": "25-11-2026 15:00",
+   "ffinal_preguntas_iso": "2026-11-25T15:00:00",
+   "frespuestas_raw": "26-11-2026 17:30",
+   "frespuestas_iso": "2026-11-26T17:30:00",
+   "fapertura_tecnica_raw": "04-12-2026 15:30",
+   "fapertura_tecnica_iso": "2026-12-04T15:30:00",
+   "fapertura_economica_raw": "04-12-2026 15:30",
+   "fapertura_economica_iso": "2026-12-04T15:30:00",
+   "fadjudicacion_raw": "28-12-2026 15:30",
+   "fadjudicacion_iso": "2026-12-28T15:30:00",
+   "categoria": "Aguas Lluvias",
+   "interes": "Medio-Alto",
+   "estado": "Revisar - relevante",
+   "observaciones": "Estudio de diseño de ingeniería de pavimentación, aguas lluvias y alumbrado público para calle Río Cautín, sector Costanera (Lautaro); monto referencial $17.000.000, plazo 180 días."
+  },
+  {
+   "id": "4353-31-LE26",
+   "nombre": "ENSAYES DE LABORATORIO PARA EXPLORACION DE SUELOS ESTUDIOS GEOTECNICO ESTUDIO GEOFISICO ReMi DE PROYECTO: LOTEO 80 VIVIENDAS SOCIALES VICUÑA MACKENNA ALTO ORIENTE COMUNA DE FREIRINA",
+   "entidad": "I MUNICIPALIDAD DE FREIRINA - Secretaría De Planificación Comunal",
+   "region": "Atacama",
+   "comuna": "Freirina",
+   "fpub": "19-11-2026",
+   "monto_raw": "$14.000.000",
+   "monto_num": 14000000,
+   "plazo": "30 días",
+   "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4353-31-LE26",
+   "visita_terreno": "No exige",
+   "estado_mp": "Publicada",
+   "fcierre_raw": "30-11-2026 15:00",
+   "fcierre_iso": "2026-11-30T15:00:00",
+   "finicio_preguntas_raw": "19-11-2026 16:39",
+   "finicio_preguntas_iso": "2026-11-19T16:39:00",
+   "ffinal_preguntas_raw": "24-11-2026 16:39",
+   "ffinal_preguntas_iso": "2026-11-24T16:39:00",
+   "frespuestas_raw": "26-11-2026 18:00",
+   "frespuestas_iso": "2026-11-26T18:00:00",
+   "fapertura_tecnica_raw": "30-11-2026 15:30",
+   "fapertura_tecnica_iso": "2026-11-30T15:30:00",
+   "fapertura_economica_raw": "30-11-2026 15:32",
+   "fapertura_economica_iso": "2026-11-30T15:32:00",
+   "fadjudicacion_raw": "17-12-2026 18:38",
+   "fadjudicacion_iso": "2026-12-17T18:38:00",
+   "categoria": "Estudios Hidrogeológicos",
+   "interes": "Bajo",
+   "estado": "Revisar - Verificar Alcance",
+   "observaciones": "Ensayes de laboratorio, estudio geotécnico y geofísico (ReMi) para caracterizar el terreno de un loteo de 80 viviendas; es de carácter geotécnico, por lo que se debe verificar si calza con el área hidrogeológica."
+  }
+ ],
+ "actualizaciones": [],
+ "descartadas": [
+  {
+   "id": "1499899-24-L126",
+   "nombre": "Suministro e instalación de batería de filtros en la red de agua potable del centro LAE IP Limache,",
+   "motivo": "Suministro e instalación de filtros en red interior de un centro; no es ingeniería ni estudio."
+  },
+  {
+   "id": "1593-29-LE26",
+   "nombre": "Control de Calidad del Agua Potable y Fuentes de Captación de la Empresa de Servicios Sanitarios La Estación S.A. ESSESA- año 2027",
+   "motivo": "Autocontrol rutinario de calidad de agua (análisis de laboratorio) de una sanitaria; no es ingeniería ni equipos de medición."
+  },
+  {
+   "id": "2564-38-LP26",
+   "nombre": "AMPLIACION RED DE AGUA POTABLE EL ZAPAL PONIENTE",
+   "motivo": "Ejecución de obra de ampliación de red de agua potable; construcción."
+  },
+  {
+   "id": "369-23-LP26",
+   "nombre": "CONVENIO SUMINISTRO AGUA POTABLE SALAMANCA",
+   "motivo": "Suministro de agua potable en camión aljibe; servicio de abastecimiento, no ingeniería."
+  },
+  {
+   "id": "4290-86-LP26",
+   "nombre": "Red agua potable y alcantarillado - Troncal Alto",
+   "motivo": "Obra de extensión de red de agua potable y alcantarillado; construcción."
+  }
+ ]
+}
