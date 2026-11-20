@@ -1,0 +1,298 @@
+{
+ "generado": "2026-11-20T07:46:46",
+ "fecha_barrido": "20-11-2026 07:46",
+ "candidatas": [
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1499899-24-L126",
+    "nombre": "Suministro e instalación de batería de filtros en la red de agua potable del centro LAE IP Limache,",
+    "entidad": "SERVICIO NACIONAL DE REINSERCION SOCIAL JUVENIL - DIRECCIÓN REGIONAL DE VALPARAÍSO",
+    "region": "Metropolitana",
+    "comuna": "Santiago",
+    "fpub": "19-11-2026",
+    "monto_raw": "$1.000.000",
+    "monto_num": 1000000,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1499899-24-L126",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "25-11-2026 18:01",
+    "fcierre_iso": "2026-11-25T18:01:00",
+    "finicio_preguntas_raw": "19-11-2026 10:41",
+    "finicio_preguntas_iso": "2026-11-19T10:41:00",
+    "ffinal_preguntas_raw": "23-11-2026 18:01",
+    "ffinal_preguntas_iso": "2026-11-23T18:01:00",
+    "frespuestas_raw": "24-11-2026 18:01",
+    "frespuestas_iso": "2026-11-24T18:01:00",
+    "fapertura_tecnica_raw": "26-11-2026 15:00",
+    "fapertura_tecnica_iso": "2026-11-26T15:00:00",
+    "fapertura_economica_raw": "26-11-2026 15:00",
+    "fapertura_economica_iso": "2026-11-26T15:00:00",
+    "fadjudicacion_raw": "01-12-2026 18:01",
+    "fadjudicacion_iso": "2026-12-01T18:01:00"
+   },
+   "contexto": {
+    "descripcion": "Las presentes Bases tienen como objetivo la contratación del servicio de suministro e instalación de una batería de filtros con válvula reguladora de presión y caudal y manómetro, ubicada inmediatamente después del medidor de agua sobre la cañería de alimentación de 2° en cobre con reducción a ¾ a la entrada de filtros en el Centro LAE IP de Limache, el cual atiende a jóvenes y adolescentes que han infringido la Ley de Responsabilidad Adolescente N° 20.084 y sus modificaciones",
+    "tipo": "L1",
+    "items": [
+     "Servicios basados en ingeniería, ciencias sociales y tecnología de la información / Metodologías y tecnologías para mejorar la producción y la fabricación / Administración de edificios e instalaciones · Servicio de gasfitería y alcantarillado · El objetivo la contratación del servicio de suministro e instalación de una batería de filtros con válvula reguladora de presión y caudal y manómetro, ubicada inmediatamente después del medidor de agua sobre la cañería de de alimentación en el Centro"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1593-29-LE26",
+    "nombre": "Control de Calidad del Agua Potable y Fuentes de Captación de la Empresa de Servicios Sanitarios La Estación S.A. ESSESA- año 2027",
+    "entidad": "SUPERINTENDENCIA DE SERVICIOS SANITARIOS - Superintendencia de Servicios Sanitarios - SISS",
+    "region": "Metropolitana",
+    "comuna": "",
+    "fpub": "19-11-2026",
+    "monto_raw": "$22.000.000",
+    "monto_num": 22000000,
+    "plazo": "13 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1593-29-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "04-12-2026 15:00",
+    "fcierre_iso": "2026-12-04T15:00:00",
+    "finicio_preguntas_raw": "19-11-2026 16:51",
+    "finicio_preguntas_iso": "2026-11-19T16:51:00",
+    "ffinal_preguntas_raw": "26-11-2026 16:51",
+    "ffinal_preguntas_iso": "2026-11-26T16:51:00",
+    "frespuestas_raw": "30-11-2026 16:51",
+    "frespuestas_iso": "2026-11-30T16:51:00",
+    "fapertura_tecnica_raw": "04-12-2026 15:01",
+    "fapertura_tecnica_iso": "2026-12-04T15:01:00",
+    "fapertura_economica_raw": "04-12-2026 15:01",
+    "fapertura_economica_iso": "2026-12-04T15:01:00",
+    "fadjudicacion_raw": "06-01-2027 15:00",
+    "fadjudicacion_iso": "2027-01-06T15:00:00"
+   },
+   "contexto": {
+    "descripcion": "Realizar el autocontrol control de la calidad del agua potable y de las fuentes de producción de la Empresa de Servicios Sanitarios La Estación S.A. durante el año 2027.",
+    "tipo": "LE",
+    "items": [
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Control de calidad del agua · Requiere la contratación de servicios denominado \"Control de Calidad del Agua Potable y Fuentes de Captación de la Empresa de Servicios Sanitarios La Estación S.A. (ESSESA)- año 2027\", según bases adjuntas.-"
+    ],
+    "fuente_financiamiento": "Presupuesto SISS 2027"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "2564-38-LP26",
+    "nombre": "AMPLIACION RED DE AGUA POTABLE EL ZAPAL PONIENTE",
+    "entidad": "I MUNICIPALIDAD DE CHEPICA - ADQUISICIONES",
+    "region": "O'Higgins",
+    "comuna": "",
+    "fpub": "19-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2564-38-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "04-12-2026 15:00",
+    "fcierre_iso": "2026-12-04T15:00:00",
+    "finicio_preguntas_raw": "19-11-2026 18:05",
+    "finicio_preguntas_iso": "2026-11-19T18:05:00",
+    "ffinal_preguntas_raw": "24-11-2026 15:00",
+    "ffinal_preguntas_iso": "2026-11-24T15:00:00",
+    "frespuestas_raw": "30-11-2026 18:00",
+    "frespuestas_iso": "2026-11-30T18:00:00",
+    "fapertura_tecnica_raw": "07-12-2026 15:00",
+    "fapertura_tecnica_iso": "2026-12-07T15:00:00",
+    "fapertura_economica_raw": "07-12-2026 15:00",
+    "fapertura_economica_iso": "2026-12-07T15:00:00",
+    "fadjudicacion_raw": "18-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-18T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "SE CONSIDERA LA CONTRATACIÓN DE UNA PERSONA NATURAL O JURIDICA QUE EJECUTE LAS OBRAS Y TRÁMITES LEGALES, ASOCIADAS AL PROYECTO DE AMPLIACIÓN DE RED DE AGUA POTABLE HACIA EL SECTOR DEL ZAPAL PONIENTE. TODO LO ANTERIOR, SEGÚN PROYECTO APROBADO POR ESSBIO Y DEMAS ANTECEDENTES QUE FORMAN PARTE DE ESTE PROCESO. BASES, ESPECIFICACIONES TÉCNICAS, NORMAS, REGLAMENTOS VIGENTES, ETC.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · se considera ejecutar la ampliación de una red de agua potable, segun antecedentes tecnicos, administrativos y legales que regulan este proceso de licitación y el posteri0or contrato."
+    ],
+    "fuente_financiamiento": "MUNICIPAL"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "369-23-LP26",
+    "nombre": "CONVENIO SUMINISTRO AGUA POTABLE SALAMANCA",
+    "entidad": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE CHOAPA - Delegacion Presidencial Provincial de Choapa",
+    "region": "Coquimbo",
+    "comuna": "Illapel",
+    "fpub": "19-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "6 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=369-23-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "30-11-2026 15:30",
+    "fcierre_iso": "2026-11-30T15:30:00",
+    "finicio_preguntas_raw": "19-11-2026 15:30",
+    "finicio_preguntas_iso": "2026-11-19T15:30:00",
+    "ffinal_preguntas_raw": "25-11-2026 15:30",
+    "ffinal_preguntas_iso": "2026-11-25T15:30:00",
+    "frespuestas_raw": "26-11-2026 15:30",
+    "frespuestas_iso": "2026-11-26T15:30:00",
+    "fapertura_tecnica_raw": "01-12-2026 15:30",
+    "fapertura_tecnica_iso": "2026-12-01T15:30:00",
+    "fapertura_economica_raw": "01-12-2026 15:30",
+    "fapertura_economica_iso": "2026-12-01T15:30:00",
+    "fadjudicacion_raw": "09-12-2026 15:30",
+    "fadjudicacion_iso": "2026-12-09T15:30:00"
+   },
+   "contexto": {
+    "descripcion": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE EN VEHÍCULOS ALJIBES PARA LA COMUNA DE SALAMANCA, PROVINCIA DE CHOAPA DE LA REGIÓN DE COQUIMBO, DURANTE PERIODO DE ENERO, FEBRERO, MARZO, ABRIL, MAYO Y JUNIO DE 2027",
+    "tipo": "LP",
+    "items": [
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · SALAMANCA RUTA 1: ARBOLEDA GRANDE, CUNLAGUA, EL QUEÑE, EL TEBAL, HUANQUE, CANCHA BRAVA, HUANQUE, LA  HIGUERILLA, LAS, JARILLAS, MANQUEHUA,  LAS LAJAS QUELEN ALTO QUELEN BAJO, RANQUE, SAN AGUSTIN,ZAPALLAR, SEÑOR DE LA TIERRA, ESCUELA MANQUEHUA, POSTA JARIL",
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · SALAMANCA RUTA 2:\r\nBARRACO, BATUCO, COIRÓN, CUNCUMEN, EL BOSQUE,LLIMPO, PUNTA NUEVA\r\nTENCADAN, TRANQUILLA, JORQUERA, CANCHA\r\nBRAVA\r\nCOLLIGUAY\r\nARRAYAN\r\nPALQUEAL, PELADEROS\r\nEL\r\nCONSUELO\r\nCESFAM\r\nCHILLEPÍN",
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · SALAMANCA RUTA 3:\r\nCHALINGA, SALAMANCA CENTRO, EL TAMBO ORIENTE, EL TAMBO,FARO\r\nEL TAMBO\r\nCENTRO\r\nTAHUINCO\r\nPELADEROS\r\nPOSTA\r\nPELADEROS\r\nJARDIN\r\nPELADEROS\r\nESCUELA\r\nPELADEROS",
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · SALAMANCA RUTA 4:\r\nCHUCHIÑI\r\nEL CONSUELO\r\nSANTA ROSA\r\nCHILLEPIN"
+    ],
+    "fuente_financiamiento": "Ministerio del Interior "
+   }
+  },
+  {
+   "palabras": [
+    "diseño + aguas lluvias",
+    "estudio + aguas lluvias"
+   ],
+   "registro": {
+    "id": "4179-59-LE26",
+    "nombre": "Estudio diseño pavimentación aguas lluvias calle Rio Cautin Lautaro",
+    "entidad": "I MUNICIPALIDAD DE LAUTARO - ABASTECIMIENTO",
+    "region": "La Araucanía",
+    "comuna": "Lautaro",
+    "fpub": "19-11-2026",
+    "monto_raw": "$17.000.000",
+    "monto_num": 17000000,
+    "plazo": "180 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4179-59-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "04-12-2026 15:00",
+    "fcierre_iso": "2026-12-04T15:00:00",
+    "finicio_preguntas_raw": "20-11-2026 09:00",
+    "finicio_preguntas_iso": "2026-11-20T09:00:00",
+    "ffinal_preguntas_raw": "25-11-2026 15:00",
+    "ffinal_preguntas_iso": "2026-11-25T15:00:00",
+    "frespuestas_raw": "26-11-2026 17:30",
+    "frespuestas_iso": "2026-11-26T17:30:00",
+    "fapertura_tecnica_raw": "04-12-2026 15:30",
+    "fapertura_tecnica_iso": "2026-12-04T15:30:00",
+    "fapertura_economica_raw": "04-12-2026 15:30",
+    "fapertura_economica_iso": "2026-12-04T15:30:00",
+    "fadjudicacion_raw": "28-12-2026 15:30",
+    "fadjudicacion_iso": "2026-12-28T15:30:00"
+   },
+   "contexto": {
+    "descripcion": "Estudio diseño de ingeniería de pavimentación, aguas lluvias y electricidad (extensión de Alumbrado Público) calle Rio Cautín Lautaro, sector Costanera entre Puente Viejo y calle A. Pinto, de acuerdo a TDR adjuntos",
+    "tipo": "LE",
+    "items": [
+     "Servicios basados en ingeniería, ciencias sociales y tecnología de la información / Servicios profesionales de ingeniería / Ingeniería civil · Ingeniería de carreteras · Estudio Diseño de Estudio diseño pavimentación aguas lluvias calle Rio Cautín Lautaro"
+    ],
+    "fuente_financiamiento": "Presupuesto Municipal"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable",
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "4290-86-LP26",
+    "nombre": "Red agua potable y alcantarillado - Troncal Alto",
+    "entidad": "I MUNICIPALIDAD DE LIMACHE - Secpla - MUNICIPALIDAD LIMACHE",
+    "region": "Valparaíso",
+    "comuna": "Limache",
+    "fpub": "19-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4290-86-LP26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "21-12-2026 15:00",
+    "fcierre_iso": "2026-12-21T15:00:00",
+    "finicio_preguntas_raw": "19-11-2026 16:01",
+    "finicio_preguntas_iso": "2026-11-19T16:01:00",
+    "ffinal_preguntas_raw": "26-11-2026 23:59",
+    "ffinal_preguntas_iso": "2026-11-26T23:59:00",
+    "frespuestas_raw": "01-12-2026 18:00",
+    "frespuestas_iso": "2026-12-01T18:00:00",
+    "fapertura_tecnica_raw": "21-12-2026 15:01",
+    "fapertura_tecnica_iso": "2026-12-21T15:01:00",
+    "fapertura_economica_raw": "21-12-2026 15:02",
+    "fapertura_economica_iso": "2026-12-21T15:02:00",
+    "fadjudicacion_raw": "15-01-2027 17:00",
+    "fadjudicacion_iso": "2027-01-15T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "EXTENSION DE RED DE AGUA POTABLE Y ALCANTARILLADO PASAJE TRONCAL ALTO, COMUNA DE LIMACHE.",
+    "tipo": "LP",
+    "items": [
+     "Maquinarias, equipos y suministros para la industria de servicios / Equipos para servicios de alimentación institucional / Distribuidores automáticos de comida y bebida · Fuentes de agua potable · EXTENSION DE RED DE AGUA POTABLE Y ALCANTARILLADO PASAJE TRONCAL ALTO, COMUNA DE LIMACHE."
+    ],
+    "fuente_financiamiento": "FONDOS SUBSECRETARIA DE DESARROLLO REGIONAL "
+   }
+  },
+  {
+   "palabras": [
+    "geofísico"
+   ],
+   "registro": {
+    "id": "4353-31-LE26",
+    "nombre": "ENSAYES DE LABORATORIO PARA EXPLORACION DE SUELOS ESTUDIOS GEOTECNICO ESTUDIO GEOFISICO ReMi DE PROYECTO: LOTEO 80 VIVIENDAS SOCIALES VICUÑA MACKENNA ALTO ORIENTE COMUNA DE FREIRINA",
+    "entidad": "I MUNICIPALIDAD DE FREIRINA - Secretaría De Planificación Comunal",
+    "region": "Atacama",
+    "comuna": "Freirina",
+    "fpub": "19-11-2026",
+    "monto_raw": "$14.000.000",
+    "monto_num": 14000000,
+    "plazo": "30 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4353-31-LE26",
+    "visita_terreno": "No exige",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "30-11-2026 15:00",
+    "fcierre_iso": "2026-11-30T15:00:00",
+    "finicio_preguntas_raw": "19-11-2026 16:39",
+    "finicio_preguntas_iso": "2026-11-19T16:39:00",
+    "ffinal_preguntas_raw": "24-11-2026 16:39",
+    "ffinal_preguntas_iso": "2026-11-24T16:39:00",
+    "frespuestas_raw": "26-11-2026 18:00",
+    "frespuestas_iso": "2026-11-26T18:00:00",
+    "fapertura_tecnica_raw": "30-11-2026 15:30",
+    "fapertura_tecnica_iso": "2026-11-30T15:30:00",
+    "fapertura_economica_raw": "30-11-2026 15:32",
+    "fapertura_economica_iso": "2026-11-30T15:32:00",
+    "fadjudicacion_raw": "17-12-2026 18:38",
+    "fadjudicacion_iso": "2026-12-17T18:38:00"
+   },
+   "contexto": {
+    "descripcion": "Contempla la realización de ensayos de laboratorio de mecánica de suelos, estudio geotécnico y estudio geofísico, destinado a caracterizar las condiciones y propiedades del terreno donde se proyecta la construcción de 80 viviendas.",
+    "tipo": "LE",
+    "items": [
+     "Servicios profesionales, administrativos y consultorías de gestión empresarial / Servicios de recursos humanos / Contratación de personal · Profesionales · ENSAYES DE LABORATORIO PARA EXPLORACION DE SUELOS ESTUDIOS GEOTECNICO, ESTUDIO GEOFISICO ReMi DE PROYECTO: LOTEO 80 VIVIENDAS SOCIALES VICUÑA MACKENNA ALTO ORIENTE COMUNA DE FREIRINA"
+    ],
+    "fuente_financiamiento": "FONDOS MUNICIPALES"
+   }
+  }
+ ]
+}
