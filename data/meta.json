@@ -1,19 +1,19 @@
 {
  "fecha_barrido": "20-11-2026 07:46",
  "api": {
-  "fecha": "2026-11-20T07:46:46",
-  "peticiones": 80,
-  "activas": 5128,
-  "candidatas": 7,
-  "excluidas_construccion_mantencion": 23,
-  "actualizadas": 3,
+  "fecha": "2026-11-21T07:34:28",
+  "peticiones": 92,
+  "activas": 5174,
+  "candidatas": 11,
+  "excluidas_construccion_mantencion": 25,
+  "actualizadas": 5,
   "actas": 0,
-  "errores": 0,
+  "errores": 1,
   "postulaciones_detectadas": 0,
   "novedades": [
-   "1063487-53-O126 «Diseño Mejoramiento y Ampliación SSR La Mata, Comuna de San Carlos»: estado Publicada → Cerrada.",
-   "1063487-55-O126 «Diseño Mejoramiento Impulsión Servicio Sanitario Rural Portezuleo»: estado Publicada → Cerrada.",
-   "1114-15-LP26 «RESTITUCIÓN ESTACIÓN FLUVIOMÉTRICA RÍO MAIPO»: estado Publicada → Desierta (o art. 3 ó 9 Ley 19.886)."
+   "889-12-LP26 «Construcción 3 Piezómetros y estudio geofísico»: estado Publicada → Cerrada.",
+   "1063487-54-O126 «Diseño Mej. y Amp. SSR San Martin de Los Colihues, Comuna de Chillán Viejo»: estado Publicada → Cerrada.",
+   "889-11-LP26 «Constr. de 3 Piezómetros T Paine Natales Primavera»: estado Publicada → Cerrada."
   ]
  },
  "ultimo_resumen": {
