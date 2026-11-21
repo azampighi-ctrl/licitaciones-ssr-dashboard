@@ -493,5 +493,60 @@
   "nombre": "Red agua potable y alcantarillado - Troncal Alto",
   "motivo": "Obra de extensión de red de agua potable y alcantarillado; construcción.",
   "fecha": "20-11-2026"
+ },
+ "1469-397-L126": {
+  "nombre": "SERVICIO DE MATERIALIZACIÓN E IDENTIFICACIÓN DE PUNTOS DE REFERENCIA (PR) PARA SISTEMAS SSR DE LA REGIÓN DE LOS RÍOS, UNIVERSIDAD DE TALCA",
+  "motivo": "Construcción de monolitos de hormigón e instalación de puntos de referencia; es obra, no ingeniería ni estudio.",
+  "fecha": "21-11-2026"
+ },
+ "1469-402-L126": {
+  "nombre": "20-45363 Servicio de materialización e identificación de Puntos de Referencia (PR) para 6 sistemas SSR - Región de La Araucanía",
+  "motivo": "Materialización de puntos de referencia (obra civil menor); no es ingeniería ni estudio.",
+  "fecha": "21-11-2026"
+ },
+ "2564-41-LP26": {
+  "nombre": "AMPLIACION RED DE AGUA POTABLE EL ZAPAL PONIENTE",
+  "motivo": "Ejecución de obra de ampliación de red de agua potable; construcción.",
+  "fecha": "21-11-2026"
+ },
+ "369-24-LP26": {
+  "nombre": "CONVENIO SUMINISTRO AGUA POTABLE PROV. CHOAPA",
+  "motivo": "Convenio de suministro de agua potable para camiones aljibe; suministro.",
+  "fecha": "21-11-2026"
+ },
+ "3711-31-LP26": {
+  "nombre": "ABASTO DE AGUA POTABLE COMUNIDAD ROMUALDO CANIUQUEO",
+  "motivo": "Ejecución de obras (17 soluciones de abastecimiento de agua); construcción.",
+  "fecha": "21-11-2026"
+ },
+ "3748-27-LP26": {
+  "nombre": "ADQUISICIÓN EQUIPAMIENTO PARA SSR LA HIGUERA",
+  "motivo": "Adquisición de bombas, herramientas, materiales y pintura de estanques para SSR; suministro y mantención, no equipos de medición.",
+  "fecha": "21-11-2026"
+ },
+ "3894-61-LE26": {
+  "nombre": "SERVICIO MANTENIMIENTO PREVENTIVO DIAGNÓSTICO Y MANTENIMIENTO CORRECTIVO DE EQUIPOS DE BOMBEO DE PLATA ELEVADORA DE AGUAS SERVIDAS DE BATUCO",
+  "motivo": "Mantención de equipos de bombeo de plantas elevadoras de aguas servidas; mantención.",
+  "fecha": "21-11-2026"
+ },
+ "4037-86-L126": {
+  "nombre": "CONTRATACION SERVICIO PROFESIONALES PARA DISEÑO DE PROYECTO ELECTRICO Y TRAMITACION DE EMPALME POZO PROFUNDO SECTOR LAS CUYAS.",
+  "motivo": "Diseño de proyecto eléctrico y empalme para pozo profundo; no es estudio hidrogeológico ni de las categorías buscadas.",
+  "fecha": "21-11-2026"
+ },
+ "5456-4-LP26": {
+  "nombre": "Reparto agua potable a domicilio camiones aljibe",
+  "motivo": "Reparto de agua potable en camiones aljibe; suministro.",
+  "fecha": "21-11-2026"
+ },
+ "5661-64-O126": {
+  "nombre": "AMPLIACIÓN Y MEJORAMIENTO SSR CRUCERO, RÍO BUENO",
+  "motivo": "Licitación pública de obra (ampliación y mejoramiento SSR Crucero, DOH); obra, no diseño.",
+  "fecha": "21-11-2026"
+ },
+ "817-67-O126": {
+  "nombre": "Construcción Sondaje SSR Llaicha, Calbuco.",
+  "motivo": "Construcción de sondaje para SSR (licitación de obra, DOH) sin estudio asociado; obra.",
+  "fecha": "21-11-2026"
  }
 }

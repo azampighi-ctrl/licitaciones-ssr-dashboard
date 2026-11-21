@@ -1,5 +1,5 @@
 {
- "fecha_barrido": "20-11-2026 07:46",
+ "fecha_barrido": "21-11-2026 07:34",
  "api": {
   "fecha": "2026-11-21T07:34:28",
   "peticiones": 92,
@@ -17,8 +17,8 @@
   ]
  },
  "ultimo_resumen": {
-  "nuevas": 2,
+  "nuevas": 0,
   "actualizadas": 0,
-  "descartadas": 5
+  "descartadas": 11
  }
 }
