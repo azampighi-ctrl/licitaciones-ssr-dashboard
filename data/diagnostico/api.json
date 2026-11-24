@@ -1,9 +1,9 @@
 {
- "fecha": "2026-11-16T10:14:31",
- "activas": 5326,
- "candidatas": 1,
- "excluidas": 21,
- "actualizadas": 0,
+ "fecha": "2026-11-24T17:26:30",
+ "activas": 4736,
+ "candidatas": 2,
+ "excluidas": 25,
+ "actualizadas": 1,
  "actas": 0,
  "errores": [],
  "muestra": {
@@ -59,13 +59,13 @@
    "FechaVisitaTerreno": "null",
    "FechaEntregaAntecedentes": "null"
   },
-  "UnidadTiempoEvaluacion": "number",
+  "UnidadTiempoEvaluacion": "null",
   "DireccionVisita": "string",
   "DireccionEntrega": "string",
   "Estimacion": "number",
   "FuenteFinanciamiento": "string",
   "VisibilidadMonto": "number",
-  "MontoEstimado": "null",
+  "MontoEstimado": "number",
   "Tiempo": "string",
   "UnidadTiempo": "string",
   "Modalidad": "number",
@@ -107,5 +107,5 @@
    ]
   }
  },
- "peticiones": 51
+ "peticiones": 68
 }

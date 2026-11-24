@@ -1,19 +1,17 @@
 {
  "fecha_barrido": "24-11-2026 07:42",
  "api": {
-  "fecha": "2026-11-24T07:42:41",
-  "peticiones": 77,
-  "activas": 4706,
-  "candidatas": 5,
+  "fecha": "2026-11-24T17:26:30",
+  "peticiones": 68,
+  "activas": 4736,
+  "candidatas": 2,
   "excluidas_construccion_mantencion": 25,
-  "actualizadas": 4,
+  "actualizadas": 1,
   "actas": 0,
   "errores": 0,
   "postulaciones_detectadas": 0,
   "novedades": [
-   "3676-30-LP26 «DISEÑO CONSTRUCCIÓN SERVICIO APR FRUTILLAR»: estado Publicada → Cerrada.",
-   "2793-144-LE26 «ESTUDIO PREFACTIBILIDAD Y DISEÑO DE SOLUCIÓN DE INFRAESTRUCTURA VERDE PARA LA GESTIÓN DE AGUAS EN LA COMUNA»: estado Publicada → Cerrada.",
-   "839186-15-LE26 «DISEÑO DE PAVIMENTACIÓN Y SISTEMA DE AGUAS LLUVIAS»: estado Publicada → Cerrada."
+   "817-62-O126 «Estudio Mecánica de Suelos para el SSR Pid Pid»: estado Publicada → Cerrada."
   ]
  },
  "ultimo_resumen": {

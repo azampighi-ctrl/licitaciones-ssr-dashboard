@@ -1,88 +1,46 @@
 {
- "generado": "2026-11-24T07:42:41",
- "fecha_barrido": "24-11-2026 07:42",
+ "generado": "2026-11-24T17:26:30",
+ "fecha_barrido": "24-11-2026 17:26",
  "candidatas": [
   {
    "palabras": [
-    "agua potable",
-    "alcantarillado"
+    "saneamiento sanitario"
    ],
    "registro": {
-    "id": "1070620-131-LP26",
-    "nombre": "rfm Serv. Mant. Sist. Agua Potable Alcantarillado",
-    "entidad": "HOSPITAL DOCTOR ERNESTO TORRES GALDAMES - Hospital Dr. Ernesto Torres Galdames",
-    "region": "Tarapacá",
-    "comuna": "Iquique",
-    "fpub": "23-11-2026",
-    "monto_raw": "No informado en ficha pública",
-    "monto_num": null,
-    "plazo": "No especificado en ficha",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1070620-131-LP26",
-    "visita_terreno": "No exige",
+    "id": "1197594-22-LP26",
+    "nombre": "SANEAMIENTO SANITARIO RURAL LAG COCHRANE-ESMERALDA",
+    "entidad": "I MUNICIPALIDAD DE COCHRANE - SECPLA",
+    "region": "Aysén",
+    "comuna": "Cochrane",
+    "fpub": "24-11-2026",
+    "monto_raw": "$314.652.083",
+    "monto_num": 314652083,
+    "plazo": "120 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1197594-22-LP26",
+    "visita_terreno": "Verificar visita",
     "estado_mp": "Publicada",
-    "fcierre_raw": "14-12-2026 15:00",
-    "fcierre_iso": "2026-12-14T15:00:00",
-    "finicio_preguntas_raw": "23-11-2026 11:31",
-    "finicio_preguntas_iso": "2026-11-23T11:31:00",
-    "ffinal_preguntas_raw": "03-12-2026 10:00",
-    "ffinal_preguntas_iso": "2026-12-03T10:00:00",
-    "frespuestas_raw": "09-12-2026 16:00",
-    "frespuestas_iso": "2026-12-09T16:00:00",
-    "fapertura_tecnica_raw": "14-12-2026 15:01",
-    "fapertura_tecnica_iso": "2026-12-14T15:01:00",
-    "fapertura_economica_raw": "14-12-2026 15:01",
-    "fapertura_economica_iso": "2026-12-14T15:01:00",
-    "fadjudicacion_raw": "12-01-2027 15:00",
-    "fadjudicacion_iso": "2027-01-12T15:00:00"
+    "fcierre_raw": "24-12-2026 11:36",
+    "fcierre_iso": "2026-12-24T11:36:00",
+    "finicio_preguntas_raw": "24-11-2026 18:33",
+    "finicio_preguntas_iso": "2026-11-24T18:33:00",
+    "ffinal_preguntas_raw": "30-11-2026 18:33",
+    "ffinal_preguntas_iso": "2026-11-30T18:33:00",
+    "frespuestas_raw": "04-12-2026 18:33",
+    "frespuestas_iso": "2026-12-04T18:33:00",
+    "fapertura_tecnica_raw": "24-12-2026 11:37",
+    "fapertura_tecnica_iso": "2026-12-24T11:37:00",
+    "fapertura_economica_raw": "24-12-2026 18:37",
+    "fapertura_economica_iso": "2026-12-24T18:37:00",
+    "fadjudicacion_raw": "31-12-2026 18:37",
+    "fadjudicacion_iso": "2026-12-31T18:37:00"
    },
    "contexto": {
-    "descripcion": "rfm Servicio de Mantenimiento de Sistema de Agua Potable, Alcantarillado, Colectores y Otros para el Hospital Dr. Ernesto Torres Galdames\r\n\r\nRex. 2478 de 20NOV2026",
+    "descripcion": "Las presentes Bases Administrativas y Técnicas regirán la Licitación Pública, adjudicación, contrato, plazos, sanciones y sistema de pago, de la propuesta mencionada precedentemente, conjuntamente con las especificaciones técnicas, eventuales aclaraciones, respuestas a consultas y demás antecedentes de la licitación, para llevar a cabo el proyecto “SANEAMIENTO SANITARIO RURAL SECTORES LAGO COCHRANE-LAGUNA ESMERALDA” Código PMB 11301230701-C, conforme a estas bases y condiciones contractuales y demás documentos asociados.",
     "tipo": "LP",
     "items": [
-     "Servicios basados en ingeniería, ciencias sociales y tecnología de la información / Metodologías y tecnologías para mejorar la producción y la fabricación / Administración de edificios e instalaciones · Servicio de gasfitería y alcantarillado · Servicio de Mantenimiento de Sistema de Agua Potable, Alcantarillado, Colectores y Otros."
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · El presente proyecto se desarrolla dentro del marco del Programa de Mejoramiento de Barrios (PMB). Su objetivo principal es contribuir a la reducción de la marginalidad sanitaria y del déficit de servicios básicos en sectores rurales apartados de la comun"
     ],
-    "fuente_financiamiento": "Recursos Propios"
-   }
-  },
-  {
-   "palabras": [
-    "impulsión"
-   ],
-   "registro": {
-    "id": "1233619-56-LE26",
-    "nombre": "ASIGNACIÓN DE CONTINGENCIA PARA CONSERVAR PLENAMENTE LA OPERATIVIDAD DEL SISTEMA DE IMPULSIÓN DE AGUA MEDIANTE EL REEMPLAZO DE LAS BOMBAS",
-    "entidad": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA MAULE COSTA - SERVICIO LOCAL DE EDUCACIÓN PÚBLICA MAULE COSTA",
-    "region": "Maule",
-    "comuna": "Cauquenes",
-    "fpub": "23-11-2026",
-    "monto_raw": "$15.999.550",
-    "monto_num": 15999550,
-    "plazo": "10 días",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1233619-56-LE26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "30-11-2026 15:00",
-    "fcierre_iso": "2026-11-30T15:00:00",
-    "finicio_preguntas_raw": "23-11-2026 11:55",
-    "finicio_preguntas_iso": "2026-11-23T11:55:00",
-    "ffinal_preguntas_raw": "25-11-2026 17:00",
-    "ffinal_preguntas_iso": "2026-11-25T17:00:00",
-    "frespuestas_raw": "26-11-2026 18:00",
-    "frespuestas_iso": "2026-11-26T18:00:00",
-    "fapertura_tecnica_raw": "30-11-2026 18:05",
-    "fapertura_tecnica_iso": "2026-11-30T18:05:00",
-    "fapertura_economica_raw": "30-11-2026 18:05",
-    "fapertura_economica_iso": "2026-11-30T18:05:00",
-    "fadjudicacion_raw": "14-12-2026 15:00",
-    "fadjudicacion_iso": "2026-12-14T15:00:00"
-   },
-   "contexto": {
-    "descripcion": "ASIGNACIÓN DE CONTINGENCIA PARA CONSERVAR PLENAMENTE LA OPERATIVIDAD DEL SISTEMA DE IMPULSIÓN DE AGUA MEDIANTE EL REEMPLAZO DE LAS BOMBAS",
-    "tipo": "LE",
-    "items": [
-     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Bombas · Bombas de agua · CONTINGENCIA PARA CONSERVAR PLENAMENTE LA OPERATIVIDAD DEL SISTEMA DE IMPULSIÓN DE AGUA MEDIANTE EL REEMPLAZO DE LAS BOMBAS EN EL LICEO DE CONSTITUCIÓN"
-    ],
-    "fuente_financiamiento": "Programa 02"
+    "fuente_financiamiento": ""
    }
   },
   {
@@ -90,122 +48,40 @@
     "agua potable"
    ],
    "registro": {
-    "id": "1493-48-LR26",
-    "nombre": "MEJORAMIENTO SISTEMA DE AGUA POTABLE COMUNA DE SAN NICOLÁS",
-    "entidad": "I MUNICIPALIDAD DE SAN NICOLAS - I MUNICIPALIDAD DE SAN NICOLAS",
-    "region": "Ñuble",
-    "comuna": "San Nicolás",
-    "fpub": "23-11-2026",
-    "monto_raw": "$385.560.000",
-    "monto_num": 385560000,
-    "plazo": "390 días",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1493-48-LR26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "28-12-2026 15:30",
-    "fcierre_iso": "2026-12-28T15:30:00",
-    "finicio_preguntas_raw": "23-11-2026 20:34",
-    "finicio_preguntas_iso": "2026-11-23T20:34:00",
-    "ffinal_preguntas_raw": "07-12-2026 12:00",
-    "ffinal_preguntas_iso": "2026-12-07T12:00:00",
-    "frespuestas_raw": "14-12-2026 17:00",
-    "frespuestas_iso": "2026-12-14T17:00:00",
-    "fapertura_tecnica_raw": "28-12-2026 15:35",
-    "fapertura_tecnica_iso": "2026-12-28T15:35:00",
-    "fapertura_economica_raw": "28-12-2026 15:35",
-    "fapertura_economica_iso": "2026-12-28T15:35:00",
-    "fadjudicacion_raw": "28-01-2027 18:51",
-    "fadjudicacion_iso": "2027-01-28T18:51:00"
-   },
-   "contexto": {
-    "descripcion": "El presente llamado a propuesta pública se refiere a la contratación de Estudios de Diseño al Mejoramiento del Sistema de Agua Potable que abastece el área urbana. \r\n\r\nEl diseño de ingeniería deberá definir a nivel de detalle las obras a ejecutar para cubrir la demanda de agua potable en un horizonte de 20 años. \r\n\r\nEs importante destacar que, debido a la importancia social del proyecto, la consultora deberá realizar prestaciones ampliadas a la Cooperativa, a través de las cuales se justificarán las decisiones respecto de las soluciones técnicas adoptadas para el proyecto. \r\n\r\nTodos aquellos informes y antecedentes que no se encuentren disponibles, deberán ser obtenidos por la consultora ante los organismos correspondientes. Por ejemplo: antecedentes hidrológicos, ensayos de calidad de agua, conformación de nuevos lotes en la localidad, etc. \r\n\r\nEn especial, la consultora deberá tomar contacto con la Cooperativa de APR de San Nicolás y con la Municipalidad, a objeto de recabar información que sea útil para el proyecto. \r\n",
-    "tipo": "LR",
-    "items": [
-     "Servicios profesionales, administrativos y consultorías de gestión empresarial / Servicios de recursos humanos / Servicios de personal temporal · Servicios temporales de ingeniería · El presente llamado a propuesta pública se refiere a la contratación de Estudios de Diseño al Mejoramiento del Sistema de Agua Potable que abastece el área urbana. \r\n"
-    ],
-    "fuente_financiamiento": "GOBIERNO REGIONAL DE ÑUBLE"
-   }
-  },
-  {
-   "palabras": [
-    "alcantarillado"
-   ],
-   "registro": {
-    "id": "2775-141-LE26",
-    "nombre": "Estudio Extensión de alcantarillado calle Egenau y Carta Propia comuna de Rengo",
-    "entidad": "I MUNICIPALIDAD DE RENGO - SECPLAC",
-    "region": "O'Higgins",
-    "comuna": "Rengo",
-    "fpub": "23-11-2026",
+    "id": "838098-4-LE26",
+    "nombre": "suministro de agua potable para CR Hornitos",
+    "entidad": "DIVISION LOGISTICA DEL EJERCITO - División de Bienestar ZB \"Antofagasta\" BSoc",
+    "region": "Antofagasta",
+    "comuna": "Antofagasta",
+    "fpub": "24-11-2026",
     "monto_raw": "No informado en ficha pública",
     "monto_num": null,
-    "plazo": "No especificado en ficha",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2775-141-LE26",
-    "visita_terreno": "No exige",
+    "plazo": "12 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=838098-4-LE26",
+    "visita_terreno": "Verificar visita",
     "estado_mp": "Publicada",
-    "fcierre_raw": "04-12-2026 09:00",
-    "fcierre_iso": "2026-12-04T09:00:00",
-    "finicio_preguntas_raw": "23-11-2026 18:10",
-    "finicio_preguntas_iso": "2026-11-23T18:10:00",
-    "ffinal_preguntas_raw": "30-11-2026 09:00",
-    "ffinal_preguntas_iso": "2026-11-30T09:00:00",
-    "frespuestas_raw": "30-11-2026 18:30",
-    "frespuestas_iso": "2026-11-30T18:30:00",
-    "fapertura_tecnica_raw": "04-12-2026 09:01",
-    "fapertura_tecnica_iso": "2026-12-04T09:01:00",
-    "fapertura_economica_raw": "04-12-2026 09:01",
-    "fapertura_economica_iso": "2026-12-04T09:01:00",
-    "fadjudicacion_raw": "01-01-2027 16:21",
-    "fadjudicacion_iso": "2027-01-01T16:21:00"
+    "fcierre_raw": "04-12-2026 15:30",
+    "fcierre_iso": "2026-12-04T15:30:00",
+    "finicio_preguntas_raw": "24-11-2026 19:49",
+    "finicio_preguntas_iso": "2026-11-24T19:49:00",
+    "ffinal_preguntas_raw": "26-11-2026 19:49",
+    "ffinal_preguntas_iso": "2026-11-26T19:49:00",
+    "frespuestas_raw": "30-11-2026 19:49",
+    "frespuestas_iso": "2026-11-30T19:49:00",
+    "fapertura_tecnica_raw": "05-12-2026 15:31",
+    "fapertura_tecnica_iso": "2026-12-05T15:31:00",
+    "fapertura_economica_raw": "05-12-2026 15:31",
+    "fapertura_economica_iso": "2026-12-05T15:31:00",
+    "fadjudicacion_raw": "14-12-2026 15:31",
+    "fadjudicacion_iso": "2026-12-14T15:31:00"
    },
    "contexto": {
-    "descripcion": "Estudio Extensión de Alcantarillado calle Egenau y Carta Propia, comuna de Rengo",
+    "descripcion": "la contratación del servicio de suministro de agua potable mediante camiones aljibes, según requerimiento, para el Centro Recreacional “Hornitos”, dependiente de la Zona de Bienestar “Antofagasta”.",
     "tipo": "LE",
     "items": [
-     "Servicios profesionales, administrativos y consultorías de gestión empresarial / Servicios de recursos humanos / Contratación de personal · Profesionales · CONTRATACIÓN DE ESTUDIO EXTENSIÓN DE ALCANTARILLADO CALLE EGENAU Y CARTA PROPIA, COMUNA DE RENGO."
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Abastecimiento de agua · suministro de agua potable mediante camiones aljibe"
     ],
-    "fuente_financiamiento": "Ilustre Municipalidad de Rengo"
-   }
-  },
-  {
-   "palabras": [
-    "APR"
-   ],
-   "registro": {
-    "id": "816696-24-CO26",
-    "nombre": "NORMALIZACION APR SECUNDARIO PUQUELDON",
-    "entidad": "I MUNICIPALIDAD DE PUQUELDON - SECPLAN",
-    "region": "Los Lagos",
-    "comuna": "Puqueldón",
-    "fpub": "23-11-2026",
-    "monto_raw": "No informado en ficha pública",
-    "monto_num": null,
-    "plazo": "120 días",
-    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=816696-24-CO26",
-    "visita_terreno": "No exige",
-    "estado_mp": "Publicada",
-    "fcierre_raw": "10-12-2026 12:00",
-    "fcierre_iso": "2026-12-10T12:00:00",
-    "finicio_preguntas_raw": "23-11-2026 15:30",
-    "finicio_preguntas_iso": "2026-11-23T15:30:00",
-    "ffinal_preguntas_raw": "30-11-2026 16:00",
-    "ffinal_preguntas_iso": "2026-11-30T16:00:00",
-    "frespuestas_raw": "02-12-2026 17:00",
-    "frespuestas_iso": "2026-12-02T17:00:00",
-    "fapertura_tecnica_raw": "10-12-2026 12:00",
-    "fapertura_tecnica_iso": "2026-12-10T12:00:00",
-    "fapertura_economica_raw": "14-12-2026 14:00",
-    "fapertura_economica_iso": "2026-12-14T14:00:00",
-    "fadjudicacion_raw": "15-01-2027 13:20",
-    "fadjudicacion_iso": "2027-01-15T13:20:00"
-   },
-   "contexto": {
-    "descripcion": "EJECUCION DE OBRAS PROYECTO FINANCIADO POR LA SUBSECRETARIA DE DESARROLLO REGIONAL Y ADMINISTRATIVO, A TRAVES DE SU PROGRAMA PMB DENOMINADO NORMALIZACION APR SECUNDARIO PUQUELDON",
-    "tipo": "CO",
-    "items": [
-     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · NORMALIZACIÓN APR SECUNDARIO PUQUELDÓN"
-    ],
-    "fuente_financiamiento": ""
+    "fuente_financiamiento": "C.F. 346090 C.C. 1100080215"
    }
   }
  ]
