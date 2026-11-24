@@ -112,8 +112,9 @@ function registro(d) {
     monto_num: monto && visible ? monto : null,
     plazo: Number(tdur) > 0 && udur ? `${tdur} ${udur}` : "No especificado en ficha",
     link: LINK(campo(d, "CodigoExterno")),
-    // La API casi nunca trae la fecha de visita; si informa dirección de visita, la hay.
-    visita_terreno: visita.raw || dirVisita.length > 3 ? "Exige" : "No exige",
+    // La API casi nunca trae la fecha de visita; si informa fecha o dirección, la hay. Si no trae
+    // ningún dato, no se puede afirmar que no exija: queda «Verificar visita» para revisar las bases.
+    visita_terreno: visita.raw || dirVisita.length > 3 ? "Exige" : "Verificar visita",
     ...(visita.raw ? { visita_terreno_fecha: visita.raw } : {}),
     ...hitos(d),
   };

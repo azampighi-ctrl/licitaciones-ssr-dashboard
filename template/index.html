@@ -444,6 +444,7 @@ function visitaTerrenoInfo(t){
     return { tipo: null, realizada: false };
   }
   const realizada = /realiz/.test(fuente);
+  if(/verificar/.test(fuente)) return { tipo: "Verificar visita", realizada: false };
   if(/no\s+(exige|requiere|contempla|hay)/.test(fuente) || /sin visita/.test(fuente)){
     return { tipo: "No exige", realizada: false };
   }
@@ -455,7 +456,7 @@ function visitaTerrenoInfo(t){
 function visitaBadge(t){
   const info = visitaTerrenoInfo(t);
   if(!info.tipo) return `<span class="preguntas-na">No indica</span>`;
-  const clsMap = { "Obligatoria":"badge-red", "Opcional":"badge-blue", "Exige":"badge-orange", "No exige":"badge-gray" };
+  const clsMap = { "Obligatoria":"badge-red", "Opcional":"badge-blue", "Exige":"badge-orange", "Verificar visita":"badge-orange", "No exige":"badge-gray" };
   const cls = clsMap[info.tipo] || "badge-gray";
   let html = `<span class="badge ${cls}">${info.tipo === "Exige" ? "Exige visita" : info.tipo}</span>`;
   const fechaRaw = t.visita_terreno_fecha;
