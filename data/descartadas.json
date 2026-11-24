@@ -548,5 +548,20 @@
   "nombre": "Construcción Sondaje SSR Llaicha, Calbuco.",
   "motivo": "Construcción de sondaje para SSR (licitación de obra, DOH) sin estudio asociado; obra.",
   "fecha": "21-11-2026"
+ },
+ "1070620-131-LP26": {
+  "nombre": "rfm Serv. Mant. Sist. Agua Potable Alcantarillado",
+  "motivo": "Servicio de mantención de sistemas de agua potable y alcantarillado de un hospital; no es ingeniería ni estudio.",
+  "fecha": "24-11-2026"
+ },
+ "1233619-56-LE26": {
+  "nombre": "ASIGNACIÓN DE CONTINGENCIA PARA CONSERVAR PLENAMENTE LA OPERATIVIDAD DEL SISTEMA DE IMPULSIÓN DE AGUA MEDIANTE EL REEMPLAZO DE LAS BOMBAS",
+  "motivo": "Reemplazo de bombas de agua en un liceo; compra de equipamiento, no es medición ni estudio.",
+  "fecha": "24-11-2026"
+ },
+ "816696-24-CO26": {
+  "nombre": "NORMALIZACION APR SECUNDARIO PUQUELDON",
+  "motivo": "Ejecución de obras de normalización de APR; construcción.",
+  "fecha": "24-11-2026"
  }
 }
