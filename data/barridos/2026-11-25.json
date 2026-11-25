@@ -1,0 +1,65 @@
+{
+  "fecha_barrido": "25-11-2026 07:44",
+  "nuevas": [
+    {
+      "id": "1437-30-LE26",
+      "nombre": "Estudio Hidrogeológico y Geofísico Loncotoro",
+      "entidad": "I MUNICIPALIDAD DE LLANQUIHUE - Ilustre Municipalidad de Llanquihue",
+      "region": "Los Lagos",
+      "comuna": "Llanquihue",
+      "fpub": "24-11-2026",
+      "monto_raw": "$7.641.698",
+      "monto_num": 7641698,
+      "plazo": "45 días",
+      "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1437-30-LE26",
+      "visita_terreno": "Verificar visita",
+      "estado_mp": "Publicada",
+      "fcierre_raw": "07-12-2026 15:00",
+      "fcierre_iso": "2026-12-07T15:00:00",
+      "finicio_preguntas_raw": "24-11-2026 18:01",
+      "finicio_preguntas_iso": "2026-11-24T18:01:00",
+      "ffinal_preguntas_raw": "28-11-2026 23:59",
+      "ffinal_preguntas_iso": "2026-11-28T23:59:00",
+      "frespuestas_raw": "30-11-2026 18:00",
+      "frespuestas_iso": "2026-11-30T18:00:00",
+      "fapertura_tecnica_raw": "07-12-2026 15:01",
+      "fapertura_tecnica_iso": "2026-12-07T15:01:00",
+      "fapertura_economica_raw": "07-12-2026 15:01",
+      "fapertura_economica_iso": "2026-12-07T15:01:00",
+      "fadjudicacion_raw": "06-01-2027 17:00",
+      "fadjudicacion_iso": "2027-01-06T17:00:00",
+      "categoria": "Estudios Hidrogeológicos",
+      "interes": "Alto",
+      "estado": "Revisar - ALTA RELEVANCIA",
+      "observaciones": "Estudio hidrogeológico y geofísico (SEV o TEM, mín. 200 m) en terreno municipal de 1 ha en Loncotoro, con análisis de agua NCh 409, alternativas y diseño de la captación; financia SUBDERE PMB; monto referencial $7.641.698, plazo 45 días."
+    }
+  ],
+  "actualizaciones": [],
+  "descartadas": [
+    {
+      "id": "1197594-22-LP26",
+      "nombre": "SANEAMIENTO SANITARIO RURAL LAG COCHRANE-ESMERALDA",
+      "motivo": "Construcción de obra de saneamiento sanitario rural (PMB); no es ingeniería ni estudio."
+    },
+    {
+      "id": "1437-24-LE26",
+      "nombre": "Mejoramiento Sistemas de APR comuna de Llanquihue",
+      "motivo": "Ejecución de obras (grupo electrógeno y estanques de petróleo en APR); obra, no ingeniería."
+    },
+    {
+      "id": "1437-25-LE26",
+      "nombre": "Soluciones Alcantarillado Línea Solar",
+      "motivo": "Construcción de soluciones individuales de alcantarillado; obra."
+    },
+    {
+      "id": "727202-103-LE26",
+      "nombre": "MEJORAMIENTO SISTEMA DE AGUA POTABLE POLIDEPORTIVO",
+      "motivo": "Obras de mejoramiento de sistema de agua potable de polideportivo; obra."
+    },
+    {
+      "id": "838098-4-LE26",
+      "nombre": "suministro de agua potable para CR Hornitos",
+      "motivo": "Suministro de agua potable mediante camiones aljibe; suministro, no corresponde."
+    }
+  ]
+}

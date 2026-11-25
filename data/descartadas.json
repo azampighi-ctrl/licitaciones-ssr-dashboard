@@ -563,5 +563,30 @@
   "nombre": "NORMALIZACION APR SECUNDARIO PUQUELDON",
   "motivo": "Ejecución de obras de normalización de APR; construcción.",
   "fecha": "24-11-2026"
+ },
+ "1197594-22-LP26": {
+  "nombre": "SANEAMIENTO SANITARIO RURAL LAG COCHRANE-ESMERALDA",
+  "motivo": "Construcción de obra de saneamiento sanitario rural (PMB); no es ingeniería ni estudio.",
+  "fecha": "25-11-2026"
+ },
+ "1437-24-LE26": {
+  "nombre": "Mejoramiento Sistemas de APR comuna de Llanquihue",
+  "motivo": "Ejecución de obras (grupo electrógeno y estanques de petróleo en APR); obra, no ingeniería.",
+  "fecha": "25-11-2026"
+ },
+ "1437-25-LE26": {
+  "nombre": "Soluciones Alcantarillado Línea Solar",
+  "motivo": "Construcción de soluciones individuales de alcantarillado; obra.",
+  "fecha": "25-11-2026"
+ },
+ "727202-103-LE26": {
+  "nombre": "MEJORAMIENTO SISTEMA DE AGUA POTABLE POLIDEPORTIVO",
+  "motivo": "Obras de mejoramiento de sistema de agua potable de polideportivo; obra.",
+  "fecha": "25-11-2026"
+ },
+ "838098-4-LE26": {
+  "nombre": "suministro de agua potable para CR Hornitos",
+  "motivo": "Suministro de agua potable mediante camiones aljibe; suministro, no corresponde.",
+  "fecha": "25-11-2026"
  }
 }
