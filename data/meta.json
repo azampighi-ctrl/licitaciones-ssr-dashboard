@@ -1,18 +1,16 @@
 {
  "fecha_barrido": "24-11-2026 07:42",
  "api": {
-  "fecha": "2026-11-24T17:26:30",
-  "peticiones": 68,
-  "activas": 4736,
-  "candidatas": 2,
+  "fecha": "2026-11-25T07:44:38",
+  "peticiones": 69,
+  "activas": 4790,
+  "candidatas": 6,
   "excluidas_construccion_mantencion": 25,
-  "actualizadas": 1,
+  "actualizadas": 0,
   "actas": 0,
   "errores": 0,
   "postulaciones_detectadas": 0,
-  "novedades": [
-   "817-62-O126 «Estudio Mecánica de Suelos para el SSR Pid Pid»: estado Publicada → Cerrada."
-  ]
+  "novedades": []
  },
  "ultimo_resumen": {
   "nuevas": 2,

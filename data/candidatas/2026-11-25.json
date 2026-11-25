@@ -1,0 +1,253 @@
+{
+ "generado": "2026-11-25T07:44:38",
+ "fecha_barrido": "25-11-2026 07:44",
+ "candidatas": [
+  {
+   "palabras": [
+    "saneamiento sanitario"
+   ],
+   "registro": {
+    "id": "1197594-22-LP26",
+    "nombre": "SANEAMIENTO SANITARIO RURAL LAG COCHRANE-ESMERALDA",
+    "entidad": "I MUNICIPALIDAD DE COCHRANE - SECPLA",
+    "region": "Aysén",
+    "comuna": "Cochrane",
+    "fpub": "24-11-2026",
+    "monto_raw": "$314.652.083",
+    "monto_num": 314652083,
+    "plazo": "120 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1197594-22-LP26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "24-12-2026 11:36",
+    "fcierre_iso": "2026-12-24T11:36:00",
+    "finicio_preguntas_raw": "24-11-2026 18:33",
+    "finicio_preguntas_iso": "2026-11-24T18:33:00",
+    "ffinal_preguntas_raw": "30-11-2026 18:33",
+    "ffinal_preguntas_iso": "2026-11-30T18:33:00",
+    "frespuestas_raw": "04-12-2026 18:33",
+    "frespuestas_iso": "2026-12-04T18:33:00",
+    "fapertura_tecnica_raw": "24-12-2026 11:37",
+    "fapertura_tecnica_iso": "2026-12-24T11:37:00",
+    "fapertura_economica_raw": "24-12-2026 18:37",
+    "fapertura_economica_iso": "2026-12-24T18:37:00",
+    "fadjudicacion_raw": "31-12-2026 18:37",
+    "fadjudicacion_iso": "2026-12-31T18:37:00"
+   },
+   "contexto": {
+    "descripcion": "Las presentes Bases Administrativas y Técnicas regirán la Licitación Pública, adjudicación, contrato, plazos, sanciones y sistema de pago, de la propuesta mencionada precedentemente, conjuntamente con las especificaciones técnicas, eventuales aclaraciones, respuestas a consultas y demás antecedentes de la licitación, para llevar a cabo el proyecto “SANEAMIENTO SANITARIO RURAL SECTORES LAGO COCHRANE-LAGUNA ESMERALDA” Código PMB 11301230701-C, conforme a estas bases y condiciones contractuales y demás documentos asociados.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · El presente proyecto se desarrolla dentro del marco del Programa de Mejoramiento de Barrios (PMB). Su objetivo principal es contribuir a la reducción de la marginalidad sanitaria y del déficit de servicios básicos en sectores rurales apartados de la comun"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "APR"
+   ],
+   "registro": {
+    "id": "1437-24-LE26",
+    "nombre": "Mejoramiento Sistemas de APR comuna de Llanquihue",
+    "entidad": "I MUNICIPALIDAD DE LLANQUIHUE - Ilustre Municipalidad de Llanquihue",
+    "region": "Los Lagos",
+    "comuna": "Llanquihue",
+    "fpub": "24-11-2026",
+    "monto_raw": "$42.974.272",
+    "monto_num": 42974272,
+    "plazo": "120 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1437-24-LE26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "14-12-2026 15:00",
+    "fcierre_iso": "2026-12-14T15:00:00",
+    "finicio_preguntas_raw": "24-11-2026 18:01",
+    "finicio_preguntas_iso": "2026-11-24T18:01:00",
+    "ffinal_preguntas_raw": "04-12-2026 23:59",
+    "ffinal_preguntas_iso": "2026-12-04T23:59:00",
+    "frespuestas_raw": "09-12-2026 18:00",
+    "frespuestas_iso": "2026-12-09T18:00:00",
+    "fapertura_tecnica_raw": "14-12-2026 15:01",
+    "fapertura_tecnica_iso": "2026-12-14T15:01:00",
+    "fapertura_economica_raw": "14-12-2026 15:01",
+    "fapertura_economica_iso": "2026-12-14T15:01:00",
+    "fadjudicacion_raw": "22-01-2027 17:00",
+    "fadjudicacion_iso": "2027-01-22T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "Ejecución, a suma alzada, de las obras del proyecto Mejoramiento Sistemas de APR, código SUBDERE 10107260702-B: suministro e instalación de un grupo electrógeno de 20 kVA con tablero de transferencia automática en el APR Los Pellines, y de cuatro estanques de petróleo de 500 litros en los APR Loncotoro, Los Pellines, Colegual Macal y Colegual Esperanza, con sus radieres, cierres y techumbres.",
+    "tipo": "LE",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · Mejoramiento Sistemas de APR, comuna de Llanquihue"
+    ],
+    "fuente_financiamiento": "SUBDERE PMB-IRAL 2026, Res. Ex. N°5756/2026"
+   }
+  },
+  {
+   "palabras": [
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "1437-25-LE26",
+    "nombre": "Soluciones Alcantarillado Línea Solar",
+    "entidad": "I MUNICIPALIDAD DE LLANQUIHUE - Ilustre Municipalidad de Llanquihue",
+    "region": "Los Lagos",
+    "comuna": "Llanquihue",
+    "fpub": "24-11-2026",
+    "monto_raw": "$46.905.305",
+    "monto_num": 46905305,
+    "plazo": "120 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1437-25-LE26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "14-12-2026 15:00",
+    "fcierre_iso": "2026-12-14T15:00:00",
+    "finicio_preguntas_raw": "24-11-2026 18:01",
+    "finicio_preguntas_iso": "2026-11-24T18:01:00",
+    "ffinal_preguntas_raw": "04-12-2026 23:59",
+    "ffinal_preguntas_iso": "2026-12-04T23:59:00",
+    "frespuestas_raw": "09-12-2026 18:00",
+    "frespuestas_iso": "2026-12-09T18:00:00",
+    "fapertura_tecnica_raw": "14-12-2026 15:01",
+    "fapertura_tecnica_iso": "2026-12-14T15:01:00",
+    "fapertura_economica_raw": "14-12-2026 15:01",
+    "fapertura_economica_iso": "2026-12-14T15:01:00",
+    "fadjudicacion_raw": "22-01-2027 17:00",
+    "fadjudicacion_iso": "2027-01-22T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "Construcción de nueve soluciones individuales de alcantarillado fosa séptica, cámaras y drenes de infiltración en el sector Línea Solar.",
+    "tipo": "LE",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · Construcción de nueve soluciones individuales de alcantarillado"
+    ],
+    "fuente_financiamiento": "SUBDERE PMB-IRAL 2026, Res. Ex. N°5740/2026"
+   }
+  },
+  {
+   "palabras": [
+    "hidrogeológico",
+    "geofísico"
+   ],
+   "registro": {
+    "id": "1437-30-LE26",
+    "nombre": "Estudio Hidrogeológico y Geofísico Loncotoro",
+    "entidad": "I MUNICIPALIDAD DE LLANQUIHUE - Ilustre Municipalidad de Llanquihue",
+    "region": "Los Lagos",
+    "comuna": "Llanquihue",
+    "fpub": "24-11-2026",
+    "monto_raw": "$7.641.698",
+    "monto_num": 7641698,
+    "plazo": "45 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1437-30-LE26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "07-12-2026 15:00",
+    "fcierre_iso": "2026-12-07T15:00:00",
+    "finicio_preguntas_raw": "24-11-2026 18:01",
+    "finicio_preguntas_iso": "2026-11-24T18:01:00",
+    "ffinal_preguntas_raw": "28-11-2026 23:59",
+    "ffinal_preguntas_iso": "2026-11-28T23:59:00",
+    "frespuestas_raw": "30-11-2026 18:00",
+    "frespuestas_iso": "2026-11-30T18:00:00",
+    "fapertura_tecnica_raw": "07-12-2026 15:01",
+    "fapertura_tecnica_iso": "2026-12-07T15:01:00",
+    "fapertura_economica_raw": "07-12-2026 15:01",
+    "fapertura_economica_iso": "2026-12-07T15:01:00",
+    "fadjudicacion_raw": "06-01-2027 17:00",
+    "fadjudicacion_iso": "2027-01-06T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "Versión de 373 caracteres con espacios:\n\n Elaboración del Estudio Hidrogeológico y Geofísico Loncotoro, comuna de Llanquihue SUBDERE PMB, código 10107240401-C, para caracterizar los acuíferos de un terreno municipal de 1 ha, estimar el potencial y la calidad del agua subterránea y, si su explotación es factible, proponer alternativas y diseñar la obra de captación, según las bases y los términos de referencia.",
+    "tipo": "LE",
+    "items": [
+     "Servicios basados en ingeniería, ciencias sociales y tecnología de la información / Servicios relativos a la meteorología y ciencias de la tierra / Geología · Estudios geológicos · Texto para ese campo (unos 214 caracteres con espacios):\r\n\r\n> Estudio hidrogeológico y geofísico en terreno municipal de 1 ha en Loncotoro: geofísica SEV o TEM (mín. 200 m), análisis de agua NCh 409, alternativas y diseño de la captación, según términos d"
+    ],
+    "fuente_financiamiento": "SUBDERE PMB, Res. Ex. N°11872/2024"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "727202-103-LE26",
+    "nombre": "MEJORAMIENTO SISTEMA DE AGUA POTABLE POLIDEPORTIVO",
+    "entidad": "I MUNICIPALIDAD DE VICUNA - Secplan",
+    "region": "Coquimbo",
+    "comuna": "Vicuña",
+    "fpub": "24-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "150 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=727202-103-LE26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "04-12-2026 10:00",
+    "fcierre_iso": "2026-12-04T10:00:00",
+    "finicio_preguntas_raw": "24-11-2026 23:59",
+    "finicio_preguntas_iso": "2026-11-24T23:59:00",
+    "ffinal_preguntas_raw": "27-11-2026 23:59",
+    "ffinal_preguntas_iso": "2026-11-27T23:59:00",
+    "frespuestas_raw": "01-12-2026 23:59",
+    "frespuestas_iso": "2026-12-01T23:59:00",
+    "fapertura_tecnica_raw": "04-12-2026 10:01",
+    "fapertura_tecnica_iso": "2026-12-04T10:01:00",
+    "fapertura_economica_raw": "15-12-2026 11:00",
+    "fapertura_economica_iso": "2026-12-15T11:00:00",
+    "fadjudicacion_raw": "31-12-2026 23:59",
+    "fadjudicacion_iso": "2026-12-31T23:59:00"
+   },
+   "contexto": {
+    "descripcion": "OBRAS DE MEJORAMIENTO DE SISTEMA DE AGUA POTABLE POLIDEPORTIVO PARA LA COMUNA DE VICUÑA, CORRESPONDIENTE PROGRAMA MEJORAMIENTO URBANO Y EQUIPAMIENTO COMUNAL, LÍNEA EMERGENCIA, AÑO 2026 DE LA SUBSECRETARIA DE DESARROLLO REGIONAL Y ADMINISTRATIVO, CONFORME A LO SEÑALADO EN LOS ANTECEDENTES ADJUNTOS.",
+    "tipo": "LE",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · OBRAS MEJORAMIENTO SISTEMA DE AGUA POTABLE POLIDEPORTIVO PARA LA COMUNA DE VICUÑA (INGRESAR VALOR NETO)"
+    ],
+    "fuente_financiamiento": "SUBDERE"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "838098-4-LE26",
+    "nombre": "suministro de agua potable para CR Hornitos",
+    "entidad": "DIVISION LOGISTICA DEL EJERCITO - División de Bienestar ZB \"Antofagasta\" BSoc",
+    "region": "Antofagasta",
+    "comuna": "Antofagasta",
+    "fpub": "24-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "12 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=838098-4-LE26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "04-12-2026 15:30",
+    "fcierre_iso": "2026-12-04T15:30:00",
+    "finicio_preguntas_raw": "24-11-2026 19:49",
+    "finicio_preguntas_iso": "2026-11-24T19:49:00",
+    "ffinal_preguntas_raw": "26-11-2026 19:49",
+    "ffinal_preguntas_iso": "2026-11-26T19:49:00",
+    "frespuestas_raw": "30-11-2026 19:49",
+    "frespuestas_iso": "2026-11-30T19:49:00",
+    "fapertura_tecnica_raw": "05-12-2026 15:31",
+    "fapertura_tecnica_iso": "2026-12-05T15:31:00",
+    "fapertura_economica_raw": "05-12-2026 15:31",
+    "fapertura_economica_iso": "2026-12-05T15:31:00",
+    "fadjudicacion_raw": "14-12-2026 15:31",
+    "fadjudicacion_iso": "2026-12-14T15:31:00"
+   },
+   "contexto": {
+    "descripcion": "la contratación del servicio de suministro de agua potable mediante camiones aljibes, según requerimiento, para el Centro Recreacional “Hornitos”, dependiente de la Zona de Bienestar “Antofagasta”.",
+    "tipo": "LE",
+    "items": [
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Abastecimiento de agua · suministro de agua potable mediante camiones aljibe"
+    ],
+    "fuente_financiamiento": "C.F. 346090 C.C. 1100080215"
+   }
+  }
+ ]
+}
