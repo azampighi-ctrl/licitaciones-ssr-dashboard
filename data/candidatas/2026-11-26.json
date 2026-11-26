@@ -1,0 +1,129 @@
+{
+ "generado": "2026-11-26T07:45:21",
+ "fecha_barrido": "26-11-2026 07:45",
+ "candidatas": [
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1467-13-LE26",
+    "nombre": "Recuperación de PTAS y de Sistema de Agua Potable",
+    "entidad": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE CURICÓ - Gobernación Provincial de Curicó",
+    "region": "Maule",
+    "comuna": "Curicó",
+    "fpub": "25-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "5 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1467-13-LE26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "07-12-2026 15:00",
+    "fcierre_iso": "2026-12-07T15:00:00",
+    "finicio_preguntas_raw": "25-11-2026 17:43",
+    "finicio_preguntas_iso": "2026-11-25T17:43:00",
+    "ffinal_preguntas_raw": "28-11-2026 17:43",
+    "ffinal_preguntas_iso": "2026-11-28T17:43:00",
+    "frespuestas_raw": "29-11-2026 17:43",
+    "frespuestas_iso": "2026-11-29T17:43:00",
+    "fapertura_tecnica_raw": "07-12-2026 15:00",
+    "fapertura_tecnica_iso": "2026-12-07T15:00:00",
+    "fapertura_economica_raw": "07-12-2026 15:00",
+    "fapertura_economica_iso": "2026-12-07T15:00:00",
+    "fadjudicacion_raw": "08-12-2026 18:00",
+    "fadjudicacion_iso": "2026-12-08T18:00:00"
+   },
+   "contexto": {
+    "descripcion": "contratar la recuperación operacional de la Planta de Tratamiento de Aguas Servidas PTAS y del sistema de agua potable del Complejo Fronterizo Paso Vergara, comuna de Romeral, mediante el suministro, desmontaje, instalación, pruebas y puesta en marcha de los equipos y componentes indicados en las presentes Especificaciones Técnicas.",
+    "tipo": "LE",
+    "items": [
+     "Servicios de limpieza industrial / Eliminación y tratamiento de desechos / Tratamiento de residuos líquidos · Tratamiento de aguas servidas · Recuperación de la PTAS y del Sistema de Agua Potable del Complejo Fronterizo Paso Vergara."
+    ],
+    "fuente_financiamiento": "Recursos de la Unidad de Pasos Fronterizos"
+   }
+  },
+  {
+   "palabras": [
+    "telemetría"
+   ],
+   "registro": {
+    "id": "2332-56-LP26",
+    "nombre": "CS SERVICIO DE TELEMETRIA",
+    "entidad": "I MUNICIPALIDAD DE PUERTO MONTT - Oficina de Adquisiciones del Departamento de Salud",
+    "region": "Los Lagos",
+    "comuna": "Puerto Montt",
+    "fpub": "25-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "36 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2332-56-LP26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "15-12-2026 09:00",
+    "fcierre_iso": "2026-12-15T09:00:00",
+    "finicio_preguntas_raw": "25-11-2026 18:30",
+    "finicio_preguntas_iso": "2026-11-25T18:30:00",
+    "ffinal_preguntas_raw": "02-12-2026 14:44",
+    "ffinal_preguntas_iso": "2026-12-02T14:44:00",
+    "frespuestas_raw": "07-12-2026 14:44",
+    "frespuestas_iso": "2026-12-07T14:44:00",
+    "fapertura_tecnica_raw": "15-12-2026 09:01",
+    "fapertura_tecnica_iso": "2026-12-15T09:01:00",
+    "fapertura_economica_raw": "15-12-2026 09:01",
+    "fapertura_economica_iso": "2026-12-15T09:01:00",
+    "fadjudicacion_raw": "15-07-2027 18:48",
+    "fadjudicacion_iso": "2027-07-15T18:48:00"
+   },
+   "contexto": {
+    "descripcion": "Se requiere la contratación del servicio de suministro, instalación y puesta en marcha de dispositivos de posicionamiento global GPS y el acceso a una plataforma web de gestión de flota para los vehículos propios del Departamento de Salud Municipal de Puerto Montt.\r\nEsto para elevar el estándar de control y gestión de la flota vehicular, asegurando no solo la geolocalización y seguridad de los móviles, sino fundamentalmente la gestión del mantenimiento preventivo, control de documentación y monitoreo de la conducción, lo que permite garantizar la disponibilidad operativa y la vida útil de los vehículos de la red APS.",
+    "tipo": "LP",
+    "items": [
+     "Maquinaria para minería y perforación / Equipo para perforación y exploración para petróleo / Equipos de registro y medición de pozo · Sistemas de telemetría · SERVICIO DE TELEMETRÍA (GPS), INSTALACIÓN Y PLATAFORMA DE GESTIÓN, SEGUN BASES TECNICAS."
+    ],
+    "fuente_financiamiento": "2152208"
+   }
+  },
+  {
+   "palabras": [
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "727202-108-LR26",
+    "nombre": "ALCANTARILLADO Y SOLUCIONES SANITARIAS EL ARENAL",
+    "entidad": "I MUNICIPALIDAD DE VICUNA - Secplan",
+    "region": "Coquimbo",
+    "comuna": "Vicuña",
+    "fpub": "25-11-2026",
+    "monto_raw": "$5.056.863.000",
+    "monto_num": 5056863000,
+    "plazo": "840 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=727202-108-LR26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "25-01-2027 15:00",
+    "fcierre_iso": "2027-01-25T15:00:00",
+    "finicio_preguntas_raw": "25-11-2026 11:00",
+    "finicio_preguntas_iso": "2026-11-25T11:00:00",
+    "ffinal_preguntas_raw": "15-12-2026 23:59",
+    "ffinal_preguntas_iso": "2026-12-15T23:59:00",
+    "frespuestas_raw": "05-01-2027 23:59",
+    "frespuestas_iso": "2027-01-05T23:59:00",
+    "fapertura_tecnica_raw": "25-01-2027 15:01",
+    "fapertura_tecnica_iso": "2027-01-25T15:01:00",
+    "fapertura_economica_raw": "16-02-2027 15:01",
+    "fapertura_economica_iso": "2027-02-16T15:01:00",
+    "fadjudicacion_raw": "09-03-2027 23:59",
+    "fadjudicacion_iso": "2027-03-09T23:59:00"
+   },
+   "contexto": {
+    "descripcion": "CONSTRUCCIÓN ALCANTARILLADO Y SOLUCIONES SANITARIAS EL ARENAL, COMUNA DE VICUÑA.",
+    "tipo": "LR",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · CONSTRUCCIÓN ALCANTARILLADO Y SOLUCIONES SANITARIAS EL ARENAL, COMUNA DE VICUÑA"
+    ],
+    "fuente_financiamiento": "Gobierno Regional de Coquimbo"
+   }
+  }
+ ]
+}
