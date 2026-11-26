@@ -1,0 +1,10 @@
+{
+  "fecha_barrido": "26-11-2026 07:45",
+  "nuevas": [],
+  "actualizaciones": [],
+  "descartadas": [
+    {"id": "1467-13-LE26", "nombre": "Recuperación de PTAS y de Sistema de Agua Potable", "motivo": "Suministro, desmontaje e instalación de equipos para recuperación operacional de una PTAS en un paso fronterizo; es obra/suministro, no ingeniería ni estudio."},
+    {"id": "2332-56-LP26", "nombre": "CS SERVICIO DE TELEMETRIA", "motivo": "Telemetría GPS y plataforma de gestión de flota vehicular; no es instrumentación hídrica."},
+    {"id": "727202-108-LR26", "nombre": "ALCANTARILLADO Y SOLUCIONES SANITARIAS EL ARENAL", "motivo": "Construcción de obra de alcantarillado (descripción: «Construcción»); no es diseño ni estudio."}
+  ]
+}
