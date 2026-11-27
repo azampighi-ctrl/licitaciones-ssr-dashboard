@@ -1,18 +1,18 @@
 {
  "fecha_barrido": "26-11-2026 07:45",
  "api": {
-  "fecha": "2026-11-26T07:45:21",
-  "peticiones": 73,
-  "activas": 4894,
-  "candidatas": 3,
-  "excluidas_construccion_mantencion": 26,
+  "fecha": "2026-11-27T07:42:02",
+  "peticiones": 75,
+  "activas": 4878,
+  "candidatas": 6,
+  "excluidas_construccion_mantencion": 31,
   "actualizadas": 2,
   "actas": 0,
   "errores": 0,
   "postulaciones_detectadas": 0,
   "novedades": [
-   "1392-37-LE26 «Adquisicion de datalogger  Req 62»: estado Publicada → Cerrada.",
-   "1019-135-LE26 «Insumos y repuestos para sondas multiparamétricas»: estado Publicada → Cerrada."
+   "1261-37-LR26 «Estrategia Reconocimiento Humedales Comp2-3y5»: estado Publicada → Cerrada.",
+   "2794-32-LP26 «Mejoramiento Sist. Agua Potable Rio Blanco Diseño»: estado Publicada → Cerrada."
   ]
  },
  "ultimo_resumen": {

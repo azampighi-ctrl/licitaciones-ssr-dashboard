@@ -1,0 +1,259 @@
+{
+ "generado": "2026-11-27T07:42:02",
+ "fecha_barrido": "27-11-2026 07:42",
+ "candidatas": [
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1485788-2-LR26",
+    "nombre": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE",
+    "entidad": "DELEGACIÓN PRESIDENCIAL REGIONAL DE LOS RÍOS - Emergencias",
+    "region": "Los Ríos",
+    "comuna": "Valdivia",
+    "fpub": "26-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1485788-2-LR26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "28-12-2026 15:01",
+    "fcierre_iso": "2026-12-28T15:01:00",
+    "finicio_preguntas_raw": "26-11-2026 18:00",
+    "finicio_preguntas_iso": "2026-11-26T18:00:00",
+    "ffinal_preguntas_raw": "01-12-2026 18:00",
+    "ffinal_preguntas_iso": "2026-12-01T18:00:00",
+    "frespuestas_raw": "03-12-2026 19:09",
+    "frespuestas_iso": "2026-12-03T19:09:00",
+    "fapertura_tecnica_raw": "28-12-2026 15:02",
+    "fapertura_tecnica_iso": "2026-12-28T15:02:00",
+    "fapertura_economica_raw": "28-12-2026 15:02",
+    "fapertura_economica_iso": "2026-12-28T15:02:00",
+    "fadjudicacion_raw": "31-12-2026 16:13",
+    "fadjudicacion_iso": "2026-12-31T16:13:00"
+   },
+   "contexto": {
+    "descripcion": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE MEDIANTE CAMIONES ALJIBES PARA LAS COMUNAS DE LA PROVINCIA DE VALDIVIA PRIMER SEMESTRE 2027",
+    "tipo": "LR",
+    "items": [
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Distribución de agua · SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE MEDIANTE CAMIONES ALJIBES PARA LAS COMUNAS DE LA PROVINCIA DE VALDIVIA PRIMER SEMESTRE 2027"
+    ],
+    "fuente_financiamiento": "Fondos Extra Presupuestarios "
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1515-9-LP26",
+    "nombre": "Servicio Transporte Agua Potable Trimestre 1 2027",
+    "entidad": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE OSORNO - DELEGACIÓN PRESIDENCIAL PROVINCIAL DE OSORNO",
+    "region": "Los Lagos",
+    "comuna": "Osorno",
+    "fpub": "26-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "3 meses",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1515-9-LP26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "07-12-2026 15:10",
+    "fcierre_iso": "2026-12-07T15:10:00",
+    "finicio_preguntas_raw": "26-11-2026 13:00",
+    "finicio_preguntas_iso": "2026-11-26T13:00:00",
+    "ffinal_preguntas_raw": "30-11-2026 18:00",
+    "ffinal_preguntas_iso": "2026-11-30T18:00:00",
+    "frespuestas_raw": "02-12-2026 18:00",
+    "frespuestas_iso": "2026-12-02T18:00:00",
+    "fapertura_tecnica_raw": "07-12-2026 15:30",
+    "fapertura_tecnica_iso": "2026-12-07T15:30:00",
+    "fapertura_economica_raw": "07-12-2026 15:30",
+    "fapertura_economica_iso": "2026-12-07T15:30:00",
+    "fadjudicacion_raw": "15-12-2026 16:00",
+    "fadjudicacion_iso": "2026-12-15T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "CONTRATACIÓN DEL SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE AGUA POTABLE A TRAVÉS DE CAMIONES ALJIBES PARA LA PROVINCIA DE OSORNO, PERIODO ENERO, FEBRERO Y MARZO DE 2027.",
+    "tipo": "LP",
+    "items": [
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Abastecimiento de agua · LINEA 1: COMUNA DE OSORNO: CONTRATACION DE 1 CAMIÓN ALJIBE PARA ENTREGA Y DISTRIBUCIÓN DE AGUA POTABLE POR UN PERÍODO DE 3 MESES (ENERO-FEBRERO-MARZO 2027)",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Abastecimiento de agua · LINEA 4: COMUNA DE RIO NEGRO: CONTRATACION DE 4 CAMIONES ALJIBE PARA ENTREGA Y DISTRIBUCIÓN DE AGUA POTABLE POR UN PERÍODO DE 3 MESES (ENERO-FEBRERO-MARZO 2027)",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Abastecimiento de agua · LINEA 5: COMUNA DE SAN JUAN DE LA COSTA: CONTRATACION DE 7 CAMIONES ALJIBE PARA ENTREGA Y DISTRIBUCIÓN DE AGUA POTABLE POR UN PERÍODO DE 3 MESES (ENERO-FEBRERO-MARZO 2027)",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Abastecimiento de agua · LINEA 6: COMUNA DE SAN PABLO: CONTRATACION DE 2 CAMIONES ALJIBE PARA ENTREGA Y DISTRIBUCIÓN DE AGUA POTABLE POR UN PERÍODO DE 3 MESES(ENERO-FEBRERO-MARZO 2027)",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Abastecimiento de agua · LINEA 3: COMUNA DE PUYEHUE: CONTRATACION DE 1 CAMIÓN ALJIBE PARA ENTREGA Y DISTRIBUCIÓN DE AGUA POTABLE POR UN PERÍODO DE 3 MESES (ENERO-FEBRERO-MARZO 2027)",
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Abastecimiento de agua · LINEA 2. COMUNA DE PURRANQUE. CONTRATACION DE 2 CAMIONES ALJIBE PARA ENTREGA Y DISTRIBUCIÓN DE AGUA POTABLE POR UN PERÍODO DE 3 MESES (ENERO-FEBRERO-MARZO 2027)"
+    ],
+    "fuente_financiamiento": "Delegación Presidencial Provincial de Osorno"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "1612-9-LP26",
+    "nombre": "SERVICIOS INTEGRALES DE SUMINISTRO DE AGUA POTABLE",
+    "entidad": "DELEGACIÓN PRESIDENCIAL REGIONAL DE ATACAMA - DELEGACIÓN PRESIDENCIAL REGIONAL DE ATACAMA",
+    "region": "Atacama",
+    "comuna": "Copiapó",
+    "fpub": "26-11-2026",
+    "monto_raw": "$317.083.043",
+    "monto_num": 317083043,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1612-9-LP26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-12-2026 15:05",
+    "fcierre_iso": "2026-12-16T15:05:00",
+    "finicio_preguntas_raw": "27-11-2026 09:00",
+    "finicio_preguntas_iso": "2026-11-27T09:00:00",
+    "ffinal_preguntas_raw": "07-12-2026 20:00",
+    "ffinal_preguntas_iso": "2026-12-07T20:00:00",
+    "frespuestas_raw": "10-12-2026 20:00",
+    "frespuestas_iso": "2026-12-10T20:00:00",
+    "fapertura_tecnica_raw": "16-12-2026 15:30",
+    "fapertura_tecnica_iso": "2026-12-16T15:30:00",
+    "fapertura_economica_raw": "16-12-2026 15:30",
+    "fapertura_economica_iso": "2026-12-16T15:30:00",
+    "fadjudicacion_raw": "29-12-2026 20:00",
+    "fadjudicacion_iso": "2026-12-29T20:00:00"
+   },
+   "contexto": {
+    "descripcion": "Que, la presente licitación se enmarca en el programa de reconstrucción del que fueron beneficiarias aquellas familias de la Región de Atacama, damnificadas por los aluviones del año 2015, el cual provocó la pérdida total de sus viviendas y enseres, razón por la cual debieron ser reubicados en recintos denominados “Barrios Transitorios de Emergencia”, de los cuales algunos permanecen vigentes a la espera de la solución habitacional definitiva.\r\n3.- Que, en este sentido, la Delegación Presidencial Regional de Atacama requiere contratar los servicios de suministro y distribución de agua potable, limpieza y sanitización de estanques, la extracción y disposición de aguas servidas, humectación de caminos, atención de contingencias, servicio de fumigación, desratización, desinfección de viviendas y patios, en el barrio transitorio de emergencia de la localidad de Nantoco, comuna de Tierra Amarilla.\r\n4.- Que, los servicios deberán asegurar la continuidad de las prestaciones necesarias mientras permanezcan familias en el barrio y permitir la ejecución ordenada de los trabajos asociados a su desocupación.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de transporte, almacenaje y correo / Transporte de correo y carga / Servicios de trasporte por tuberías · Transporte de agua · SERVICIO SUMINISTRO Y TRANSPORTE DE AGUA POTABLE LIMPIEZA Y SANITIZACIÓN DE ESTANQUES DE ACUMULACIÓN DE AGUA POTABLE EXTRACCIÓN Y DISPOSICIÓN DE AGUAS SERVIDAS HUMECTACIÓN DE CAMINOS ATENCIÓN DE CONTINGENCIAS FUMIGACIÓN DESRATIZACIÓN DESINFECCIÓN"
+    ],
+    "fuente_financiamiento": "PRESUPUESTO BARRIOS TRANSITORIOS DE EMERGENCIA"
+   }
+  },
+  {
+   "palabras": [
+    "APR"
+   ],
+   "registro": {
+    "id": "3612-29-LP26",
+    "nombre": "ADQUISICION CAMIONETA 4X4 EMERGENCIA Y 5 GRUPOS ELECTROGENOS PARA SISTEMAS APR",
+    "entidad": "I MUNICIPALIDAD DE SAAVEDRA - Municipalidad de Saavedra-secplan",
+    "region": "La Araucanía",
+    "comuna": "Puerto Saavedra",
+    "fpub": "26-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3612-29-LP26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "16-12-2026 18:00",
+    "fcierre_iso": "2026-12-16T18:00:00",
+    "finicio_preguntas_raw": "27-11-2026 15:00",
+    "finicio_preguntas_iso": "2026-11-27T15:00:00",
+    "ffinal_preguntas_raw": "04-12-2026 14:00",
+    "ffinal_preguntas_iso": "2026-12-04T14:00:00",
+    "frespuestas_raw": "08-12-2026 18:00",
+    "frespuestas_iso": "2026-12-08T18:00:00",
+    "fapertura_tecnica_raw": "17-12-2026 08:40",
+    "fapertura_tecnica_iso": "2026-12-17T08:40:00",
+    "fapertura_economica_raw": "17-12-2026 08:40",
+    "fapertura_economica_iso": "2026-12-17T08:40:00",
+    "fadjudicacion_raw": "28-12-2026 17:30",
+    "fadjudicacion_iso": "2026-12-28T17:30:00"
+   },
+   "contexto": {
+    "descripcion": "La presente contratación tiene por objeto la adquisición de bienes, distribuidos en dos líneas de compra: Línea 1: Adquisición de una camioneta 4x4 para labores de emergencia. Línea 2: Adquisición de cinco grupos electrógenos destinados a los Sistemas de Agua Potable Rural (APR), con el propósito de fortalecer la capacidad de respuesta ante emergencias y asegurar la continuidad del suministro de agua potable en sectores rurales.",
+    "tipo": "LP",
+    "items": [
+     "Vehículos y equipamiento en general / Vehículos motorizados / Vehículos para turismo · Camiones ligeros o vehículos de deporte de utilidad · CAMIONETA 4X4 DE EMERGENCIA, PRESUPUESTO $55.590.850",
+     "Maquinaria para generación y distribución de energía / Transmisión de energía eléctrica, mecánica y cinética / Grupos electrógenos · Generadores diesel · GRUPOS ELECTRÓGENOS PARA SISTEMAS APR, COMUNA DE SAAVEDRA. PRESUPUESTO $113.645.000"
+    ],
+    "fuente_financiamiento": "FONDO DE EMERGENCIA 2% GORE"
+   }
+  },
+  {
+   "palabras": [
+    "agua potable"
+   ],
+   "registro": {
+    "id": "552578-61-LE26",
+    "nombre": "CONEXIÓN DE INSTALACIONES SANITARIAS AGUA POTABLE",
+    "entidad": "I MUNICIPALIDAD DE SAN RAFAEL - SECPLAN",
+    "region": "Maule",
+    "comuna": "San Rafael",
+    "fpub": "26-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=552578-61-LE26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "14-12-2026 16:00",
+    "fcierre_iso": "2026-12-14T16:00:00",
+    "finicio_preguntas_raw": "26-11-2026 18:00",
+    "finicio_preguntas_iso": "2026-11-26T18:00:00",
+    "ffinal_preguntas_raw": "04-12-2026 15:00",
+    "ffinal_preguntas_iso": "2026-12-04T15:00:00",
+    "frespuestas_raw": "09-12-2026 18:00",
+    "frespuestas_iso": "2026-12-09T18:00:00",
+    "fapertura_tecnica_raw": "14-12-2026 16:00",
+    "fapertura_tecnica_iso": "2026-12-14T16:00:00",
+    "fapertura_economica_raw": "14-12-2026 16:00",
+    "fapertura_economica_iso": "2026-12-14T16:00:00",
+    "fadjudicacion_raw": "31-12-2026 11:30",
+    "fadjudicacion_iso": "2026-12-31T11:30:00"
+   },
+   "contexto": {
+    "descripcion": "CONEXIÓN DE INSTALACIONES SANITARIAS (AGUA POTABLE Y ALCANTARILLADO EN SEDES MUNICIPALES.",
+    "tipo": "LE",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · CONEXIÓN DE INSTALACIONES SANITARIAS (AGUA POTABLE Y ALCANTARILLADO) EN SEDES MUNICIPALES."
+    ],
+    "fuente_financiamiento": "Presupuesto Municipal"
+   }
+  },
+  {
+   "palabras": [
+    "SSR",
+    "sondaje"
+   ],
+   "registro": {
+    "id": "817-43-O126",
+    "nombre": "Construcción de Sondaje SSR de Rio Llolle, Comuna de Quellon",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - X Región",
+    "region": "Los Lagos",
+    "comuna": "Puerto Montt",
+    "fpub": "26-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=817-43-O126",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "14-12-2026 15:00",
+    "fcierre_iso": "2026-12-14T15:00:00",
+    "finicio_preguntas_raw": "26-11-2026 16:29",
+    "finicio_preguntas_iso": "2026-11-26T16:29:00",
+    "ffinal_preguntas_raw": "03-12-2026 16:00",
+    "ffinal_preguntas_iso": "2026-12-03T16:00:00",
+    "frespuestas_raw": "07-12-2026 16:00",
+    "frespuestas_iso": "2026-12-07T16:00:00",
+    "fapertura_tecnica_raw": "14-12-2026 15:30",
+    "fapertura_tecnica_iso": "2026-12-14T15:30:00",
+    "fapertura_economica_raw": "21-12-2026 15:00",
+    "fapertura_economica_iso": "2026-12-21T15:00:00",
+    "fadjudicacion_raw": "31-12-2026 16:00",
+    "fadjudicacion_iso": "2026-12-31T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "Se requiere la contratación de la obra Construcción de Sondaje para el Servicio Sanitario Rural de Rio Llolle, Comuna de Quellón, Región de Los Lagos",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "Sectorial"
+   }
+  }
+ ]
+}
