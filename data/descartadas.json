@@ -603,5 +603,35 @@
   "nombre": "ALCANTARILLADO Y SOLUCIONES SANITARIAS EL ARENAL",
   "motivo": "Construcción de obra de alcantarillado (descripción: «Construcción»); no es diseño ni estudio.",
   "fecha": "26-11-2026"
+ },
+ "1485788-2-LR26": {
+  "nombre": "SERVICIO DE DISTRIBUCIÓN DE AGUA POTABLE",
+  "motivo": "Distribución de agua potable en camiones aljibe; es suministro/operación, no ingeniería ni estudio.",
+  "fecha": "27-11-2026"
+ },
+ "1515-9-LP26": {
+  "nombre": "Servicio Transporte Agua Potable Trimestre 1 2027",
+  "motivo": "Transporte y distribución de agua con camiones aljibe; suministro/operación.",
+  "fecha": "27-11-2026"
+ },
+ "1612-9-LP26": {
+  "nombre": "SERVICIOS INTEGRALES DE SUMINISTRO DE AGUA POTABLE",
+  "motivo": "Suministro de agua, limpieza de estanques, fumigación y otros servicios para un barrio transitorio; operación, no ingeniería.",
+  "fecha": "27-11-2026"
+ },
+ "3612-29-LP26": {
+  "nombre": "ADQUISICION CAMIONETA 4X4 EMERGENCIA Y 5 GRUPOS ELECTROGENOS PARA SISTEMAS APR",
+  "motivo": "Compra de vehículo y grupos electrógenos; no son equipos de medición ni instrumentación hídrica.",
+  "fecha": "27-11-2026"
+ },
+ "552578-61-LE26": {
+  "nombre": "CONEXIÓN DE INSTALACIONES SANITARIAS AGUA POTABLE",
+  "motivo": "Obra civil de conexiones sanitarias en sedes municipales; no es diseño ni estudio de SSR/APR.",
+  "fecha": "27-11-2026"
+ },
+ "817-43-O126": {
+  "nombre": "Construcción de Sondaje SSR de Rio Llolle, Comuna de Quellon",
+  "motivo": "Licitación de obra (construcción de sondaje para SSR, DOH) sin estudio asociado; es obra.",
+  "fecha": "27-11-2026"
  }
 }
