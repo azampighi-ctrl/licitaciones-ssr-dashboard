@@ -1,0 +1,215 @@
+{
+ "generado": "2026-11-28T07:39:25",
+ "fecha_barrido": "28-11-2026 07:39",
+ "candidatas": [
+  {
+   "palabras": [
+    "alcantarillado"
+   ],
+   "registro": {
+    "id": "2904-34-LP26",
+    "nombre": "EXTENSIÓN RED DE ALCANTARILLADO SECTOR LOS CANELOS HORNOPIRÉN",
+    "entidad": "I MUNICIPALIDAD DE HUALAIHUE - DEPARTAMENTO DE ADMINISTRACION",
+    "region": "Los Lagos",
+    "comuna": "Hualaihué",
+    "fpub": "27-11-2026",
+    "monto_raw": "$91.511.895",
+    "monto_num": 91511895,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2904-34-LP26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "17-12-2026 13:00",
+    "fcierre_iso": "2026-12-17T13:00:00",
+    "finicio_preguntas_raw": "27-11-2026 15:30",
+    "finicio_preguntas_iso": "2026-11-27T15:30:00",
+    "ffinal_preguntas_raw": "07-12-2026 12:00",
+    "ffinal_preguntas_iso": "2026-12-07T12:00:00",
+    "frespuestas_raw": "10-12-2026 12:00",
+    "frespuestas_iso": "2026-12-10T12:00:00",
+    "fapertura_tecnica_raw": "17-12-2026 13:00",
+    "fapertura_tecnica_iso": "2026-12-17T13:00:00",
+    "fapertura_economica_raw": "17-12-2026 13:30",
+    "fapertura_economica_iso": "2026-12-17T13:30:00",
+    "fadjudicacion_raw": "01-02-2027 12:15",
+    "fadjudicacion_iso": "2027-02-01T12:15:00"
+   },
+   "contexto": {
+    "descripcion": "La obra a realizar corresponde al proyecto de “Extensión de Red de Alcantarillado, Sector Los Canelos, Comuna de Hualaihué” cuyas obras se ejecutarán en las calles “Principal” y “Transversal 2”, Hornopirén.",
+    "tipo": "LP",
+    "items": [
+     "Servicios de construcción y mantenimiento / Construcción de edificios en general / Construcción de obras civiles y infraestructuras · Construcción de obras civiles · EXTENSIÓN RED DE ALCANTARILLADO SECTOR LOS CANELOS HORNOPIRÉN"
+    ],
+    "fuente_financiamiento": "SUBDERE"
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "4085-66-LE26",
+    "nombre": "CONSULTORIA CONSERVACIONES SSR DIVERSAS LOCALIDADE",
+    "entidad": "I MUNICIPALIDAD DE LONGAVI - Depto. de Secplan",
+    "region": "Maule",
+    "comuna": "Longaví",
+    "fpub": "27-11-2026",
+    "monto_raw": "$65.000.000",
+    "monto_num": 65000000,
+    "plazo": "150 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4085-66-LE26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "07-12-2026 17:00",
+    "fcierre_iso": "2026-12-07T17:00:00",
+    "finicio_preguntas_raw": "27-11-2026 15:20",
+    "finicio_preguntas_iso": "2026-11-27T15:20:00",
+    "ffinal_preguntas_raw": "01-12-2026 12:00",
+    "ffinal_preguntas_iso": "2026-12-01T12:00:00",
+    "frespuestas_raw": "03-12-2026 17:00",
+    "frespuestas_iso": "2026-12-03T17:00:00",
+    "fapertura_tecnica_raw": "07-12-2026 17:01",
+    "fapertura_tecnica_iso": "2026-12-07T17:01:00",
+    "fapertura_economica_raw": "07-12-2026 17:01",
+    "fapertura_economica_iso": "2026-12-07T17:01:00",
+    "fadjudicacion_raw": "08-01-2027 17:00",
+    "fadjudicacion_iso": "2027-01-08T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "El Consultor deberá: calcular, diseñar y proyectar todos los elementos necesarios para que el sistema opere dentro del nivel de servicio exigido por el Manual de Proyectos de Agua Potable Rural de la Subdirección de Agua Potable Rural y las establecidas por DOH en el plazo de previsión de 20 años desde del inicio de operación del proyecto. Al término del estudio la solución proyectada debe ser factible de implementar, con las autorizaciones necesarias para poder materializar su ejecución.",
+    "tipo": "LE",
+    "items": [
+     "Servicios básicos y de información pública / Servicios básicos / Servicios relacionados con el agua · Consultores hidráulicos · El servicio tiene por finalidad realizar la contratación de una consultoría que definirá para los sectores de La Caña, Villa El Carmen La Puntilla y Las Mercedes Paihuén (área de estudio según lo definido en numeral 7 de los presentes términos de referenc"
+    ],
+    "fuente_financiamiento": "Recursos Municipales"
+   }
+  },
+  {
+   "palabras": [
+    "hidrogeológico"
+   ],
+   "registro": {
+    "id": "552578-71-LE26",
+    "nombre": "ESTUDIOS HIDROGEOLÓGICOS SECTOR LA GLORIA SAN RICARDO Y BAJO LA PEÑA COMUNA SAN RAFAEL",
+    "entidad": "I MUNICIPALIDAD DE SAN RAFAEL - SECPLAN",
+    "region": "Maule",
+    "comuna": "San Rafael",
+    "fpub": "27-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "120 días",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=552578-71-LE26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "14-12-2026 18:00",
+    "fcierre_iso": "2026-12-14T18:00:00",
+    "finicio_preguntas_raw": "27-11-2026 18:00",
+    "finicio_preguntas_iso": "2026-11-27T18:00:00",
+    "ffinal_preguntas_raw": "03-12-2026 16:00",
+    "ffinal_preguntas_iso": "2026-12-03T16:00:00",
+    "frespuestas_raw": "07-12-2026 19:00",
+    "frespuestas_iso": "2026-12-07T19:00:00",
+    "fapertura_tecnica_raw": "14-12-2026 18:00",
+    "fapertura_tecnica_iso": "2026-12-14T18:00:00",
+    "fapertura_economica_raw": "14-12-2026 18:00",
+    "fapertura_economica_iso": "2026-12-14T18:00:00",
+    "fadjudicacion_raw": "30-12-2026 19:00",
+    "fadjudicacion_iso": "2026-12-30T19:00:00"
+   },
+   "contexto": {
+    "descripcion": "ESTUDIOS HIDROGEOLÓGICOS SECTOR LA GLORIA, SAN RICARDO Y BAJO LA PEÑA, COMUNA SAN RAFAEL",
+    "tipo": "LE",
+    "items": [
+     "Servicios basados en ingeniería, ciencias sociales y tecnología de la información / Servicios relativos a la meteorología y ciencias de la tierra / Geología · Estudios geológicos · ESTUDIOS HIDROGEOLÓGICOS SECTOR LA GLORIA, SAN RICARDO Y BAJO LA PEÑA, COMUNA DE SAN RAFAEL"
+    ],
+    "fuente_financiamiento": "Presupuesto Municipal"
+   }
+  },
+  {
+   "palabras": [
+    "bombeo"
+   ],
+   "registro": {
+    "id": "728-18-LE26",
+    "nombre": "Equipamiento para sistema de Bombeo",
+    "entidad": "INSTITUTO NACIONAL DE HIDRAULICA - Instituto Nacional de Hidráulicas - INH",
+    "region": "Metropolitana",
+    "comuna": "Peñaflor",
+    "fpub": "27-11-2026",
+    "monto_raw": "$33.722.617",
+    "monto_num": 33722617,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=728-18-LE26",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "07-12-2026 15:30",
+    "fcierre_iso": "2026-12-07T15:30:00",
+    "finicio_preguntas_raw": "27-11-2026 17:01",
+    "finicio_preguntas_iso": "2026-11-27T17:01:00",
+    "ffinal_preguntas_raw": "01-12-2026 16:00",
+    "ffinal_preguntas_iso": "2026-12-01T16:00:00",
+    "frespuestas_raw": "02-12-2026 17:00",
+    "frespuestas_iso": "2026-12-02T17:00:00",
+    "fapertura_tecnica_raw": "07-12-2026 15:31",
+    "fapertura_tecnica_iso": "2026-12-07T15:31:00",
+    "fapertura_economica_raw": "07-12-2026 15:31",
+    "fapertura_economica_iso": "2026-12-07T15:31:00",
+    "fadjudicacion_raw": "11-12-2026 17:00",
+    "fadjudicacion_iso": "2026-12-11T17:00:00"
+   },
+   "contexto": {
+    "descripcion": "La adquisición de estos equipos tiene por finalidad asegurar el funcionamiento eficiente, seguro y continuo del sistema de bombeo, permitiendo mantener las condiciones adecuadas de impulsión y suministro de agua necesarias para el desarrollo de las actividades operacionales del Instituto.",
+    "tipo": "LE",
+    "items": [
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Piezas y accesorios para bomba · Piezas de repuesto de la bomba sumergible · variador de frecuencia",
+     "Vehículos y equipamiento en general / Componentes para vehículos en general / Sistema de dirección · Cable de sintonización de dirección con energía · tablero electrico",
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Piezas y accesorios para bomba · Piezas de repuesto de la bomba sumergible · control y comando con PLC - HMI",
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Piezas y accesorios para bomba · Piezas de repuesto de la bomba sumergible · Electrobomba sumergible",
+     "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos / Bombas y compresores industriales / Piezas y accesorios para bomba · Piezas de repuesto de la bomba sumergible · Cable RVK 1X16 mm2"
+    ],
+    "fuente_financiamiento": ""
+   }
+  },
+  {
+   "palabras": [
+    "SSR"
+   ],
+   "registro": {
+    "id": "817-70-O126",
+    "nombre": "Mejoramiento SSR Pellines",
+    "entidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF - Dirección de Obras Hidráulicas  - X Región",
+    "region": "Los Lagos",
+    "comuna": "Puerto Montt",
+    "fpub": "27-11-2026",
+    "monto_raw": "No informado en ficha pública",
+    "monto_num": null,
+    "plazo": "No especificado en ficha",
+    "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=817-70-O126",
+    "visita_terreno": "Verificar visita",
+    "estado_mp": "Publicada",
+    "fcierre_raw": "22-12-2026 14:30",
+    "fcierre_iso": "2026-12-22T14:30:00",
+    "finicio_preguntas_raw": "27-11-2026 13:01",
+    "finicio_preguntas_iso": "2026-11-27T13:01:00",
+    "ffinal_preguntas_raw": "09-12-2026 16:00",
+    "ffinal_preguntas_iso": "2026-12-09T16:00:00",
+    "frespuestas_raw": "15-12-2026 16:00",
+    "frespuestas_iso": "2026-12-15T16:00:00",
+    "fapertura_tecnica_raw": "22-12-2026 15:00",
+    "fapertura_tecnica_iso": "2026-12-22T15:00:00",
+    "fapertura_economica_raw": "30-12-2026 15:30",
+    "fapertura_economica_iso": "2026-12-30T15:30:00",
+    "fadjudicacion_raw": "01-03-2027 16:00",
+    "fadjudicacion_iso": "2027-03-01T16:00:00"
+   },
+   "contexto": {
+    "descripcion": "La Subdirección de Servicios Sanitarios Rurales considera la ejecución de las obras civiles para el Mejoramiento del Servicio Sanitario Rural de Pellines. La obra requiere la habilitación del sondaje existente, la cual posee derechos de agua por 34 ls, el agua extraída requiere la potabilización mediante hipoclorito de sodio. El agua se regulara mediante un estanque elevado de hormigón armado de 200 m3 de capacidad y 25 m de altura, la infraestructura se ubicara en un mismo recinto. Se considera el cambio de redes de distribución de HDPE PN 10 de 160, 110 y 75 mm de diámetro, la longitud de la red es de 7.2km. Y se considera la instalación de 450 arranques domiciliarios.",
+    "tipo": "O1",
+    "items": [
+     "Consultoria / Consultoria / Planificación y Factibilidad · Licitación Pública de Obra · Licitación Pública de Obra"
+    ],
+    "fuente_financiamiento": "Sectorial"
+   }
+  }
+ ]
+}

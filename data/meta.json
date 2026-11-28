@@ -1,18 +1,18 @@
 {
  "fecha_barrido": "27-11-2026 07:42",
  "api": {
-  "fecha": "2026-11-27T07:42:02",
-  "peticiones": 75,
-  "activas": 4878,
-  "candidatas": 6,
-  "excluidas_construccion_mantencion": 31,
-  "actualizadas": 2,
+  "fecha": "2026-11-28T07:39:25",
+  "peticiones": 78,
+  "activas": 4926,
+  "candidatas": 5,
+  "excluidas_construccion_mantencion": 30,
+  "actualizadas": 3,
   "actas": 0,
   "errores": 0,
   "postulaciones_detectadas": 0,
   "novedades": [
-   "1261-37-LR26 «Estrategia Reconocimiento Humedales Comp2-3y5»: estado Publicada → Cerrada.",
-   "2794-32-LP26 «Mejoramiento Sist. Agua Potable Rio Blanco Diseño»: estado Publicada → Cerrada."
+   "4237-14-LP26 «DISEÑO ALCANTARILLADO PMB SAN JOSE DE COLICO Y COL»: estado Publicada → Cerrada.",
+   "1155683-32-LE26 «EJECUCCION SISTEMA ALCANTARILLADO Y AGUA POTABLE PARA LA NUEVA BASE DE BRIGADA DE PREVENCIÓN Y CONTROL DE INCENDIOS FORESTALES DE NINHUE REGIÓN DE ÑUBLE.»: estado Publicada → Cerrada."
   ]
  },
  "ultimo_resumen": {
