@@ -1,0 +1,87 @@
+{
+  "fecha_barrido": "28-11-2026 07:39",
+  "nuevas": [
+    {
+      "id": "4085-66-LE26",
+      "nombre": "CONSULTORIA CONSERVACIONES SSR DIVERSAS LOCALIDADE",
+      "entidad": "I MUNICIPALIDAD DE LONGAVI - Depto. de Secplan",
+      "region": "Maule",
+      "comuna": "Longaví",
+      "fpub": "27-11-2026",
+      "monto_raw": "$65.000.000",
+      "monto_num": 65000000,
+      "plazo": "150 días",
+      "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4085-66-LE26",
+      "visita_terreno": "Verificar visita",
+      "estado_mp": "Publicada",
+      "fcierre_raw": "07-12-2026 17:00",
+      "fcierre_iso": "2026-12-07T17:00:00",
+      "finicio_preguntas_raw": "27-11-2026 15:20",
+      "finicio_preguntas_iso": "2026-11-27T15:20:00",
+      "ffinal_preguntas_raw": "01-12-2026 12:00",
+      "ffinal_preguntas_iso": "2026-12-01T12:00:00",
+      "frespuestas_raw": "03-12-2026 17:00",
+      "frespuestas_iso": "2026-12-03T17:00:00",
+      "fapertura_tecnica_raw": "07-12-2026 17:01",
+      "fapertura_tecnica_iso": "2026-12-07T17:01:00",
+      "fapertura_economica_raw": "07-12-2026 17:01",
+      "fapertura_economica_iso": "2026-12-07T17:01:00",
+      "fadjudicacion_raw": "08-01-2027 17:00",
+      "fadjudicacion_iso": "2027-01-08T17:00:00",
+      "categoria": "Diseños SSR/APR",
+      "interes": "Alto",
+      "estado": "Revisar - ALTA RELEVANCIA",
+      "observaciones": "Consultoría de ingeniería para conservación de SSR en La Caña, Villa El Carmen La Puntilla y Las Mercedes Paihuén (Longaví): cálculo y diseño según Manual de Proyectos APR/SSR, horizonte 20 años; recursos municipales, monto referencial $65.000.000, plazo 150 días."
+    },
+    {
+      "id": "552578-71-LE26",
+      "nombre": "ESTUDIOS HIDROGEOLÓGICOS SECTOR LA GLORIA SAN RICARDO Y BAJO LA PEÑA COMUNA SAN RAFAEL",
+      "entidad": "I MUNICIPALIDAD DE SAN RAFAEL - SECPLAN",
+      "region": "Maule",
+      "comuna": "San Rafael",
+      "fpub": "27-11-2026",
+      "monto_raw": "No informado en ficha pública",
+      "monto_num": null,
+      "plazo": "120 días",
+      "link": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=552578-71-LE26",
+      "visita_terreno": "Verificar visita",
+      "estado_mp": "Publicada",
+      "fcierre_raw": "14-12-2026 18:00",
+      "fcierre_iso": "2026-12-14T18:00:00",
+      "finicio_preguntas_raw": "27-11-2026 18:00",
+      "finicio_preguntas_iso": "2026-11-27T18:00:00",
+      "ffinal_preguntas_raw": "03-12-2026 16:00",
+      "ffinal_preguntas_iso": "2026-12-03T16:00:00",
+      "frespuestas_raw": "07-12-2026 19:00",
+      "frespuestas_iso": "2026-12-07T19:00:00",
+      "fapertura_tecnica_raw": "14-12-2026 18:00",
+      "fapertura_tecnica_iso": "2026-12-14T18:00:00",
+      "fapertura_economica_raw": "14-12-2026 18:00",
+      "fapertura_economica_iso": "2026-12-14T18:00:00",
+      "fadjudicacion_raw": "30-12-2026 19:00",
+      "fadjudicacion_iso": "2026-12-30T19:00:00",
+      "categoria": "Estudios Hidrogeológicos",
+      "interes": "Alto",
+      "estado": "Revisar - ALTA RELEVANCIA",
+      "observaciones": "Estudios hidrogeológicos en los sectores La Gloria, San Ricardo y Bajo La Peña (San Rafael); presupuesto municipal, monto no informado, plazo 120 días."
+    }
+  ],
+  "actualizaciones": [],
+  "descartadas": [
+    {
+      "id": "2904-34-LP26",
+      "nombre": "EXTENSIÓN RED DE ALCANTARILLADO SECTOR LOS CANELOS HORNOPIRÉN",
+      "motivo": "Obra de extensión de red de alcantarillado (construcción, SUBDERE); no es diseño ni estudio."
+    },
+    {
+      "id": "728-18-LE26",
+      "nombre": "Equipamiento para sistema de Bombeo",
+      "motivo": "Compra de electrobomba, variador, tablero y PLC para el INH; equipamiento de bombeo, no es instrumentación de medición hídrica."
+    },
+    {
+      "id": "817-70-O126",
+      "nombre": "Mejoramiento SSR Pellines",
+      "motivo": "Obra civil de mejoramiento del SSR (estanque, redes, arranques) de la DOH; es construcción."
+    }
+  ]
+}

@@ -633,5 +633,20 @@
   "nombre": "Construcción de Sondaje SSR de Rio Llolle, Comuna de Quellon",
   "motivo": "Licitación de obra (construcción de sondaje para SSR, DOH) sin estudio asociado; es obra.",
   "fecha": "27-11-2026"
+ },
+ "2904-34-LP26": {
+  "nombre": "EXTENSIÓN RED DE ALCANTARILLADO SECTOR LOS CANELOS HORNOPIRÉN",
+  "motivo": "Obra de extensión de red de alcantarillado (construcción, SUBDERE); no es diseño ni estudio.",
+  "fecha": "28-11-2026"
+ },
+ "728-18-LE26": {
+  "nombre": "Equipamiento para sistema de Bombeo",
+  "motivo": "Compra de electrobomba, variador, tablero y PLC para el INH; equipamiento de bombeo, no es instrumentación de medición hídrica.",
+  "fecha": "28-11-2026"
+ },
+ "817-70-O126": {
+  "nombre": "Mejoramiento SSR Pellines",
+  "motivo": "Obra civil de mejoramiento del SSR (estanque, redes, arranques) de la DOH; es construcción.",
+  "fecha": "28-11-2026"
  }
 }
